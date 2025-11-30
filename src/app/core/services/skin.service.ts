@@ -1,5 +1,6 @@
 import { inject, Injectable } from '@angular/core';
 import { BaseHttpService } from './base-http.service';
+import { map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -8,9 +9,12 @@ export class SkinService {
   
   http = inject(BaseHttpService);
 
-  getSkins(champName: string) {
-    const params = {champName: champName};
-    return this.http.get('/api/champions', params);
+  getSkins() {
+    const params = {};
+    return this.http.get('/api/champions/v2', params).pipe(map((result) => {
+      console.log(result);
+      return result;
+    }));
   }
 
 }

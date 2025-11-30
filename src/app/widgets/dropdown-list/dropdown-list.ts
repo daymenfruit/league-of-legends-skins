@@ -8,11 +8,12 @@ type Callback = (item: any, call: boolean) => void;
 // import {faAngleDown, faCheck, faSearch, faTimes} from '@fortawesome/free-regular-svg-icons';
 import { DropdownItem } from '../../entities/dropdown-item';
 import { BehaviorSubject, debounceTime, Subject } from 'rxjs';
+import { CommonModule } from '@angular/common';
 // import {AssistTranslationService} from "@retail-data-factory/rdf-angular-translation-service";
 
 @Component({
   selector: 'app-dropdown-list',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './dropdown-list.html',
   styleUrl: './dropdown-list.less',
   standalone: true,

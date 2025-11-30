@@ -91,8 +91,22 @@
               "src/styles.less"
             ]
           }
+        },
+        "e2e": {
+          "builder": "playwright-ng-schematics:playwright",
+          "options": {
+            "devServerTarget": "lol-skins-ui:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "lol-skins-ui:serve:production"
+            }
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b99fddbb-50a4-4a07-9ef1-e4daf7ae8689"
   }
 }

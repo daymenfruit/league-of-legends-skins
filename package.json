@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "e2e": "ng e2e"
   },
   "prettier": {
     "printWidth": 100,
@@ -30,7 +31,10 @@
     "@angular/router": "^20.3.0",
     "@fortawesome/angular-fontawesome": "^3.0.0",
     "@fortawesome/free-regular-svg-icons": "^7.1.0",
+    "@primeuix/themes": "^2.0.1",
     "@types/qs": "^6.14.0",
+    "ng-multiselect-dropdown": "^1.0.0",
+    "primeng": "^20.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
@@ -39,6 +43,7 @@
     "@angular/build": "^20.3.8",
     "@angular/cli": "^20.3.8",
     "@angular/compiler-cli": "^20.3.0",
+    "@playwright/test": "1.57.0",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.9.0",
     "karma": "~6.4.0",
@@ -47,6 +52,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "less": "^4.2.0",
+    "playwright-ng-schematics": "^20.0.0",
     "typescript": "~5.9.2"
   }
 }

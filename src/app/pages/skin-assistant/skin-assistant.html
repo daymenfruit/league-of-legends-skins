@@ -1,4 +1,23 @@
 <section class="content-wrap">
-    <div>Well I'm not scared. Let's show some skins.</div>
-    <!-- <app-dropdown-list></app-dropdown-list> -->
+    <div>
+        <div class="select-area">
+            <p-multiselect
+                [options]="champList"
+                [(ngModel)]="selectedChampions"
+                (onChange)="selectChange($event)"
+                placeholder="Select a champion"
+                class="multiselect"
+            />
+        </div>
+        <div class="checkbox-area">
+            <p-checkbox [binary]="true" (onChange)="showLegacyChange($event)"/>
+            <label >Show legacy</label>
+        </div>
+        <div class="tree-area">
+            <p-tree [value]="skins$ | async" />
+        </div>
+    </div>
+    <!-- <div class="button-area">
+        <p-button label="check" />
+    </div> -->
 </section>
