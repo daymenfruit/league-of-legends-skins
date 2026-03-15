@@ -3,16 +3,12 @@ import { inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { filter, map } from 'rxjs/operators';
 
-// import { environment } from '@env/environment';
-// import { localUrl } from '@env/environment.prod';
-// import { NzSafeAny } from 'ng-zorro-antd/core/types';
-// import { NzMessageService } from 'ng-zorro-antd/message';
 import * as qs from 'qs';
 
 export interface HttpCustomConfig {
-  needSuccessInfo?: boolean; // 是否需要"操作成功"提示
-  showLoading?: boolean; // 是否需要loading
-  otherUrl?: boolean; // 是否是第三方接口
+  needSuccessInfo?: boolean;
+  showLoading?: boolean;
+  otherUrl?: boolean;
 }
 
 export interface ActionResult<T> {
@@ -25,12 +21,8 @@ export interface ActionResult<T> {
   providedIn: 'root'
 })
 export class BaseHttpService {
-//   uri: string;
-//   message = inject(NzMessageService);
 
   protected constructor(private http: HttpClient) {
-    // this.uri = environment.production ? localUrl : '/site/api';
-
   }
 
   get<T>(path: string, param?: any, config?: HttpCustomConfig): Observable<T> {
@@ -84,9 +76,6 @@ export class BaseHttpService {
           return this.handleFilter(item, !!config.needSuccessInfo);
         }),
         map(item => {
-          // if (item.code !== 0) {
-          //   throw new Error(item.msg);
-          // }
           return item.data;
         })
       );
@@ -94,11 +83,6 @@ export class BaseHttpService {
   }
 
   handleFilter<T>(item: ActionResult<T>, needSuccessInfo: boolean): boolean {
-//     if (item.code !== 0) {
-//       this.message.error(item.msg);
-//     } else if (needSuccessInfo) {
-//       this.message.success('操作成功');
-//     }
     return true;
   }
 }

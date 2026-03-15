@@ -17,4 +17,9 @@ export class SkinService {
     }));
   }
 
+  postSkins(skins: any) {
+    const params = {skins: skins};
+    return this.http.post('/api/champions', params);
+  }
+
 }

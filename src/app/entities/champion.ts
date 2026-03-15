@@ -1,0 +1,1 @@
+export type Champion = {label: string, value: number, skins: any[]};

@@ -1,18 +1,428 @@
+
+:host ::ng-deep .p-button {
+    background-color: #304b7c; //#978997!important;
+    border-color: #3a3451;
+    font-size: 1.3rem;
+    min-width: 200px;
+    transition: background-color 0.8s, border-color 0.8s;
+}
+
+:host ::ng-deep .p-button:not(:disabled):hover {
+    background-color: #131635;
+    border-color: #3a3451;
+}
+
+:host ::ng-deep .submit-button .p-button {
+    background-color: #100f1a;;
+    border-color: #131635;
+}
+
+:host ::ng-deep .submit-button .p-button:not(:disabled):hover {
+    background-color: #131635;
+    border-color: #3a3451;
+}
+
+:host ::ng-deep .show-answer-button .p-button {
+    background-color: #162b4e;
+    border-color: #131635;
+}
+
+:host ::ng-deep .show-answer-button .p-button:not(:disabled):hover {
+    background-color: #131635;
+    border-color: #3a3451;
+}
+:host ::ng-deep .clear-button .p-button {
+    background-color: #162b4e;
+    border-color: #131635;
+    min-width: 40px;
+    height: 38px;
+}
+
+:host ::ng-deep .clear-button .p-button:not(:disabled):hover {
+    background-color: #131635;
+    border-color: #3a3451;
+}
+
+:host ::ng-deep .p-tablist {
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabs {
+    
+    font-family: "Mystery Quest", system-ui;
+    border: none;
+    // border: 1px solid #131635!important;
+    // box-shadow: 0px 4px 6px 0px #cdd4da;
+    margin-bottom: 40px;
+    // background-color: #f5f3f4;
+    font-size: 1.6rem;
+
+    .p-tablist-tab-list {
+        // border-color: #060913;
+    }
+
+    // .p-tab {
+        // border-color: #100f1a;
+    // }
+
+    .p-tab:not(.p-tab-acitve):not(.p-tab-disabled):hover {
+        color: #131635;
+        border-color: #131635;
+    }
+
+    .p-tab-active {
+        color: #251c30;
+        border-color: #131635;
+    }
+
+    .p-tablist-active-bar {
+        background: #251c30;
+    }
+}
+
+:host ::ng-deep .p-tab:not(.p-disabled):focus-visible {
+    outline-color: #142137;
+}
+
+:host ::ng-deep .p-checkbox-checked .p-checkbox-box, 
+:host ::ng-deep .p-checkbox-checked:not(.p-disabled):has(.p-checkbox-input:hover) .p-checkbox-box {
+    border-color: #100f1a;
+    background-color: #100f1a;
+}
+
+// :host ::ng-deep .p-multiselect-option.p-multiselect-option-selected.p-focus,
+// :host ::ng-deep .p-multiselect-option.p-multiselect-option-selected {
+//     background-color: inherit;
+//     color: #142137;
+// }
+
+// :host ::ng-deep .p-multiselect {
+//     border-color: #cdd4da;
+// }
+
+// :host ::ng-deep .p-multiselect:not(.p-disabled):hover {
+//     border-color: #55567d;
+// }
+
+// :host ::ng-deep .p-multiselect:not(.p-disabled).p-focus {
+//     border-color: #162b4e;
+// }
+
+:host ::ng-deep .p-listbox {
+    background-color: inherit;
+    min-height: 260px;
+}
+
+:host ::ng-deep .p-listbox:not(.p-disabled):hover {
+    border-color: #a5a3c0;
+}
+
+:host ::ng-deep .p-listbox:not(.p-disabled).p-focus {
+    border-color: #a5a3c0;
+}
+
+:host ::ng-deep .p-listbox .p-listbox-list .p-listbox-option.p-listbox-option-selected.p-focus,
+:host ::ng-deep .p-listbox .p-listbox-list .p-listbox-option.p-listbox-option-selected {
+    background-color: inherit;
+    color: #142137;
+
+    // .p-listbox-option-check-icon {
+    //     background-color: ;
+    // }
+}
+
+:host ::ng-deep .single-select-listbox.p-listbox .p-listbox-list .p-listbox-option.p-listbox-option-selected {
+    background-color: #a5a3c0;
+    color: #142137;
+}
+
+
+:host ::ng-deep .p-inputtext {
+    border-color: #cdd4da;
+    font-size: 1.3rem;
+    width: 280px;
+}
+
+:host ::ng-deep .listbox-your-champion-skins .p-inputtext {
+    width: initial;
+}
+
+:host ::ng-deep .p-inputtext:enabled:hover {
+    border-color: #55567d;
+}
+
+:host ::ng-deep .p-inputtext:enabled:focus {
+    border-color: #162b4e;
+}
+
 .content-wrap {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+    width: 810px;
+    height: calc(100vh - 160px);
+    margin-left: calc((100vw - 810px) / 2);
+    justify-content: space-between;
+    padding-left: 1rem;
+    background: linear-gradient(113deg, #f5f3f4 1%, #cdd4da 79%, #a5a3c0 100%);
+    // background-color: #f5f3f4;
+    border-radius: 5px;
+    padding: 30px;
+    border: 6px solid #a5a3c0;
+    border-left-color: #65718f;
+    border-bottom-color: #65718f;
+    box-shadow: -18px 15px 16px 7px #283553;
+
+    .content-top {
+        display: flex;
+        gap: 16px;
+        
+        .listbox-area {
+            display: flex;
+            gap: 16px;
+        }
+    }
+
+    .content-bottom {
+        margin-top: 1rem;
+        display: flex;
+        margin-left: 58px;
+    }
 }
 
 .select-area {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    min-height: 282px;
+
+    .select-toolbar-area {
+        display: flex;
+        height: 45px;
+        gap: 20px;
+        align-items: center;
+    }
     
-    .multiselect {
-        width: 320px;
+    // .multiselect {
+    //     width: 280px;
+    // }
+    .listbox-area {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
     }
 }
 
 .checkbox-area {
-    margin-top: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
     display: flex;
     gap: 16px;
+}
+
+.tree-area {
+    border: 1px solid #a5a3c0;
+    height: calc(100vh - 570px);
+    overflow: auto;
+    border-radius: 5px;
+}
+
+:host ::ng-deep .p-tree {
+    background: transparent;
+}
+
+.random-question-area {
+    margin-bottom: 16px;
+    
+    .question-title {
+        font-family: "Mystery Quest", system-ui;
+        color: #060913;
+        // font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+    .question-champions {
+        color: #100f1a;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        height: calc(100vh - 435px);
+        width: 100%;
+        overflow: auto;
+        padding-left: 1.8rem;
+    }
+
+    .question-champion-item {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+}
+
+
+.button-area {
+    display: flex;
+    gap: 16px;
+}
+
+:host ::ng-deep .p-divider-horizontal:before {
+    border-block-start: 1px solid #65718f;
+}
+
+:host ::ng-deep .account-name {
+    padding-left: 8px;
+}
+
+.input-area {
+    margin-bottom: 32px;
+    padding-left: 1.8rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    
+    .content-wrap {
+        margin: 0;
+        padding-top: 0;
+        height: calc(100svh - 130px);
+        width: 100%;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        overflow: auto;
+    }
+
+    .select-area {
+        flex-direction: column;
+    }
+
+    .checkbox-area {
+        padding-left: 0.75rem;
+    }
+    
+    :host ::ng-deep .p-listbox {
+        min-height: initial;
+        max-height: 200px;
+
+        .p-inputtext {
+            width: 100%;
+        }
+    }
+
+    :host ::ng-deep .p-listbox-list-container {
+        height: 140px;
+    }
+
+    .tree-area {
+        // height: calc(100vh - 565px);
+    }
+
+    .button-area {
+        flex-direction: column;
+    }
+
+    .random-question-area {
+
+        .question-title {
+            font-size: 1.5rem;
+        }
+
+        .question-champions {
+            padding-top: 0;
+            height: calc(100svh - 545px);
+        }
+    }
+
+    :host ::ng-deep .p-button {
+        width: 280px;
+    }
+
+    :host ::ng-deep .clear-button .p-button {
+        max-width: 40px;
+    }
+
+    .input-area {
+        padding-left: 0;
+    }
+    
+    :host ::ng-deep .p-dialog {
+
+        .p-dialog-header-actions {
+
+            .p-button {
+                width: initial;
+            }
+        }
+    }
+
+    .content-top {
+        flex-direction: column;
+
+        .listbox-area {
+            flex-direction: column;
+        }
+    }
+
+    .content-wrap {
+
+        .content-bottom {
+            margin-left: 0;
+        }
+    }
+
+}
+
+.answer-message-area {
+    margin-bottom: 16px;
+    font-size: 1.8rem;
+    line-height: 45px;
+    color: #060913;
+    padding-left: 1.8rem;
+}
+
+.message-correct {
+    color:rgb(131, 209, 68);
+}
+
+.message-incorrect {
+   color: rgb(232, 63, 0)!important;
+}
+
+:host ::ng-deep .p-dialog {
+
+    .p-dialog-header-actions {
+
+        .p-button {
+            min-width: initial;
+            background-color: transparent;
+            border: none;
+        }
+    }
+
+    .dialog-main-content {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.8rem;
+        gap: 16px;
+    }
+
+    .dialog-message {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .dialog-icon {
+        font-size: 2rem;
+    }
+
+    .dialog-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .account-dialog-buttons {
+
+        .p-button {
+            min-width: initial;
+            width: 10rem;
+        }
+    }
 }

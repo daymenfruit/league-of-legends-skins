@@ -7,6 +7,7 @@ import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { providePrimeNG } from 'primeng/config';
 import Aura from '@primeuix/themes/aura';
+import { ConfirmationService, MessageService } from 'primeng/api';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -19,6 +20,8 @@ export const appConfig: ApplicationConfig = {
       theme: {
         preset: Aura
       }
-    })
+    }),
+    ConfirmationService,
+    MessageService
   ]
 };
