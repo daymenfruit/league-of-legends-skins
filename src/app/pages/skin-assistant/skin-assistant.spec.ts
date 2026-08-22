@@ -3,6 +3,15 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { SkinAssistant } from './skin-assistant';
 import { provideHttpClient } from '@angular/common/http';
 import { ConfirmationService } from 'primeng/api';
+import { Champion } from '../../entities/champion';
+
+const testChamps: Champion[] = [
+  {label: 'Rumble', value: 1, skins: []},
+  {label: 'Volibear', value: 2, skins: []},
+  {label: 'Aurora', value: 3, skins: []},
+  {label: 'Nilah', value: 4, skins: []},
+  {label: 'Pyke', value: 5, skins: []}
+];
 
 fdescribe('SkinAssistant', () => {
   let component: SkinAssistant;
@@ -21,15 +30,12 @@ fdescribe('SkinAssistant', () => {
     // fixture.whenStable();
   });
 
-  fit('should create', () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should get data', async () => {
-
-    const data = component.champList;
-    console.log("length is", data.length);
-    expect(data).toEqual([]);
+  it('should fill the champ list on init', async () => {
+    expect(component.champList).not.toEqual([]);
   });
 
 });

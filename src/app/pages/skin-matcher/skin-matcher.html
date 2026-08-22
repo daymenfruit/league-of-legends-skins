@@ -1,0 +1,53 @@
+
+<section class="tab-content" id="skin-matcher-tab">
+    <div class="content-top">
+        <div class="listbox-area">
+            <p-iconfield>
+                <p-inputicon class="pi pi-search" />
+                <input type="text" #searchInput pInputText placeholder="Search" (keyup.enter)="onPressEnter()" [(ngModel)]="searchStr" (input)="searchChange()" />
+            </p-iconfield>
+            @if (filteredChampList | async; as champList) {
+                <p-listbox 
+                    optionLabel="name"
+                    optionValue="value"
+                    [options]="champList"
+                    [(ngModel)]="selectedChampions"
+                    [multiple]="true" 
+                    [checkbox]="true"
+                    [ngClass]="{ 'hide-select-all': disableSearchMode }"
+                    (onChange)="champSelectChange($event)">
+                </p-listbox>
+            }
+        </div>
+        <div class="select-toolbar-area">
+            @if (selectedChampions.length) {
+                <p-button class="square-button" (onClick)="clearChampSelection()">
+                    <i class="pi pi-trash"></i>
+                </p-button>
+            }
+            <div class="checkbox-area">
+                <p-checkbox [binary]="true" (onChange)="showLegacyChange($event)"/>
+                <label >Show legacy</label>
+            </div>
+            <div class="checkbox-area">
+                <p-checkbox [binary]="true" [(ngModel)]="disableSearchMode"/>
+                <label >Disable Search</label>
+            </div>
+        </div>
+    </div>
+    
+    @if (selectedChampions.length > 1) {
+        <div class="content-bottom">
+            <p-tree [value]="skins$ | async">
+                <ng-template let-node pTemplate="default">
+                    <span>{{ node.label }}</span>
+                    @if (node.data?.accounts?.size) {
+                        @for (account of node.data.accounts; track $index) {
+                            <span class="account-name" [ngStyle]="{'color': getChampNodeColor(account)}">{{ account }}</span>
+                        }
+                    }
+                </ng-template>
+            </p-tree>
+        </div>
+    }
+</section>

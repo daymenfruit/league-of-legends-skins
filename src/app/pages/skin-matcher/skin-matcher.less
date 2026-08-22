@@ -111,6 +111,10 @@
     color: #142137;
 }
 
+:host ::ng-deep .hide-select-all .p-listbox-header .p-checkbox {
+    display: none !important;
+}
+
 
 :host ::ng-deep .p-inputtext {
     border-color: #cdd4da;
@@ -151,49 +155,49 @@
     padding-left: 8px;
 }
 
-:host ::ng-deep .p-dialog {
+// :host ::ng-deep .p-dialog {
 
-    .p-dialog-header-actions {
+//     .p-dialog-header-actions {
 
-        .p-button {
-            min-width: initial;
-            background-color: transparent;
-            border: none;
-        }
-    }
+//         .p-button {
+//             min-width: initial;
+//             background-color: transparent;
+//             border: none;
+//         }
+//     }
 
-    .dialog-main-content {
-        display: flex;
-        align-items: center;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 1.8rem;
-        gap: 16px;
-    }
+//     .dialog-main-content {
+//         display: flex;
+//         align-items: center;
+//         margin-left: 1rem;
+//         margin-right: 1rem;
+//         margin-bottom: 1.8rem;
+//         gap: 16px;
+//     }
 
-    .dialog-message {
-        font-size: 1.3rem;
-        text-align: center;
-    }
+//     .dialog-message {
+//         font-size: 1.3rem;
+//         text-align: center;
+//     }
 
-    .dialog-icon {
-        font-size: 2rem;
-    }
+//     .dialog-icon {
+//         font-size: 2rem;
+//     }
 
-    .dialog-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 16px;
-    }
+//     .dialog-buttons {
+//         display: flex;
+//         justify-content: center;
+//         gap: 16px;
+//     }
 
-    .account-dialog-buttons {
+//     .account-dialog-buttons {
 
-        .p-button {
-            min-width: initial;
-            width: 10rem;
-        }
-    }
-}
+//         .p-button {
+//             min-width: initial;
+//             width: 10rem;
+//         }
+//     }
+// }
 
 
 .tab-content {
@@ -248,94 +252,8 @@
     }
 }
 
-.tab-content#questions-tab {
-
-    .random-question-area {
-        margin-bottom: 16px;
-        
-        .question-title {
-            font-family: "Mystery Quest", system-ui;
-            color: #060913;
-            font-size: 1.8rem;
-        }
-
-        .question-champions {
-            color: #100f1a;
-            padding-top: 0.8rem;
-            padding-bottom: 0.8rem;
-            height: calc(100vh - 435px);
-            width: 100%;
-            overflow: auto;
-            padding-left: 1.8rem;
-        }
-
-        .question-champion-item {
-            font-size: 1.3rem;
-            line-height: 2rem;
-        }
-    }
-
-    .input-area {
-        margin-bottom: 32px;
-    }
-
-    .answer-message-area {
-        margin-bottom: 16px;
-        font-size: 1.8rem;
-        line-height: 45px;
-        color: #060913;
-    }
-
-    .button-area {
-        display: flex;
-        gap: 16px;
-    }
-}
-
-.tab-content#your-skins-tab {
-
-    .content-top {
-        display: flex;
-        gap: 16px;
-
-        .account-buttons-area {
-            width: 42px;
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-
-            .color-input {
-                width: 42px;
-                height: 38px;
-            }
-        }
-        
-        .listbox-area {
-            display: flex;
-            gap: 16px;
-            width: calc(100% - 42px - 16px);
-
-            .single-select-listbox {
-                width: calc(50% - 8px);
-            }
-        }
-    }
-
-    .content-bottom {
-        margin-top: 1rem;
-        display: flex;
-        margin-left: 58px;
-    }
-}
 
 
-.message-correct {
-    color:rgb(131, 209, 68);
-}
-
-.message-incorrect {
-   color: rgb(232, 63, 0)!important;
-}
 
 
 @media screen and (max-width: 1000px) {

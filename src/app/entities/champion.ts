@@ -1,1 +1,1 @@
-export type Champion = {label: string, value: number, skins: any[]};
+export type Champion = {name: string, value: number, skins: any[]};

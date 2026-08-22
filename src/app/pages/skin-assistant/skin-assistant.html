@@ -1,5 +1,4 @@
 <header>
-    <!-- <p-menubar [model]="menuItems" /> -->
      <p-tabs value="0">
         <p-tablist>
             <p-tab value="0" (click)="selectTab(0)">Skin matcher</p-tab>
@@ -9,189 +8,136 @@
      </p-tabs>
 </header>
 
-@if (selectedTab === 0) {
-    <section class="content-wrap">
-        <div>
-            <div class="select-area">
-                <!-- <p-multiselect
-                    [options]="champList"
-                    [(ngModel)]="selectedChampions"
-                    (onChange)="selectChange($event)"
-                    placeholder="Select a champion"
-                    class="multiselect"
-                /> -->
-                <div class="listbox-area">
-                    <p-iconfield>
-                        <p-inputicon class="pi pi-search" />
-                        <input type="text" #searchInput pInputText placeholder="Search" [(ngModel)]="searchStr" (input)="searchChange()" />
-                    </p-iconfield>
-                    <p-listbox 
-                        [options]="filteredChampList"
-                        [(ngModel)]="selectedChampions"
-                        [multiple]="true" 
-                        [checkbox]="true" 
-                        optionLabel="label"
-                        (onChange)="selectChange($event)" 
-                    />
+@switch (selectedTab) {
+    
+    @case (0) {
+        <app-skin-matcher [champList]="champList" [accountList]="accountList"></app-skin-matcher>
+    }
+
+    @case (1) {
+
+        <p-dialog [header]="answerState === 'correct' ? 'Correct' : 'Wrong'" [modal]="true" [(visible)]="questionDialogVisible" [style]="{ width: '25rem' }">
+            @if (answerState === 'correct') {
+                <div class="dialog-main-content">
+                    <i class="pi pi-face-smile dialog-icon"></i>
+                    <div class="dialog-message">You are the best!</div>
                 </div>
-                <div class="select-toolbar-area">
-                    @if (selectedChampions.length) {
-                        <p-button class="clear-button" (onClick)="clearChampSelection()">
-                            <i class="pi pi-trash"></i>
-                        </p-button>
-                    }
-                    <div class="checkbox-area">
-                        <p-checkbox [binary]="true" (onChange)="showLegacyChange($event)"/>
-                        <label >Show legacy</label>
-                    </div>
+                <div class="dialog-buttons">
+                    <p-button label="Next" (click)="onClickDialogNext()" />
                 </div>
-            </div>
-            <!-- @let skins = skins$ | async; -->
-            @if (selectedChampions.length > 1) {
-                <div class="tree-area">
-                    <p-tree [value]="skins$ | async">
-                        <ng-template let-node pTemplate="default">
-                            <span>{{ node.label }}</span>
-                            @if (node.data?.accounts?.length) {
-                                <span class="account-name" *ngFor="let account of node.data.accounts" 
-                                    [ngStyle]="{'color': getNodeColor(account)}">{{ account }}</span>
-                            }
-                        </ng-template>
-                    </p-tree>
+            } @else {
+                <div class="dialog-main-content">
+                    <i class="pi pi-ban dialog-icon"></i>
+                    <div class="dialog-message">Nope.</div>
+                </div>
+                <div class="dialog-buttons">
+                    <p-button label="Ok" (click)="questionDialogVisible = false" />
                 </div>
             }
-        </div>
-    </section>
-}
+        </p-dialog>
 
-@if (selectedTab === 1) {
-
-    <p-dialog [header]="answerState === 'correct' ? 'Correct' : 'Wrong'" [modal]="true" [(visible)]="dialogVisible" [style]="{ width: '25rem' }">
-        @if (answerState === 'correct') {
-            <div class="dialog-main-content">
-                <i class="pi pi-face-smile dialog-icon"></i>
-                <div class="dialog-message">You are the best!</div>
-            </div>
-            <div class="dialog-buttons">
-                <p-button label="Next" (click)="onClickDialogNext()" />
-            </div>
-        } @else {
-            <div class="dialog-main-content">
-                <i class="pi pi-ban dialog-icon"></i>
-                <div class="dialog-message">Nope.</div>
-            </div>
-            <div class="dialog-buttons">
-                <p-button label="Ok" (click)="dialogVisible = false" />
-            </div>
-        }
-    </p-dialog>
-
-    <section class="content-wrap">
-        <form (ngSubmit)="submitAnswer()">
-            <!-- <div class="button-area">
-                <p-button (onClick)="generateRandom()">Generate question</p-button>
-            </div> -->
-            @if (questionActive) {
-                <div class="random-question-area">
-                    <!-- {{ getRandomSkinName() }}
-                    {{ getRandomChampionName() }} -->
-                    <span class="question-title"> Guess a collection with following champions: </span>
-                    <p-divider />
-                    <div class="question-champions">
-                            <!-- @for (skin of getTrimmedQuestionData(); track skin.champ)  { -->
-                                <div class="question-champion-item" *ngFor="let skin of questionData">{{ skin.champ.label }}</div>
+        <section class="tab-content" id="questions-tab">
+            <form (ngSubmit)="submitAnswer()">
+                @if (questionActive) {
+                    <div class="random-question-area">
+                        <span class="question-title"> Guess a collection with following champions: </span>
+                        <p-divider />
+                        <div class="question-champions">
+                                <!-- @for (skin of getTrimmedQuestionData(); track skin.champ)  { -->
+                                    <div class="question-champion-item" *ngFor="let skin of questionData">{{ skin.champ.name }}</div>
+                                <!-- } -->
+                        </div>
+                    </div>
+                    @if (!showAnswer && answerState !== 'correct') {
+                        <div class="input-area">
+                            <input type="text" name="answer" placeholder="Enter your answer" pInputText [(ngModel)]="answer"/>
+                        </div>
+                    } @else {
+                        <div class="answer-message-area">
+                            <!-- @if (showAnswer) { -->
+                                {{ correctAnswer() }}
                             <!-- } -->
-                    </div>
+                        </div>
+                    }
+                }
+                <!-- <p-divider /> -->
+                <div class="button-area">
+                    @if (answer && !showAnswer && answerState !== 'correct') {
+                        <p-button class="submit-button" (onClick)="submitAnswer()">Submit</p-button>
+                    }
+                    @if (questionActive && !showAnswer && answerState !== 'correct') {
+                        <p-button class="show-answer-button" (onClick)="clickShowAnswer()">Show answer</p-button>
+                    }
+                    <p-button (onClick)="generateRandom()">{{ questionActive ? 'Next' : 'Generate question' }}</p-button>
                 </div>
-                @if (!showAnswer && answerState !== 'correct') {
-                    <div class="input-area">
-                        <input type="text" name="answer" placeholder="Enter your answer" pInputText [(ngModel)]="answer"/>
-                    </div>
-                } @else {
-                    <div class="answer-message-area">
-                        <!-- @if (answerState === 'correct') {
-                            <span class="message-correct">Congratulations! Your answer is correct!</span>
-                        } @else if (answerState === 'incorrect') {
-                            <span class="message-incorrect">Wrong answer.</span>
-                        } @else if (showAnswer) {
-                            {{ getCorrectAnswer() }}
-                        } -->
-                        <!-- @if (showAnswer) { -->
-                            {{ getCorrectAnswer() }}
-                        <!-- } -->
-                    </div>
-                }
-            }
-            <!-- <p-divider /> -->
-            <div class="button-area">
-                @if (answer && !showAnswer && answerState !== 'correct') {
-                    <p-button class="submit-button" (onClick)="submitAnswer()">Submit</p-button>
-                }
-                @if (questionActive && !showAnswer && answerState !== 'correct') {
-                    <p-button class="show-answer-button" (onClick)="clickShowAnswer()">Show answer</p-button>
-                }
-                <p-button (onClick)="generateRandom()">{{ questionActive ? 'Next' : 'Generate question' }}</p-button>
+            </form>
+        </section>
+    }
+
+    @case (2) {
+
+        <p-dialog header="New account" [modal]="true" [(visible)]="accountDialogVisible" [style]="{ width: '25rem' }">
+            <div class="dialog-main-content">
+                <div class="input-area">
+                    <input type="text" name="answer" placeholder="Add account" pInputText [(ngModel)]="newAccountName"/>
+                </div>
             </div>
-        </form>
-    </section>
-}
-
-@if (selectedTab === 2) {
-
-    <p-dialog header="New account" [modal]="true" [(visible)]="accountDialogVisible" [style]="{ width: '25rem' }">
-        <div class="dialog-main-content">
-            <div class="input-area">
-                <input type="text" name="answer" placeholder="Add account" pInputText [(ngModel)]="newAccountName"/>
+            <div class="dialog-buttons account-dialog-buttons">
+                <p-button label="Cancel" (click)="accountDialogVisible = false" />
+                <p-button label="Ok" (click)="addAccount()" />
             </div>
-        </div>
-        <div class="dialog-buttons account-dialog-buttons">
-            <p-button label="Cancel" (click)="accountDialogVisible = false" />
-            <p-button label="Ok" (click)="addAccount()" />
-        </div>
-    </p-dialog>
+        </p-dialog>
 
-    <section class="content-wrap">
-        <div class="content-top">
-            <p-button class="clear-button" (onClick)="openAccountDialog()">
-                <i class="pi pi-plus"></i>
-                <!-- <span>Add</span> -->
-            </p-button>
-            <div class="listbox-area">
-                <p-listbox 
-                    class="single-select-listbox"
-                    [options]="accountList"
-                    [(ngModel)]="selectedAccount"
-                    [multiple]="false"
-                    [filter]="true"
-                    optionLabel="name"
-                    (onChange)="selectedAccountChange($event)" 
-                />
-                @if (selectedAccount) {
+        <section class="tab-content" id="your-skins-tab">
+            <div class="content-top">
+                <div class="account-buttons-area">
+                    <p-button class="square-button" (onClick)="openAccountDialog()">
+                        <i class="pi pi-plus"></i>
+                        <!-- <span>Add</span> -->
+                    </p-button>
+                    @if (selectedAccount) {
+                        <input class="color-input" type="color" [value]="selectedAccount.color" (change)="onAccountColorChange($event)" />
+                    }
+                </div>
+                <div class="listbox-area">
                     <p-listbox 
                         class="single-select-listbox"
-                        [options]="champList"
-                        [(ngModel)]="selectedAccountChampion"
+                        [options]="accountList"
+                        [(ngModel)]="selectedAccount"
                         [multiple]="false"
                         [filter]="true"
-                        optionLabel="label"
-                        (onChange)="selectedChampionChange($event)" 
+                        optionLabel="name"
+                        (onChange)="onSelectAccount()" 
+                    />
+                    @if (selectedAccount) {
+                        <p-listbox 
+                            class="single-select-listbox"
+                            [options]="champList"
+                            [optionLabel]="'name'"
+                            [(ngModel)]="selectedAccountChampion"
+                            [multiple]="false"
+                            [filter]="true"
+                            optionLabel="label"
+                            (onChange)="onChangeAccountChampions($event)" 
+                        />
+                    }
+                </div>
+            </div>
+            <div class="content-bottom">
+                @if (selectedAccount && selectedAccountChampion) {
+                    <p-listbox
+                        class="multi-select-listbox listbox-your-champion-skins" 
+                        [options]="accountChampionSkins"
+                        [(ngModel)]="selectedAccountChampionSkins"
+                        [multiple]="true" 
+                        [checkbox]="true"
+                        [filter]="true"
+                        optionLabel="name"
+                        (onClick)="onChangeAccountChampionSkins($event)"
                     />
                 }
             </div>
-        </div>
-        <div class="content-bottom">
-            @if (selectedAccount && selectedAccountChampion) {
-                <p-listbox
-                    class="listbox-your-champion-skins" 
-                    [options]="accountSkinList"
-                    [(ngModel)]="selectedAccountSkins"
-                    [multiple]="true" 
-                    [checkbox]="true"
-                    [filter]="true"
-                    optionLabel="name"
-                    (onClick)="selectedSkinsChange($event)"
-                />
-            }
-        </div>
-    </section>
+        </section>
+    }
+    
 }
