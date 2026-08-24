@@ -22,7 +22,7 @@ jobs:
         run: npm ci                 
 
       - name: Build Angular app
-        run: npx ng build --prod     
+        run: npx ng build --configuration production  
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
