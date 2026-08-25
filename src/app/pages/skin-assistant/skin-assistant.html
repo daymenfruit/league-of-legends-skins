@@ -4,6 +4,7 @@
             <p-tab value="0" (click)="selectTab(0)">Skin matcher</p-tab>
             <p-tab value="1" (click)="selectTab(1)">Questions</p-tab>
             <p-tab value="2" (click)="selectTab(2)">Your skins</p-tab>
+            <p-tab value="3" (click)="selectTab(3)">Info</p-tab>
         </p-tablist>
      </p-tabs>
 </header>
@@ -79,7 +80,7 @@
         <p-dialog header="New account" [modal]="true" [(visible)]="accountDialogVisible" [style]="{ width: '25rem' }">
             <div class="dialog-main-content">
                 <div class="input-area">
-                    <input type="text" name="answer" placeholder="Add account" pInputText [(ngModel)]="newAccountName"/>
+                    <input type="text" name="answer" placeholder="Accout name" pInputText [(ngModel)]="newAccountName"/>
                 </div>
             </div>
             <div class="dialog-buttons account-dialog-buttons">
@@ -138,6 +139,10 @@
                 }
             </div>
         </section>
+    }
+
+    @case (3) {
+        <app-about></app-about>
     }
     
 }

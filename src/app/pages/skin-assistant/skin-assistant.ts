@@ -22,6 +22,7 @@ import { Account } from '../../entities/account';
 // import { hasChampionForEveryone } from '../../core/utilities/has-champions-for-everyone';
 // import { getSkinDict } from '../../core/utilities/get-skin-dict';
 import { SkinMatcher } from "../skin-matcher/skin-matcher";
+import { About } from '../about/about';
 
 
 @Component({
@@ -41,7 +42,8 @@ import { SkinMatcher } from "../skin-matcher/skin-matcher";
     DividerModule,
     // AsyncPipe,
     CommonModule,
-    SkinMatcher
+    SkinMatcher,
+    About
 ],
   templateUrl: './skin-assistant.html',
   styleUrl: './skin-assistant.less',
