@@ -100,7 +100,7 @@ export class SkinMatcher implements OnInit, AfterViewInit, AfterContentInit {
 
   }
 
-  selectedChampions: Champion[] = [];
+  selectedChampions: number[] = [];
   selectedChamps$: BehaviorSubject<Champion[]> = new BehaviorSubject<Champion[]>([]);
 
   onPressEnter() {
@@ -113,9 +113,9 @@ export class SkinMatcher implements OnInit, AfterViewInit, AfterContentInit {
     });
 
     if (result) {
-      if (!this.selectedChampions.find(champ => champ.name === result.name)) {
-        this.selectedChampions.push(result);
-        this.selectedChamps$.next(this.selectedChampions);
+      if (!this.selectedChampions.find(value => value === result.value)) {
+        this.selectedChampions = [...this.selectedChampions, result.value];
+        this.selectedChamps$.next([...this.selectedChamps$.getValue(), result]);
       }
     }
 
