@@ -2,6 +2,7 @@
 
 @import "primeicons/primeicons.css";
 
+
 html {
     height: 100%;
 }
@@ -15,4 +16,92 @@ body {
     html {
         height: initial;
     }
+}
+
+.p-inputtext {
+    --p-inputtext-color: #131635 !important;
+    --p-inputtext-background: #fff !important;
+    --p-inputtext-border-color: #cbd5e1 !important;
+    --p-inputtext-focus-border-color: #3b82f6 !important; 
+}
+
+.p-tabs {
+    --p-tabs-tablist-border-color: #f5f3f4;
+    --p-tabs-tab-border-color: #f5f3f4;
+    --p-tabs-tab-color: #65718f;
+}
+
+.p-button {
+    --p-button-primary-color: #f5f3f4;
+    --p-button-primary-hover-color: #f5f3f4;
+}
+
+.p-checkbox {
+    --p-checkbox-background: #f5f3f4;
+    --p-checkbox-icon-color: #f5f3f4;
+    --p-checkbox-icon-checked-color: #f5f3f4;
+    --p-checkbox-icon-checked-hover-color: #f5f3f4;
+}
+
+label {
+    color: #131635;
+}
+
+.p-listbox {
+    --p-listbox-color: #131635;
+    --p-listbox-option-color: #131635;
+    --p-listbox-option-focus-color: #131635;
+    --p-listbox-option-focus-background: transparent;
+}
+
+.p-listbox-list-container {
+    
+    scrollbar-color: #131635 #f5f3f4;
+
+    &::-webkit-scrollbar-track {
+        background: #f5f3f4;
+        border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #131635;
+        border-radius: 4px;
+        
+        &:hover {
+            background: #131635;
+        }
+    }
+}
+
+:root {
+    scrollbar-color: #131635 #f5f3f4;
+
+    &::-webkit-scrollbar-track {
+        background: #f5f3f4;
+        border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #131635;
+        border-radius: 4px;
+        
+        &:hover {
+            background: #131635;
+        }
+    }
+}
+
+.p-tree {
+    --p-tree-color: #131635;
+    --p-tree-node-color: #131635;
+    --p-tree-node-toggle-button-hover-background: transparent;
+}
+
+p {
+    color: #131635;
+}
+
+.p-dialog {
+    --p-dialog-color: #131635;
+    --p-dialog-background: #f5f3f4;
 }
