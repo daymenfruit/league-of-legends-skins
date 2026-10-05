@@ -1,4 +1,4 @@
- export const champions = {
+export const champions = {
   ["Aatrox"] : {
     ["id"] : 266,
     ["skins"] : {
@@ -9,6 +9,7 @@
         ["release"] : "2013-06-12",
         ["voiceactor"] : ["Ramon Tikaram"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "cqE9xy0OMKY",
         ["lore"] : "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance."
       },
       ["Justicar"] : {
@@ -73,6 +74,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 40,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+          	["distribution"] : "Sanctum"
+          }
+        },
         ["voiceactor"] : ["Ramon Tikaram"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
         ["lore"] : "Ancient manuscripts tracking the orbit of the Blood Moon describe it not as celestial phenomenon, but as a cosmic womb. As the seasons grow shorter and the cult's activity continues to increase, some worry it will give birth to a new kind of demon—a creature helping to bring about its own dark ascendance."
@@ -82,7 +91,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-01-10",
         ["set"] : ["Blood Moon"],
         ["neweffects"] : true,
@@ -137,7 +146,7 @@
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rainbow"] : {
             ["id"] : 18
@@ -238,7 +247,7 @@
             ["id"] : 32,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Ramon Tikaram"],
@@ -277,7 +286,7 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 35
@@ -300,6 +309,7 @@
         },
         ["voiceactor"] : ["Ramon Tikaram"],
         ["splashartist"] : ["Exia Xiaotong", "Pandart Studio"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "When the Primordians first attacked, humanity was unprepared—until Anima Squad formed to become its last defense. But they are safe no longer, for the Primordians evolved in turn. Their apex being is called Aatrox, whose understanding of humanity only furthers his hatred. His flesh has no limits, his sword no mercy. He is the harbinger of Anima's end."
       }
     }
@@ -315,6 +325,7 @@
         ["release"] : "2011-12-14",
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Katie 'TeaTime' De Sousa", "Pan Chengwei"],
+        ["music"] : "tgXfFhdbgSU",
         ["lore"] : "Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes."
       },
       ["Dynasty"] : {
@@ -405,7 +416,10 @@
             ["id"] : 9
           }, 
           ["Ruby"] : {
-            ["id"] : 11
+            ["id"] : 11,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Laura Post"],
@@ -430,7 +444,7 @@
             ["id"] : 18,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2019"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Laura Post"],
@@ -472,6 +486,7 @@
         },
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "DYW-kEiCnJI",
         ["lore"] : "Owner of the mysterious six-million-point high score in the infamously difficult beat-em-up Demacia Vice, Ahri is a force of nature on the retro battlefields of Arcadia. Dashing between bosses before ripping them apart with her 8-bit magic, she's already earned the nickname “Queen of the Arcade.”"
       },
       ["Star Guardian"] : {
@@ -481,8 +496,7 @@
         ["cost"] : 1820,
         ["release"] : "2017-09-06",
         ["earlysale"] : "2018-02",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -493,7 +507,8 @@
           } 
         },
         ["voiceactor"] : ["Laura Post"],
-        ["splashartist"] : ["Alex 'alexplank' Flores", "Jean 'Curing' Go", "Esben Lash Rasmussen", "Alvin Lee", "Pan Chengwei"],
+        ["splashartist"] : ["Jean 'Curing' Go"],
+        ["music"] : "tLcziIisVKM",
         ["lore"] : "Ahri is a charismatic team captain who leads her group of Star Guardians from the outer cosmos, with the authority of a queen bee and the sly cunning of a fox. She's effortlessly popular, with an irresistible charm that disarms friends and foes alike."
       },
       ["KDA"] : {
@@ -514,6 +529,7 @@
         },
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Alvin Lee", "Pan Chengwei", "Bo 'chenbowow' Chen"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "Setting her old bubblegum pop persona aside, Ahri was determined to shake up her image and reinvent herself as an unstoppable force within the music industry. Five years later, she has returned with a sleek new look and a killer sound—and this time she's not alone."
       },
       ["Prestige KDA"] : {
@@ -522,7 +538,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-03-07",
         ["set"] : ["K/DA"],
         ["neweffects"] : true,
@@ -531,6 +547,7 @@
         ["variant"] : 15,
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "Decked out to dazzle, K/DA Ahri charms her audience in a glittering, golden ensemble specially made for her band's 2019 Pop Shine Awards performance. Her Prestige Edition outfit celebrates the golden success of POP/STARS. Can you feel the rush now?"
       },
       ["Elderwood"] : {
@@ -602,7 +619,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Spirit Blossom 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 32
@@ -619,7 +636,7 @@
         },
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
-        ["lore"] : "The famed Spirit of Salvation, and the fox all mortals are beckoned towards when their souls arrive to the spirit realm. A capricious, whimsical spirit who sees the fate of the living as a game of chase, she offers the chance for souls to find their final rest… but will not intervene if they stray from the path."
+        ["lore"] : "Some believe the Gatekeeper takes the shape of a fox. Some see other animals—but her role in all tales remains the same. A capricious, whimsical spirit who treats the fates of the living as a game of chase, she offers a path to salvation for souls who seek their final rest… but she will not intervene should they stray."
       },
       ["KDA ALL OUT"] : {
         ["id"] : 28,
@@ -646,7 +663,7 @@
             ["id"] : 41,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 37
@@ -669,6 +686,7 @@
         },
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "3VTkBuxU4yk",
         ["lore"] : "When Ahri steps onto the stage to perform with K/DA, she knows she's surrounded by the best of the best—different women with different personalities, all at the top of their craft. As their leader and as their friend, Ahri is poised to guide these divas to even greater heights and leave their audiences breathless for more."
       },
       ["Coven"] : {
@@ -693,7 +711,7 @@
             ["id"] : 51,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 44
@@ -703,6 +721,9 @@
           }, 
           ["Pearl"] : {
             ["id"] : 50
+          }, 
+          ["Pristine"] : {
+            ["id"] : 96
           }, 
           ["Rose Quartz"] : {
             ["id"] : 45
@@ -722,6 +743,7 @@
         },
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["music"] : "GS4KAWg2tXw",
         ["lore"] : "They came to Ahri at the first stirrings of dusk—the laughter of the Half-Light Jackal, ever stalking the world as it turned towards its own inevitable entropy. A vicious predator and powerful witch, Ahri sucks the life from all she lures close, siphoning it towards her lord within the gloom."
       },
       ["Prestige KDA (2022)"] : {
@@ -739,6 +761,7 @@
         ["variant"] : 16,
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "Decked out to dazzle, K/DA Ahri charms her audience in a glittering, golden ensemble specially made for her band's 2019 Pop Shine Awards performance. Her Prestige Edition outfit celebrates the golden success of POP/STARS. Can you feel the rush now?"
       },
       ["Arcana"] : {
@@ -832,7 +855,7 @@
         ["availability"] : "Limited",
         ["looteligible"] : false,
         ["cost"] : "Special",
-        ["distribution"] : "Purchase the Risen Legend Collection during the Hall of Legends event.",
+        ["distribution"] : "Purchase the Risen Legend Collection during the Hall of Legends 2024 event.",
         ["release"] : "2024-06-12",
         ["set"] : ["Risen Legends"],
         ["neweffects"] : true,
@@ -841,6 +864,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Jennifer Wuestling", "Julia Yurtsev", "Terence 'Terrylefruit' Cantal"],
+        ["music"] : "wGGtHIE3xzo",
         ["lore"] : "You've done well, Ahri, to complete my trials with such grace and humility. To become a Risen Legend is no easy feat, and even in the face of failure, you have proven your resilience. Go forth and leave a legacy worthy of the Unkillable Demon King. When you're ready to learn your true potential… heed my call."
       },
       ["Immortalized Legend"] : {
@@ -848,7 +872,7 @@
         ["availability"] : "Limited",
         ["looteligible"] : false,
         ["cost"] : "Special",
-        ["distribution"] : "Purchase the Immortalized Legend Collection during the Hall of Legends event.",
+        ["distribution"] : "Purchase the Immortalized Legend Collection during the Hall of Legends 2024 event.",
         ["release"] : "2024-06-12",
         ["set"] : ["Risen Legends"],
         ["neweffects"] : true,
@@ -856,8 +880,9 @@
         ["newrecall"] : true,
         ["transforming"] : true,
         ["newvoice"] : true,
-        ["variant"] : 85,
-        ["forms"] : ["Risen","Chosen"],
+        ["extras"] : true,
+        ["formicon"] : "Hall Of Legends 2024 Immortalized Legend Ahri",
+        ["forms"] : ["Risen", "Chosen"],
         ["chromas"] : {
           ["Risen"] : {
             ["id"] : 86
@@ -868,6 +893,7 @@
         },
         ["voiceactor"] : ["Laura Post"],
         ["splashartist"] : ["Jennifer Wuestling", "Julia Yurtsev", "Terence 'Terrylefruit' Cantal"],
+        ["music"] : "wGGtHIE3xzo",
         ["lore"] : "Ahri, you now rightfully bear the seal of The Unkillable Demon King's chosen. You are an Immortalized Legend, an honor that few have ever achieved. Rest assured that your ancestors are proud of your success, as am I. With this and every battle to come, history will never forget you or the power you've fought tirelessly to earn. Welcome to godhood."
       },
       ["Spirit Blossom Springs"] : {
@@ -913,7 +939,7 @@
         ["id"] : 89,
         ["availability"] : "Rare",
         ["looteligible"] : false,
-        ["cost"] : "Special",
+        ["cost"] : "Sanctum",
         ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks",
         ["release"] : "2025-07-30",
         ["set"] : ["Spirit Blossom Springs"],
@@ -940,6 +966,7 @@
         ["release"] : "2010-05-11",
         ["voiceactor"] : ["Krizia Bajos"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "zoTIspKDls0",
         ["lore"] : "Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master."
       },
       ["Stinger"] : {
@@ -1039,7 +1066,7 @@
             ["id"] : 34,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Mega Donor Bundle Exclusive"
+            ["distribution"] : "Charity Exclusive"
           }, 
           ["Tanzanite"] : {
             ["id"] : 37,
@@ -1094,7 +1121,10 @@
             ["id"] : 12
           }, 
           ["Ruby"] : {
-            ["id"] : 10
+            ["id"] : 10,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Tanzanite"] : {
             ["id"] : 11
@@ -1130,6 +1160,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Krizia Bajos"],
         ["splashartist"] : ["Alvin Lee", "Pan Chengwei", "Bo 'chenbowow' Chen"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "Akali's street aesthetic and hard-hitting lyrics inspired a dedicated fandom. She wields a microphone or kama as a hip-hop ninja, revolutionizing the stale scene with her raw talents."
       },
       ["Prestige KDA"] : {
@@ -1138,7 +1169,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2018-12-06",
         ["set"] : ["K/DA"],
         ["neweffects"] : true,
@@ -1147,6 +1178,7 @@
         ["variant"] : 9,
         ["voiceactor"] : ["Krizia Bajos"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "K/DA Akali is on fire right now, spitting rap solos at the Pop Music Awards—and her prestigious costume is exactly what you'd expect from the new golden child of pop."
       },
       ["PROJECT"] : {
@@ -1178,7 +1210,7 @@
             ["id"] : 24,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 21
@@ -1198,6 +1230,7 @@
         },
         ["voiceactor"] : ["Krizia Bajos"],
         ["splashartist"] : ["Atey Ghailan"],
+        ["music"] : "EC67qmPXirs",
         ["lore"] : "A cutting-edge PROJECT subject who somehow escaped the City's boundaries, Akali brings dire warnings of an untested superweapon to those living in the wasteland beyond. With time running out and no other options, these outcasts join her in an attempt to take the mega-corporation down… suspicious that their newfound ally might in fact be a double agent."
       },
       ["True Damage"] : {
@@ -1224,7 +1257,7 @@
             ["id"] : 31,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "True Damage 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 30
@@ -1244,6 +1277,7 @@
         },
         ["voiceactor"] : ["Krizia Bajos"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "After the worldwide success of K/DA, Akali made it her mission to recruit accomplished and up-and-coming artists to form a new supergroup: True Damage. Never before has a crew been comprised of such diverse talent, ranging from natural lyricists to renowned producers to legendary vocalists—all ready to disrupt the music industry."
       },
       ["KDA ALL OUT"] : {
@@ -1262,7 +1296,7 @@
             ["id"] : 47,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 42
@@ -1291,6 +1325,7 @@
         },
         ["voiceactor"] : ["Krizia Bajos"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "3VTkBuxU4yk",
         ["lore"] : "Fresh off her success with True Damage, Akali hits the stage full-throttle with her bold edge and fresh new direction. She spits fire with a mic in hand and pushes the band to the bleeding edge, because that's what the baddest do."
       },
       ["Crime City Nightmare"] : {
@@ -1336,7 +1371,7 @@
             ["id"] : 59,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Crime City 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Krizia Bajos"],
@@ -1358,6 +1393,7 @@
         ["variant"] : 13,
         ["voiceactor"] : ["Krizia Bajos"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "K/DA Akali is on fire right now, spitting rap solos at the Pop Music Awards—and her prestigious costume is exactly what you'd expect from the new golden child of pop."
       },
       ["Star Guardian"] : {
@@ -1366,8 +1402,7 @@
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2022-07-28",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -1377,7 +1412,7 @@
             ["id"] : 67,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 63
@@ -1400,6 +1435,7 @@
         },
         ["voiceactor"] : ["Ashly Burch"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "On-again off-again co-captain of a new generation of Star Guardians, Akali's skill in battle is shadowed by her growing realization that the Oath she swore has condemned her to die. Though she fights for the light with all her heart, she finds that darkness is just as powerful... perhaps, even more so..."
       },
       ["DRX"] : {
@@ -1417,7 +1453,7 @@
             ["id"] : 69,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Krizia Bajos"],
@@ -1444,9 +1480,9 @@
           }, 
           ["Destined"] : {
             ["id"] : 80,
-            ["availability"] : "Loot",
-            ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Emerald"] : {
             ["id"] : 75
@@ -1455,7 +1491,7 @@
             ["id"] : 81,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 79
@@ -1485,7 +1521,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2023-10-11",
         ["set"] : ["Coven"],
         ["neweffects"] : true,
@@ -1522,7 +1558,13 @@
             ["id"] : 91,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2024"
+            ["distribution"] : "Mythic Shop"
+          }, 
+          ["Paragon"] : {
+            ["id"] : 104,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Pearl"] : {
             ["id"] : 90
@@ -1548,8 +1590,54 @@
         ["lore"] : "Before her realm's destruction, Akali was rotting away in prison for a failed assassination attempt on a despotic warlord. Now on her own as an Empyrean, she views her newfound freedom as a sign to stop the evil she couldn't before. The realms need a defender, and Akali is determined to fight for them as long as she can."
       },
       ["Spirit Blossom"] : {
-        ["id"] : 83,
+        ["id"] : 92,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-06-25",
         ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 94
+          }, 
+          ["Emerald"] : {
+            ["id"] : 95
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 100
+          }, 
+          ["Paragon"] : {
+            ["id"] : 101,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 98
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 97
+          }, 
+          ["Ruby"] : {
+            ["id"] : 93,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 99
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 96
+          }
+        },
+        ["voiceactor"] : ["Krizia Bajos"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "A young warrior's master warned her of the world's cruelty and the dispassion it required, then told her to cut out her heart. But when she raised the blade, she could not do it. She would face the world, heart intact. She ran, seeking a new path, and found the Burning Shade—a master who did not demand her heart, but destroyed it all the same."
       }
     }
   },
@@ -1564,6 +1652,7 @@
         ["release"] : "2021-07-22",
         ["splashartist"] : ["Esben Lash Rasmussen"],
         ["voiceactor"] : ["Sunull Malhotra"],
+        ["music"] : "nudASZLNmV8",
         ["lore"] : "Raising an eyebrow in the face of danger, Akshan fights evil with dashing charisma, righteous vengeance, and a conspicuous lack of shirts. He is highly skilled in the art of stealth combat, able to evade the eyes of his enemies and reappear when they least expect him. With a keen sense of justice and a legendary death-reversing weapon, he rights the wrongs of Runeterra's many scoundrels while living by his own moral code: “Don't be an ass.”"
       },
       ["Cyber Pop"] : {
@@ -1647,11 +1736,11 @@
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
           }, 
-          ["Tiffany &amp; Co."] : {
+          ["Tiffany & Co."] : {
             ["id"] : 19,
             ["availability"] : "Limited",
-            ["source"]       : "Drop Reward",
-          	["distribution"] : "Worlds 2022"
+            ["source"]       : "Reward",
+          	["distribution"] : "Drop Reward"
           }
         },
         ["voiceactor"] : ["Sunull Malhotra"],
@@ -1669,6 +1758,48 @@
         ["voiceactor"] : ["Sunull Malhotra"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
         ["lore"] : "When the Order of Solace found Akshan, he was a soulless weapon of death caught in a cycle of revenge following his mentor's murder. Even with his despair, the Order's teachings were able to fill the endless hole within Akshan and rejuvenate him. Now he stands with Malzahar as a Three Honors stalwart, ready to fight the Essents with harmony and quips."
+      },
+      ["High Noon"] : {
+        ["id"] : 21,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-06-24",
+        ["set"] : ["High Noon"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 23
+          },
+          ["Emerald"] : {
+            ["id"] : 24
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 29
+          }, 
+          ["Pearl"] : {
+            ["id"] : 26
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 28
+          }, 
+          ["Ruby"] : {
+            ["id"] : 22,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 27
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 25
+          }
+        },
+        ["voiceactor"] : ["Sunull Malhotra"],
+        ["lore"] : "Behind the altar, the road to Hell yawns open. The grinnin' man says “what's dead should stay dead.” Maybe so, but Akshan didn't come here to ask permission. He came for passage, and nothin' will stop him: not the law, not death, and not some preachin' bounty hunter who claims to own the road. Akshan levels his gun at the grin and thumbs back the hammer."
       }
     }  
   },
@@ -1688,8 +1819,8 @@
         ["id"] : 1,
         ["availability"] : "Limited",
         ["looteligible"] : false,
-        ["distribution"] : "Pre-order Digital Collector's Edition",
         ["cost"] : "Special",
+        ["distribution"] : "Pre-order Digital Collector's Edition",
         ["release"] : "2009-06-13",
         ["set"] : ["Collector's Edition"],
         ["vu"] : true,
@@ -1762,6 +1893,7 @@
         ["retired"] : "2017-11-01",
         ["set"] : ["Soccer Cup"],
         ["voiceactor"] : ["Harlan Hogan"],
+        ["music"] : "LsjIDZXR-rs",
         ["lore"] : "They call him a sweeper, but Alistar is more of a mobile fortress with horns. If a rival player has the ball, just point Alistar in their direction for immediate and painful results."
       },
       ["Marauder"] : {
@@ -1836,7 +1968,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2018-03-26",
         ["earlysale"] : "Ineligible",
         ["set"] : ["Hextech"],
@@ -1862,7 +1994,7 @@
             ["id"] : 21,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2019"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Harlan Hogan"],
@@ -1942,12 +2074,180 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Beast 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Harlan Hogan"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "xotOsL4NRCs",
         ["lore"] : "The leader of Ox Clan, Alistar keeps his stubborn squad in line with his reliability and gruff approval. A bit quick to anger with some squad members' bull-headedness, he's determined that nothing and no one will derail this Lunar New Year festival, or Ox Clan's plan to make it a flawless celebration."
+      },
+      ["Grand Reckoning"] : {
+        ["id"] : null,
+        ["availability"] : "Canceled",
+        ["looteligible"] : false,
+        ["cost"] : "N/A",
+        ["release"] : "N/A",
+        ["set"] : ["Grand Reckoning"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Harlan Hogan"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "His mettle was written in every scar upon his skin. They struck him a thousand times with a thousand faces—Reckoners, soldiers, fighters of every conquered nation—and he stood up, defiant, to a thousand more. They wanted him to become the monster they believed he was… but Alistar would never be broken."
+      },
+      ["Elderwood"] : {
+        ["id"] : 40,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-08-27",
+        ["set"] : ["Elderwood"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 44
+          },
+          ["Catseye"] : {
+            ["id"] : 42
+          }, 
+          ["Emerald"] : {
+            ["id"] : 43
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 48
+          }, 
+          ["Pearl"] : {
+            ["id"] : 47
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 46
+          }, 
+          ["Ruby"] : {
+            ["id"] : 41,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 45
+          }
+        },
+        ["voiceactor"] : ["Harlan Hogan"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["lore"] : "“Far beneath the deepest roots, the binding shackles break. Two horns then pierce the woodland night—the mighty auroch wakes. His hide is wrought in earth and moss, his hooves are granite made. And though the wise do fear his might, his gentleness yet reigns.” –Ballad of the Forest–shaker"
+      },
+      ["Black Modern"] : {
+        ["id"] : 49,
+        ["formatname"] : "Black Alistar Modern",
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Unlocked after purchasing the “Classic: Act I” Mega pass for League Classic.",
+        ["release"] : "2026-07-29",
+        ["set"] : ["Collector's Edition"],
+        ["neweffects"] : true,
+        ["variant"] : 1,
+        ["voiceactor"] : ["Harlan Hogan"],
+        ["lore"] : "Given to players who pre-ordered the Digital Collector's Edition of League of Legends."
+      }
+    }
+  },
+  ["Ambessa"] : {
+    ["id"] : 799,
+    ["skins"] : {
+      ["Original"] : {
+        ["id"] : 0,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 975,
+        ["release"] : "2024-11-06",
+        ["voiceactor"] : ["Ellen Thomas"],
+        ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "rhTZTy1rZhw",
+        ["lore"] : "All who know the name Medarda respect and fear the family's leader, Ambessa. As a Noxian general, she embodies a deadly combination of ruthless strength and fearless resolve in battle. Her role as matriarch is no different, requiring great cunning to empower the Medardas while leaving no room for failure or compassion. Embracing the merciless ways of the Wolf, Ambessa will do whatever it takes to protect her family's legacy, even at the cost of her own children's love."
+      },
+      ["Chosen of the Wolf"] : {
+        ["id"] : 1,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2024-11-06",
+        ["set"] : ["Chosen of the Wolf"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["transforming"] : true,
+        ["chromas"] : {
+          ["Emerald"] : {
+            ["id"] : 3
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 6
+          }, 
+          ["Pearl"] : {
+            ["id"] : 7
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 5
+          }, 
+          ["Ruby"] : {
+            ["id"] : 2,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 4
+          }
+        },
+        ["voiceactor"] : ["Ellen Thomas"],
+        ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "rhTZTy1rZhw",
+        ["lore"] : "Your chosen has arrived, dear Wolf. Those who came before her paved the way for this moment. The Medardas will mourn the loss of her and her unborn child… and yet I see a thread that ties her still to the living. Ambessa, the Matriarch of War. Does her destiny lie in Volrachnun?"
+      },
+      ["T1"] : {
+        ["id"] : 8,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-07-15",
+        ["set"] : ["World Champions: 2025"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 13
+          }, 
+          ["Elite"] : {
+            ["id"] : 9,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 10
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 12
+          }, 
+          ["Ruby"] : {
+            ["id"] : 11,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 14
+          }
+        },
+        ["voiceactor"] : ["Ellen Thomas"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Honoring Doran's winning performance as Ambessa during the 2025 World Championship."
       }
     }
   },
@@ -1961,6 +2261,7 @@
         ["cost"] : 260,
         ["release"] : "2009-06-25",
         ["voiceactor"] : ["Cristina Milizia"],
+        ["music"] : "0AvWV6Mk374",
         ["lore"] : "Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe a living cadaver, small in stature and wrapped in creeping bandages. Amumu has inspired myths, songs, and folklore told and retold for generations—such that it is impossible to separate truth from fiction."
       },
       ["Pharaoh"] : {
@@ -2003,6 +2304,7 @@
         ["release"] : "2010-12-14",
         ["set"] : ["Snowdown Showdown"],
         ["voiceactor"] : ["Cristina Milizia"],
+        ["music"] : "tZDj_sS-Gf8",
         ["lore"] : "Like decorative soaps or a fifth pair of socks, Amumu has been passed back and forth between disgruntled family members for generations. For some reason nobody seems to want the sobbing, accursed mummy boy."
       },
       ["Almost-Prom King"] : {
@@ -2072,7 +2374,10 @@
             ["id"] : 13
           }, 
           ["Ruby"] : {
-            ["id"] : 16
+            ["id"] : 16,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 12
@@ -2169,7 +2474,7 @@
             ["id"] : 30
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 32
+            ["id"] : 26
           }, 
           ["Ruby"] : {
             ["id"] : 25,
@@ -2213,7 +2518,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 42
@@ -2236,6 +2541,7 @@
         },
         ["voiceactor"] : ["Cristina Milizia"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["music"] : "jtfgXd_aDlA",
         ["lore"] : "Eternally young due to his bond with the Rat Relic, Amumu's innocence belies centuries of existence. He's been lonely in ages past, but no more: Lux is like his big sister, and Kindred is his… Kindred? Companionship hasn't stopped his occasional tantrums, of course, but at least now there's someone to shine his porcelain eyes after a nice cathartic cry."
       },
       ["Heartache"] : {
@@ -2280,6 +2586,49 @@
         ["voiceactor"] : ["Cristina Milizia"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
         ["lore"] : "Dear Amumu, I see you around the halls, and at the battle of the bands. I'm afraid I'm just too shy to ask you to hold hands, I think you're really cool and I'd love to be your friend. I can't wait to finally meet you! Love, Your Secret Friend-mirer 'Til the End"
+      },
+      ["Dumpling Darlings"] : {
+        ["id"] : 53,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-02-05",
+        ["set"] : ["Dumpling Darlings"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 58
+          }, 
+          ["Catseye"] : {
+            ["id"] : 55
+          }, 
+          ["Emerald"] : {
+            ["id"] : 57
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 61
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 60
+          }, 
+          ["Ruby"] : {
+            ["id"] : 54,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 56
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 59
+          }
+        },
+        ["voiceactor"] : ["Cristina Milizia"],
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["lore"] : "Lonely soul Amumu traveled the world to find a cafe that he could call home. Despite his best efforts to win over his fellow chefs as an apprentice dumpling maker, all of his concoctions end up just a little too salty. Yet he holds onto hope that his dreams of friendship—and the perfect prawn recipe—are within reach one day."
       }
     }
   },
@@ -2381,34 +2730,34 @@
         ["newrecall"] : true,
         ["chromas"] : {
           ["Catseye"] : {
-            ["id"] : 9
+            ["id"] : 10
           }, 
           ["Emerald"] : {
-            ["id"] : 10,
+            ["id"] : 12,
             ["availability"] : "Partner",
             ["source"]       : "Partner",
           	["distribution"] : "Partner Program"
           }, 
           ["Obsidian"] : {
-            ["id"] : 11
+            ["id"] : 13
           },
           ["Pearl"] : {
-            ["id"] : 12
+            ["id"] : 11
           },
           ["Rainbow"] : {
-            ["id"] : 13
+            ["id"] : 16
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 14
+            ["id"] : 15
           }, 
           ["Ruby"] : {
-            ["id"] : 15,
+            ["id"] : 9,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Tanzanite"] : {
-            ["id"] : 16
+            ["id"] : 14
           }
         },
         ["splashartist"] : ["Maki Planas Mata"],
@@ -2420,7 +2769,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -2487,7 +2836,7 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 34
@@ -2551,7 +2900,7 @@
             ["id"] : 44
           }
         },
-        ["splashartist"] : ["Huyy Nugyen", "West Studio"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "Enchanted by LeBlanc herself, Batnivia flies along with a coven of witches, shrouding the night sky in darkness and chaos. Though she was once an ordinary bat, Leblanc sensed the spirit of the season in her; now she helps to spread terror to the children below and glee to the partygoers who follow her flight."
       },
       ["Victorious"] : {
@@ -2617,6 +2966,49 @@
         },
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
         ["lore"] : "Victorious Anivia was awarded to players who earned the requisite ranked split points in Season 2023 Split 1. Rising from the ashes covered in crystalline armor, Anivia's opulent feathers reflect her heightened nature. She is perseverance personified, an undying wish granted to those that need her most. "
+      },
+      ["Old God"] : {
+        ["id"] : 56,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-09-23",
+        ["set"] : ["Coven"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 59
+          }, 
+          ["Emerald"] : {
+            ["id"] : 58
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 62
+          }, 
+          ["Pearl"] : {
+            ["id"] : 60
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 63
+          }, 
+          ["Ruby"] : {
+            ["id"] : 57,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 61
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 64
+          }
+        },
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "The cold wind that once stole Anivia's breath then gave the Twilight Raptor flight. From her mountaintop roost amidst civilization's ruins, she looks down on humankind's works with hatred for how mortals have squandered nature's gifts. Wielding the primeval power of the storm, Anivia turns those with avarice in their heart into little more than dust."
       }
     }
   },
@@ -2718,6 +3110,7 @@
         ["vu"] : true,
         ["voiceactor"] : ["Cristina Milizia"],
         ["splashartist"] : ["Kienan 'Knockwurst' Lafferty"],
+        ["music"] : "q41PxYlsQtI",
         ["lore"] : "He's a towering abomination of science and magic. She's an eight year old with a beehive hairdo, and undiagnosed pyromania. Name a more iconic duo. I'll wait."
       },
       ["Panda"] : {
@@ -2732,6 +3125,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Cristina Milizia"],
         ["splashartist"] : ["Michelle Hoefener"],
+        ["music"] : "drACMJveGMA",
         ["lore"] : "Annie is a big part of Lunar Revel festivities, using her pyromancy to set off scores of high powered fireworks. Her panda bear Tibbers hauls the rockets for her, mauling anyone who tries to make off with even the smallest sparkler."
       },
       ["Sweetheart"] : {
@@ -2828,11 +3222,12 @@
             ["id"] : 15,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Beast 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Cristina Milizia"],
         ["splashartist"] : ["Sangsoo Jeong"],
+        ["music"] : "xotOsL4NRCs",
         ["lore"] : "Everyone was shocked when Annie was chosen as Ox Clan's tech operative. A precocious prodigy, Annie serves as the team's recon strategist, making sure the parade route is clear of civilians."
       },
       ["Cafe Cuties"] : {
@@ -2919,7 +3314,7 @@
         },
         ["voiceactor"] : ["Cristina Milizia"],
         ["splashartist"] : ["Julia Yurtsev"],
-        ["lore"] : "Awful Orphan Annie comes home from school each day&lt;br>A lonely little lady with whom no one will play&lt;br>Now all her family's fled (or dead or gone away)&lt;br>She can depend on Mr. Tibbers to make her new friends stay!"
+        ["lore"] : "Awful Orphan Annie comes home from school each day<br>A lonely little lady with whom no one will play<br>Now all her family's fled (or dead or gone away)<br>She can depend on Mr. Tibbers to make her new friends stay!"
       },
       ["Winterblessed"] : {
         ["id"] : 40,
@@ -2963,7 +3358,7 @@
             ["id"] : 49,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Cristina Milizia"],
@@ -3011,7 +3406,37 @@
         },
         ["voiceactor"] : ["Cristina Milizia"],
         ["splashartist"] : ["Roanna Peroz", "Kudos Productions"],
+        
         ["lore"] : "Annie revealed her magical talents before Telum's royal court, transforming her dear teddy bear into a knight of steel and flame. Though a near-fatal display for many aristocrats, Queen Fiora embraced the child's potential and named her successor. Annie trains to triumph in a future Coronation… and causes a fair amount of mischief for her regal mentor."
+      },
+      ["Pandemonium"] : {
+        ["id"] : 59,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-29",
+        ["set"] : ["Pandemonium"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Cristina Milizia"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Annie carries emotions too big for a child to hold. Though she has buried these feelings deep within, they simmer and burn without end. When the flame threatens to engulf her, Tibbers bears what she cannot—unleashing her grief in a raging inferno."
+      },
+      ["Goth Modern"] : {
+        ["id"] : 60,
+        ["formatname"] : "Goth Annie Modern",
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Unlocked after purchasing the “Classic: Act I” Legendary pass for League Classic.",
+        ["release"] : "2026-07-29",
+        ["set"] : ["Goth"],
+        ["neweffects"] : true,
+        ["variant"] : 1,
+        ["voiceactor"] : ["Cristina Milizia"],
+        ["splashartist"] : ["Julia Yurtsev"],
+        ["lore"] : "Her mother is dead. Her father is dead. But Annie remains, seeing beauty in the dark."
       }
     }
   },
@@ -3026,6 +3451,7 @@
         ["release"] : "2019-12-11",
         ["voiceactor"] : ["N/A","Tania Gunadi"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "NQIeAbFT4Kc",
         ["lore"] : "Emerging from moonlight’s shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by his sister Alune in her distant temple sanctuary from where she pushes an arsenal of moonstone weapons into his hands. For as long as the moon shines overhead, Aphelios will never be alone."
       },
       ["Nightbringer"] : {
@@ -3041,7 +3467,7 @@
         ["newquotes"] : true,
         ["chromas"] : {
           ["Emerald"] : {
-            ["id"] : 7
+            ["id"] : 8
           },
           ["Obsidian"] : {
             ["id"] : 6
@@ -3050,10 +3476,10 @@
             ["id"] : 3,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Night &amp; Dawn 2019"
+            ["distribution"] : "Mythic Shop"
           },
           ["Pearl"] : {
-            ["id"] : 8
+            ["id"] : 7
           },
           ["Ruby"] : {
             ["id"] : 4,
@@ -3108,11 +3534,12 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Beast 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["N/A","Tania Gunadi"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "xotOsL4NRCs",
         ["lore"] : "Aphelios stays quiet, preferring to worship the Bull God according to obscure “old ways” that are unfamiliar to the rest of his squad. His teammates are welcoming, if curious, but have yet to realize that Aphelios and his sister Alune are actually the Bull God's progeny, placed among the squad to face this year's Lunar Beast."
       },
       ["EDG"] : {
@@ -3161,7 +3588,7 @@
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 28
@@ -3184,7 +3611,7 @@
         },
         ["voiceactor"] : ["N/A","Tania Gunadi"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
-        ["lore"] : "Ionians share whispered stories of the twin spirits of the night, Aphelios and Alune. It is said the darkening of the sky comes from the brother's armaments, tearing the fabric of blues and whites apart to create an obsidian canvas painted with stars. The sister's motives are more... mysterious."
+        ["lore"] : "Twin spirits herald the day's end in one version of an old Ionian tale. They are brother Midnight and sister Moonlight, two sides of a heavenly coin. Night breaks beneath the brother's shroud, cast across the firmament, a pitch-black canvas upon which his luminous sister dances as she trails a veil of stars."
       },
       ["HEARTSTEEL"] : {
         ["id"] : 30,
@@ -3210,7 +3637,7 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 36
@@ -3233,7 +3660,66 @@
         },
         ["voiceactor"] : ["N/A","Tania Gunadi"],
         ["splashartist"] : ["Bo 'chenbowow' Chen", "Julia Yurtsev", "Jennifer Wuestling"],
+        ["music"] : "MDErQ1KTzaI",
         ["lore"] : "A multi-instrumental musical genius whose passion for his craft is nigh obsessive, Aphelios is the composer and creative backbone of HEARTSTEEL.  Though he rarely ever speaks, with this wild band of musical misfits and his twin sister (the band's manager Alune) by his side, Aphelios is ready to have his creative voice heard loud and clear."
+      },
+      ["Prestige Spirit Blossom Springs"] : {
+        ["id"] : 40,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2025-07-30",
+        ["set"] : ["Spirit Blossom Springs"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["N/A","Tania Gunadi"],
+        ["splashartist"] : ["Blake Byun", "West Studio"],
+        ["music"] : "SuGt_kf7t_k",
+        ["lore"] : "Silent and brooding, Aphelios's calm presence and sharp looks endeared him not only to Ahri, but to all the guests of Spirit Blossom Springs. With encouragement from his sister, Alune, he accepted an invitation to become an ambassador for the bathhouse, indulging in the refreshing power of their many treatments and inspiring guests to do the same."
+      },
+      ["HEARTSTEEL Live My Life"] : {
+        ["id"] : 41,
+        ["availability"] : "Upcoming",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "N/A",
+        ["set"] : ["HEARTSTEEL"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Aquamarine"] : {
+            ["id"] : 49
+          }, 
+          ["Catseye"] : {
+            ["id"] : 45
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 47
+          }, 
+          ["Pearl"] : {
+            ["id"] : 44
+          }, 
+          ["Peridot"] : {
+            ["id"] : 46
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 48
+          }, 
+          ["Ruby"] : {
+            ["id"] : 42,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 43
+          }
+        },
+        ["voiceactor"] : ["N/A","Tania Gunadi"],
+        ["music"] : "gMkuV5hh7-s"
       }
     }  
   },
@@ -3359,6 +3845,7 @@
         },
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "3vylNCUu4eA",
         ["lore"] : "While on the frontlines of a corporate war, Ashe witnessed the human cost of PROJECT's ambition. Now the leader of the resistance group G/NETIC, Ashe has set her sights on nothing less than the downfall of the most powerful corporations."
       },
       ["Worlds 2017"] : {
@@ -3376,7 +3863,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2017: Chase Your Legend"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Melissa Hutchison"],
@@ -3389,7 +3876,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-08-21",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -3440,7 +3927,7 @@
             ["id"] : 21,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 20
@@ -3471,16 +3958,22 @@
             ["id"] : 42,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2021"
+          	["distribution"] : "Mythic Shop"
           },
           ["Jadeclaw"] : {
             ["id"] : 30,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 29
+          }, 
+          ["Paragon"] : {
+            ["id"] : 83,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Pearl"] : {
             ["id"] : 28
@@ -3530,7 +4023,7 @@
             ["id"] : 41,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 34
@@ -3540,6 +4033,9 @@
           }, 
           ["Pearl"] : {
             ["id"] : 40
+          }, 
+          ["Pristine"] : {
+            ["id"] : 93
           }, 
           ["Rose Quartz"] : {
             ["id"] : 35
@@ -3556,6 +4052,7 @@
         },
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "GS4KAWg2tXw",
         ["lore"] : "They came to Ashe in a bone-deep chill—the frost of the Jet-Black Ibex, entombing the world in ice. She descended the mountain and brought a harrowing winter with her… but that is not the only thing that followed Ashe into the night. The mountain itself rumbles."
       },
       ["Ocean Song"] : {
@@ -3625,7 +4122,7 @@
             ["id"] : 61,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 56
@@ -3648,6 +4145,7 @@
         },
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["Julia Yurtsev"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "Her people slaughtered, Ashe—daughter of the Emperor of the Great Sea—sought solace on an abandoned island far from home. There, she made alliances with a strange serpent and a sinister would-be king, in the hope that their untapped might could help seize her empire back. It was a hard-fought victory, but the true battle is far from over: diplomacy."
       },
       ["DRX"] : {
@@ -3677,7 +4175,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2023-12-06",
         ["set"] : ["Crystalis Motus"],
         ["neweffects"] : true,
@@ -3738,6 +4236,88 @@
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
         ["lore"] : "Using her accursed bow, Ashe sets her sights on all who have not already willingly joined the Ashen Lord's army. Once pierced by her blazing arrows, her mark immediately becomes consumed by the Infernal flame and damned to serve within his legions forevermore."
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 76,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2025-04-30",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 79
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 81
+          }, 
+          ["Pearl"] : {
+            ["id"] : 82
+          }, 
+          ["Ruby"] : {
+            ["id"] : 77,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 80
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 78
+          }
+        }, 
+        ["voiceactor"] : ["Melissa Hutchison"],
+        ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "Myth tells of the Wandering Queen, whose curiosity led her to trade places with the Grovemother. The cost of this choice was high, and she returned to see her loyal Ready Hand and the Grovemother locked in combat. Throwing herself between them, she died in the Ready Hand's arms, her final words an apology. Now she roams the wilds, guiding the lost."
+      },
+      ["Firecracker"] : {
+        ["id"] : 84,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-04",
+        ["set"] : ["Lunar Revel: Firecracker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 89
+          }, 
+          ["Emerald"] : {
+            ["id"] : 87
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 91
+          }, 
+          ["Pearl"] : {
+            ["id"] : 92
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 90
+          }, 
+          ["Ruby"] : {
+            ["id"] : 85,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 88
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 86
+          }
+        },
+        ["voiceactor"] : ["Melissa Hutchison"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "Ashe is elegant, disciplined, and unshakably calm—except during the Lunar Revel, when she's all that and more! The lively atmosphere has a way of loosening her bowstring, and this year she's unleashing a grand finale destined to light up the sky and the new year ahead."
       }
     }
   },
@@ -3752,6 +4332,7 @@
         ["release"] : "2016-03-24",
         ["voiceactor"] : ["Neil Kaplan"],
         ["splashartist"] : ["Jean 'Curing' Go"],
+        ["music"] : "ApCoJeatwac",
         ["lore"] : "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his star-forging ways, Aurelion Sol will drag the very stars from the sky, if he must, in order to regain his freedom."
       },
       ["Ashen Lord"] : {
@@ -3828,13 +4409,13 @@
             ["id"] : 20,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Jadeclaw"] : {
             ["id"] : 14,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 16
@@ -3884,7 +4465,7 @@
             ["id"] : 30,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2023"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 29
@@ -3910,6 +4491,7 @@
         },
         ["voiceactor"] : ["Neil Kaplan"],
         ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["music"] : "Lmcy9Z10iLs",
         ["lore"] : "An ancient spirit that has been making contracts with mortals through tattoos for centuries, Aurelion Sol grants inhuman power in exchange for the life force of his pawns, letting them slowly waste away until they inevitably succumb to his appetite. There is always another conflict, another war—so he has grown powerful on their deals, ever feeding."
       },
       ["Porcelain Protector"] : {
@@ -3937,7 +4519,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 36
@@ -3951,7 +4533,25 @@
         },
         ["voiceactor"] : ["Neil Kaplan"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "When the Zodiac forged their relics, Aurelion Sol was there. With him, eleven others: the first to be humbled with the task of guarding the artifacts, the first to be granted their powers. Centuries later, Aurelion Sol is summoned forth by his draconic descendant, desperate for his help against an ancient threat with which he is all too familiar."
+      },
+      ["Divine Architect Porcelain"] : {
+        ["id"] : 38,
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks.",
+        ["release"] : "2026-02-19",
+        ["set"] : ["Porcelain"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["variant"] : 31,
+        ["voiceactor"] : ["Neil Kaplan"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "At the dawn of creation, a dragon of immeasurable power protected the world. In his infinite wisdom, he crafted twelve porcelain relics to house his—and the other legends of the Zodiac's—cosmic might. These artifacts were gifted to their descendants so that they might honor the legacy of those who came before and celebrate their divinity."
       }
     }
   },
@@ -3966,6 +4566,7 @@
         ["release"] : "2024-07-17",
         ["voiceactor"] : ["Emeri Chase"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "0FY6Kj_sA3s",
         ["lore"] : "From the moment she was born, Aurora navigated life with a unique ability to move between the spirit and material realms. Determined to learn more about the spirit realm's inhabitants, she left her home to further her research and happened upon a wayward demigod who'd become twisted and lost to time. Witnessing his desperation, Aurora resolved to find a way to help her feral friend regain his forgotten identity—a journey that would take her to the farthest reaches of the Freljord."
       },
       ["Battle Bunny"] : {
@@ -3995,7 +4596,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 6
@@ -4015,7 +4616,93 @@
         },
         ["voiceactor"] : ["Emeri Chase"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "As Anima Squad's sole research specialist, Aurora uses her understanding of the Primordians (and PhD in bioengineering) to translate and adapt Primordian technology. While her work has led to incredible advancements in Anima Squad's equipment, her true passion is helping the world understand Primordians as she does."
+      },
+      ["Arcana"] : {
+        ["id"] : 11,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-09-24",
+        ["set"] : ["Arcana"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 22
+          },
+          ["Emerald"] : {
+            ["id"] : 23
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 28
+          }, 
+          ["Pearl"] : {
+            ["id"] : 27
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 26
+          }, 
+          ["Ruby"] : {
+            ["id"] : 21,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 25
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 24
+          }
+        },
+        ["voiceactor"] : ["Emeri Chase"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "Those below know Aurora as an eccentric academic at the Grand Library, wandering off to study the mysterious workings of the fabled Pattern. Those above know Aurora as the Witch Betwixt, one of the few Higher Arcana able to find portals hidden within the magic of all things, and travel the cities across their mirroring axis. As above, so below."
+      },
+      ["Broken Covenant"] : {
+        ["id"] : 20,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-06-24",
+        ["set"] : ["Broken Covenant"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 23
+          },
+          ["Emerald"] : {
+            ["id"] : 24
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 29
+          }, 
+          ["Pearl"] : {
+            ["id"] : 26
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 28
+          }, 
+          ["Ruby"] : {
+            ["id"] : 22,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 27
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 25
+          }
+        },
+        ["voiceactor"] : ["Emeri Chase"],
+        ["lore"] : "Aurora is the Order's masterful High Seamstress. With her caring nature, she is not one for violence, and instead finds greater enjoyment from mending clothes. Through her skillful hand, it was she who discovered the power their holy cloth could gain when woven with Aspira. Thanks to Aurora, the Order now returns to the world worthy of its purpose."
       }
     }
   },
@@ -4030,6 +4717,7 @@
         ["release"] : "2014-09-15",
         ["voiceactor"] : ["Travis Willingham"],
         ["splashartist"] : ["Bo Lu"],
+        ["music"] : "smNA_BYDODU",
         ["lore"] : "Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended being of immense power. With his buried city risen from the sand, Azir seeks to restore Shurima to its former glory."
       },
       ["Galactic"] : {
@@ -4086,6 +4774,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Travis Willingham"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "A0lL6yaigfQ",
         ["lore"] : "Seeing the Warring Kingdoms clash from his palace in the mountains, the ageless ruler known as Azir left his home with an army of spectral soldiers. He promised that one day he would return and put an end to the conflict for good."
       },
       ["Elderwood"] : {
@@ -4106,7 +4795,7 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Battle Queen 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 10,
@@ -4152,11 +4841,11 @@
           ["Obsidian"] : {
             ["id"] : 17
           }, 
-          ["One &amp; Only"] : {
+          ["One & Only"] : {
             ["id"] : 18,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Tanzanite"] : {
             ["id"] : 15,
@@ -4242,6 +4931,7 @@
         },
         ["voiceactor"] : ["N/A; Utora", "Sebastien 'Chemicalseb' Najand"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "MWHmgob5FDA",
         ["lore"] : "A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic vagabond is drawn to artifacts of great magical power. Surrounded by a jubilant choir of helpful spirit meeps, it is impossible to mistake his actions as malevolent, as Bard always serves the greater good… in his own odd way."
       },
       ["Elderwood"] : {
@@ -4274,11 +4964,12 @@
             ["id"] : 7,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Snowdown Showdown 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["N/A; Utora", "Sebastien 'Chemicalseb' Najand"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "CUl7h5QPSU0",
         ["lore"] : "Bard's vast cosmic powers and inscrutable nature are great assets in a snowball fight. Summoning an array of enchanted Winterland penguins, self-warming cups of cocoa, and portals to nowhere give this Wandering Caretaker an unbeatable edge."
       },
       ["Bard Bard"] : {
@@ -4319,7 +5010,7 @@
             ["id"] : 16,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Citrine"] : {
             ["id"] : 11
@@ -4451,12 +5142,56 @@
             ["id"] : 36,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["N/A; Utora", "Sebastien 'Chemicalseb' Najand"],
-        ["splashartist"] : ["Alsie Lau", "Kelvin Law", "Mo Yan"],
+        ["splashartist"] : ["Alsie Lau", "Mo Yan"],
         ["lore"] : "Honoring Keria's winning performance as Bard during the 2023 World Championship."
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 37,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-30",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 40
+          }, 
+          ["Catseye"] : {
+            ["id"] : 43
+          }, 
+          ["Emerald"] : {
+            ["id"] : 41
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 42
+          }, 
+          ["Pearl"] : {
+            ["id"] : 39
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 44
+          }, 
+          ["Ruby"] : {
+            ["id"] : 38,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 45
+          }
+        }, 
+        ["voiceactor"] : ["N/A; Utora", "Sebastien 'Chemicalseb' Najand"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "It is said that the Keeper of the Garden drifts among the flowers, gathering wayward memories left behind by travelers who wished to forget their pain. Though some are not yet ready to settle, the sprites of memory remain safe in the Keeper's care."
       },      
     }
   },
@@ -4471,6 +5206,7 @@
         ["release"] : "2022-06-09",
         ["voiceactor"] : ["Anoush NeVart"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["music"] : "Ie2ia4kyRx4",
         ["lore"] : "A nightmarish empress created from the raw material of an entire devoured city, Bel’Veth is the end of Runeterra itself... and the beginning of a monstrous reality of her own design. Driven by epochs of repurposed history, knowledge, and memories from the world above, she voraciously feeds an ever-expanding need for new experiences and emotions, consuming all that crosses her path. Yet her wants could never be sated by only one world as she turns her hungry eyes toward the Void’s old masters..."
       },
       ["Battle Boss"] : {
@@ -4522,7 +5258,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2023-08-30",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -4576,7 +5312,7 @@
             ["id"] : 28,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Citrine"] : {
             ["id"] : 24
@@ -4608,7 +5344,51 @@
         },
         ["voiceactor"] : ["Anoush NeVart"],
         ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "The tide of war has turned, with Primordians scattered and Anima Squad idling safely in Final City. But deep below the tranquil sea, Bel'Veth plots. A creature of incredible intelligence, she grew used to living in Aatrox's shadow, her masterful tactics less bombastic than his brute strength. Now her time has come to rise above the waters and strike."
+      },
+      ["Faerie Court"] : {
+        ["id"] : 29,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-08-12",
+        ["set"] : ["Faerie Court"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 35
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 33
+          }, 
+          ["Pearl"] : {
+            ["id"] : 32
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 30
+          }, 
+          ["Ruby"] : {
+            ["id"] : 34,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 37
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 36
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 31
+          }
+        },
+        ["voiceactor"] : ["Anoush NeVart"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["lore"] : "Lady Bel'Veth of the Unseelie Court ushers the living world toward its final harvest. In her wake, all things ripen and spoil, a moldering feast before her open maw. Together, she and her swarm of chitinous children  devour summer's bounty and leave only rotting scraps. Autumn may be beautiful, but it is also proof of nature's insatiable hunger."
       }
     }  
   },
@@ -4640,8 +5420,8 @@
         ["id"] : 1,
         ["availability"] : "Limited",
         ["looteligible"] : false,
-        ["distribution"] : "Limited Availability",
         ["cost"] : 520,
+        ["distribution"] : "Limited Availability",
         ["release"] : "2009-11-20",
         ["retired"] : "2010-01-17",
         ["set"] : ["Legacy"],
@@ -4688,6 +5468,7 @@
         ["set"] : ["Definitely Not"],
         ["voiceactor"] : ["Duncan Watt"],
         ["splashartist"] : ["Kienan 'Knockwurst' Lafferty"],
+        ["music"] : "q41PxYlsQtI",
         ["lore"] : "I, not a robot."
       },
       ["iBlitzcrank"] : {
@@ -4700,6 +5481,7 @@
         ["set"] : ["Program"],
         ["neweffects"] : true,
         ["voiceactor"] : ["Duncan Watt"],
+        ["splashartist"] : ["Concept Art House"],
         ["lore"] : "Built as household assistance automata, thousands of iBlitzcranks were corrupted by Program during a routine software update. With their human owners oblivious to this fact, they continue to help, waiting patiently for the time their new command lines are initiated."
       },
       ["Riot"] : {
@@ -4744,7 +5526,10 @@
             ["id"] : 15
           }, 
           ["Ruby"] : {
-            ["id"] : 16
+            ["id"] : 16,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 17
@@ -4755,6 +5540,7 @@
         },
         ["voiceactor"] : ["Duncan Watt"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "BO3XLE_eRPk",
         ["lore"] : "A boss hailing from a popular science fiction shooter, Blitzcrank is well known in the gaming community for cheap mechanics, powerful attacks, and a massive health pool. Veigar fittingly made them the gatekeeper of his personal fortress, because Veigar hates fun."
       },
       ["Sewn Chaos"] : {
@@ -4842,7 +5628,7 @@
       },
       ["Space Groove"] : {
         ["id"] : 29,
-        ["formatname"] : "Space Groove Blitz &amp; Crank",
+        ["formatname"] : "Space Groove Blitz & Crank",
         ["availability"] : "Available",
         ["looteligible"] : true,
         ["cost"] : 1820,
@@ -4863,7 +5649,7 @@
             ["id"] : 35,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Space Groove 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 34
@@ -4880,6 +5666,7 @@
         },
         ["voiceactor"] : ["Joe Zieja"],
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "DDBjk-r4urY",
         ["lore"] : "Blitz and Crank are Cat Planet's fiercest warriors, and work together seamlessly (mostly) to pilot their mech, Blitzcrank. While Crank believes that he can overcome his lack of rhythm with the help of his exuberant copilot, Blitz is… well… he's busy dancing to his own beat. Together they plan to take over Dog Planet and claim its sunbeams for themselves."
       },
       ["Victorious"] : {
@@ -5045,6 +5832,74 @@
         ["voiceactor"] : ["Duncan Watt"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
         ["lore"] : "Beezcrank has a reputation for getting his bee-infantry into sticky situations. Probably because of that giant honey-comb mech-arm."
+      },
+      ["Bubble Bash"] : {
+        ["id"] : 66,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-01",
+        ["set"] : ["Toy Box"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 68
+          },
+          ["Emerald"] : {
+            ["id"] : 69
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 72
+          }, 
+          ["Pearl"] : {
+            ["id"] : 71
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 74
+          }, 
+          ["Ruby"] : {
+            ["id"] : 67,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 73
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 70
+          }
+        },
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["voiceactor"] : ["Duncan Watt"],
+        ["lore"] : "For three summers in a row, Bubble Bash Blitzcrank has been flying off the shelves, driving both kids and parents crazy. Children can't get enough of slapping each other with its goopy hands, piling on stickers, and blowing bubbles everywhere, while parents groan at the ensuing messes left behind. And through it all, Blitzcrank stays smiling."
+      },
+      ["Rustier"] : {
+        ["id"] : 75,
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Reaching level 30 in the Summoner's Journey in League Classic.",
+        ["release"] : "2026-07-29",
+        ["set"] : ["Legacy"],
+        ["neweffects"] : true,
+        ["variant"] : 1,
+        ["voiceactor"] : ["Duncan Watt"]
+      },
+      ["Rustiest"] : {
+        ["id"] : 76,
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "League Classic IP shop.",
+        ["release"] : "2026-07-29",
+        ["set"] : ["Legacy"],
+        ["neweffects"] : true,
+        ["variant"] : 1,
+        ["voiceactor"] : ["Duncan Watt"]
       }
     }
   },
@@ -5101,6 +5956,14 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["newvoice"] : true,
+        ["chromas"] : {
+          ["Doom"] : {
+            ["id"] : 52,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          } 
+        },
         ["lore"] : "Before the mutagenic outbreak, Brand was a leading military scientist, responsible for the development of a powerful virus deep within a government compound. But the same government who elevated him among his peers suddenly cut his funding, forcing Brand to test the mutagen on himself… with disastrous results."
       },
       ["Spirit Fire"] : {
@@ -5129,6 +5992,7 @@
         ["newrecall"] : true,
         ["filter"] : true,
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "YKzGct28Vxw",
         ["lore"] : "The fire boss from a bestselling action game, Brand has no intention of returning to his original machine. He'd rather see all of Arcade World burn to the ground, to be rebuilt in the image of the villains who rule it."
       },
       ["Arclight"] : {
@@ -5183,13 +6047,13 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Jadeclaw"] : {
             ["id"] : 17,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 19
@@ -5234,7 +6098,7 @@
             ["id"] : 32,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Debonair 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 27
@@ -5337,16 +6201,16 @@
             ["id"] : 46
           }, 
           ["Neon Facade"] : {
-            ["id"] : 50,
+            ["id"] : 51,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
-            ["id"] : 49
+            ["id"] : 50
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 47
+            ["id"] : 48
           }, 
           ["Ruby"] : {
             ["id"] : 43,
@@ -5358,14 +6222,27 @@
             ["id"] : 45
           }, 
           ["Tanzanite"] : {
-            ["id"] : 48
+            ["id"] : 49
           }, 
           ["Turquoise"] : {
-            ["id"] : 46
+            ["id"] : 47
           }
         },
         ["splashartist"] : ["Roanna Peroz", "Kudos Productions"],
         ["lore"] : "If the destruction of Brand's realm bent his mind, becoming an Empyrean broke it. To him, the randomness of being his realm's lone survivor and gaining the powers of a god prove that nothing truly matters. He could set fire to an entire planet or kill every version of his father. Everything is anarchy, and Brand is only too glad to spread it."
+      },
+      ["Sinful Shores"] : {
+        ["id"] : 53,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-06-10",
+        ["set"] : ["Sinful Shores"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "An explosive beach bro, Brand brings his signature blaze to the seashore, ruining every pastime with primordial flames. Volleyball? Flaming. Picnic? Burning. Swimming? Somehow on fire. Since this demon can't cool off no matter how hard he tries, Brand makes sure no one—not even his friend Hwei—can escape the summer heat."
       },
     }
   },
@@ -5380,6 +6257,7 @@
         ["release"] : "2014-05-11",
         ["voiceactor"] : ["JB Blanc"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "F8cPDpXnQa0",
         ["lore"] : "Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into rubble. Bearing an enchanted vault door as his shield, Braum roams the frozen north sporting a mustachioed smile as big as his muscles—a true friend to all those in need."
       },
       ["Dragonslayer"] : {
@@ -5478,6 +6356,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["JB Blanc"],
         ["splashartist"] : ["Xu 'Crow God' Cheng"],
+        ["music"] : "QZh5wRENttI",
         ["lore"] : "He's making that list, and checking it twice—but there's a lot of room for improvement because Braum is so nice! He may be tasked with giving coal to naughty children, but his big heart and sunny outlook ensure everyone gets exactly what they wanted... even the bad kids."
       },
       ["Crime City"] : {
@@ -5562,7 +6441,7 @@
             ["id"] : 32,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Sugar Rush 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["JB Blanc"],
@@ -5611,6 +6490,120 @@
         ["voiceactor"] : ["JB Blanc"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
         ["lore"] : "Braum's tiki lemonades are a lot like him—tall, sweet, and very popular with poros. Even the Boss is willing to wait his turn to get a glass!"
+      },
+      ["Grill Master"] : {
+        ["id"] : 42,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-02",
+        ["set"] : ["Day Job"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 44
+          }, 
+          ["Emerald"] : {
+            ["id"] : 45
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 50
+          }, 
+          ["Pearl"] : {
+            ["id"] : 49
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 48
+          }, 
+          ["Ruby"] : {
+            ["id"] : 43,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 46
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 47
+          }
+        },
+        ["voiceactor"] : ["JB Blanc"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "Braum is cooking up snax perfect for the hungriest of poros. Don't worry, humans can eat them too. (But they shouldn't.)"
+      },
+      ["Victorious"] : {
+        ["id"] : 51,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Reward for earning split points in Season 2026 - Split 1.",
+        ["release"] : "2026-04-30",
+        ["set"] : ["Victorious"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Bronze"] : {
+            ["id"] : 52,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }, 
+          ["Challenger"] : {
+            ["id"] : 60,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }, 
+          ["Diamond"] : {
+            ["id"] : 55,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }, 
+          ["Emerald"] : {
+            ["id"] : 56,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }, 
+          ["Gold"] : {
+            ["id"] : 54,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }, 
+          ["Grandmaster"] : {
+            ["id"] : 59,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }, 
+          ["Master"] : {
+            ["id"] : 58,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }, 
+          ["Platinum"] : {
+            ["id"] : 57,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }, 
+          ["Silver"] : {
+            ["id"] : 53,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2026 - Split 1"
+          }
+        },
+        ["voiceactor"] : ["JB Blanc"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "Victorious Braum was earned by players who accumulated enough split points in Ranked. Braum's tenacity proved him a hero worthy of divine blessings. Wielding the phoenix's frost, the ram's armor, and the bear's claws, Braum became the Freljord's eternal protector. Behind his steadfast shield, all the land now knows the power of peace and a warm smile."
       }
     }
   },
@@ -5625,6 +6618,7 @@
         ["release"] : "2023-09-13",
         ["voiceactor"] : ["Julie Nathanson"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "5LqjJYU6EP8",
         ["lore"] : "A failed experiment by the Black Rose, Briar's uncontrollable bloodlust required a special pillory to focus her frenzied mind. After years of confinement, this living weapon broke free from her restraints and unleashed herself into the world. Now she's controlled by no one—following only her hunger for knowledge and blood—and relishes the opportunities to let loose, even if reining back the frenzy isn't easy."
       },
       ["Street Demons"] : {
@@ -5680,12 +6674,13 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["filter"] : true,
         ["chromas"] : {
           ["Abyssal"] : {
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Amethyst"] : {
             ["id"] : 15
@@ -5717,7 +6712,52 @@
         },
         ["voiceactor"] : ["Julie Nathanson"],
         ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Briar was an early draft of Aatrox's perfection, but was deemed a “failure”—because instead of using her finely-honed mind to get back at surface-dwellers, she loves humans! Now that Briar has joined up with Anima Squad, maybe they can show her how to be more than what she was made to be."
+      },
+      ["Battle Academia"] : {
+        ["id"] : 20,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-01-22",
+        ["set"] : ["Battle Academia"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 22
+          }, 
+          ["Emerald"] : {
+            ["id"] : 23
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 27
+          }, 
+          ["Pearl"] : {
+            ["id"] : 28
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 26
+          }, 
+          ["Ruby"] : {
+            ["id"] : 21,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 24
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 25
+          }
+        },
+        ["voiceactor"] : ["Julie Nathanson"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "The confining rules of most God Weapon academies made it hard for Briar to be a successful student—until she transferred to Babylon Academy. Here there were no rules or guardrails, only directions. Want to study God Weapon history? Martial arts? Ceramics? All a student needed was an appetite for knowledge, and Briar's was <i>considerable</i>."
       }
     }  
   },
@@ -5743,7 +6783,8 @@
         },
         ["voiceactor"] : ["Kirsten Potter"],
         ["splashartist"] : ["Jason Chan"],
-        ["lore"] : "Renowned as its finest peacekeeper, Caitlyn is also Piltover’s best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner’s more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn’s most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress."
+        ["music"] : "itK7gvvxxDs",
+        ["lore"] : "Renowned as its finest peacekeeper, Caitlyn Kiramman is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn's most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress."
       },
       ["Resistance"] : {
         ["id"] : 1,
@@ -5833,10 +6874,11 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Kirsten Potter"],
+        ["music"] : "GgLChYl614A",
         ["lore"] : "A malignant spirit said to appear during Lunar Revel, Caitlyn is known to meddle in the affairs of gods and mortals alike. Her attention has been catastrophic to all who draw it, and even seeing her is considered an ill omen."
       },
       ["Pulsefire"] : {
@@ -5857,11 +6899,12 @@
             ["id"] : 21,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Kirsten Potter"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "5FGVOO2hTfI",
         ["lore"] : "A legendary chrono-law enforcer feared in every age, Caitlyn's mission is to protect the fragile enigma that is time. Those who dare threaten its integrity inevitably find themselves firmly locked in the sights of her temporal plasma blaster."
       },
       ["Pool Party"] : {
@@ -5896,6 +6939,7 @@
         },
         ["voiceactor"] : ["Kirsten Potter"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "ga2aatAtYaE",
         ["lore"] : "For Caitlyn, nothing says a perfect summer's day like lounging at a luxurious poolside, eating shaved ice and drinking tropical libations. And shooting people. She really loves shooting people."
       },
       ["Arcade"] : {
@@ -5910,6 +6954,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Kirsten Potter"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "EeyPmIssreo",
         ["lore"] : "Acclaimed hero of the “Sniper Cop” rail shooter series, Caitlyn enforced the laws of Arcadia prior to the Battle Boss uprising. She brings her sharp eye and eager trigger finger to the fight to save her world, only stopping long enough to flick her gun off-screen for a reload."
       },
       ["Prestige Arcade"] : {
@@ -5917,7 +6962,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-06-28",
         ["set"] : ["Arcade: Heroes"],
         ["neweffects"] : true,
@@ -5926,6 +6971,7 @@
         ["variant"] : 19,
         ["voiceactor"] : ["Kirsten Potter"],
         ["splashartist"] : ["Malex Zhang", "Kudos Productions"],
+        ["music"] : "EeyPmIssreo",
         ["lore"] : "Appearing most recently in “Sniper Cop 7” as a golden-clad secret character, Caitlyn's popularity has finally transcended games as a medium."
       },
       ["Battle Academia"] : {
@@ -5964,9 +7010,9 @@
         ["splashartist"] : ["Viktoria Gavrilenko", "West Studio"],
         ["lore"] : "A feared and respected second year, head of the Luminary Club, and class president of Labrys God-Weapon Academy. Caitlyn enrolled herself in the famously troubled school specifically to whip the delinquents there into prime fighting shape, hoping to one day become the greatest battlefield general in history. With her perfect record, she's not too far off."
       },
-      ["Arcane"] : {
+      ["Arcane Enforcer"] : {
         ["id"] : 28,
-        ["availability"] : "Available",
+        ["availability"] : "Legacy",
         ["looteligible"] : true,
         ["cost"] : 975,
         ["release"] : "2021-11-22",
@@ -5993,6 +7039,7 @@
         ["variant"] : 20,
         ["voiceactor"] : ["Kirsten Potter"],
         ["splashartist"] : ["Malex Zhang", "Kudos Productions"],
+        ["music"] : "EeyPmIssreo",
         ["lore"] : "Appearing most recently in “Sniper Cop 7” as a golden-clad secret character, Caitlyn's popularity has finally transcended games as a medium."
       },
       ["Snow Moon"] : {
@@ -6096,12 +7143,101 @@
             ["id"] : 49,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Kirsten Potter"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
         ["lore"] : "Honoring Deft's winning performance as Caitlyn during the 2022 World Championship."
+      },
+      ["Arcane Commander"] : {
+        ["id"] : 50,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-11-20",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 52,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Kirsten Potter"],
+        ["splashartist"] : ["Chace Chen", "Pandart Studio"],
+        ["lore"] : "Driven by a newfound desire for revenge, Caitlyn's principles have crumbled, leaving no room for hope or peace as tensions with Zaun continue to escalate. Her single-minded focus is on bringing Jinx to justice. But beneath the grief and guilt, doubt begins to creep in: is the cost of vengeance truly worth it?"
+      },
+      ["Prestige Arcane Commander"] : {
+        ["id"] : 51,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2024-11-20",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["variant"] : 50,
+        ["chromas"] : {
+          ["Stellar"] : {
+            ["id"] : 53,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Kirsten Potter"],
+        ["splashartist"] : ["Roanna Peroz", "Kudos Productions"],
+        ["lore"] : "As scion of the Kiramman family, Caitlyn knows how to command respect from the moment she enters a room—not only with her sharp appearance, but her even-sharper gaze as well. Having climbed the ranks to lead the city's enforcers, she makes an even stronger asset to the future of Piltover."
+      },
+      ["Firecracker"] : {
+        ["id"] : 54,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-04",
+        ["set"] : ["Lunar Revel: Firecracker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 60
+          }, 
+          ["Catseye"] : {
+            ["id"] : 56
+          }, 
+          ["Emerald"] : {
+            ["id"] : 57
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 61
+          }, 
+          ["Pearl"] : {
+            ["id"] : 62
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 59
+          }, 
+          ["Ruby"] : {
+            ["id"] : 55,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 58
+          }
+        },
+        ["voiceactor"] : ["Kirsten Potter"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["lore"] : "Using her signature precision, Caitlyn planned every detail of this year's celebration, down to securing her favorite star singer for all to enjoy. Now she's ready to keep the events running without a hitch, but once the revelry gets going, Caitlyn lets loose—a rare sight, and one she'd probably deny later."
       }
     }
   },
@@ -6116,6 +7252,7 @@
         ["release"] : "2016-12-07",
         ["voiceactor"] : ["Emily O'Brien"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "0GJNJ2fsFno",
         ["lore"] : "Weaponized to operate outside the boundaries of the law, Camille is the Principal Intelligencer of Clan Ferros—an elegant and elite agent who ensures the Piltover machine and its Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy technique as an embarrassment that must be put to order. With a mind as sharp as the blades she bears, Camille's pursuit of superiority through hextech body augmentation has left many to wonder if she is now more machine than woman."
       },
       ["Program"] : {
@@ -6154,7 +7291,7 @@
             ["id"] : 20,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 5
@@ -6192,6 +7329,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 43,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Emily O'Brien"],
         ["splashartist"] : ["Pan Chengwei"],
         ["lore"] : "Honoring Ning's winning performance as Camille during the 2018 World Championship."
@@ -6254,7 +7399,7 @@
             ["id"] : 30,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Steel Valkyries 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Aquamarine"] : {
             ["id"] : 25
@@ -6310,9 +7455,9 @@
           }, 
           ["Ornamented"] : {
             ["id"] : 42,
-            ["availability"] : "Loot",
-            ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Pearl"] : {
             ["id"] : 38
@@ -6336,7 +7481,7 @@
             ["id"] : 41,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Emily O'Brien"],
@@ -6358,6 +7503,49 @@
         ["voiceactor"] : ["Emily O'Brien"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
         ["lore"] : "No one dances between the runway and the fashion house like Camille. She relishes letting her rivals mistake her cold demeanor for disinterest, only to be stomped into dust by her cutting edge designs. For this year's Winter Gala, she aims to leave everyone with fashionable blessings, as long as they remember who they got them from."
+      },
+      ["Petals of Spring"] : {
+        ["id"] : 44,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-19",
+        ["set"] : ["Petals of Spring"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 48
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 51
+          }, 
+          ["Pearl"] : {
+            ["id"] : 52
+          }, 
+          ["Peridot"] : {
+            ["id"] : 46
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 49
+          }, 
+          ["Ruby"] : {
+            ["id"] : 45,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 50
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 47
+          }
+        },
+        ["voiceactor"] : ["Emily O'Brien"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["lore"] : "Camille was once a manifestation of the war-torn mortal realm's pain and suffering, but was cleansed by the cultivators of the Frostpyre Garden and transformed into a gardener herself. Her blades—first forged from memories of bloody conflicts and clashes—are now used to prune and maintain the flora's natural beauty as she helps prepare the way for spring."
       }
     }
   },
@@ -6467,7 +7655,7 @@
             ["id"] : 17,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Spirit Blossom 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 12
@@ -6493,7 +7681,7 @@
         },
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Clare Wong", "West Studio"],
-        ["lore"] : "Rumored to have once been a beautiful princess, legend says Cassiopeia vanished into the mountains when her sister staged a coup, never to return. So great was her beauty, and so renowned her cunning, that a shrine was built to honor this 'spirit of temptation', until her story was accepted into popular folklore."
+        ["lore"] : "There once was a princess as clever as she was beautiful, who harbored a bitter feud with her sister. Convinced she was the rightful heir to the throne, she tried to poison her rival—but instead, serpent scales bloomed across her soft skin. The Alluring Serpent disappeared that night into the mountains, but the faithful still seek her counsel to this day."
       },
       ["Coven"] : {
         ["id"] : 18,
@@ -6514,7 +7702,7 @@
             ["id"] : 27,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 22
@@ -6543,6 +7731,7 @@
         },
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Julia Yurtsev"],
+        ["music"] : "GS4KAWg2tXw",
         ["lore"] : "They came to Cassiopeia as a shadow within the fog—the shape of the Silver Cobra, slithering up from the numberless graves of the ancient dead. She now stalks the ruling families of humankind, her sculpture garden full of wayward souls who strayed too far from the safety of castle walls, now eternally frozen in the throes of terror."
       },
       ["Bewitching"] : {
@@ -6587,6 +7776,21 @@
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Silvia Meiliani", "Caravan Studio"],
         ["lore"] : "Cassiopeia found herself on the receiving end of a potion gone wrong when a venomous viper slithered into her bubbling cauldron. No longer able to ride her broom, she skulks about the party, hoping to catch the eyes of unsuspecting socialites. With the tail of a snake came… its appetite."
+      },
+      ["Prestige Mythmaker"] : {
+        ["id"] : 38,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2025-01-23",
+        ["set"] : ["Mythmaker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Karen Strassman"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "At the dawn of time, the goddess Cassiopeia prepares to create humanity using the five elements. But when the Paper World is suddenly changed, Cassiopeia creates something unexpected: a cruel artist who embodies what she fears most in herself. Now, she must repair the damage her creation has inflicted upon the land before he destroys it for good."
       }
     }
   },
@@ -6667,7 +7871,10 @@
             ["id"] : 11
           }, 
           ["Ruby"] : {
-            ["id"] : 8
+            ["id"] : 8,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 10
@@ -6678,6 +7885,7 @@
         },
         ["voiceactor"] : ["J.S. Gilbert"],
         ["splashartist"] : ["Alex Konstad"],
+        ["music"] : "09IKI8utQ3g",
         ["lore"] : "The gold standard of Battlecast shock troopers, Prime Cho'Gath implements self-replicating nanites that reinforce its frame as it consumes living tissue. It has become a common and terrifying sight in occupied cities, where it feeds on civilians who won't submit to conversion."
       },
       ["Prehistoric"] : {
@@ -6699,13 +7907,14 @@
         ["cost"] : "Special",
         ["distribution"] : "125 Mythic Essence",
         ["release"] : "2018-07-13",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["transforming"] : true,
         ["filter"] : true,
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "TKGeHMT6Ko4",
         ["lore"] : "Spawned from the remnants of a star system crippled by famine, Cho'Gath is driven to feed on any celestial body that crosses his path. These feasts swirl into the twin black holes at his heart—as endless and ageless as his hunger."
       },
       ["Shan Hai Scrolls"] : {
@@ -6834,6 +8043,20 @@
         },
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
         ["lore"] : "Snuggle up with Cho'Gath, your favorite plush pal! Squeeze his soft belly and watch him scare away bad dreams for a guaranteed good night's sleep. Extendable claw arms included for double the fun! Not suitable for children under 5 years of age. Some assembly required."
+      },
+      ["Petricite"] : {
+        ["id"] : 41,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2026, S1 Act 1 Premium Battle Pass reward (Level 8)",
+        ["release"] : "2026-01-08",
+        ["set"] : ["The Laws of Stone"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["splashartist"] :  ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Behold the fearsome jaws and scything limbs of this mighty statue, surely the likeness of some fell beast from the depths of the wyldwoods! Though it may strike fear into the heart of even the bravest warrior, all works of petricite serve to protect the people of Demacia… and this glittering gargoyle is no different."
       }
     }
   },
@@ -6916,7 +8139,7 @@
             ["id"] : 17,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2018"
+          	["distribution"] : "Mythic Shop"
           },
           ["Meteorite"] : {
             ["id"] : 35
@@ -6964,7 +8187,10 @@
             ["id"] : 16
           }, 
           ["Ruby"] : {
-            ["id"] : 10
+            ["id"] : 10,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 13
@@ -7014,6 +8240,7 @@
         },
         ["voiceactor"] : ["'Ralph'"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "E9f-J-r71i8",
         ["lore"] : "A dog trainer with some impractical ideas about canine aerodynamics, Corki has entered the world's foremost pet show with a flight-enabled Pembroke Welsh Corgi. Why has he done this? What does he hope to gain? Is he really a Yordle, or just a very small man? These are all important questions."
       },
       ["Astronaut"] : {
@@ -7062,6 +8289,50 @@
         ["voiceactor"] : ["'Ralph'"],
         ["splashartist"] : ["Sora Kim", "West Studio"],
         ["lore"] : "Commander Corki is both a veteran of the space program and its fearless leader. After traveling to a new and undiscovered planet with his intrepid crew, he befriended a stray alien meep that became his assistant and ally in exploring the galaxy. Together they fly, holding off the encroaching invasion of evil purple meeps that threaten the cosmos."
+      },
+      ["Brick Toy"] : {
+        ["id"] : 36,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-08-13",
+        ["set"] : ["Toy Box"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 42
+          },
+          ["Emerald"] : {
+            ["id"] : 38
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 44
+          }, 
+          ["Pearl"] : {
+            ["id"] : 43
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 39
+          }, 
+          ["Ruby"] : {
+            ["id"] : 37,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 40
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 41
+          }
+        },
+        ["voiceactor"] : ["'Ralph'"],
+        ["splashartist"] : ["Mo Yan"],
+        ["lore"] : "After Corki's breakout success in a new drama series about airplane pilots, executives wondered if he might appeal to younger audiences. When someone jokingly said “make him a chicken in a little chicken plane,” everybody laughed. The toy has now been sold out for 11 months, with a new TV show, video game, and theme park on the way."
       }
     }
   },
@@ -7087,6 +8358,7 @@
         },
         ["voiceactor"] : ["Chuck Kourouklis"],
         ["splashartist"] : ["Michal Ivan", "Sixmorevodka Studio"],
+        ["music"] : "upgwV0pIpXY",
         ["lore"] : "There is no greater symbol of Noxian might than Darius, the nation’s most feared and battle-hardened leader. Rising from humble origins to become the Hand of Noxus, he cleaves through the empire’s enemies—many of them Noxians themselves. Knowing that he never doubts his cause is just, and never hesitates once his axe is raised, those who stand against the commander of the Trifarian Legion can expect no mercy."
       },
       ["Lord"] : {
@@ -7107,6 +8379,7 @@
         ["set"] : ["Silver Age"],
         ["neweffects"] : true,
         ["voiceactor"] : ["Chuck Kourouklis"],
+        ["splashartist"] : ["Concept Art House"],
         ["lore"] : "To save his own life after being exposed to a cloud of radioactive space gas, investment banker Donald D. Darius was forced to build a suit containing the strange mixture. But the chemicals from beyond the stars warped his weakened mind, twisting him into the brutal villain known as Bioforge!"
       },
       ["Woad King"] : {
@@ -7159,6 +8432,7 @@
         },
         ["voiceactor"] : ["Chuck Kourouklis"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "GU1bnVM6yno",
         ["lore"] : "Sporting over a hundred different endorsement deals and tens of millions of fans the world over, Darius has transformed himself from a showy basketball prodigy to the world's leading authority on dunking. He has recently perfected the Dunktown Express, where he dunks so hard that all public transit on the planet simultaneously explodes."
       },
       ["Academy"] : {
@@ -7202,6 +8476,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Chuck Kourouklis"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "GXU77gZnShI",
         ["lore"] : "God-King Darius is a bringer of true carnage—the descendant of primordial deities long forgotten in the shadow of Demacia. Slaughtering monarchs and gods alike, he seeks to end the false world of unity and peace, ushering in an age of endless war where only the strongest will survive."
       },
       ["High Noon"] : {
@@ -7216,22 +8491,22 @@
         ["newrecall"] : true,
         ["chromas"] : {
           ["Emerald"] : {
-            ["id"] : 22,
+            ["id"] : 20,
             ["availability"] : "Partner",
             ["source"]       : "Partner",
           	["distribution"] : "Partner Program"
           }, 
           ["Nomad"] : {
-            ["id"] : 21,
+            ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 18
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 21
+            ["id"] : 22
           }, 
           ["Ruby"] : {
             ["id"] : 17,
@@ -7240,7 +8515,7 @@
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
-            ["id"] : 20
+            ["id"] : 21
           }, 
           ["Tanzanite"] : {
             ["id"] : 19
@@ -7286,11 +8561,12 @@
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Beast 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Chuck Kourouklis"],
         ["splashartist"] : ["Forrest Imel", "West Studio"],
+        ["music"] : "xotOsL4NRCs",
         ["lore"] : "Darius' imposing presence and determination to lead by example cause occasional tension between him and Alistar, the actual leader of the squad. Despite how overbearing he can be, Darius is a strong and steadfast friend to his teammates and a rock for the whole Clan."
       },
       ["Crime City Nightmare"] : {
@@ -7336,7 +8612,7 @@
             ["id"] : 42,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Crime City 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Chuck Kourouklis"],
@@ -7364,7 +8640,7 @@
             ["id"] : 52,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 50
@@ -7390,7 +8666,7 @@
         },
         ["voiceactor"] : ["Chuck Kourouklis"],
         ["splashartist"] : ["Eric Xie", "West Studio"],
-        ["lore"] : "Darius' body fell to the dirt, yet another soldier's sacrifice. But his soul would not rest. Picking up his axe just as soon as it was knocked from his mortal hand, the Spirit of War arose. A calamity motivated only towards bloodshed, Darius stalks the mortal world, searching for the thrill of battle. "
+        ["lore"] : "A soldier claimed a magical axe among his spoils of war. The axe gave him great strength, and he decimated his enemy before he was ignobly struck down. But the axe would not let him rest—it demanded more bloodshed. Risen again as a raging spirit, the Axeman is cursed to stalk the fields where great soldiers have fallen, thirsting for the thrill of battle."
       },
       ["Porcelain"] : {
         ["id"] : 54,
@@ -7416,7 +8692,7 @@
             ["id"] : 63,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 61
@@ -7439,12 +8715,12 @@
         },
         ["voiceactor"] : ["Chuck Kourouklis"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "Darius has watched the modern-day protector of the Tiger Relic from afar, silently judging his descendant. Back when he was protector, the Tiger was a symbol of pride... Now it seems the Zodiac will hand off the duty to anyone with a minor in archeology. Returned to physical form, Darius believes he can show this kid a thing or two."
       },
       ["Divine God-King"] : {
         ["id"] : 64,
         ["availability"] : "Rare",
-        ["looteligible"] : true,
         ["cost"] : "Special",
         ["distribution"] : "1% drop rate from Capsules or opening 30 Capsules",
         ["release"] : "2024-08-28",
@@ -7457,6 +8733,68 @@
         ["voiceactor"] : ["Chuck Kourouklis"],
         ["splashartist"] : ["David Villegas", "West Studio"],
         ["lore"] : "God-King Darius is a bringer of true carnage—the descendant of primordial deities long forgotten in the shadow of Demacia. Slaughtering monarchs and gods alike, he seeks to end the false world of unity and peace, ushering in an age of endless war where only the strongest will survive."
+      },
+      ["Prestige Triumphant General"] : {
+        ["id"] : 65,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 2 Premium Battle Pass reward (Level 50)",
+        ["release"] : "2025-03-05",
+        ["set"] : ["Grand Reckoning"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 66,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Chuck Kourouklis"],
+        ["splashartist"] :  ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Only when the smoke has cooled to ash and the blood on his axe has dried does Darius know that victory is secured. It is time to return home. Pomp and circumstance are hardly what Darius fights for—he finds them tedious—but every face in that crowd is a kinsman. He fights for his nation, and these people? These people are Noxus."
+      },
+      ["Mecha Kingdoms"] : {
+        ["id"] : 67,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2025-11-05",
+        ["set"] : ["Mecha Kingdoms"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 72
+          }, 
+          ["Emerald"] : {
+            ["id"] : 71
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 73
+          }, 
+          ["Pearl"] : {
+            ["id"] : 69
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 70
+          }, 
+          ["Ruby"] : {
+            ["id"] : 68,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },        
+        ["voiceactor"] : ["Chuck Kourouklis"],
+        ["splashartist"] : ["Chace Chen", "Pandart Studio"],
+        ["lore"] : "Furious with Vercentia's attempts to defeat the Leviathans, the general Darius defected with his Avalon to the outlands. There he carved a bloody path through every beast he met, amassing a grateful following beneath his banner. He and his army now storm across the land to liberate its people—first from monsters, then the folly of impotent leadership."
       }
     }
   },
@@ -7471,6 +8809,7 @@
         ["release"] : "2012-08-07",
         ["voiceactor"] : ["Nicole Oliver"],
         ["splashartist"] : ["Kienan 'Knockwurst' Lafferty"],
+        ["music"] : "ay_o-BGVhL4",
         ["lore"] : "Bearing her crescent moonblade, Diana fights as a warrior of the Lunari—a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon’s power. Imbued with the essence of an Aspect from beyond Targon’s towering summit, Diana is no longer wholly human, and struggles to understand her power and purpose in this world."
       },
       ["Dark Valkyrie"] : {
@@ -7512,14 +8851,18 @@
             ["id"] : 9
           }, 
           ["Ruby"] : {
-            ["id"] : 4
+            ["id"] : 4,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Turquoise"] : {
             ["id"] : 7
           }
         },
         ["voiceactor"] : ["Nicole Oliver"],
-        ["splashartist"] : ["Michal Ivan", "Puppetworks Animation Studio"]
+        ["splashartist"] : ["Michal Ivan", "Puppetworks Animation Studio"],
+        ["music"] : "h-6wHfudAPQ"
       },
       ["Infernal"] : {
         ["id"] : 3,
@@ -7549,6 +8892,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Nicole Oliver"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "myEKQkKdKtQ",
         ["lore"] : "A child chosen by the Blood Moon itself, Diana's mind has been opened to the lost ways of the cult—unknown to its leaders, and even the slavering demons beyond. Hers is a truth no one can know, and a fated metamorphosis beyond men and the gods."
       },
       ["Dark Waters"] : {
@@ -7557,7 +8901,6 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-05-31",
-        ["earlysale"] : "",
         ["set"] : ["Bilgewater: Curse of the Drowned"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -7571,7 +8914,10 @@
             ["id"] : 13
           }, 
           ["Ruby"] : {
-            ["id"] : 14
+            ["id"] : 14,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 17
@@ -7633,6 +8979,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Nicole Oliver"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "uFCjVtJ2gJQ",
         ["lore"] : "Exiled for heresy, Diana has assented to return to her queendom to save her people—nothing else. She intends to use the Coronation to prove her worth and force Eos' elders to admit the truth of her beliefs: that the Crest answers to the will of the nation, not its leaders."
       },
       ["Prestige Battle Queen"] : {
@@ -7649,6 +8996,7 @@
         ["variant"] : 25,
         ["voiceactor"] : ["Nicole Oliver"],
         ["splashartist"] : ["Sanhua Chen", "Kudos Productions"],
+        ["music"] : "uFCjVtJ2gJQ",
         ["lore"] : "After revealing the truth at her nomination ceremony, Diana will let nothing stand in her way. Clad in new armor as steely as her resolve, Diana intends to subdue the Tournament's monsters—and the power-hungry religious order that has stifled Eosia."
       },
       ["Sentinel"] : {
@@ -7675,7 +9023,7 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 35
@@ -7698,6 +9046,7 @@
         },
         ["voiceactor"] : ["Nicole Oliver"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "The Ruination of Targon and the loss of the Aspect of War devastated the Rakkor tribes. But the only way to fight an Aspect's power is with another Aspect—and so Diana takes up her blade as a member of the Sentinels, knowing that Viego would destroy everything the moonlight touches."
       },
       ["Firecracker"] : {
@@ -7721,7 +9070,7 @@
             ["id"] : 46,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 45
@@ -7784,11 +9133,12 @@
             ["id"] : 53,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Nicole Oliver"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "GJLHlBRqKAI",
         ["lore"] : "One can learn many lessons from the tales of Polaris, the living embodiment of the Aurora. Each year brings a new Polaris and a new chance to receive the Aurora's blessings—or its punishments. This incarnation of Polaris, Diana, arrived to find three local leaders waiting for her, eager for blessings: the Hunter Swain, Sage Zilean, and Warden Zoe."
       },
       ["Heavenscale"] : {
@@ -7815,7 +9165,7 @@
             ["id"] : 63,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 62
@@ -7838,7 +9188,130 @@
         },
         ["voiceactor"] : ["Nicole Oliver"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "The library of the Kingdom of Dragons is an illustrious archive of wisdom from ages past: a collection kept by Diana, scholar of the court. A fierce academic as well as a fighter, she accompanies the prince on his journey to document this historical first encounter between dragons and humans."
+      },
+      ["Dark Cosmic"] : {
+        ["id"] : 64,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-10-23",
+        ["set"] : ["Dark Star"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 67
+          }, 
+          ["Emerald"] : {
+            ["id"] : 70
+          }, 
+          ["Pearl"] : {
+            ["id"] : 73
+          }, 
+          ["Quasar"] : {
+            ["id"] : 74,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }, 
+          ["Rainbow"] : {
+            ["id"] : 72
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 69
+          }, 
+          ["Ruby"] : {
+            ["id"] : 66,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 68
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 71
+          }
+        },
+        ["voiceactor"] : ["Nicole Oliver"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["lore"] : "Diana was once a favorite of Cosmic Queen Ashe, but was labeled a heretic and banished for trying to understand the Dark Star's power with a little too much interest for the Court's comfort. Left adrift in the bleak nothingness of space, she had no choice but to embrace the chaos that had fascinated her for so long."
+      },
+      ["Prestige Dark Cosmic"] : {
+        ["id"] : 65,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2024-10-23",
+        ["set"] : ["Dark Star"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["variant"] : 64,
+        ["voiceactor"] : ["Nicole Oliver"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "Diana has always been lightyears ahead of the fashion world, unafraid to be avant-garde when others shy away. This Gala, she was inspired by event horizons and waves of energy bending and twisting across space and time, lending darkly cosmic shapes to her striking, out-of-this-world look."
+      },
+      ["Eternal Aspect"] : {
+        ["id"] : 76,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2026-05-28",
+        ["set"] : ["The Eternal Aspects"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 80
+          }, 
+          ["Emerald"] : {
+            ["id"] : 81
+          }, 
+          ["Pearl"] : {
+            ["id"] : 43
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 83
+          }, 
+          ["Ruby"] : {
+            ["id"] : 78,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 82
+          }
+        },
+        ["voiceactor"] : ["Nicole Oliver"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["lore"] : "The Silver Moon is the architect—a visionary who cleaves truth from shadow. Alongside the Golden Sun, she revealed to worthy mortals an eternity beyond the abyssal threat that looms over all creation. An oracle who moves in silence and secrecy, the Moon strikes against oblivion with wisdom as cold and sharp as her celestial blade."
+      },
+      ["Eclipse Eternal Aspect"] : {
+        ["id"] : 77,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks",
+        ["release"] : "2026-05-28",
+        ["set"] : ["The Eternal Aspects"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["variant"] : 76,
+        ["voiceactor"] : ["Nicole Oliver"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "The eclipsed Moon is the calamity—the scornful deliverer of holy annihilation. No longer does alliance with the Golden Sun serve her ends, nor does secrecy suit her means. Her wisdom has culminated into unshakeable resolve: she alone shall bring righteous destruction and end the abyssal threat to existence—even if rage devours all who stand in her path."
       },
     }
   },
@@ -7853,6 +9326,7 @@
         ["release"] : "2009-09-01",
         ["voiceactor"] : ["Armen Taylor"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "Iy1yS9ysT4A",
         ["lore"] : "Utterly insane, unrepentantly homicidal, and horrifyingly purple, Dr. Mundo is what keeps many of Zaun’s citizens indoors on particularly dark nights. This monosyllabic monstrosity seems to want nothing more than pain—both the giving of it, and the receiving of it. Wielding his massive meat cleaver as if it were weightless, Mundo is infamous for capturing and torturing dozens of Zaun’s citizens for his nefarious 'operations,' which seem to have no overall point or goal. He is brutal. He is unpredictable. He goes where he pleases. He is also not, technically, a doctor."
       },
       ["Toxic"] : {
@@ -7864,7 +9338,7 @@
         ["retired"] : "2011-11-28",
         ["set"] : ["Silver Age"],
         ["voiceactor"] : ["Armen Taylor"],
-        ["splashartist"] : ["West Studio"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "Mundo not toxic, Mundo has healthy emotional coping mechanisms—oh, you mean purple goo? Mundo is sure that's fine, too."
       },
       ["Mr. Mundoverse"] : {
@@ -7927,6 +9401,7 @@
         ["neweffects"] : true,
         ["voiceactor"] : ["Armen Taylor"],
         ["splashartist"] : ["Svetlana Tigai", "West Studio"],
+        ["music"] : "j5Uv1K_CmNw",
         ["lore"] : "Mundo could have dressed as anyone to go trick-or-treating, but this year he went as Mundo. Every year he goes as Mundo. Mundo trick-or-treats as he pleases."
       },
       ["Executioner Mundo"] : {
@@ -8036,6 +9511,7 @@
         },
         ["voiceactor"] : ["Armen Taylor"],
         ["splashartist"] : ["Xu 'Crow God' Cheng"],
+        ["music"] : "lrFxZmsiLs0",
         ["lore"] : "Once a handsome prince from an outlying region of the Winterlands, Mundo was touched by the curse of Ice King Twitch—corrupting him into a brutish thrall. He's still convinced he's the same statuesque royal as before, and as such… goes where he pleases."
       },
       ["Street Demons"] : {
@@ -8094,6 +9570,7 @@
         ["release"] : "2012-06-05",
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Andrew 'Silver' Silver"],
+        ["music"] : "H1xHayXetLU",
         ["lore"] : "In Noxus, warriors known as reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, not to mention the spray of blood from each of his spinning axes. Addicted to the spectacle of his own brash perfection, Draven has sworn to defeat whomever he must to ensure that his name is chanted throughout the empire forever more."
       },
       ["Soul Reaver"] : {
@@ -8187,11 +9664,12 @@
         ["formatname"] : "Draven Draven",
         ["availability"] : "Legacy",
         ["looteligible"] : true,
-        ["cost"] : 500,
+        ["cost"] : 520,
         ["release"] : "2016-03-31",
         ["set"] : ["Definitely Not"],
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "2Ncmjy-HaeA",
         ["lore"] : "Not Draven, Draaaaaaven."
       },
       ["Santa"] : {
@@ -8206,6 +9684,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "dSNQMl16GiY",
         ["lore"] : "Draven always knew he would make the perfect Santa. He's handsome, his hair is incredible, he has a great sense of fashion, he's defeated hundreds in the Noxian fighting pits, and his flying axes are super sharp—the perfect Santa, more or less."
       },
       ["Mecha Kingdoms"] : {
@@ -8233,7 +9712,7 @@
             ["id"] : 15,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Mecha Kingdoms 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 18
@@ -8270,7 +9749,7 @@
             ["id"] : 28,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 25
@@ -8293,6 +9772,7 @@
         },
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Xiao Guang Sun", "West Studio"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "A showman no matter the circumstance, Draven challenged Viego to a duel that the Glorious Executioner immediately lost, resulting in his ruination. Unlike his ruined brethren, little has changed about Draven save for a white shock hair on his head and a slightly more vicious personality than usual."
       },
       ["Debonair"] : {
@@ -8313,7 +9793,7 @@
             ["id"] : 38,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Debonair 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 33
@@ -8385,7 +9865,7 @@
         },
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Park Jun Seong", "West Studio"],
-        ["lore"] : "Draven's vivid violence gives everyone a fright&lt;br>Hide 'n' seek is higher stakes these days at night&lt;br>“There's no escape for you,” he cackles with delight&lt;br>But say his name three times with praise, and he might forget the fight!"
+        ["lore"] : "Draven's vivid violence gives everyone a fright<br>Hide 'n' seek is higher stakes these days at night<br>“There's no escape for you,” he cackles with delight<br>But say his name three times with praise, and he might forget the fight!"
       },
       ["La Ilusión"] : {
         ["id"] : 48,
@@ -8429,12 +9909,132 @@
             ["id"] : 57,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "La Ilusión Megabundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Eric Xie", "West Studio"],
         ["lore"] : "Draven always dreamed of going out in a blaze of glory during his daredevil act, but when he got his wish, nobody was around to savor it. Only slightly humbler as an Eidola Muerte, Draven's found his kin within the Ego Family and spends his time spotting other glory hounds among the living, using his manipulative Ardor powers to send them off in style."
+      },
+      ["Grand Reckoning"] : {
+        ["id"] : 58,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-03-05",
+        ["set"] : ["Grand Reckoning"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 60
+          }, 
+          ["Emerald"] : {
+            ["id"] : 61
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 66
+          }, 
+          ["Paragon"] : {
+            ["id"] : 67,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 65
+          }, 
+          ["Ruby"] : {
+            ["id"] : 59,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 63
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 64
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 62
+          }
+        },
+        ["voiceactor"] : ["Erik Braa"],
+        ["splashartist"] : ["Chace Chen", "Pandart Studio"],
+        ["lore"] : "“The master of ceremonies, the host with the most, the axe-spinning icon of the arena himself... DRRRRRRRRRRRRRRRAVEN!” The crowd goes wild for his entrance, bursting into raucous applause. Adoration never gets old—and a show where he takes center stage is music to Draven's ears. Oh, and Darius is being celebrated too."
+      },
+      ["Victorious"] : {
+        ["id"] : 68,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "special",
+        ["distribution"] : "Reward for earning split points in Season 2025 - Split 3.",
+        ["release"] : "2026-01-08",
+        ["set"] : ["Victorious"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Bronze"] : {
+            ["id"] : 69,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }, 
+          ["Challenger"] : {
+            ["id"] : 77,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }, 
+          ["Diamond"] : {
+            ["id"] : 74,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }, 
+          ["Emerald"] : {
+            ["id"] : 73,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }, 
+          ["Gold"] : {
+            ["id"] : 71,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }, 
+          ["Grandmaster"] : {
+            ["id"] : 76,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }, 
+          ["Master"] : {
+            ["id"] : 75,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }, 
+          ["Platinum"] : {
+            ["id"] : 72,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }, 
+          ["Silver"] : {
+            ["id"] : 70,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 2"
+          }
+        },
+        ["voiceactor"] : ["Erik Braa"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "Victorious Draven was earned by players who accumulated enough split points in Ranked. Transcending his Reckoner past, Draven has turned the whole empire into a stage where Noxians vie for glory under his watch. Strength and spectacle are the only currencies on this battlefield—and when he decides to fight, Draven always comes out on top."
       }
     }
   },
@@ -8449,7 +10049,8 @@
         ["release"] : "2015-05-27",
         ["voiceactor"] : ["Antony Del Rio"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
-        ["lore"] : "A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this freedom, when there’s a threat to his friends he’ll do anything to defend them. To outsiders, Ekko seems to achieve the impossible the first time, every time."
+        ["music"] : "8_OSWJeVTg0",
+        ["lore"] : "A prodigy from the rough streets of Zaun, Ekko is able to manipulate time to twist any situation to his advantage. He uses his own invention, the Z-Drive, to explore the branching possibilities of reality, crafting the perfect moment to seemingly achieve the impossible the first time, every time. Though Ekko revels in this freedom, when there's a threat to those he cares about, he and the Firelights will do anything to defend them."
       },
       ["Sandstorm"] : {
         ["id"] : 1,
@@ -8458,7 +10059,6 @@
         ["cost"] : 975,
         ["release"] : "2015-05-27",
         ["earlysale"] : "2015-12",
-        ["set"] : ["Guardian of the Sands"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -8485,6 +10085,7 @@
             ["id"] : 4
           }
         },
+        ["set"] : ["Guardian of the Sands"],
         ["voiceactor"] : ["Antony Del Rio"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"]
       },
@@ -8552,7 +10153,7 @@
             ["id"] : 18,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2018"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 17
@@ -8593,7 +10194,7 @@
             ["id"] : 22,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "True Damage 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 27
@@ -8616,6 +10217,7 @@
         },
         ["voiceactor"] : ["Umar 'Thutmose' Ibrahim"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "A boy genius from the rough streets, Ekko turned to music as a way to express himself. His prodigious lyricism and technological savvy could have bought him a way out, but instead, he chose to stay and uplift his neighborhood. Now, he fiercely resists the temptations of fame and glory, garnering a following among the young and hopeful who see him as an avatar for their own potential."
       },
       ["Pulsefire"] : {
@@ -8636,7 +10238,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Citrine"] : {
             ["id"] : 30
@@ -8661,9 +10263,9 @@
         ["splashartist"] : ["David Villegas", "West Studio"],
         ["lore"] : "A time fugitive who built his Pulsefire suit from scratch, Ekko improved on the Remembrancers' technology, crafting a modified Chronobreak device that allows him to make short temporal jumps, create time breaks within a singular timeline, and to collapse them all into a single, anomaly-free singularity."
       },
-      ["Firelight"] : {
+      ["Arcane Firelight"] : {
         ["id"] : 36,
-        ["availability"] : "Available",
+        ["availability"] : "Legacy",
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-02-17",
@@ -8710,8 +10312,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-07-14",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -8720,7 +10321,7 @@
             ["id"] : 55,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 50
@@ -8741,7 +10342,7 @@
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
-            ["id"] : 55
+            ["id"] : 48
           }, 
           ["Tanzanite"] : {
             ["id"] : 52
@@ -8752,6 +10353,7 @@
         },
         ["voiceactor"] : ["Antony Del Rio"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "Given time-shifting powers by the First Star, Ekko approaches life with a relaxed and casual demeanor. Why care if you get infinite do-overs? But when it comes to facing monsters alongside the Star Guardians, he's deadly serious, using his command over time and space to keep Valoran City safe from the darkness."
       },
       ["Prestige Star Guardian"] : {
@@ -8759,16 +10361,16 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2022-07-14",
-        ["distribution"] : "125 Mythic Essence",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 45,
         ["voiceactor"] : ["Antony Del Rio"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "Ekko doesn't need magical powers to look like a star. He rocks an effortless streetwear style wherever he goes, turning heads and paparazzi lenses alike. Appreciating the look? Take it all in. He's got time."
       },
       ["Breakout True Damage"] : {
@@ -8776,7 +10378,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : false,
         ["cost"] : "Special",
-        ["distribution"] : "1% drop rate from Breakout 2023 Capsules or opening 30 Breakout 2023 Capsules",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks. Previously obtained with a 1% drop rate from Breakout 2023 Capsules or opening 30 Breakout 2023 Capsules.",
         ["release"] : "2023-11-08",
         ["set"] : ["True Damage"],
         ["neweffects"] : true,
@@ -8786,6 +10388,28 @@
         ["voiceactor"] : ["Umar 'Thutmose' Ibrahim"],
         ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
         ["lore"] : "A boy genius from the rough streets, Ekko turned to music as a way to express himself. His prodigious lyricism and technological savvy could have bought him a way out, but instead, he chose to stay and uplift his neighborhood. Now, he fiercely resists the temptations of fame and glory, garnering a following among the young and hopeful who see him as an avatar for their own potential."
+      },
+      ["Arcane Last Stand"] : {
+        ["id"] : 57,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-12-11",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 58,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Antony Del Rio"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "While the future of Piltover and Zaun is unclear, one thing remains constant—Ekko's dedication to those he loves, and to the future of Zaun. Armed with his Z-Drive, he is ready to fight for that future, even if the odds are stacked against him. Luckily, the boy savior still has a few tricks up his sleeve…"
       }
     }
   },
@@ -8800,6 +10424,7 @@
         ["release"] : "2012-10-26",
         ["voiceactor"] : ["Sydney Rainin-Smith"],
         ["splashartist"] : ["Katie 'TeaTime' De Sousa"],
+        ["music"] : "skD_I-SHk30",
         ["lore"] : "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly inhuman—a spider-like creature, drawing unsuspecting prey into her web. To maintain her eternal youth, Elise now prefers to feed upon the naive and the faithless, and there are few who can resist her seductions."
       },
       ["Death Blossom"] : {
@@ -8935,6 +10560,12 @@
           ["Obsidian"] : {
             ["id"] : 23
           }, 
+          ["Paragon"] : {
+            ["id"] : 35,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          },  
           ["Pearl"] : {
             ["id"] : 22
           }, 
@@ -8983,7 +10614,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 30
@@ -9008,18 +10639,18 @@
         ["splashartist"] : ["Nathaniel Himawan", "West Studio"],
         ["lore"] : "They came to Elise long ago, crawling through the underbrush, their many eyes locked with hers as a deal was made. The unfathomable powers of an Old God for her devotion and humanity. Reborn in the image of an arachnoid deity, Elise lingers along the edges of the Elderwood, enticing to their doom all those foolish enough to believe her a mere folktale."
       },
-      ["Masque of the Black Rose"]: {
-        ["id"]: 34,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S1 Act 1 Free Battle Pass reward (Level 20)",
-        ["release"]: "2025-01-09",
-        ["set"]: ["Masque of the Black Rose"],
-        ["neweffects"]: true,
-        ["voiceactor"]: ["Sydney Rainin-Smith"],
-        ["splashartist"]: ["Terence 'Terrylefruit' Cantal"],
-        ["lore"]: "Lady Elise, I trust your preparations for the Silken Danse are proceeding smoothly. A fine mistress-of-ceremonies you shall be. You must be. Your houses have weaved a vast web, but gossamer is delicate, especially with the rise of the new Grand General. Be vigilant. Let no thorn pierce our flowers. (The letter is stamped with a rose symbol.)"
+      ["Masque of the Black Rose"] : {
+        ["id"] : 34,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 1 Free Battle Pass reward (Level 20)",
+        ["release"] : "2025-01-09",
+        ["set"] : ["Masque of the Black Rose"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["Sydney Rainin-Smith"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Lady Elise, I trust your preparations for the Silken Danse are proceeding smoothly. A fine mistress-of-ceremonies you shall be. You must be. Your houses have weaved a vast web, but gossamer is delicate, especially with the rise of the new Grand General. Be vigilant. Let no thorn pierce our flowers. (The letter is stamped with a rose symbol.)"
       }
     }
   },
@@ -9034,6 +10665,7 @@
         ["release"] : "2009-04-30",
         ["voiceactor"] : ["Mara Junot"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "h98vAgTQihs",
         ["lore"] : "Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn’s true form is unleashed. She then subjects her victim to unspeakable torment, gratifying herself with their pain. To the demon, these liaisons are innocent flings. To the rest of Runeterra, they are ghoulish tales of lust gone awry and horrific reminders of the cost of wanton desire."
       },
       ["Shadow"] : {
@@ -9111,6 +10743,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Mara Junot"],
         ["splashartist"] : ["Alvin Lee", "Pan Chengwei", "Bo 'chenbowow' Chen"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "No one is as deliciously volatile as Evelynn. She's a diva who drives divisiveness in the media—they love her one day and hate her the next, her name a permanent fixture of tabloid headlines. She is a born superstar, and the foundation of K/DA's sound."
       },
       ["Prestige KDA"] : {
@@ -9119,7 +10752,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-04-18",
         ["set"] : ["K/DA"],
         ["neweffects"] : true,
@@ -9128,6 +10761,7 @@
         ["variant"] : 6,
         ["voiceactor"] : ["Mara Junot"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "With that wild in her veins, K/DA Evelynn stomps into the spotlight, shimmering in a custom golden outfit from the Pop Music Awards. Only 'winning, winning' now."
       },
       ["Sugar Rush"] : {
@@ -9163,7 +10797,7 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Sugar Rush 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Mara Junot"],
@@ -9186,7 +10820,7 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 20
@@ -9215,6 +10849,7 @@
         },
         ["voiceactor"] : ["Mara Junot"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "3VTkBuxU4yk",
         ["lore"] : "With a single devastating glance, Evelynn can ensure that all eyes are on her—when she wants them to be. K/DA's success has ensured that this provocative diva's name will be on everyone's lips, but Evelynn is intent that her killer fashion sense will keep it there."
       },
       ["Coven"] : {
@@ -9233,7 +10868,7 @@
             ["id"] : 30,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 29
@@ -9256,6 +10891,7 @@
         },
         ["voiceactor"] : ["Mara Junot"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "GS4KAWg2tXw",
         ["lore"] : "The covens of the south join their sisters for the great resurrection, as old things stir once more, and old grudges are at last repaid in full. Evelynn, daughter of the Great Harrier, gladly joins her sisters for the darkness to come—a trail of brutality and death always in her wake."
       },
       ["Prestige KDA (2022)"] : {
@@ -9273,6 +10909,7 @@
         ["variant"] : 7,
         ["voiceactor"] : ["Mara Junot"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "With that wild in her veins, K/DA Evelynn stomps into the spotlight, shimmering in a custom golden outfit from the Pop Music Awards. Only 'winning, winning' now."
       },
       ["Spirit Blossom"] : {
@@ -9296,7 +10933,7 @@
             ["id"] : 41,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 39
@@ -9322,7 +10959,7 @@
         },
         ["voiceactor"] : ["Mara Junot"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
-        ["lore"] : "Come. Leave your flesh behind and pass into the Spirit World. Bring with you only your desires, your vices, your painful memories. Let the Spirit of Love feed on these unwanted temptations, for her hunger is ravenous. Evelynn will show you peace at last."
+        ["lore"] : "Mortals burdened by pain and fear may pray to the Sorrow Eater to alleviate their burdens. But every gift comes at a price. One tale recounts a woman whose weighty emotions had made her the prey of demonkin. The Sorrow Eater offered to dine freely on her desires and memories—and when she was sated, the woman was at peace, free of pain…and of feeling."
       },
       ["Soul Fighter"] : {
         ["id"] : 42,
@@ -9345,7 +10982,7 @@
             ["id"] : 51,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 50
@@ -9371,6 +11008,7 @@
         },
         ["voiceactor"] : ["Mara Junot"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "Most awaken their souls through hard work, but this fighter... no! All it took was a stop by the Department for the Eradication of Manifested Anomalies and boom! Cobra powers. SURE, apparently the procedure involves the \"worst pain one can possibly imagine.\" But look at her now! Here to hunt down a daughter with nowhere left to run... it's Evelynn!"
       },
       ["High Noon"] : {
@@ -9394,7 +11032,7 @@
             ["id"] : 62,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 61
@@ -9419,9 +11057,9 @@
           }, 
           ["Vendetta"] : {
             ["id"] : 63,
-            ["availability"] : "Loot",
-            ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2024"
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Mara Junot"],
@@ -9433,7 +11071,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "2000 High Noon Tokens",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2024-03-20",
         ["set"] : ["High Noon"],
         ["neweffects"] : true,
@@ -9445,16 +11083,16 @@
         ["lore"] : "Ateliers near and far always ask Evelynn to wear their haute couture, but for this Gala, she's bringing her edgy elegance to a rowdier line of Western wear instead. What is fashion if not a wild new frontier? If there's anyone who knows how to take style by the reins and ride it into the sunset, it's this rodeo queen."
       },
       ["Nightbringer"] : {
-        ["id"]: 64,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S2 Act 2 Premium Battle Pass reward (Level 10)",
-        ["release"]: "2025-06-25",
-        ["set"]: ["Nightbringer and Dawnbringer"],
-        ["neweffects"]: true,
-        ["voiceactor"]: ["Mara Junot"],
-        ["splashartist"]: ["Su Fu", "Kudos Productions"],
+        ["id"] : 64,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S2 Act 2 Premium Battle Pass reward (Level 10)",
+        ["release"] : "2025-06-25",
+        ["set"] : ["Nightbringer and Dawnbringer"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["Mara Junot"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
         ["lore"] : "A whispered temptation, a tip over the precipice, a dizzying descent into depravity… Chaos is not merely the providence of carnage and rage. Blood doesn't care if it is spilled from the edge of a broadsword or the delicate slice of a lasher—Evelynn knows that sometimes, for foes as powerful as the Dawnbringers, a gentle touch is required."
       }
     }
@@ -9502,6 +11140,14 @@
         ["cost"] : 520,
         ["release"] : "2010-07-18",
         ["set"] : ["Freljord"],
+        ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 74,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Yan Li"],
         ["lore"] : "Ezreal occasionally finds himself in the Freljord, searching for such-and-such ancient artifact. But braving sub-zero temperatures, terrifying ice beasts, and angry Freljordian tribes is a tall order, even for him—that's why he goes in disguise. He's practically a different person!"
@@ -9532,7 +11178,7 @@
         ["newvoice"] : true,
         ["extras"] : true,
         ["formicon"] : "Pulsefire Ezreal",
-        ["forms"] : ["Level 01","Level 06","Level 11","Level 16"],
+        ["forms"] : ["Level 01", "Level 06", "Level 11", "Level 16"],
         ["chromas"] : {
           ["Level 06"] : {
             ["id"] : 5
@@ -9546,6 +11192,7 @@
         },
         ["voiceactor"] : ["Daniel Amerman", "Christine Brynn Khalil"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "NSM31U-4Eik",
         ["lore"] : "Temporal fugitive and time-hopping explorer extraordinaire, Ezreal leaps across disparate realities searching for interesting technology to acquire. He is responsible for countless paradoxes and is currently wanted by the dystopian Remembrancers, who hunt him relentlessly."
       },
       ["TPA"] : {
@@ -9583,7 +11230,10 @@
             ["id"] : 16
           }, 
           ["Ruby"] : {
-            ["id"] : 15
+            ["id"] : 15,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sandstone"] : {
             ["id"] : 12
@@ -9606,7 +11256,7 @@
         ["set"] : ["Highstakes"],
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Michal Ivan", "Sixmorevodka Studio"],
-        ["lore"] : "First is the Ace, at a hurtling pace,&lt;br>A man of both talent and vim,&lt;br>Who holds all the cards in the court of High Stakes&lt;br>Because everything's about him."
+        ["lore"] : "First is the Ace, at a hurtling pace,<br>A man of both talent and vim,<br>Who holds all the cards in the court of High Stakes<br>Because everything's about him."
       },
       ["Arcade"] : {
         ["id"] : 9,
@@ -9631,15 +11281,15 @@
         ["cost"] : 1350,
         ["release"] : "2017-09-06",
         ["earlysale"] : "2018-02",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["newquotes"] : true,
         ["variant"] : 20,
         ["voiceactor"] : ["Daniel Amerman"],
-        ["splashartist"] : ["Pan Chengwei", "Alex 'alexplank' Flores", "Esben Lash Rasmussen", "Alvin Lee", "Jean 'Curing' Go"],
+        ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "tLcziIisVKM",
         ["lore"] : "With a boundless curiosity about the universe, Ezreal is a born explorer, and becoming a Star Guardian only served to fuel his appetite for discovery. Though known to wander off, he always returns when most needed, especially now, as a certain pink-haired Guardian from another team has caught his attention…"
       },
       ["SSG"] : {
@@ -9652,6 +11302,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 75,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Rudy Siswanto", "Pan Chengwei"],
         ["lore"] : "Honoring Haru's winning performance as Ezreal during the 2017 World Championship. "
@@ -9662,8 +11320,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-11-21",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -9695,6 +11352,7 @@
         },
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "TL1iTOj2K6I",
         ["lore"] : "A young orphan initially thought devoid of any superhuman abilities, Ezreal had resigned himself to a normal life once he graduated middle school. But an encounter with a deadly threat awakened his slumbering potential, and now he finds himself a 1st year at the prestigious Durandal God-Weapon Academy, where he's joined the ragtag Battle Club."
       },
       ["PsyOps"] : {
@@ -9709,6 +11367,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "A young hotshot and the newest recruit in the elite PsyOps unit, Ezreal's raw psychic ability is only matched by his severely over-inflated ego. He has successfully annoyed the rest of his team to the point they just direct him towards hard targets and half-hope he winds up dead."
       },
       ["Prestige PsyOps"] : {
@@ -9716,7 +11375,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2020-09-03",
         ["set"] : ["PsyOps"],
         ["neweffects"] : true,
@@ -9725,6 +11384,7 @@
         ["variant"] : 22,
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Sanhua Chen", "Kudos Productions"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "Ezreal's mastery of psychic military combat has driven him to new heights, attracting the attention of his handlers in High Command. He's calmed down a bit, earning some respect from his squad mates… but not enough. He's never calmed down enough."
       },
       ["Porcelain Protector"] : {
@@ -9740,6 +11400,9 @@
         ["transforming"] : true,
         ["newvoice"] : true,
         ["chromas"] : {
+          ["Beacon"] : {
+            ["id"] : 77
+          },
           ["Catseye"] : {
             ["id"] : 31
           }, 
@@ -9747,7 +11410,7 @@
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 30
@@ -9767,6 +11430,7 @@
         },
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Edward Chee", "West Studio"],
+        ["music"] : "jtfgXd_aDlA",
         ["lore"] : "After accidentally unleashing an ancient evil sorceress while doing research in the university archive, Ezreal narrowly escaped certain death when Lux and the spirit of the Tiger Relic stepped in to save him. Though he is new to the world of magic, Ezreal has joined the Protectors— determined to help solve the problem he (inadvertently) caused."
       },
       ["Faerie Court"] : {
@@ -9811,11 +11475,12 @@
             ["id"] : 42,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Faerie Court 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Exia Xiaotong", "West Studio"],
+        ["music"] : "-E5IhfdMoyk",
         ["lore"] : "Though he is a lord of the Summer Court, Ezreal would much rather be investigating ancient magical history than putting up with all the political drama. When his research reveals something curious about the Faerie queen's line of succession, however, Ezreal discovers that someone may have placed Karma upon the throne for their own purposes…"
       },
       ["HEARTSTEEL"] : {
@@ -9845,7 +11510,7 @@
             ["id"] : 53,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 46
@@ -9865,6 +11530,7 @@
         },
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Bo 'chenbowow' Chen", "Julia Yurtsev", "Jennifer Wuestling"],
+        ["music"] : "MDErQ1KTzaI",
         ["lore"] : "After a manufactured one-hit wonder launched Ezreal into the spotlight, only for him to fall out of it again when the album got panned, Ezreal decided it was time he took some creative control back. Now, having left his old label and lending what star power he has to HEARTSTEEL, Ezreal has found musicians and friends he's ready to make a comeback with."
       },
       ["Heavenscale"] : {
@@ -9882,7 +11548,13 @@
             ["id"] : 60
           },
           ["Auspacious"] : {
-            ["id"] : 61
+            ["id"] : 61,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Beacon"] : {
+            ["id"] : 76
           }, 
           ["Catseye"] : {
             ["id"] : 57
@@ -9894,7 +11566,7 @@
             ["id"] : 63,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 64
@@ -9917,6 +11589,7 @@
         },
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Joshua Raphael", "West Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "Wherever chaos is sown, dragons across the kingdom know to listen for Ezreal's mischievous laughter. His japes are harmless, but don't let that merry spirit fool you: he is a shrewd royal scout alongside Kai'Sa who has braved many adventures between bouts of pranking. Dressing up like a human to go party? Now that sounds like his idea of a good time."
       },
       ["Prestige Heavenscale"] : {
@@ -9924,7 +11597,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "2000 Lunar New Year 2024 Tokens",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2024-02-07",
         ["set"] : ["Heavenscale"],
         ["neweffects"] : true,
@@ -9933,7 +11606,94 @@
         ["variant"] : 44,
         ["voiceactor"] : ["Daniel Amerman"],
         ["splashartist"] : ["Exia Xiaotong", "West Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "Ezreal's gilded gala garb is fit for royalty. Adorned in hand-crafted scales and crystal horns, this tastemaker came to the party with a mission: ring in the New Year not just with a bang, but a roar."
+      },
+      ["Masque of the Black Rose"] : {
+        ["id"] : 65,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-01-09",
+        ["set"] : ["Masque of the Black Rose"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 68
+          },
+          ["Citrine"] : {
+            ["id"] : 71
+          }, 
+          ["Emerald"] : {
+            ["id"] : 67
+          }, 
+          ["Pearl"] : {
+            ["id"] : 73
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 70
+          }, 
+          ["Ruby"] : {
+            ["id"] : 66,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 69
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 72
+          }
+        },
+        ["voiceactor"] : ["Daniel Amerman"],
+        ["splashartist"] : ["Park Jun Seong", "West Studio"],
+        ["music"] : "gMkuV5hh7-s",
+        ["lore"] : "Greetings, Jarro Lightfeather. We cordially invite you to the Silken Danse. Word of your heroism has reached the halls of Noxian nobility, and we are keen to meet you. We operate in the same manner, working beyond regional lines. You've much to learn about us, and we've much to learn about you, Lightfeather… Or, shall we be forthright, Ezreal? –Lady Elise"
+      },
+      ["HEARTSTEEL Live My Life"] : {
+        ["id"] : 78,
+        ["availability"] : "Upcoming",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "N/A",
+        ["set"] : ["HEARTSTEEL"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 81
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 84
+          }, 
+          ["Pearl"] : {
+            ["id"] : 85
+          }, 
+          ["Peridot"] : {
+            ["id"] : 86
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 83
+          }, 
+          ["Ruby"] : {
+            ["id"] : 79,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 80
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 82
+          }
+        },
+        ["voiceactor"] : ["Daniel Amerman"],
+        ["lore"] : "Vibe Pop Magazine: What was your childhood dream?<br><br>Ezreal: Well, one time I dreamed my hands were steaks and I ate them. I didn't even hesitate. Oh wait, you mean like… career dream? I wanted to be an archaeologist. See Giza, Machu Picchu, Angkor Wat... Now, with the band, I'm going places I never even imagined. Guess I'm an explorer after all!"
       },
     }
   },
@@ -9948,6 +11708,7 @@
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Kellen Goff"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "tq9bB6QPAdA",
         ["lore"] : "Something has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe, the haggard, makeshift creature reaps fear itself, shattering the minds of those unlucky enough to survive in its wake. Beware the sounding of the crow, or the whispering of the shape that appears almost human… Fiddlesticks has returned."
       },
       ["Union Jack"] : {
@@ -10035,6 +11796,7 @@
         ["set"] : ["Trick-or-Treat"],
         ["voiceactor"] : ["Kellen Goff"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "j5Uv1K_CmNw",
         ["lore"] : "Carriage drivers are cautioned to stick to well-traveled highways, especially during the witching season. Strange things can happen on those old, moonlit roads, where no birds sing, and something enormous moves within the fog."
       },
       ["Surprise Party"] : {
@@ -10050,13 +11812,13 @@
         ["newvoice"] : true,
         ["chromas"] : {
           ["Amethyst"] : {
-            ["id"] : 16
+            ["id"] : 18
           }, 
           ["Peridot"] : {
             ["id"] : 17
           }, 
           ["Ruby"] : {
-            ["id"] : 18,
+            ["id"] : 16,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
@@ -10064,6 +11826,7 @@
         },
         ["voiceactor"] : ["Kellen Goff"],
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "97TYLXi59OA",
         ["lore"] : "Everyone told you hiring a clown would be a good idea. “Clowns are great for parties,” they said. But now everyone's missing, and the power is out, and something's laughing just down the hall..."
       },
       ["Dark Candy"] : {
@@ -10078,6 +11841,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Kellen Goff"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "3-Gfn2a6tBM",
         ["lore"] : "As lights go out across the Winterlands in preparation for Snowdown season, something ancient and terrible rises from the darkest corners of the Poro King's lands. Devoid of thought or purpose, it hunts for holiday revelers as if possessed, cutting down anything that crosses its path."
       },
       ["Risen"] : {
@@ -10139,8 +11903,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-07-14",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -10177,11 +11940,12 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Kellen Goff"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "The creature known as Fiddlesticks has fed on Star Guardians across every era, hunting those on the verge of falling before finally consuming their light. Its connection to the Guardians, and the reason it is drawn to them, is not well understood... but the familiar seemingly trapped within it suggests a truly disturbing origin."
       },
       ["Blood Moon"] : {
@@ -10230,6 +11994,50 @@
         ["voiceactor"] : ["Kellen Goff"],
         ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
         ["lore"] : "A demon of fear and chaos, Fiddlesticks was summoned directly into the mortal realm by Aatrox himself. It craves violence and the taste of blood, driven purely by instinct and compulsion as it tears through Ionia. Other demons follow in its wake, scavenging what remains of its carnage."
+      },
+      ["Flora Fatalis"] : {
+        ["id"] : 46,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-10-08",
+        ["set"] : ["Flora Fatalis"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 52
+          }, 
+          ["Emerald"] : {
+            ["id"] : 49
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 53
+          }, 
+          ["Pearl"] : {
+            ["id"] : 54
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 51
+          }, 
+          ["Ruby"] : {
+            ["id"] : 47,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 48
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 50
+          }
+        },
+        ["voiceactor"] : ["Kellen Goff"],
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["lore"] : "When this creature first tasted our nectar, we sensed it was unnatural. It had curiosity. Hubris. Ingesting our poison to reap the benefits, while unaware of the consequences. Even now it attempts to resist Us. What a strange host. Does it not understand what we can accomplish? Together, with stick and spore, we would sow unbridled fear."
       }
     }
   },
@@ -10291,7 +12099,10 @@
             ["id"] : 13
           }, 
           ["Ruby"] : {
-            ["id"] : 9
+            ["id"] : 9,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sandstone"] : {
             ["id"] : 8
@@ -10322,7 +12133,7 @@
             ["id"] : 40,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Karen Strassman"],
@@ -10342,13 +12153,13 @@
         ["newrecall"] : true,
         ["chromas"] : {
           ["Aquamarine"] : {
-            ["id"] : 19
+            ["id"] : 17
           }, 
           ["Citrine"] : {
             ["id"] : 18
           }, 
           ["Pearl"] : {
-            ["id"] : 17
+            ["id"] : 19
           }, 
           ["Rainbow"] : {
             ["id"] : 20
@@ -10435,11 +12246,14 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["chromas"] : {
-          ["Tenfold Triumph"] : {
-            ["id"] : 79,
+          ["Elite"] : {
+            ["id"] : 108,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tenfold Triumph"] : {
+            ["id"] : 79
           }
         },
         ["voiceactor"] : ["Karen Strassman"],
@@ -10464,7 +12278,7 @@
             ["id"] : 49,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Citrine"] : {
             ["id"] : 43
@@ -10496,9 +12310,9 @@
         ["id"] : 50,
         ["availability"] : "Legacy",
         ["looteligible"] : true,
-        ["set"] : ["Lunar Beast"],
         ["cost"] : 1350,
         ["release"] : "2021-02-04",
+        ["set"] : ["Lunar Beast"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -10528,27 +12342,29 @@
             ["id"] : 56,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Beast 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "xotOsL4NRCs",
         ["lore"] : "Fiora keeps mostly to herself, determined to reclaim her family's honor from her father's failure as a member of the last Ox Squad. She thinks the rest of the squad doesn't take their duties seriously enough, and her determination to avoid another disastrous New Year makes her seem standoffish and cold to her teammates."
       },
       ["Prestige Lunar Beast"] : {
         ["id"] : 51,
         ["availability"] : "Rare",
         ["looteligible"] : true,
-        ["set"] : ["Lunar Beast"],
         ["cost"] : "Special",
         ["distribution"] : "150 Mythic Essence",
         ["release"] : "2021-02-04",
+        ["set"] : ["Lunar Beast"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 50,
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "xotOsL4NRCs",
         ["lore"] : "Long days of community service and long nights of tactical planning have left Fiora not drained but energized. Her steely determination has hardened into foresight and loyalty. Whatever the Lunar Beast throws at them, Ox Squad knows Fiora has their back."
       },
       ["Bewitching"] : {
@@ -10636,11 +12452,12 @@
             ["id"] : 78,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Faerie Court 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Eric Xie", "West Studio"],
+        ["music"] : "-E5IhfdMoyk",
         ["lore"] : "As ambassador of the Spring Court, Fiora has a deep love for her people… even if that love often leads her to resolve conflict via impassioned duels rather than words. The last faerie queen was Fiora's mother, and she believes her mother's untimely death was no mistake. She wants answers, and she will administer justice at the tip of her sword."
       },
       ["Dragonmancer"] : {
@@ -10704,13 +12521,13 @@
             ["id"] : 92
           }, 
           ["Obsidian"] : {
-            ["id"] : 96
+            ["id"] : 97
           }, 
           ["Pearl"] : {
-            ["id"] : 95
+            ["id"] : 96
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 94
+            ["id"] : 95
           }, 
           ["Ruby"] : {
             ["id"] : 90,
@@ -10730,8 +12547,75 @@
         ["lore"] : "Nobles in the cutthroat queendom of Telum conspired against Fiora's rise to power, taking her eye and proclaiming her dead. Yet from flowers and flame she arose, then prevailed, in the Grand Coronation. Queen Fiora now oversees arms manufacturing in her nation's steel gardens, and secures her succession by training and tempering a certain fiery princess."
       },
       ["Victorious"] : {
-        ["id"] : 90,
+        ["id"] : 98,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Reward for earning split points in Season 2025 - Split 2.",
+        ["release"] : "2025-08-13",
         ["set"] : ["Victorious"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Bronze"] : {
+            ["id"] : 99,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }, 
+          ["Challenger"] : {
+            ["id"] : 107,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }, 
+          ["Diamond"] : {
+            ["id"] : 104,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }, 
+          ["Emerald"] : {
+            ["id"] : 103,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }, 
+          ["Gold"] : {
+            ["id"] : 101,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }, 
+          ["Grandmaster"] : {
+            ["id"] : 106,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }, 
+          ["Master"] : {
+            ["id"] : 105,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }, 
+          ["Platinum"] : {
+            ["id"] : 102,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }, 
+          ["Silver"] : {
+            ["id"] : 100,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
+          }
+        },
+        ["voiceactor"] : ["Karen Strassman"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["lore"] : "Victorious Fiora was earned by players who accumulated enough split points in Ranked. With ruthless cunning, Fiora has cemented the Laurents as the dominant noble house in the kingdom. No one dares impugn their honor, lest they inevitably find themselves on the receiving end of a rapier as sharp as her mind."
       }
     }
   },
@@ -10860,6 +12744,7 @@
         },
         ["voiceactor"] : ["Philece Sampler"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "DouvFSsgPZ0",
         ["lore"] : "Omega Squad's saboteur, Fizz is skilled in underwater combat. It is unclear what kind of action he saw before joining up, however, as he only ever refers to the sea as “a big bucket of chum.”"
       },
       ["Fuzz"] : {
@@ -10874,6 +12759,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Philece Sampler"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "E9f-J-r71i8",
         ["lore"] : "Well, that's horrifying."
       },
       ["Prestige Fuzz"] : {
@@ -10881,7 +12767,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-03-27",
         ["set"] : ["Cats Versus Dogs"],
         ["neweffects"] : true,
@@ -10890,6 +12776,7 @@
         ["variant"] : 14,
         ["voiceactor"] : ["Philece Sampler"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "E9f-J-r71i8",
         ["lore"] : "There's something deeply unnerving about a bipedal Cocker Spaniel mix running around society unchecked, stabbing pedestrians with a tennis ball grabber, and summoning other, bigger dogs out of the ground. And yet, here we all are. Together."
       },
       ["Little Devil"] : {
@@ -10950,6 +12837,7 @@
         ["variant"] : 15,
         ["voiceactor"] : ["Philece Sampler"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "E9f-J-r71i8",
         ["lore"] : "There's something deeply unnerving about a bipedal Cocker Spaniel mix running around society unchecked, stabbing pedestrians with a tennis ball grabber, and summoning other, bigger dogs out of the ground. And yet, here we all are. Together."
       },		
       ["Astronaut"] : {
@@ -11055,6 +12943,7 @@
         ["release"] : "2010-08-10",
         ["voiceactor"] : ["Josh Petersdorf"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "KmvLl6WHvWM",
         ["lore"] : "Outside the gleaming city of Demacia, the stone colossus Galio keeps vigilant watch. Built as a bulwark against enemy mages, he often stands motionless for decades until the presence of powerful magic stirs him to life. Once activated, Galio makes the most of his time, savoring the thrill of a fight and the rare honor of defending his countrymen. But his triumphs are always bittersweet, for the magic he destroys is also his source of reanimation, and each victory leaves him dormant once again."
       },
       ["Enchanted"] : {
@@ -11109,6 +12998,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Josh Petersdorf"],
         ["splashartist"] : ["Viktor Titov", "Grafit Studio"],
+        ["music"] : "1Tnx6eNCH7Q",
         ["lore"] :  "One of the great dukes of Hell, Galio stands before his kingdom's black gates as the judge of all sinners, casting souls into their proper torments. Attempting to invoke him generally ends in tragedy, as he's several hundred feet tall and refuses to shrink in the service of mortals."
       },
       ["Debonair"] : {
@@ -11152,13 +13042,16 @@
             ["id"] : 11
           }, 
           ["Ruby"] : {
-            ["id"] : 7
+            ["id"] : 7,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Worlds Early Bird"] : {
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Josh Petersdorf"],
@@ -11264,7 +13157,13 @@
             ["id"] : 38,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
+          }, 
+          ["Paragon"] : {
+            ["id"] : 39,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
           }, 
           ["Pearl"] : {
             ["id"] : 37
@@ -11290,7 +13189,85 @@
         },
         ["voiceactor"] : ["Josh Petersdorf"],
         ["splashartist"] : ["Rio Sabda", "Caravan Studio"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "The Great Beast Galio is a fearsome creature: proud, powerful, and worthy of the myth that bears his name. Yet each year he is bested, as the story goes, so when Irelia comes to him and tells him that their fates are not writ in stone, Galio listens. If helping her means crafting a new future, he will lend her all his beastly strength."
+      },
+      ["Aegis Frame"] : {
+        ["id"] : 40,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2026-01-22",
+        ["set"] : ["Aegis Frame"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 44
+          }, 
+          ["Catseye"] : {
+            ["id"] : 42
+          }, 
+          ["Emerald"] : {
+            ["id"] : 43
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 45
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 46
+          }, 
+          ["Ruby"] : {
+            ["id"] : 41,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },    
+        ["voiceactor"] : ["Josh Petersdorf"],
+        ["lore"] : "With his consciousness uploaded into his state-of-the-art mech, Galio led his squadron into the dangers of their neighboring galaxy. But after encountering their TerraMech predecessors, now twisted beyond all recognition, their hope was shaken. It took their captain's steadfast optimism to remind everyone: if anything can persevere, it's the Aegis Frames!"
+      },
+      ["T1"] : {
+        ["id"] : 47,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-07-15",
+        ["set"] : ["World Champions: 2025"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 52
+          }, 
+          ["Elite"] : {
+            ["id"] : 48,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 49
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 51
+          }, 
+          ["Ruby"] : {
+            ["id"] : 50,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 53
+          }
+        },
+        ["voiceactor"] : ["Josh Petersdorf"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Honoring Faker's winning performance as Galio during the 2025 World Championship."
       }
     }
   },
@@ -11305,6 +13282,7 @@
         ["release"] : "2009-08-18",
         ["voiceactor"] : ["Matthew Mercer"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "shIMVeI5IPE",
         ["lore"] : "As unpredictable as he is brutal, the dethroned reaver king Gangplank is feared far and wide. Once, he ruled the port city of Bilgewater, and while his reign is over, there are those who believe this has only made him more dangerous. Gangplank would see Bilgewater bathed in blood once more before letting someone else take it—and now with pistol, cutlass, and barrels of gunpowder, he is determined to reclaim what he has lost."
       },
       ["Spooky"] : {
@@ -11340,7 +13318,7 @@
         ["neweffects"] : true,
         ["vu"] : true,
         ["voiceactor"] : ["Matthew Mercer"],
-        ["lore"] : "O, Bilgewater has been my home,&lt;br>Since last time I was sailing!&lt;br>But I'll not stay another day,&lt;br>I'd sooner be out whaling."
+        ["lore"] : "O, Bilgewater has been my home,<br>Since last time I was sailing!<br>But I'll not stay another day,<br>I'd sooner be out whaling."
       },
       ["Toy Soldier"] : {
         ["id"] : 4,
@@ -11352,6 +13330,7 @@
         ["neweffects"] : true,
         ["vu"] : true,
         ["voiceactor"] : ["Matthew Mercer"],
+        ["music"] : "SgVxKT7Dm58",
         ["lore"] : "Gangplank is a model soldier in the toy army, racking up an impressive array of victories against the dolls and stuffed animals. He hopes to one day be named Toy General, leading his troops into glorious battle."
       },
       ["Special Forces"] : {
@@ -11395,6 +13374,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Matthew Mercer"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "eWmmpo5OsC8",
         ["lore"] : "Gangplank was a legendary murderer and cutthroat, prior to having his ship blown up while he was still on it. The silhouette of his famed captain's jacket is still burned into the memory of more than one unlucky sailor... with many convinced the man is somehow still alive."
       },
       ["Dreadnova"] : {
@@ -11419,10 +13399,13 @@
             ["id"] : 32,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Steel Valkyries 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Ruby"] : {
-            ["id"] : 9
+            ["id"] : 9,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 11
@@ -11470,6 +13453,7 @@
         },
         ["voiceactor"] : ["Matthew Mercer"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "ga2aatAtYaE",
         ["lore"] : "Gangplank is the self-crowned King of the Grill, but his summer bod is the real life of the party. There should be a law against those abs."
       },
       ["FPX"] : {
@@ -11487,7 +13471,7 @@
             ["id"] : 22,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Edition Mega Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Matthew Mercer"],
@@ -11552,13 +13536,13 @@
         ["filter"] : true,
         ["chromas"] : {
           ["Amethyst"] : {
-            ["id"] : 13
+            ["id"] : 40
           }, 
           ["Citrine"] : {
             ["id"] : 35
           }, 
           ["Pearl"] : {
-            ["id"] : 40
+            ["id"] : 41
           }, 
           ["Peridot"] : {
             ["id"] : 36
@@ -11708,11 +13692,12 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Jamieson Price"],
         ["splashartist"] : ["Jojo So"],
+        ["music"] : "A0lL6yaigfQ",
         ["lore"] : "Brave guardian of Azir's ancient fortress, Garen is a mighty warrior who charges fearlessly into even the most hopeless battles. He fights for the glory of his ruler and the safety of his people, a powerful, if headstrong, force for justice."
       },
       ["God-King"] : {
@@ -11728,6 +13713,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Mick Lauer"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "4sigUuZ2uIA",
         ["lore"] : "God-King Garen stands as the last scion of an ancient divinity, and the final bulwark against the end of all civilization. He rules the vast kingdom of Demacia with an iron fist, jealously protecting his people as a self-styled messiah, while rooting out and destroying all who would oppose him."
       },
       ["Demacia Vice"] : {
@@ -11751,7 +13737,7 @@
             ["id"] : 21,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Arcade 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 17
@@ -11771,6 +13757,7 @@
         },
         ["voiceactor"] : ["Jamieson Price"],
         ["splashartist"] : ["Zeen Chin"],
+        ["music"] : "e4kG1Ivm7o4",
         ["lore"] : "As chrome eagles cry and steel panthers growl, lightning hot justice is delivered nightly by Detective Garen Stryker on the neon-drenched streets. A black belt in Ionian martial arts, this katana wielding cop pushes it to the limit with every case... for Demacia!"
       },
       ["Mecha Kingdoms"] : {
@@ -11873,7 +13860,13 @@
             ["id"] : 42,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
+          }, 
+          ["Paragon"] : {
+            ["id"] : 45,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
           }, 
           ["Pearl"] : {
             ["id"] : 41
@@ -11896,12 +13889,12 @@
         },
         ["voiceactor"] : ["Jamieson Price"],
         ["splashartist"] : ["Silvia Meiliani", "Caravan Studio"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "As the town's leader in “The Great Beast Galio”, Garen's chief concern is the safety of his people in the face of a fierce enemy. When the story is thrown off, however, Irelia convinces him to help by showing Garen that Galio can be reasoned with, perhaps even stopped entirely if they make a friend out of a foe."
       },
       ["Fallen God-King"] : {
         ["id"] : 44,
         ["availability"] : "Rare",
-        ["looteligible"] : true,
         ["cost"] : "Special",
         ["distribution"] : "1% drop rate from Capsules or opening 30 Capsules",
         ["release"] : "2024-08-28",
@@ -11914,6 +13907,64 @@
         ["voiceactor"] : ["Mick Lauer"],
         ["splashartist"] : ["David Villegas", "West Studio"],
         ["lore"] : "God-King Garen stands as the last scion of an ancient divinity, and the final bulwark against the end of all civilization. He rules the vast kingdom of Demacia with an iron fist, jealously protecting his people as a self-styled messiah, while rooting out and destroying all who would oppose him."
+      },
+      ["Pengu"] : {
+        ["id"] : 43,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Available to select as Garen in all normal queues during the 2025 April Fools event.",
+        ["release"] : "2025-04-02",
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["lore"] : "Some say that Pengu Garen sharpens his beak every day to look more chiseled, but it always dulls again after kissing his sword…",
+      },
+      ["Visions of the Fallen"] : {
+        ["id"] : 46,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-08-27",
+        ["set"] : ["Visions of the Fallen"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 54
+          },
+          ["Emerald"] : {
+            ["id"] : 48
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 53
+          }, 
+          ["Pearl"] : {
+            ["id"] : 51
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 52
+          }, 
+          ["Ruby"] : {
+            ["id"] : 47,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 50
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 49
+          }
+        },
+        ["voiceactor"] : ["Jamieson Price"],
+        ["splashartist"] : ["Foritis Wang", "Pandart Studio"],
+        ["lore"] : "How quickly he rode out, this gleaming captain of empty promises, to face the doom of his people. And “Justice!” he screamed, as his stolen flesh betrayed the very notion of the word, laying his warriors all to waste."
       }
     }
   },
@@ -11928,6 +13979,7 @@
         ["release"] : "2014-08-13",
         ["voiceactor"] : ["Dorothy Fahn", "Lucien Dodge"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "Awa7fpGmtf0",
         ["lore"] : "Gnar is an excitable yordle whose playful antics can erupt into a toddler’s outrage in an instant, transforming him into a massive beast bent on destruction. Frozen in True Ice for millennia, the curious creature broke free and now hops about a changed world he sees as exotic and wondrous. Delighted by danger, Gnar flings whatever he can at his enemies, be it his bonetooth boomerang… or an uprooted tree."
       },
       ["Dino"] : {
@@ -11996,6 +14048,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Dorothy Fahn", "Lucien Dodge"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "CUl7h5QPSU0",
         ["lore"] : "Gnar can't resist the call of a tussle in fresh powder, but woe to those who forget what they're dealing with. Mega Gnar lurks just beneath the surface, ready to take the snowball fight to the next level... and rip someone in half."
       },
       ["El León"] : {
@@ -12037,6 +14090,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 43,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Dorothy Fahn", "Lucien Dodge"],
         ["splashartist"] : ["Rudy Siswanto", "Pan Chengwei"],
         ["lore"] : "Honoring CuVee's winning performance as Gnar during the 2017 World Championship. "
@@ -12063,7 +14124,7 @@
             ["id"] : 21,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Granite"] : {
             ["id"] : 20
@@ -12167,13 +14228,35 @@
             ["id"] : 40,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "La Ilusión Megabundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Dorothy Fahn", "Lucien Dodge"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
         ["lore"] : "Abandoned to the streets, Gnar spent years scraping by, snarling at his misfortune, until he was found by a gentle orphaned girl. What started as simple gifts of food blossomed into a loving friendship, only for Gnar to suddenly fall ill and pass. Because of their familial love, Gnar now returns as an Eidola Vida, ready to protect his family from danger."
-      }
+      },
+      ["T1"] : {
+        ["id"] : 41,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-09-10",
+        ["set"] : ["World Champions: 2024"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 42,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Dorothy Fahn", "Lucien Dodge"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu", "Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Honoring Zeus's winning performance as Gnar during the 2024 World Championship."
+      }      
     }
   },
   ["Gragas"] : {
@@ -12216,6 +14299,7 @@
         ["set"] : ["Snowdown Showdown"],
         ["neweffects"] : true,
         ["voiceactor"] : ["J.S. Gilbert"],
+        ["music"] : "tZDj_sS-Gf8",
         ["lore"] : "Some might say Gragas would be the perfect Santa, and between his jolly frame and wild beard he certainly fits the bill. But Gragas is also very unreliable, constantly intoxicated, and starts fights seemingly at random—but he likes the costume, and no one is brave enough to take it back."
       },
       ["Gragas, Esq."] : {
@@ -12265,6 +14349,7 @@
         ["set"] : ["Soccer Cup"],
         ["neweffects"] : true,
         ["voiceactor"] : ["J.S. Gilbert"],
+        ["music"] : "LsjIDZXR-rs",
         ["lore"] : "Gragas is Runeterra's biggest Order United fan, and he makes sure everyone knows it by leading chants, foregoing clothing for blue body paint, and making sure everyone around him is “adequately hydrated.”"
       },
       ["Fnatic"] : {
@@ -12305,7 +14390,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["J.S. Gilbert"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
-        ["lore"] : "A large man even before donning his hermetically sealed arctic combat suit, Gragas is a mystery to all save for High Command's secretive R&amp;D labs. He appears human by all measures, save for the mask he never removes, and the eerily cold mixture of chemicals powering his massive frame."
+        ["lore"] : "A large man even before donning his hermetically sealed arctic combat suit, Gragas is a mystery to all save for High Command's secretive R&D labs. He appears human by all measures, save for the mask he never removes, and the eerily cold mixture of chemicals powering his massive frame."
       },
       ["Warden"] : {
         ["id"] : 11,
@@ -12418,7 +14503,7 @@
             ["id"] : 38,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 37
@@ -12448,10 +14533,10 @@
       },
       ["Music Fan"] : {
         ["id"] : 39,
-        ["availability"] : "Upcoming",
+        ["availability"] : "Available",
         ["looteligible"] : true,
-        ["cost"] : "1350",
-        ["release"] : "N/A",
+        ["cost"] : 1350,
+        ["release"] : "2024-10-09",
         ["set"] : ["Superfans"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -12502,6 +14587,7 @@
         ["release"] : "2011-10-19",
         ["voiceactor"] : ["Kyle Hebert"],
         ["splashartist"] : ["Jason Chan"],
+        ["music"] : "13900aRG3hA",
         ["lore"] : "Malcolm Graves is a renowned mercenary, gambler, and thief—a wanted man in every city and empire he has visited. Even though he has an explosive temper, he possesses a strict sense of criminal honor, often enforced at the business end of his double-barreled shotgun Destiny. In recent years, he has reconciled a troubled partnership with Twisted Fate, and together they have prospered once more in the turmoil of Bilgewater’s criminal underbelly."
       },
       ["Hired Gun"] : {
@@ -12566,7 +14652,10 @@
             ["id"] : 11
           }, 
           ["Ruby"] : {
-            ["id"] : 12
+            ["id"] : 12,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 10
@@ -12575,7 +14664,8 @@
             ["id"] : 13
           }
         },
-        ["voiceactor"] : ["Kyle Hebert"]
+        ["voiceactor"] : ["Kyle Hebert"],
+        ["music"] : "lVrMJepoj6A"
       },
       ["Cutthroat"] : {
         ["id"] : 6,
@@ -12604,11 +14694,12 @@
             ["id"] : 26,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Snowdown Showdown 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Kyle Hebert"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "QZh5wRENttI",
         ["lore"] : "Outfitted with his mighty snowblowing gun and a can-do attitude, Graves enters every snowball fight with the same entrepreneurial spirit that got him out of prison. Which is to say, blowing a lot of things up with little to no regard for his own safety."
       },
       ["Victorious"] : {
@@ -12629,7 +14720,7 @@
             ["source"]       : "Reward",
           	["distribution"] : "Season 2017"
           }, 
-          ["Solo"] : {
+          ["Solo/Duo"] : {
             ["id"] : 16,
             ["availability"] : "Limited",
             ["source"]       : "Reward",
@@ -12699,7 +14790,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 32
@@ -12728,6 +14819,7 @@
         },
         ["voiceactor"] : ["Kyle Hebert"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "TL1iTOj2K6I",
         ["lore"] : "Graves is a salty ex-soldier who served in the Durandal military before he reluctantly became a professor. Following his discovery of something deep behind enemy lines, he received an offer to teach at the Academy from the God-Weapon itself. His hallmark cigar-munching, dispassionate teaching etiquette is a small price to pay for his decades of experience."
       },
       ["Sentinel"] : {
@@ -12752,7 +14844,7 @@
             ["id"] : 41,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 38
@@ -12769,6 +14861,7 @@
         },
         ["voiceactor"] : ["Fred Tatasciore"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "Graves could give a damn about saving the world, but the Ruined King is getting in the way of his criminal undertakings, and that he cannot abide. When the Sentinels come calling, Graves reckons he can play the hero for once—long enough to make sure there's a world left to rob, anyway."
       },
       ["EDG"] : {
@@ -12786,7 +14879,7 @@
             ["id"] : 43,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Kyle Hebert"],
@@ -12820,7 +14913,7 @@
             ["id"] : 54,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 48
@@ -12843,6 +14936,7 @@
         },
         ["voiceactor"] : ["Kyle Hebert"],
         ["splashartist"] : ["Santiago Parra", "West Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "Not long after gunpowder was invented, the Zodiac searched for a new protector of the Dragon Relic. Though ancient and wise, the gods struggled to find someone worthy, so they settled for Malcolm Graves. Eventually his expertise in firepower was pointed in the right direction (away from all the breakable vases)."
       }
     }
@@ -12858,6 +14952,7 @@
         ["release"] : "2021-04-15",
         ["voiceactor"] : ["Abby Trott"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "ZJK0gG-WSUc",
         ["lore"] : "A former doll transformed and brought to life by magic, Gwen wields the very tools that once created her. She carries the weight of her maker's love with every step, taking nothing for granted. At her command is the Hallowed Mist, an ancient and protective magic that has blessed Gwen's scissors, needles, and sewing thread. So much is new to her, but Gwen remains joyfully determined to fight for the good that survives in a broken world."
       },
       ["Space Groove"] : {
@@ -12881,7 +14976,7 @@
             ["id"] : 9,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Space Groove 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 3
@@ -12907,6 +15002,7 @@
         },
         ["voiceactor"] : ["Abby Trott"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "DDBjk-r4urY",
         ["lore"] : "It was pretty far out when Gwen applied to be Lux and Samira's quartermaster—after all, no one else did. Cheerfully sewing good vibes into great clothes, she amplifies disco energy through her nifty threads. Though she's new to this whole galactic hero gig, one thing's for sure: no way Gwen lets her friends liberate the galaxy in less-than-stellar outfits."
       },
       ["Cafe Cuties"] : {
@@ -12976,7 +15072,7 @@
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 27
@@ -12999,6 +15095,7 @@
         },
         ["voiceactor"] : ["Abby Trott"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "She went to the ends of the world... and beyond... to save her friend! And according to the bracket that I'm looking at with my very eyes, she's going to have to fight him to win this tournament! OOF! I swear, this isn't scripted folks. It's LIVE TV! A girl with friendship in her heart and magical scissors that raise the dead in her hands: Gwen!"
       },
       ["Battle Queen"] : {
@@ -13043,6 +15140,92 @@
         ["voiceactor"] : ["Abby Trott"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
         ["lore"] : "Gwen of Caligo—a faraway, ancient queendom long thought lost to time—cut through the nation's protective clouds to reconnect with the rest of Elysia. Her predecessor, Queen Isolde, trusts Gwen's pure heart and sharp mind to affirm Caligo's strength and ally with fellow rulers—for dark times lie ahead, and only a steadfast pact may prevent the worst."
+      },		
+      ["Rain Shepherd"] : {
+        ["id"] : 39,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-11-19",
+        ["set"] : ["Rain Shepherd"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 43
+          },
+          ["Aquamarine"] : {
+            ["id"] : 44
+          }, 
+          ["Catseye"] : {
+            ["id"] : 41
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 47
+          }, 
+          ["Pearl"] : {
+            ["id"] : 46
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 45
+          }, 
+          ["Ruby"] : {
+            ["id"] : 40,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 42
+          }
+        },
+        ["voiceactor"] : ["Abby Trott"],
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["lore"] : "Gwen is the cheerful lead seamstress for the Rain Shepherds. Before the rains stopped, her talents as a magical tailor went underused, but the unending drought gave her new life. New ideas came flooding out, like breathable water-retentive fabrics. Now she helps her froggy friends by designing wetwear that keeps their spirits high and hydrated."
+      },
+      ["Faerie Court"] : {
+        ["id"] : 48,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-08-12",
+        ["set"] : ["Faerie Court"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 51
+          }, 
+          ["Emerald"] : {
+            ["id"] : 50
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 54
+          }, 
+          ["Pearl"] : {
+            ["id"] : 52
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 55
+          }, 
+          ["Ruby"] : {
+            ["id"] : 49,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 56
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 53
+          }
+        },
+        ["voiceactor"] : ["Abby Trott"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "Unseelie Lady Gwen sweeps in on winter winds, dressing the season's austere beauty. She coats the world in silent snow, glittering ribbons of frost, and cloaks spun from the gray underbelly of heavy clouds. The wardrobe of winter that Gwen creates is so enchanting, wayward mortals fail to notice the tips of their fingers turning blue."
       }
     }  
   },
@@ -13057,6 +15240,7 @@
         ["release"] : "2012-04-17",
         ["voiceactor"] : ["Scott McNeil"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "83s03_rSjRs",
         ["lore"] : "Hecarim is a spectral fusion of man and beast, cursed to ride down the souls of the living for all eternity. When the Blessed Isles fell into shadow, this proud knight was obliterated by the destructive energies of the Ruination, along with all his cavalry and their mounts. Now, whenever the Black Mist reaches out across Runeterra, he leads their devastating charge, reveling in the slaughter and crushing the foe beneath his armored hooves."
       },
       ["Blood Knight"] : {
@@ -13108,6 +15292,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Scott McNeil"],
         ["splashartist"] : ["Michal Ivan", "Puppetworks Animation Studio"],
+        ["music"] : "BO3XLE_eRPk",
         ["lore"] : "An unlikely favorite among retro purists, Hecarim has remained one of the most popular characters of the arcade era. Now he stands against the combined forces of gaming's greatest villains, proving there's no hero more noble than a rainbow-shooting chrome centaur from 1978."
       },
       ["Elderwood"] : {
@@ -13142,7 +15327,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2017-08-16",
         ["earlysale"] : "Ineligible",
         ["set"] : ["Lancer"],
@@ -13174,7 +15359,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 9
@@ -13196,7 +15381,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -13322,12 +15507,55 @@
             ["id"] : 40,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Scott McNeil"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
         ["lore"] : " \"You are Polaris,\" answered Hecarim. With a voice hardened by centuries of servitude, he explained that Senna was the living embodiment of the Aurora; he, its protector. As each year passed, he guarded the borders in Polaris' absence while the new Winterblessed was chosen. It didn't matter who she was before, he told her: she'd been called to service now."
+      },
+      ["Nightbringer"] : {
+        ["id"] : 41,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-07-16",
+        ["set"] : ["Nightbringer and Dawnbringer"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 48
+          }, 
+          ["Catseye"] : {
+            ["id"] : 43
+          }, 
+          ["Emerald"] : {
+            ["id"] : 44
+          }, 
+          ["Pearl"] : {
+            ["id"] : 49
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 46
+          }, 
+          ["Ruby"] : {
+            ["id"] : 42,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 45
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 47
+          }
+        },
+        ["voiceactor"] : ["Scott McNeil"],
+        ["splashartist"] : ["Blake Byun", "West Studio"],
+        ["lore"] : "Even the armies of dawn scatter at the distant thunder of hoofbeats, feeling deep in their bones the chill of night approaching. They know it can only mean one thing: Hecarim is near. When he descends, leading a legion of shadow-wreathed riders, chaos drinks deep of the slaughter left in Hecarim's wake."
       }
     }
   },
@@ -13342,7 +15570,7 @@
         ["release"] : "2009-10-09",
         ["voiceactor"] : ["Dennis Collins Johnson"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
-        ["lore"] : "A brilliant yet eccentric yordle scientist, Professor Cecil B. Heimerdinger is one of the most innovative and esteemed inventors Piltover has ever known. Relentless in his work to the point of neurotic obsession, he thrives on answering the universe’s most impenetrable questions. Though his theories often appear opaque and esoteric, Heimerdinger has crafted some of Piltover’s most miraculous—not to mention lethal—machinery, and constantly tinkers with his inventions to make them even more efficient."
+        ["lore"] : "The eccentric Professor Cecil B. Heimerdinger is one of the most innovative and esteemed inventors the world has ever known. As the longest serving member of the Council of Piltover, he saw the best and the worst of the city's unending desire for progress. Nonetheless, this brilliant scientist and teacher will always remain dedicated to using his unconventional devices to improve the lives of others."
       },
       ["Blast Zone"] : {
         ["id"] : 2,
@@ -13398,6 +15626,7 @@
         ["transforming"] : true,
         ["vu"] : true,
         ["voiceactor"] : ["Dennis Collins Johnson"],
+        ["music"] : "SgVxKT7Dm58",
         ["lore"] : "Brought to life by the power of a magic hat, Snowmerdinger now pursues theoretical Snowdown sciences including snowball trajectory, cocoa cooling speeds, and automated turret construction. He engineered his own strain of carrot noses."
       },
       ["Hazmat"] : {
@@ -13522,6 +15751,28 @@
         ["voiceactor"] : ["Dennis Collins Johnson"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "Now isn't he just the buzziest little worker bee?"
+      },
+      ["Arcane Professor"] : {
+        ["id"] : 33,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-12-11",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 34,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Dennis Collins Johnson"],
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["lore"] : "After his dismissal from the Piltover Council, Heimerdinger has been busy working on what matters most: the Anomaly and its effects on Zaun. Working together with Jayce and Ekko—his two protégés—Heimerdinger may finally be starting to see the full potential of magic."
       }
     }
   },
@@ -13536,6 +15787,7 @@
         ["release"] : "2023-12-06",
         ["voiceactor"] : ["Stephen Fu"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "FsQGLz7Fvig",
         ["lore"] : "Hwei is a brooding painter who creates brilliant art in order to confront Ionia's criminals and comfort their victims. Beneath his melancholy roils a torn, emotional mind—haunted by both the vibrant visions of his imagination and the gruesome memories of his temple's massacre. Hwei seeks to understand this light and dark, which drives him inevitably toward the artist who unraveled him. With paintbrush and palette, Hwei shapes endless possibilities as he draws ever closer to earning closure or embracing despair."
       },
       ["Winterblessed"] : {
@@ -13580,12 +15832,76 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Stephen Fu"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
         ["lore"] : "The herald of Polaris, Hwei, waited in a despondent mood. When Senna and Hecarim found him among the world of man, a violent blizzard raged overhead. As herald, he used his brush to paint the Aurora across the skies, bringing the first snow. At Hecarim's beckoning, he waved his brush, parting the clouds to reveal a barren sky. Where was the Aurora?"
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 11,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-06-25",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 16
+          }, 
+          ["Catseye"] : {
+            ["id"] : 13
+          }, 
+          ["Emerald"] : {
+            ["id"] : 14
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 18
+          }, 
+          ["Paragon"] : {
+            ["id"] : 20,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 17
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 19
+          }, 
+          ["Ruby"] : {
+            ["id"] : 12,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 15
+          }
+        }, 
+        ["voiceactor"] : ["Stephen Fu"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "It is said, the Artist roams—obsessed with the soul's liminal space, where light and dark collide. He wields kanmei and akana essence to reveal the heart of those he paints. Chancing upon a divine temple, he painted its guardian Archer. But the portrait twisted into pure rage—a lesson to be true to oneself, lest the Artist expose what lies beneath."
+      },
+      ["Sinful Shores"] : {
+        ["id"] : 21,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-06-10",
+        ["set"] : ["Sinful Shores"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Stephen Fu"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "Though usually found deep in the underworld, Hwei was “persuaded” to try brooding on the beach instead. Seeing mortals flee in broad daylight has indeed inspired new ideas for blissful torment. When beachgoers think they're safe in the sun, Hwei blots it out with dark clouds and wrathful waves to dampen their spirits for good."
       }
     }  
   },
@@ -13600,6 +15916,7 @@
         ["release"] : "2015-11-24",
         ["voiceactor"] : ["Rolonda Watts"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "ZLhDBm2YtsU",
         ["lore"] : "Illaoi’s powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol to rip her foes’ spirits from their bodies and shatter their perception of reality. All who challenge the 'Truth Bearer of Nagakabouros' soon discover Illaoi never battles alone—the god of the Serpent Isles fights by her side."
       },
       ["Void Bringer"] : {
@@ -13645,7 +15962,10 @@
             ["id"] : 9
           }, 
           ["Ruby"] : {
-            ["id"] : 3
+            ["id"] : 3,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Tanzanite"] : {
             ["id"] : 8
@@ -13661,7 +15981,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -13763,7 +16083,7 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 34
@@ -13789,7 +16109,51 @@
         },
         ["voiceactor"] : ["Rolonda Watts"],
         ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Every Anima Squad recruit knows Illaoi's booming laugh—and her notoriously tough training sessions—all too well. As someone always looking towards the future, it may seem strange that she is also Anima Squad's keeper of the Old Ways. But Illaoi knows that there was life before Final City, and she will ensure life continues long after the war is done."
+      },
+      ["Pasta Maker"] : {
+        ["id"] : 37,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-05-28",
+        ["set"] : ["Day Job"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 40
+          },
+          ["Catseye"] : {
+            ["id"] : 43
+          }, 
+          ["Emerald"] : {
+            ["id"] : 42
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 45
+          }, 
+          ["Pearl"] : {
+            ["id"] : 44
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 41
+          }, 
+          ["Ruby"] : {
+            ["id"] : 38,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 39
+          }
+        },
+        ["voiceactor"] : ["Rolonda Watts"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Authenticity is sacred in Illaoi's Italian cuisine, which is why she strictly follows her Nonna Naga's recipes. Her signature dish, pasta al nero di seppia, is made with premium durum semolina flour and the finest squid ink available, giving the dish a bold umami flavor. Those who cannot handle it… are not meant to."
       }
     }
   },
@@ -13804,6 +16168,7 @@
         ["release"] : "2010-11-16",
         ["voiceactor"] : ["Cherami Leigh"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "6-_JxiLl0Xs",
         ["lore"] : "The Noxian occupation of Ionia produced many heroes, none more unlikely than young Irelia of Navori. Trained in the ancient dances of her province, she adapted her art for war, using the graceful and carefully practised movements to levitate a host of deadly blades. After proving herself as a fighter, she was thrust into the role of resistance leader and figurehead, and to this day remains dedicated to the preservation of her homeland."
       },
       ["Aviator"] : {
@@ -13869,7 +16234,7 @@
             ["id"] : 14,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Snowdown Showdown 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Cherami Leigh"],
@@ -13929,7 +16294,10 @@
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Unflinching Zeal"] : {
-            ["id"] : 44
+            ["id"] : 44,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Cherami Leigh"],
@@ -13946,6 +16314,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 62,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Cherami Leigh"],
         ["splashartist"] : ["Pan Chengwei"], 
         ["lore"] : "Honoring Duke's winning performance as Irelia during the 2018 World Championship. This is Duke's second World Champion skin, following his win with SKT at the 2016 World Championship."
@@ -13964,6 +16340,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Cherami Leigh"],
         ["splashartist"] : ["Maki Planas Mata"],
+        ["music"] : "EC67qmPXirs",
         ["lore"] : "A PROJECT castoff who found sanctuary in the lawless wastes, Irelia has led other outcasts like her as they attempt to survive corporate assassins, murderous old-world technology, and widespread ecological collapse. Knowing Warwick could destroy everything she holds dear, she joins the attack on the City to end PROJECT once and for all."
       },
       ["Prestige PROJECT"] : {
@@ -13972,7 +16349,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-08-01",
         ["set"] : ["PROJECT"],
         ["neweffects"] : true,
@@ -13981,7 +16358,8 @@
         ["filter"] : true,
         ["variant"] : 16,
         ["voiceactor"] : ["Cherami Leigh"],
-        ["splashartist"] : ["Xuning Cui", "Kudos Production"],
+        ["splashartist"] : ["Xuning Cui", "Kudos Productions"],
+        ["music"] : "EC67qmPXirs",
         ["lore"] : "There are moments when Irelia and the other outcasts remember who they once were, before PROJECT exiled them into a wasteland filled with sand-blasted monuments to corporate greed. These memories are fleeting, the last flickering images of a long-compromised humanity."
       },
       ["High Noon"] : {
@@ -14049,7 +16427,7 @@
             ["id"] : 35,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 33
@@ -14072,6 +16450,7 @@
         },
         ["voiceactor"] : ["Cherami Leigh"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "After the fall of the Ionian Grand Temple, Irelia could not stand idly by while her home was ravaged by the Black Mist. Deputized by the Sentinels, she fights the Ruination as one of their comrades: a natural-born leader who understands the threat that Ruined Karma poses, she will stop at nothing to save the Spirit of Ionia."
       },
       ["Prestige PROJECT (2022)"] : {
@@ -14089,7 +16468,8 @@
         ["filter"] : true,
         ["variant"] : 17,
         ["voiceactor"] : ["Cherami Leigh"],
-        ["splashartist"] : ["Xuning Cui", "Kudos Production"],
+        ["splashartist"] : ["Xuning Cui", "Kudos Productions"],
+        ["music"] : "EC67qmPXirs",
         ["lore"] : "There are moments when Irelia and the other outcasts remember who they once were, before PROJECT exiled them into a wasteland filled with sand-blasted monuments to corporate greed. These memories are fleeting, the last flickering images of a long-compromised humanity."
       },
       ["Mythmaker"] : {
@@ -14111,7 +16491,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 39
@@ -14131,6 +16511,7 @@
         },
         ["voiceactor"] : ["Cherami Leigh"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "Irelia was always a bystander in the story of “The Great Beast Galio”, watching from the sidelines each year as the story was told again and again… until the day that the Lunar Players crashed into their myth-world, and she found out that her story could change. Now it's time for Irelia to become the hero she wished she could be and write her own destiny. "
       },
       ["Porcelain"] : {
@@ -14144,6 +16525,9 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["chromas"] : {
+          ["Beacon"] : {
+            ["id"] : 72
+          }, 
           ["Catseye"] : {
             ["id"] : 53
           }, 
@@ -14157,7 +16541,7 @@
             ["id"] : 54,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 51
@@ -14180,7 +16564,90 @@
         },
         ["voiceactor"] : ["Cherami Leigh"],
         ["splashartist"] : ["Alsie Lau"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "Irelia was dedicated to the preservation of ancient relics long before she became a protector. Her first year at university, she interned at the renowned Archeology Institute. It was the highlight of her short life... until she was granted mythical powers by the Ram Relic and thrust into a centuries-old war. Schoolwork sort of pales in comparison."
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 55,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2025-04-30",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 57
+          }, 
+          ["Emerald"] : {
+            ["id"] : 59
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 60
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 61
+          }, 
+          ["Ruby"] : {
+            ["id"] : 56,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 58
+          }
+        }, 
+        ["voiceactor"] : ["Cherami Leigh"],
+        ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "The Ready Hand was a devoted bodyguard to the Wandering Queen. Yet when her duty to protect was eclipsed by a desire to see her queen happy, calamity followed. The kingdom fell, and the queen died in her arms. Now, as an akana spirit, the Ready Hand roams the endless night, burdened by regret."
+      },
+      ["Breadsticks"] : {
+        ["id"] : 63,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-05-28",
+        ["set"] : ["Day Job"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 65
+          },
+          ["Emerald"] : {
+            ["id"] : 67
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 70
+          }, 
+          ["Pearl"] : {
+            ["id"] : 71
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 68
+          }, 
+          ["Ruby"] : {
+            ["id"] : 64,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 69
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 66
+          }
+        },
+        ["voiceactor"] : ["Cherami Leigh"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "It's not easy being the head server at Trattoria Pomodoro, though you'd never know it by the way Irelia carries herself. The moment guests sit down, she delivers a full basket of breadsticks—warm and fresh from the oven. You could ask what the bread is made of—or what it's capable of—but most guests decide they're better off not knowing."
       }
     }
   },
@@ -14195,6 +16662,7 @@
         ["release"] : "2016-10-04",
         ["voiceactor"] : ["David Lodge"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "LBW-G57nmqA",
         ["lore"] : "Ivern Bramblefoot, known to many as the Green Father, is a peculiar half man, half tree who roams Runeterra’s forests, cultivating life everywhere he goes. He knows the secrets of the natural world, and holds deep friendships with all things that grow, fly, and scuttle. Ivern wanders the wilderness, imparting strange wisdom to any he meets, enriching the forests, and occasionally entrusting loose-lipped butterflies with his secrets."
       },
       ["Candy King"] : {
@@ -14263,7 +16731,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-12-10",
-        ["set"] : ["Coven", "Elderwood"],
+        ["set"] : ["Coven"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -14276,7 +16744,7 @@
             ["id"] : 18,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Battle Queen 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 14
@@ -14351,19 +16819,62 @@
         ["splashartist"] : ["Roanna Peroz", "Kudos Productions"],
         ["lore"] : "Ivern's nurturing nature created a safe haven for the meeps under his care. However, an explosion caused by Xerath destroyed his ship and left him aimlessly floating in space. After a chance encounter with Fizz, who saved him by accidentally crashing into him, Ivern joined their ranks to search for any wanderers in need of his protection."
       },
-      ["Spirit Blossom"]: {
-        ["id"]: 30,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["release"]: "2025-04-30",
-        ["distribution"]: "2025, S2 Act 1 Free Battle Pass reward (Level 10)",
-        ["set"]: ["Spirit Blossom"],
-        ["neweffects"]: true,
-        ["voiceactor"]: ["David Lodge"],
-        ["splashartist"]: ["Rudy Siswanto"],
-        ["music"]: "T4l0KBAn6LU",
-        ["lore"]: "When the Wandering Queen died, she was buried beneath the tree planted on the day she was born—a tree said to watch over her for all her days. She awoke in a world beyond, clutching one of its branches, which she shaped into a sacred bow. As the branch bloomed, the guardian tree revealed its spirit—a friend who'd been with her all along."
+      ["Spirit Blossom"] : {
+        ["id"] : 30,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["release"] : "2025-04-30",
+        ["distribution"] : "2025, S2 Act 1 Free Battle Pass reward (Level 10)",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["David Lodge"],
+        ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "When the Wandering Queen died, she was buried beneath the tree planted on the day she was born—a tree said to watch over her for all her days. She awoke in a world beyond, clutching one of its branches, which she shaped into a sacred bow. As the branch bloomed, the guardian tree revealed its spirit—a friend who'd been with her all along."
+      },		
+      ["Rain Shepherd"] : {
+        ["id"] : 31,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-05-13",
+        ["set"] : ["Rain Shepherd"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 33
+          },
+          ["Obsidian"] : {
+            ["id"] : 39
+          }, 
+          ["Pearl"] : {
+            ["id"] : 38
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 36
+          }, 
+          ["Ruby"] : {
+            ["id"] : 32,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 34
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 35
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 37
+          }
+        },
+        ["voiceactor"] : ["David Lodge"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["lore"] : "As the drought swept across the lands, the gentle cloud Ivern watched his vaporous brethren slowly disappear. With the Rain Shepherds being the only hope for bringing back the rains, Ivern dons his best wetwear and sets out to help.The ground may be dry, but he'll coax life from it yet, and bring back his cloudy pals! "
       }
     }
   },
@@ -14437,6 +16948,8 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["newvoice"] : true,
+        ["splashartist"] : ["Katie 'TeaTime' De Sousa"],
+        ["music"] : "UbvSfKby2uY",
         ["lore"] : "Janna has survived the market downswing in televised news for at least the last decade, but even in her relatively cushy position, the viewers are getting older and the weather is getting freakier. Might be time to put her meteorology degree to good use, and… fight the sky!"
       },
       ["Fnatic"] : {
@@ -14457,13 +16970,13 @@
         ["cost"] : 1350,
         ["release"] : "2016-10-05",
         ["earlysale"] : "2017-03",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 1"],
+        ["set"] : ["Star Guardian Season 1"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "6kEZEvMYKQY",
         ["lore"] : "Soft-spoken and sometimes distant, Janna serves as mentor to her younger team and gently guides them towards a true understanding of their destiny. While she rarely offers information about her mysterious past, her poise and quiet strength are deeply admired by her Star Guardian teammates."
       },
       ["Sacred Sword"] : {
@@ -14516,7 +17029,7 @@
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2018"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rainbow"] : {
             ["id"] : 17
@@ -14596,7 +17109,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Battle Queen 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 35
@@ -14616,6 +17129,7 @@
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "uFCjVtJ2gJQ",
         ["lore"] : "Hailing from Aurai, floating high above the Tournament, Queen Janna quite literally looks down on the whole affair. But without a champion in the Coronation, the magic that brings long-life to Aurai's reclusive population will fail, and so Janna descends for yet another showcase exhibition of her power. Anything to protect her people."
       },
       ["Crystal Rose"] : {
@@ -14676,7 +17190,7 @@
             ["id"] : 55,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Steel Valkyries 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Aquamarine"] : {
             ["id"] : 48
@@ -14708,7 +17222,7 @@
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["Jack Hsu", "West Studio"],
-        ["lore"] : "An experiment from RSM's R&amp;D division, Janna is the only successful use of an android to pilot an exosuit in history. Perhaps it's because she looks so human that most forget the gusts of “wind“ she commands are actually a fleet of nanobots connected directly to both the X09-Zephyr as well as her central processing core."
+        ["lore"] : "An experiment from RSM's R&D division, Janna is the only successful use of an android to pilot an exosuit in history. Perhaps it's because she looks so human that most forget the gusts of “wind“ she commands are actually a fleet of nanobots connected directly to both the X09-Zephyr as well as her central processing core."
       },
       ["Prestige Cyber Halo"] : {
         ["id"] : 46,
@@ -14750,7 +17264,7 @@
             ["id"] : 65,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 64
@@ -14773,20 +17287,59 @@
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["Julia Yurtsev"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "Janna is the most skilled dragon in the kingdom at sorcery (save for the king himself, perhaps), whipping up winds and steering the clouds. The prince asked if she might take him on as a pupil, and Janna happily accepted; but she is looking forward to showing him more whimsical uses of their power. After all, they have a festival to attend."
       },
-      ["Dawnbringer"]: {
-        ["id"]: 66,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S2 Act 2 Premium Battle Pass reward (Level 40)",
-        ["release"]: "2025-06-25",
-        ["set"]: ["Nightbringer and Dawnbringer"],
-        ["neweffects"]: true,
-        ["voiceactor"]: ["Erin Fitzgerald"],
-        ["splashartist"]: ["David Villegas", "West Studio"],
-        ["lore"]: "A prayer to Janna, The Winds of Peace: “May the gales of dawn protect the weak from war's harm, may they heal those choked with night's darkness, and may they keep us all until order reigns over creation once more. As long as Janna's gentle hand is felt on the breeze, may we be delivered from the hungry maw of chaos.”"
+      ["Dawnbringer"] : {
+        ["id"] : 66,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S2 Act 2 Premium Battle Pass reward (Level 40)",
+        ["release"] : "2025-06-25",
+        ["set"] : ["Nightbringer and Dawnbringer"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["Erin Fitzgerald"],
+        ["splashartist"] : ["David Villegas", "West Studio"],
+        ["lore"] : "A prayer to Janna, The Winds of Peace: “May the gales of dawn protect the weak from war's harm, may they heal those choked with night's darkness, and may they keep us all until order reigns over creation once more. As long as Janna's gentle hand is felt on the breeze, may we be delivered from the hungry maw of chaos.”"
+      },
+      ["Coven"] : {
+        ["id"] : 67,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2026-09-23",
+        ["set"] : ["Coven"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 71
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 72
+          }, 
+          ["Pearl"] : {
+            ["id"] : 73
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 70
+          }, 
+          ["Ruby"] : {
+            ["id"] : 68,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 69
+          }
+        },
+        ["voiceactor"] : ["Erin Fitzgerald"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["lore"] : "They came to Janna as a howling gale – the restless storm driven forth by the Twilight Raptor's wings, dismantling humankind's manufactured works. Benevolence abandoned, mercy forfeit, she is an instrument of nature's wrath, using ancient magics to bestow the earth to her Mother Most Ancient's primordial rule."
       },
     }
   },
@@ -14860,7 +17413,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2019"
+          	["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Kyle Hebert"],
@@ -14882,7 +17435,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-03-01",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -14893,7 +17446,7 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Event Horizon 2020"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Kyle Hebert"],
@@ -14910,6 +17463,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 56,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Kyle Hebert"],
         ["splashartist"] : ["Rudy Siswanto", "Pan Chengwei"],
         ["lore"] : "Honoring Ambition's winning performance as Jarvan IV during the 2017 World Championship. "
@@ -14919,7 +17480,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2019-04-04",
         ["set"] : ["Hextech"],
         ["neweffects"] : true,
@@ -15008,11 +17569,12 @@
             ["id"] : 26,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Beast 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Kyle Hebert"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["music"] : "xotOsL4NRCs",
         ["lore"] : "Jarvan IV's stubborn refusal to join Ox Clan only relented to his father's stubborn insistence. Though he tries his best to shirk the celebrity status that comes with the role, Jarvan comes from a long line of philanthropists, and has found himself caught up in the thrill of bringing businesslike efficiency to the biggest community event of the year."
       },
       ["Worlds 2021"] : {
@@ -15042,7 +17604,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Night &amp; Dawn 2021"
+          	["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Kyle Hebert"],
@@ -15096,72 +17658,72 @@
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
         ["lore"] : "Jarvan is the magnetism of chaos made real. Like the eye of a hurricane, his destruction inevitably sweeps up anyone and anything in his path. To him, chaos is the forge from which true gods are made, and only those that survive the war will be worthy to live in the new age of creation that follows."
       },
-      ["Mythmaker"]: {
-        ["id"]: 44,
-        ["availability"]: "Legacy",
-        ["looteligible"]: true,
-        ["cost"]: 1350,
-        ["release"]: "2025-01-23",
-        ["set"]: ["Mythmaker"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["chromas"]: {
-          ["Catseye"]: {
-            ["id"]: 49
+      ["Mythmaker"] : {
+        ["id"] : 44,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-01-23",
+        ["set"] : ["Mythmaker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 49
           }, 
-          ["Emerald"]: {
-            ["id"]: 51
+          ["Emerald"] : {
+            ["id"] : 51
           }, 
-          ["Obsidian"]: {
-            ["id"]: 52
+          ["Obsidian"] : {
+            ["id"] : 52
           }, 
-          ["Rose Quartz"]: {
-            ["id"]: 47
+          ["Rose Quartz"] : {
+            ["id"] : 47
           }, 
-          ["Ruby"]: {
-            ["id"]: 45,
-            ["availability"]: "Bundle",
-            ["source"]      : "Bundle",
-            ["distribution"]: "Bundle Exclusive"
+          ["Ruby"] : {
+            ["id"] : 45,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
-          ["Sapphire"]: {
-            ["id"]: 48
+          ["Sapphire"] : {
+            ["id"] : 48
           }, 
-          ["Tanzanite"]: {
-            ["id"]: 50
+          ["Tanzanite"] : {
+            ["id"] : 50
           }, 
-          ["Turquoise"]: {
-            ["id"]: 46
+          ["Turquoise"] : {
+            ["id"] : 46
           }
         },
-        ["voiceactor"]: ["Kyle Hebert"],
-        ["splashartist"]: ["Marie Magny", "West Studio"],
-        ["lore"]: "The region's Emperor, Jarvan IV, does whatever it takes to protect his realm from outsiders, leading him to frequent clashes with other gods. But when the malicious Jhin poses a threat greater than any before, he finds himself working with unlikely allies to pave the way for humanity's survival."
+        ["voiceactor"] : ["Kyle Hebert"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["lore"] : "The region's Emperor, Jarvan IV, does whatever it takes to protect his realm from outsiders, leading him to frequent clashes with other gods. But when the malicious Jhin poses a threat greater than any before, he finds himself working with unlikely allies to pave the way for humanity's survival."
       },
-      ["Prestige Visions of the Fallen"]: {
-        ["id"]: 54,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S3 Act 1 Premium Battle Pass reward (Level 48)",
-        ["release"]: "2025-08-27",
-        ["set"]: ["Visions of the Fallen"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["filter"]: true,
-        ["chromas"]: {
-          ["Vivid"]: {
-            ["id"]: 55,
-            ["availability"]: "Limited",
-            ["source"]      : "Limited",
-            ["distribution"]: "Event Pass Exclusive"
+      ["Prestige Visions of the Fallen"] : {
+        ["id"] : 54,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S3 Act 1 Premium Battle Pass reward (Level 48)",
+        ["release"] : "2025-08-27",
+        ["set"] : ["Visions of the Fallen"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 55,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
           }
         },
-        ["voiceactor"]: ["Kyle Hebert"],
-        ["splashartist"]: ["Huyy Nguyen", "West Studio"],
-        ["lore"]: "Choking on the exquisite stench of burnt steel and broken stone, this mortal princeling defied us to his last breath. Now, with the royal line ended and a kingdom razed by his own vengeful hand, the great war can begin anew."
+        ["voiceactor"] : ["Kyle Hebert"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Choking on the exquisite stench of burnt steel and broken stone, this mortal princeling defied us to his last breath. Now, with the royal line ended and a kingdom razed by his own vengeful hand, the great war can begin anew."
       }
     }
   },
@@ -15176,6 +17738,7 @@
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Foritis Wang", "Pandart Studio"],
+        ["music"] : "98APArgQUfs",
         ["lore"] : "Unmatched in both his skill with unique armaments and his biting sarcasm, Jax is the last known weapons master of Icathia. After his homeland was laid low by its own hubris in unleashing the Void, Jax and his kind vowed to protect what little remained. As magic now rises in the world, this slumbering threat stirs once more, and Jax roams Valoran, wielding the last light of Icathia and testing all warriors he meets to see if any are strong enough to stand beside him…"
       },
       ["The Mighty"] : {
@@ -15205,8 +17768,8 @@
         ["id"] : 4,
         ["availability"] : "Limited",
         ["looteligible"] : false,
-        ["distribution"] : "Code Redemption",
         ["cost"] : "Special",
+        ["distribution"] : "Code Redemption",
         ["release"] : "2010-03-26",
         ["set"] : ["PAX"],
         ["voiceactor"] : ["Erik Braa"],
@@ -15328,7 +17891,7 @@
             ["id"] : 18,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Mecha Kingdoms 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 19
@@ -15369,7 +17932,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2021-04-29",
         ["set"] : ["Conqueror"],
         ["neweffects"] : true,
@@ -15405,7 +17968,7 @@
             ["id"] : 31,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 30
@@ -15428,6 +17991,7 @@
         },
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "Hailing from a realm where he failed to protect his kingdom from annihilation, Jax was content to live in exile, until everything collapsed. Now an Empyrean, he knows that somewhere out there his kingdom is still intact. Even if it destroys him, he'll use all of his power to see his home one more time."
       },      
       ["Neo PAX"] : {
@@ -15492,6 +18056,28 @@
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
         ["lore"] : "An ancient warrior whose lifespan was extended through experimental tech, Jax once defended the city's outskirts from the horrors of PROJECT's control. His hopes for the future were crushed, however, when Mordekaiser's virus forced him to purge his own people. The only flame that now lights his path is revenge."
+      },
+      ["Prestige Magma Chamber"] : {
+        ["id"] : 42,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "2026, S3 Act 1 Classic Battle Pass reward",
+        ["release"] : "2026-07-29",
+        ["set"] : ["Magma Chamber"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 43,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }
+        },
+        ["voiceactor"] : ["Erik Braa"],
+        ["lore"] : "Jax flexed at himself in his obsidian mirror. \"Rad,\" he said, then \"Sick. Totally gnarly.\" He'd been trapped in the Magma Chamber for some years now, so his vocabulary was perhaps a little dated. But it didn't matter. With the cavernous chamber's walls finally fractured, he was ready to step out into the world and show everyone what a real weapon can do."
       }
     }
   },
@@ -15506,7 +18092,8 @@
         ["release"] : "2012-07-06",
         ["voiceactor"] : ["Trevor Devall"],
         ["splashartist"] : ["Andrew 'Silver' Silver"],
-        ["lore"] : "Jayce is a brilliant inventor who has pledged his life to the defense of Piltover and its unyielding pursuit of progress. With his transforming hextech hammer in hand, Jayce uses his strength, courage, and considerable intelligence to protect his hometown. While revered throughout the city as a hero, he hasn’t taken well to the attention heroism brings. Still, Jayce’s heart is in the right place, and even those who envy his natural skills are grateful for his protection in the City of Progress."
+        ["music"] : "OcIE8UQKXdQ",
+        ["lore"] : "Jayce Talis is a brilliant inventor who, along with his friend Viktor, made the first great discoveries in the field of hextech. Celebrated across Piltover, he tries to live up to his reputation as \"the Man of Progress,\" but often struggles with the expectations placed upon him. Because of this, Jayce has begun to see the ways in which his invention has furthered the division between Piltover and Zaun—and armed with his hextech hammer, he stands ready to defend tomorrow."
       },
       ["Full Metal"] : {
         ["id"] : 1,
@@ -15586,7 +18173,7 @@
             ["id"] : 14,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 8
@@ -15615,6 +18202,7 @@
         },
         ["voiceactor"] : ["Trevor Devall"],
         ["splashartist"] : ["Choe HeonHwa"],
+        ["music"] : "TL1iTOj2K6I",
         ["lore"] : "A prestigious 2nd year whose face is known throughout the wider city of Durandal, Jayce is the class president, head of the world-renowned Luminary Club, and prodigious inventor of miraculous Jayce-branded technologies. He hopes his inventions will prevent the kind of tragedy that struck him in his youth, though he refuses to speak about what that was."
       },
       ["Resistance"] : {
@@ -15663,9 +18251,9 @@
         ["splashartist"] : ["Xuning Cui", "Kudos Productions"],
         ["lore"] : "While many presumed him dead, Jayce's sudden return to the Resistance has been heralded by some as a miracle and others as a curse. Burdened by guilt, he still blames himself for his failure to halt Viktor's rise. Only time will tell if Jayce can turn the tide."
       },
-      ["Arcane"] : {
+      ["Arcane Inventor"] : {
         ["id"] : 24,
-        ["availability"] : "Available",
+        ["availability"] : "Legacy",
         ["looteligible"] : true,
         ["cost"] : 975,
         ["release"] : "2021-11-08",
@@ -15735,11 +18323,11 @@
             ["id"] : 37,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Trevor Devall"],
-        ["splashartist"] : ["Alsie Lau", "Kelvin Law", "Mo Yan"],
+        ["splashartist"] : ["Alsie Lau", "Mo Yan"],
         ["lore"] : "Honoring Zeus's winning performance as Jayce during the 2023 World Championship."
       },
       ["Prestige T1"] : {
@@ -15747,7 +18335,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2024-08-14",
         ["set"] : ["World Champions: 2023"],
         ["neweffects"] : true,
@@ -15757,6 +18345,64 @@
         ["voiceactor"] : ["Trevor Devall"],
         ["splashartist"] : ["Pandart Studio"],
         ["lore"] : "After T1's shocking defeat at last year's Summoner's Cup, many lost hope that they'd ever be able to reclaim their throne. But Jayce's support for these legends never wavered. Sporting a bright white-and-gold glow, he stands tall in the front row and proudly cheers every victory, great or small, against WBG—a symbol of hope for all die-hard T1 fans."
+      },
+      ["Arcane Survivor"] : {
+        ["id"] : 35,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2024-11-20",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["voiceactor"] : ["Trevor Devall"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["lore"] : "Jayce Talis faces a nightmarish possibility: the end of progress. The arcane transformed him, upending his world. Even his hextech hammer feels altered, wielding the weight of a gavel against threats to the future. What he has seen left him bloodied, what he survived nearly broke him—but he remains determined to keep a promise only he can fulfill."
+      },
+      ["Petals of Spring"] : {
+        ["id"] : 38,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-19",
+        ["set"] : ["Petals of Spring"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 41
+          }, 
+          ["Catseye"] : {
+            ["id"] : 44
+          }, 
+          ["Emerald"] : {
+            ["id"] : 43
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 46
+          }, 
+          ["Pearl"] : {
+            ["id"] : 45
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 42
+          }, 
+          ["Ruby"] : {
+            ["id"] : 39,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 40
+          }
+        },
+        ["voiceactor"] : ["Trevor Devall"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "To mortals who seek knowledge, Jayce is a manifestation of their highest aspirations. To his  fellow pruners, he is a steadfast mentor, sweeping away the mythical garden's corruption with his Frostpyre-imbued staff. Jayce knows that growth—whether it's plants or the hands that tend them—springs forth from unwavering dedication, and his work attests to it."
       }
     }
   },
@@ -15771,6 +18417,7 @@
         ["release"] : "2016-02-01",
         ["voiceactor"] : ["Quinton Flynn"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "NSQZqVsaKWY",
         ["lore"] : "Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia’s ruling council, the serial killer now works as their cabal's assassin. Using his gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror."
       },
       ["High Noon"] : {
@@ -15862,6 +18509,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Quinton Flynn"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "XvmIf9CzIw8",
         ["lore"] : "After a botched surgery, Jhin went from being a black-market augment hacker to a notorious mechanized killer for hire. Still programmed with a taste for high-clearance upgrades, the tech Jhin takes from his victims has left him with a severe personality fragmentation, and a dark vision for the future of PROJECT... and humanity."
       },
       ["Dark Cosmic"] : {
@@ -15870,15 +18518,15 @@
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2019-06-13",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["transforming"] : true,
         ["newvoice"] : true,
-        ["variant"] : 37,
         ["voiceactor"] : ["Quinton Flynn"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "mhkQ4NaNeOA",
         ["lore"] : "Jhin was an interstellar entity, consumed by the Dark Star and given new purpose. Now his ageless mind is infected by visions of omnipotence, and consumed by an insatiable hunger. He scours entire regions of space seemingly on a whim, using the remnants to create bizarre, silent objets d'art."
       },
       ["Shan Hai Scrolls"] : {
@@ -15940,7 +18588,7 @@
             ["id"] : 24,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Quinton Flynn"],
@@ -15972,7 +18620,7 @@
             ["id"] : 35,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 34
@@ -15995,6 +18643,7 @@
         },
         ["voiceactor"] : ["Quinton Flynn"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "Jhin woke as an Empyrean with a sensation he'd never known before: true warmth. Exhilarated by the power, he set innocents ablaze with a flick of his hand. Finally, a muse worthy of him! The realization that “she” is slowly killing him only charms him more. Now if only he could find her source… "
       },
       ["Soul Fighter"] : {
@@ -16021,7 +18670,7 @@
             ["id"] : 46,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 45
@@ -16044,16 +18693,17 @@
         },
         ["voiceactor"] : ["Quinton Flynn"],
         ["splashartist"] : ["Eric Xie", "West Studio"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "Don't ask him how, but this twisted mentor can unlock ANY person's soul power under the right conditions! Just be prepared, because his trials are deadly! He's ready to put his art on full display on the world's biggest stage and maybe even get some revenge on a bounty hunter along the way! Let's give it up for… Jhin!"
       },
       ["Dark Cosmic Erasure"] : {
         ["id"] : 37,
-        ["availability"] : "Limited",
-        ["looteligible"] : false,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
         ["cost"] : "Special",
         ["distribution"] : "1% drop rate from Cosmic 2023 Capsules or opening 30 Cosmic 2023 Capsules",
         ["release"] : "2023-08-30",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -16064,58 +18714,100 @@
         ["splashartist"] : ["Marie Magny", "West Studio"],
         ["lore"] : "Jhin was an interstellar entity, consumed by the Dark Star and given new purpose. Now his ageless mind is infected by visions of omnipotence, and consumed by an insatiable hunger. He scours entire regions of space seemingly on a whim, using the remnants to create bizarre, silent objets d'art."
       },
-      ["Mythmaker"]: {
-        ["id"]: 47,
-        ["availability"]: "Legacy",
-        ["looteligible"]: true,
-        ["cost"]: 1820,
-        ["release"]: "2025-01-23",
-        ["set"]: ["Mythmaker"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["newvoice"]: true,
-        ["chromas"]: {
-          ["Catseye"]: {
-            ["id"]: 50
+      ["Mythmaker"] : {
+        ["id"] : 47,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2025-01-23",
+        ["set"] : ["Mythmaker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 50
           }, 
-          ["Emerald"]: {
-            ["id"]: 49
+          ["Emerald"] : {
+            ["id"] : 49
           }, 
-          ["Obsidian"]: {
-            ["id"]: 53
+          ["Obsidian"] : {
+            ["id"] : 53
           }, 
-          ["Rose Quartz"]: {
-            ["id"]: 51
+          ["Rose Quartz"] : {
+            ["id"] : 51
           }, 
-          ["Ruby"]: {
-            ["id"]: 48,
-            ["availability"]: "Bundle",
-            ["source"]      : "Bundle",
-            ["distribution"]: "Bundle Exclusive"
+          ["Ruby"] : {
+            ["id"] : 48,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
-          ["Sapphire"]: {
-            ["id"]: 52
+          ["Sapphire"] : {
+            ["id"] : 52
           }
         },
-        ["voiceactor"]: ["Paul M. Guyet"],
-        ["splashartist"]: ["Augusto Quirino", "Pandart Studio"],
-        ["lore"]: "Jhin is the first of Cassiopeia's creations after the Lunar Players distort the world of myth. He embodies the mythical snake's most insidious qualities: sinister, calculating, and malicious. Displeased with the goddess's benevolent methods, Jhin plans to recreate humanity in his image and introduce them to the beauty of suffering."
+        ["voiceactor"] : ["Paul M. Guyet"],
+        ["splashartist"] : ["Augusto Quirino", "Pandart Studio"],
+        ["lore"] : "Jhin is the first of Cassiopeia's creations after the Lunar Players distort the world of myth. He embodies the mythical snake's most insidious qualities: sinister, calculating, and malicious. Displeased with the goddess's benevolent methods, Jhin plans to recreate humanity in his image and introduce them to the beauty of suffering."
       },
-      ["Arcana"]: {
-        ["id"]: 55,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S3 Act 1 Premium Battle Pass reward (Level 24)",
-        ["release"]: "2025-08-27",
-        ["set"]: ["Arcana"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["voiceactor"]: ["Quinton Flynn"],
-        ["splashartist"]: ["Lejia Chan", "Kudos Productions"],
-        ["lore"]: "As the fates of two worlds entwine, Jhin is disturbed by a symmetry he sees unfolding. One that could turn his Higher World into a tedious mirror of the Lower—unless he intervenes. He prowls the spaces between, piercing offending patterns with a bullet or a whisper. A new order must arise, shaped by sublime disharmony."
+      ["Arcana"] : {
+        ["id"] : 55,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S3 Act 1 Premium Battle Pass reward (Level 24)",
+        ["release"] : "2025-08-27",
+        ["set"] : ["Arcana"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Quinton Flynn"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["lore"] : "As the fates of two worlds entwine, Jhin is disturbed by a symmetry he sees unfolding. One that could turn his Higher World into a tedious mirror of the Lower—unless he intervenes. He prowls the spaces between, piercing offending patterns with a bullet or a whisper. A new order must arise, shaped by sublime disharmony."
+      },
+      ["Broken Covenant"] : {
+        ["id"] : 64,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-06-24",
+        ["set"] : ["Broken Covenant"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 67
+          },
+          ["Emerald"] : {
+            ["id"] : 69
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 72
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 70
+          }, 
+          ["Ruby"] : {
+            ["id"] : 65,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 66
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 71
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 68
+          }
+        },
+        ["voiceactor"] : ["Quinton Flynn"],
+        ["lore"] : "Even among the most devout Umbrafil members, Jhin's zealotry is egregious. To him, the world's beauty has been desecrated, and through works of violence and terrible beauty, he carries out his holy mandate. If the corrupted inhabitants of this world want to continue living in it, they must offer themselves as vessels for Jhin's masterpiece."
       }
     }
   },
@@ -16130,7 +18822,8 @@
         ["release"] : "2013-10-09",
         ["voiceactor"] : ["Sarah Anne Williams"],
         ["splashartist"] : ["Katie 'TeaTime' De Sousa"],
-        ["lore"] : "A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom, and gleefully brings her own chaotic brand of pandemonium wherever she goes."
+        ["music"] : "0nlJuwO0GDs",
+        ["lore"] : "An unhinged and impulsive criminal from the undercity, Jinx is haunted by the consequences of her past—but that doesn't stop her from bringing her own chaotic brand of pandemonium to Piltover and Zaun. She uses her arsenal of DIY weapons to devastating effect, unleashing torrents of colorful explosions and gunfire, inspiring the disenfranchised to rebellion and resistance with the mayhem she leaves in her wake."
       },
       ["Crime City"] : {
         ["id"] : 1,
@@ -16175,7 +18868,7 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 6
@@ -16189,6 +18882,7 @@
         },
         ["voiceactor"] : ["Sarah Anne Williams"],
         ["splashartist"] : ["Jason Chan"],
+        ["music"] : "jkWXBxaJh-g",
         ["lore"] : "Never one to turn down an imaginary challenge, Jinx has constructed a number of Lunar Revel weapons, including a seven foot long rocket shaped like an angry dragon. She'll tell you it's a fun firecracker for parties. It is not."
       },
       ["Zombie Slayer"] : {
@@ -16201,8 +18895,17 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Doom"] : {
+            ["id"] : 64,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          } 
+        },
         ["voiceactor"] : ["Sarah Anne Williams"],
         ["splashartist"] : ["Christian Fell"],
+        ["music"] : "XHEu4IYXuJk",
         ["lore"] : "When a mutagenic virus turned the world into an undead purgatory, no one was more excited than Jinx. No laws, no civilization, not even a thin veneer of polite society had survived—just a numberless horde of slime-vomiting bullet sponges and all the ammo she can forage. It's paradise."
       },
       ["Star Guardian"] : {
@@ -16212,8 +18915,7 @@
         ["cost"] : 1820,
         ["release"] : "2016-10-05",
         ["earlysale"] : "2017-04",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 1"],
+        ["set"] : ["Star Guardian Season 1"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -16228,6 +18930,7 @@
         },
         ["voiceactor"] : ["Sarah Anne Williams"],
         ["splashartist"] : ["Jean 'Curing' Go"],
+        ["music"] : "6kEZEvMYKQY",
         ["lore"] : "Much to the annoyance of her team, Jinx is an impulsive and sometimes cynical Star Guardian who loves a good, glittery explosion. However, when the fighting starts, Jinx will throw herself into the battle to protect others, especially her childhood friend Lux."
       },
       ["Ambitious Elf"] : {
@@ -16242,6 +18945,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Sarah Anne Williams"],
         ["splashartist"] : ["Jem Flores"],
+        ["music"] : "dSNQMl16GiY",
         ["lore"] : "A master toy maker and inventor, Jinx believes she could one day become the greatest Santa anyone has ever seen. Other elves worry her creations could be classified as weapons... but sometimes that's the price of true ambition."
       },
       ["Odyssey"] : {
@@ -16279,6 +18983,7 @@
         },
         ["voiceactor"] : ["Sarah Anne Williams"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "Dy58gGFpagI",
         ["lore"] : "Adept at building and/or destroying (but mostly destroying) a variety of haphazard, highly unstable weaponry for the Morning Star crew, Jinx also serves as the ship's pilot. Her previous job as a mining explosives technician resulted in a lot of collateral damage, and a thoroughly justified dismissal."
       },
       ["PROJECT"] : {
@@ -16313,7 +19018,7 @@
             ["id"] : 28,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 26
@@ -16327,6 +19032,7 @@
         },
         ["voiceactor"] : ["Sarah Anne Williams"],
         ["splashartist"] : ["Viktor Titov", "Grafit Studio"],
+        ["music"] : "EC67qmPXirs",
         ["lore"] : "Jinx volunteered for PROJECT conversion, never expecting that a critical power failure would scramble her memory core, leaving her a psychopath driven by the manic voices in her head. Seemingly obsessed with destruction for its own sake, she has begun to show signs of something far more sinister than mere memory fragmentation: the cold, calculating influence of Program."
       },
       ["Heartseeker"] : {
@@ -16369,9 +19075,9 @@
         ["splashartist"] : ["Esben Lash Rasmussen"],
         ["lore"] : "Love is a battlefield, and Jinx comes prepared! Armed with her beloved companion Fishbones, she's ready to break hearts—and bones. But if she likes you enough, she's prepared to play nice. Maybe. Probably not."
       },
-      ["Arcane"] : {
+      ["Arcane Enemy"] : {
         ["id"] : 37,
-        ["availability"] : "Available",
+        ["availability"] : "Legacy",
         ["looteligible"] : true,
         ["cost"] : 975,
         ["release"] : "2021-11-24",
@@ -16404,7 +19110,7 @@
             ["id"] : 49,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 47
@@ -16413,7 +19119,7 @@
             ["id"] : 48
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 41
+            ["id"] : 44
           }, 
           ["Ruby"] : {
             ["id"] : 41,
@@ -16437,8 +19143,8 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["release"] : "2022-03-31",
         ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2022-03-31",
         ["set"] : ["Anima Squad"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -16506,12 +19212,81 @@
             ["id"] : 63,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Sarah Anne Williams"],
-        ["splashartist"] : ["Alsie Lau", "Kelvin Law", "Mo Yan"],
+        ["splashartist"] : ["Alsie Lau", "Mo Yan"],
         ["lore"] : "Honoring Gumayusi's winning performance as Jinx during the 2023 World Championship."
+      },
+      ["Arcane Fractured"] : {
+        ["id"] : 60,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Sanctum",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 80 Ancient Sparks",
+        ["release"] : "2024-12-11",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["transforming"] : true,
+        ["forms"] : ["Hero", "Tinkerer", "Menace"],
+        ["chromas"] : {
+          ["Tinkerer"] : {
+            ["id"] : 60
+          }, 
+          ["Menace"] : {
+            ["id"] : 60
+          }
+        },
+        ["voiceactor"] : ["Sarah Anne Williams"],
+        ["splashartist"] : ["Jennifer Wuestling"],
+        ["lore"] : "Inventor, maniac, hero—Jinx left the twin cities reeling after killing Silco and blowing up the Piltover Council. Her future had gone up in flames, and as she faced the pieces of her fractured life, Jinx did the same. Now a symbol of change, she must decide who she will become in a world shaped by her own chaos."
+      },
+      ["Ocean Song"] : {
+        ["id"] : 65,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-08-26",
+        ["set"] : ["Ocean Song"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 67
+          }, 
+          ["Emerald"] : {
+            ["id"] : 68
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 72
+          }, 
+          ["Pearl"] : {
+            ["id"] : 73
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 71
+          }, 
+          ["Ruby"] : {
+            ["id"] : 66,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 70
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 69
+          }
+        },
+        ["voiceactor"] : ["Sarah Anne Williams"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "A pyrotechnic artist of anarchy, Jinx's musical inventions skirt the line between entertaining and life-threatening. After three years of the Ocean Song Festival “forgetting” to invite her, Jinx has invited herself, along with her latest bombastic tech. She knows just what the opening night act is missing to make it a truly unforgettable show: chaos."
       },      
     }
   },
@@ -16526,6 +19301,7 @@
         ["release"] : "2022-11-03",
         ["voiceactor"] : ["DeObia Oparei"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "z3f56QPX99o",
         ["lore"] : "Defiant and courageous, K'Sante battles colossal beasts and ruthless Ascended to protect his home of Nazumah, a coveted oasis amid the sands of Shurima. But after a falling-out with his former partner, K'Sante realizes that in order to become a warrior worthy of leading his city, he must temper his single-minded drive for success. Only then can he avoid falling prey to his own pride and find the wisdom he needs to defeat the vicious monsters threatening his people."
       },
       ["Empyrean"] : {
@@ -16547,7 +19323,7 @@
             ["id"] : 7,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 6
@@ -16564,6 +19340,7 @@
         },
         ["voiceactor"] : ["DeObia Oparei"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "K'Sante prides himself on leading under adversity, but this is a challenge unlike any other. His realm is gone, he's living on borrowed time, and the other Empyreans don't realize that something released the Foreglow. Something bad. He knows only they can fix it, but they need their eyes opened. They need a leader."
       },
       ["Prestige Empyrean"] : {
@@ -16580,6 +19357,7 @@
         ["variant"] : 1,
         ["voiceactor"] : ["DeObia Oparei"],
         ["splashartist"] : ["Julia Yurtsev"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "K'Sante's always been a trailblazer on the fashion circuit, and this year he definitely wants to make the audience sweat. With his crystal-laden drip and flawless makeup, he's about to light a fire under this Gala."
       },
       ["HEARTSTEEL"] : {
@@ -16606,7 +19384,7 @@
             ["id"] : 17,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 11
@@ -16629,7 +19407,51 @@
         },
         ["voiceactor"] : ["DeObia Oparei"],
         ["splashartist"] : ["Bo 'chenbowow' Chen", "Julia Yurtsev", "Jennifer Wuestling"],
+        ["music"] : "MDErQ1KTzaI",
         ["lore"] : "An awe-inspiring presence—physically, emotionally, vocally—K'Sante is always focused on the bigger picture, determined for HEARTSTEEL to make its mark on the music industry. Though in his solo career his ambition often outpaced what one man can do alone, now that he's found friends and collaborators he believes in, K'Sante knows nothing can stop them."
+      },
+      ["HEARTSTEEL Live My Life"] : {
+        ["id"] : 18,
+        ["availability"] : "Upcoming",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "N/A",
+        ["set"] : ["HEARTSTEEL"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 26
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 24
+          }, 
+          ["Pearl"] : {
+            ["id"] : 25
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 23
+          }, 
+          ["Ruby"] : {
+            ["id"] : 19,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 20
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 22
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 21
+          }
+        },
+        ["voiceactor"] : ["DeObia Oparei"],
+        ["music"] : "gMkuV5hh7-s",
+        ["lore"] : "Vibe Pop Magazine: Which HEARTSTEEL member would survive a zombie apocalypse?<br><br>K'Sante: Hah, everyone! As co-leader, I would see them all to safety. I'll take point, Sett would be our muscle, Yone could manage supplies, Aphelios could scout, Ezreal would… negotiate. He can be persuasive. Kayn would… Hm. Well anyway, we would honor his memory."
       }
     }  
   },
@@ -16645,6 +19467,7 @@
         ["transforming"] : true,
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "3pP-Mp0cviU",
         ["lore"] : "Claimed by the Void when she was only a child, Kai’Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered into an uneasy symbiosis with a living Void carapace, the time will soon come when she must decide whether to forgive those mortals who would call her a monster, and defeat the coming darkness together… or simply to forget, as the Void consumes the world that left her behind."
       },
       ["Bullet Angel"] : {
@@ -16676,7 +19499,7 @@
             ["id"] : 47,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Steel Valkyries 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 6
@@ -16688,7 +19511,10 @@
             ["id"] : 4
           }, 
           ["Ruby"] : {
-            ["id"] : 3
+            ["id"] : 3,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           } 
         },
         ["voiceactor"] : ["Natasha Loring"],
@@ -16709,6 +19535,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Alvin Lee", "Pan Chengwei", "Bo 'chenbowow' Chen"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "A talent from abroad, Kai'Sa brings a unique style and sound to the industry. She learned to express herself through her craft, blossoming into one of the most talented dancers in the world—a perfect fit for the misfits of K/DA, where she takes their performances to the next level."
       },
       ["Prestige KDA"] : {
@@ -16716,8 +19543,8 @@
         ["formatname"] : "Prestige K/DA Kai'Sa",
         ["availability"] : "Rare",
         ["looteligible"] : true,
-        ["distribution"] : "200 Mythic Essence",
         ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2018-11-03",
         ["set"] : ["K/DA"],
         ["neweffects"] : true,
@@ -16726,6 +19553,7 @@
         ["variant"] : 14,
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "Fresh from her appearance at the annual Pop Music Awards, K/DA Kai'Sa is now wearing a prestigious all-gold costume—catching the eye of the entire world."
       },
       ["iG"] : {
@@ -16739,11 +19567,14 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["chromas"] : {
-          ["Tenfold Triumph"] : {
-            ["id"] : 58,
+          ["Elite"] : {
+            ["id"] : 81,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tenfold Triumph"] : {
+            ["id"] : 58
           }
         },
         ["voiceactor"] : ["Natasha Loring"],
@@ -16763,10 +19594,10 @@
         ["filter"] : true,
         ["chromas"] : {
           ["Amethyst"] : {
-            ["id"] : 22
+            ["id"] : 24
           }, 
           ["Aquamarine"] : {
-            ["id"] : 24
+            ["id"] : 22
           }, 
           ["Catseye"] : {
             ["id"] : 21
@@ -16781,7 +19612,7 @@
             ["id"] : 18,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Arcade 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 23
@@ -16798,6 +19629,7 @@
         },
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "EeyPmIssreo",
         ["lore"] : "A bounty hunter and ex-soldier hailing from the hellish multidirectional shooter “PixelVoid II,” Kai'Sa was called back to the Arcadian theater after the Battle Bosses infected her game. As she is unmatched at killing screen-covering boss monsters with massive health pools, invading “PixelVoid II” may have been a severe miscalculation."
       },
       ["KDA ALL OUT"] : {
@@ -16816,11 +19648,12 @@
             ["id"] : 28,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Battle Queen 2020"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "3VTkBuxU4yk",
         ["lore"] : "After showcasing her flawless dance techniques world-wide, Kai'sa is ready to apply her legendary discipline and focus to all aspects of her life as a performing artist. She's still not sure who she'll be when she steps forward to shine as herself, but she's looking forward to the challenge of finding out."
       },
       ["Prestige KDA ALL OUT"] : {
@@ -16828,8 +19661,8 @@
         ["formatname"] : "Prestige K/DA ALL OUT Kai'Sa",
         ["availability"] : "Rare",
         ["looteligible"] : true,
-        ["distribution"] : "150 Mythic Essence",
         ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2020-10-29",
         ["set"] : ["K/DA"],
         ["neweffects"] : true,
@@ -16838,6 +19671,7 @@
         ["variant"] : 26,
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "3VTkBuxU4yk",
         ["lore"] : "When Kai'Sa wanted a red carpet outfit to match her growing confidence in her artistry, she sought Evelynn's advice. With sharp tailoring and embellishments that match her excellence in execution, Kai'Sa's ready to shine on and off the stage."
       },
       ["Lagoon Dragon"] : {
@@ -16858,7 +19692,7 @@
             ["id"] : 38,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 37
@@ -16887,6 +19721,7 @@
         },
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "tHduaeLWi1Y",
         ["lore"] : "Seeking the power to purify the land of Brand's corruption, Kai'Sa plunged into the depths of the Lagoon Dragon's waters, despite terrifying legends of the endless deep. However, the Dragon recognized her for her courage to face the unknown and blessed her with its gifts. Now, she adventures the world, cleansing the land and protecting those who cannot protect themselves."
       },
       ["Prestige KDA (2022)"] : {
@@ -16904,6 +19739,7 @@
         ["variant"] : 15,
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "UOxkGD8qRB4",
         ["lore"] : "Fresh from her appearance at the annual Pop Music Awards, K/DA Kai'Sa is now wearing a prestigious all-gold costume—catching the eye of the entire world."
       },
       ["Star Guardian"] : {
@@ -16912,8 +19748,7 @@
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2022-07-14",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -16926,7 +19761,7 @@
             ["id"] : 46,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 42
@@ -16946,6 +19781,7 @@
         },
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "A born leader with a head for tactics, Kai'Sa takes her job as captain extremely seriously... perhaps too much for her own good. Still, her squad respects her command and will follow her into even the most dangerous missions, where she'll snipe priority targets and spray the rest with payloads of starlight-powered missiles."
       },
       ["Inkshadow"] : {
@@ -16973,7 +19809,7 @@
             ["id"] : 57,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2023"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Jasper"] : {
             ["id"] : 51
@@ -16996,6 +19832,7 @@
         },
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "Lmcy9Z10iLs",
         ["lore"] : "A young survivor who lost her father to the Cabal, Kai'Sa fled the city and joined the Uprising. Refusing to allow others to fight a battle on her behalf, she sacrificed her independence for the chance to fight back, receiving a magical, symbiotic tattoo she needs in order to live. Kai'Sa finally has the tools to get revenge. She will see justice done."
       },
       ["Heavenscale"] : {
@@ -17011,6 +19848,9 @@
         ["chromas"] : {
           ["Amethyst"] : {
             ["id"] : 63
+          }, 
+          ["Beacon"] : {
+            ["id"] : 82
           },
           ["Catseye"] : {
             ["id"] : 61
@@ -17025,7 +19865,7 @@
             ["id"] : 67,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 68
@@ -17045,7 +19885,104 @@
         },
         ["voiceactor"] : ["Natasha Loring"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "Royal scout and friend to the prince, Kai'Sa is a tenacious dragon who has spent more time beneath the clouds than any of her peers. Though this is the first time she has interacted with humans directly, her observed knowledge and agile grace are sure to be assets while joining them in the New Year's celebration."
+      },
+      ["Dark Star"] : {
+        ["id"] : 69,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-10-23",
+        ["set"] : ["Dark Star"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 78
+          }, 
+          ["Catseye"] : {
+            ["id"] : 74
+          }, 
+          ["Emerald"] : {
+            ["id"] : 75
+          }, 
+          ["Pearl"] : {
+            ["id"] : 79
+          }, 
+          ["Quasar"] : {
+            ["id"] : 80,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 76
+          }, 
+          ["Ruby"] : {
+            ["id"] : 72,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 73
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 77
+          }
+        },
+        ["voiceactor"] : ["Natasha Loring"],
+        ["splashartist"] : ["Chace Chen", "Pandart Studio"],
+        ["lore"] : "Kai'Sa is the kind of horror that the spacefaring civilization she was born from once feared. Whatever she destroys, she absorbs, surviving the unforgiving cosmos using power siphoned from the ashes of dead galaxies."
+      },
+      ["Risen Legend"] : {
+        ["id"] : 70,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Purchase the Risen Legend Collection during the Hall of Legends 2025 event.",
+        ["release"] : "2025-06-11",
+        ["set"] : ["Risen Legends"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["voiceactor"] : ["Natasha Loring"],
+        ["splashartist"] : ["Roanna Peroz"],
+        ["music"] : "wGGtHIE3xzo",
+        ["lore"] : "I was right to place my trust in you, Kai'Sa. My vision for this world requires unrelenting conviction, and you've proven yourself worthy at every turn. Now your true test begins—to control the power I've granted you. Are you ready for the hunt?"
+      },
+      ["Immortalized Legend"] : {
+        ["id"] : 71,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Purchase the Immortalized Legend Collection during the Hall of Legends 2025 event.",
+        ["release"] : "2025-06-11",
+        ["set"] : ["Risen Legends"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["transforming"] : true,
+        ["newvoice"] : true,
+        ["extras"] : true,
+        ["formicon"] : "Hall Of Legends 2025 Immortalized Legend Kai'Sa",
+        ["forms"] : ["Risen", "Chosen"],
+        ["chromas"] : {
+          ["Risen"] : {
+            ["id"] : 71
+          }, 
+          ["Chosen"] : {
+            ["id"] : 71
+          }
+        },
+        ["voiceactor"] : ["Natasha Loring"],
+        ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "wGGtHIE3xzo",
+        ["lore"] : "Do you feel this power, Kai'Sa? This is the embrace of the Relentless Hunter. You have fought fiercely to earn your title as my Immortalized Legend. Now you must let go. Give into your instincts and do what must be done, for those who stand in our way deserve punishment. Show them that no one escapes the hunt—not even gods."
       },
     }
   },
@@ -17060,6 +19997,7 @@
         ["release"] : "2014-11-20",
         ["voiceactor"] : ["Misty Lee"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "DFZJuBXufIM",
         ["lore"] : "A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to hunt deceivers and traitors. The betrayed may cry out in blood to be avenged, but Kalista only answers those willing to pay with their very souls. Those who become the focus of Kalista’s wrath should make their final peace, for any pact sealed with this grim hunter can only end with the cold, piercing fire of her soul-spears."
       },
       ["Blood Moon"] : {
@@ -17090,7 +20028,7 @@
             ["id"] : 4,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2018"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Misty Lee"],
@@ -17197,12 +20135,56 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Faerie Court 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Misty Lee"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "-E5IhfdMoyk",
         ["lore"] : "As captain of Her Majesty's royal guard, Kalista is dedicated to keeping her queen safe above all else. Though some grumble that Kalista was only elevated to her station because she is Karma's dearest friend, she has proven time and time again that her title is well earned. Anyone who thinks otherwise is welcome to duel her and learn firsthand."
+      },
+      ["Dawnbringer"] : {
+        ["id"] : 24,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-07-16",
+        ["set"] : ["Nightbringer and Dawnbringer"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 26
+          }, 
+          ["Emerald"] : {
+            ["id"] : 27
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 32
+          }, 
+          ["Pearl"] : {
+            ["id"] : 31
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 30
+          }, 
+          ["Ruby"] : {
+            ["id"] : 25,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 28
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 29
+          }
+        },
+        ["voiceactor"] : ["Misty Lee"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "An invocation of Kalista, the Oathsworn Arbiter: “I call upon dawn's shining spear! O Kalista, punish the broken vows of mortals and gods alike! Pierce the forked tongues of the oathbreakers. Cast their lies back to the darkness, forge anew the bond of honor between kindred warriors, and bless the children of order with light everlasting!"
       }
     }
   },
@@ -17302,6 +20284,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Rashida Clendening"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "QZh5wRENttI",
         ["lore"] : "A powerful sorceress at one with the natural world, Karma spreads snow like a soft blanket across the enchanted forests of the Winterlands. A loyal friend of the Poro King—wherever Karma goes, winter follows."
       },
       ["Conqueror"] : {
@@ -17319,7 +20302,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2019"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Rashida Clendening"],
@@ -17332,7 +20315,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2019-06-13",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -17386,37 +20369,37 @@
             ["id"] : 23,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Dawnbringer Karma Bundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Catseye"] : {
             ["id"] : 21,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Dawnbringer Karma Bundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Paragon"] : {
             ["id"] : 24,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Dawnbringer Karma Bundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Peridot"] : {
             ["id"] : 22,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Dawnbringer Karma Bundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 25,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Dawnbringer Karma Bundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Ruby"] : {
             ["id"] : 20,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Dawnbringer Karma Bundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Rashida Clendening"],
@@ -17444,7 +20427,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 34
@@ -17488,7 +20471,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 38
@@ -17514,6 +20497,7 @@
         },
         ["voiceactor"] : ["Rashida Clendening"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "Surviving the initial ruination of Ionia, Karma is ultimately lost during a second one led by Viego himself. With the Spirit of Ionia itself removed from the continent, the Ionian people must band together to save one another, even as Karma twists the souls of millions to a new, horrific purpose."
       },
       ["Tranquility Dragon"] : {
@@ -17540,7 +20524,7 @@
             ["id"] : 53,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 47,
@@ -17566,6 +20550,7 @@
         },
         ["voiceactor"] : ["Rashida Clendening"],
         ["splashartist"] : ["Yuhong Ding", "West Studio"],
+        ["music"] : "tHduaeLWi1Y",
         ["lore"] : "As Brand's corruption spread, Karma sought the power to restore peace. When her desperate search throughout the land failed, Karma was left with nowhere left to look but within. After months of quiet contemplation, the fabled Tranquility Dragon greeted her in a vision. She awoke with the dragon's gift, the power to bring tranquil peace to face Brand's raging violence."
       },
       ["Faerie Queen"] : {
@@ -17602,11 +20587,12 @@
             ["id"] : 60,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Faerie Court 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Rashida Clendening"],
         ["splashartist"] : ["Julia Yurtsev"],
+        ["music"] : "-E5IhfdMoyk",
         ["lore"] : "All hail Her Majesty, Karma, Queen of the Seelie Court of Light and Beauty! Though her selection and subsequent rise to the throne was a surprise to everyone (nobles, laymen, even Karma herself), she is a beacon of poise and power, overseeing the turning of seasons and keeping the balance between the ever-bickering seasonal sub-courts. Long live the Queen!"
       },
       ["Infernal"] : {
@@ -17651,6 +20637,45 @@
         ["voiceactor"] : ["Rashida Clendening"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "Possessed by a spirit of the Infernal flame, Karma was once a powerful pyromancer of the Shadowfire Temple. Believing it possible to control the flame spirit, she captured it hoping to put an end to the Ashen Lord's reign but succumbed to the hellfire like all the rest."
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 70,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2025-06-25",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 72
+          }, 
+          ["Emerald"] : {
+            ["id"] : 73
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 74
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 76
+          }, 
+          ["Ruby"] : {
+            ["id"] : 71,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sandstone"] : {
+            ["id"] : 75
+          }
+        },
+        ["voiceactor"] : ["Rashida Clendening"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "Long ago, the First Spirit of the Lands shaped two sisters—born together, yet bound by different fates. For a time, she watched over them, but when her gaze turned elsewhere, one strayed, creating twisted life in monstrous masks. Faced with the cost of her neglect, the First Spirit vowed never to turn away again, binding herself to endless rebirth."
       }
     }
   },
@@ -17718,6 +20743,7 @@
         ["newquotes"] : true,
         ["vu"] : true,
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "oUiOylPbfV0&list:PLFy97Kh_wuWbTNc8aW76g-4pwvxMqEeJA",
         ["lore"] : "Lead singer of heavy-metal sensation PENTAKILL, Karthus sings in the voice of a fallen angel made of freshly polished chrome and dynamite that eats other dynamite. His vocals explode the sun in the sky, igniting the flame of metal within the hearts of all who hear."
       },
       ["Fnatic"] : {
@@ -17786,7 +20812,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-09-09",
-        ["set"] : ["Pentakill"],
+        ["set"] : ["Pentakill III: The Lost Chapter"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -17821,6 +20847,7 @@
           }
         },
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "5IWS7Y5KRhk&list:PLsY0g5fQlxMWMsC_enIQlr7zwfhT6v9mU",
         ["lore"] : "All hail, Karthus, the Voice of Doom, and Chosen of Perpetuum! His songs are bleak murder ballads, a bitter reminder that all things must die. Though, perhaps, not him?"
       },
       ["Elderwood"] : {
@@ -17864,6 +20891,48 @@
         },
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "Karthus was a brilliant scholar once upon a time. But when a disease nearly eradicated his people, he researched forbidden Coven magic, hoping to resurrect his loved ones... with catastrophic consequences. Now, he roams the Elderwood as a decaying creature, spreading his plague throughout the forest and inviting its inhabitants to transcend through death."
+      },
+      ["Arcana"] : {
+        ["id"] : 35,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-09-24",
+        ["set"] : ["Arcana"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 39
+          },
+          ["Emerald"] : {
+            ["id"] : 37
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 42
+          }, 
+          ["Pearl"] : {
+            ["id"] : 43
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 40
+          }, 
+          ["Ruby"] : {
+            ["id"] : 36,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 41
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 38
+          }
+        },
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "The Pattern is a perfect chorus, a divine harmony, one which Karthus conducts like a choir. His tenor rises alongside it, singing minor-key dirges and rousing paeans, somber elegies and soaring anthems. Death becomes life becomes death once more, and Karthus remains, ever-singing the pattern that weaves through all things."
       }
     }
   },
@@ -17932,7 +21001,7 @@
         ["cost"] : 1350,
         ["release"] : "2015-10-14",
         ["earlysale"] : "2016-04",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -18139,6 +21208,7 @@
         ["set"] : ["Trick-or-Treat"],
         ["vu"] : true,
         ["voiceactor"] : ["Tara Platt"],
+        ["music"] : "j5Uv1K_CmNw",
         ["lore"] : "There are times when Katarina deeply questions the parameters of her assassination missions. This is, somehow, not one of those times."
       },
       ["High Command"] : {
@@ -18192,7 +21262,7 @@
             ["id"] : 11,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Tara Platt"],
@@ -18250,7 +21320,7 @@
             ["id"] : 14,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 17
@@ -18276,6 +21346,7 @@
         },
         ["voiceactor"] : ["Tara Platt"],
         ["splashartist"] : ["Atey Ghailan"],
+        ["music"] : "TL1iTOj2K6I",
         ["lore"] : "Katarina is a rough-edged loner who stays far away from the politics of Durandal Academy. A 2nd year student with a chip on her shoulder, she is also a top member of the Assassin Club—the only club on campus allowed to kill opponents in school-sanctioned duels. Few other students ever dare approach her."
       },
       ["Blood Moon"] : {
@@ -18335,7 +21406,7 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Battle Queen 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 32
@@ -18361,6 +21432,7 @@
         },
         ["voiceactor"] : ["Tara Platt"],
         ["splashartist"] : ["Mingchen Shen", "West Studio"],
+        ["music"] : "uFCjVtJ2gJQ",
         ["lore"] : "Katarina won the Schemean crest with a ruthless performance in her queendom's battle pits. For Schema to break free of its humble alliances and become the region's rightful leader, it will take a similarly commanding performance in the Coronation—and Katarina has never been more prepared to cement her fearsome status as the rightful queen of queens."
       },
       ["High Noon"] : {
@@ -18384,7 +21456,7 @@
             ["id"] : 46,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 45
@@ -18454,11 +21526,12 @@
             ["id"] : 57,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Faerie Court 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Tara Platt"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "-E5IhfdMoyk",
         ["lore"] : "Though Katarina is an official diplomatic envoy hailing from the Unseelie Court of Truth and Shadow, you wouldn't know it from all the side-eyed glances and disapproving frowns she receives from closed-minded courtiers. No matter: with daggers in hand and a mystery afoot, Katarina has her own agenda."
       },
       ["Prestige Faerie Court"] : {
@@ -18466,7 +21539,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2023-03-23",
         ["set"] : ["Faerie Court"],
         ["neweffects"] : true,
@@ -18475,7 +21548,116 @@
         ["variant"] : 47,
         ["voiceactor"] : ["Tara Platt"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["music"] : "-E5IhfdMoyk",
         ["lore"] : "Don't let the butterflies fool you: otherworldly elegance may be Katarina's game, but that gala-ready look is sharper than her knives. Fashion is a metamorphosis, after all. Try to keep up."
+      },
+      ["Chosen of the Wolf"] : {
+        ["id"] : 59,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-11-06",
+        ["set"] : ["Chosen of the Wolf"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Emerald"] : {
+            ["id"] : 62
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 67
+          }, 
+          ["Pearl"] : {
+            ["id"] : 68
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 63
+          }, 
+          ["Ruby"] : {
+            ["id"] : 61,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 64
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 65
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 66
+          }
+        },
+        ["voiceactor"] : ["Tara Platt"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "An assassin was welcomed into our realm, dear Wolf. Though she moves in shadow, she strikes fear in the hearts of her foes. That caught your attention, didn't it? Her speed. Her violence. Her conviction. A welcome addition to the Eternal Chase."
+      },
+      ["Prestige Masque of the Black Rose"] : {
+        ["id"] : 60,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 1 Premium Battle Pass reward (Level 50)",
+        ["release"] : "2025-01-09",
+        ["set"] : ["Masque of the Black Rose"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Enigma"] : {
+            ["id"] : 69,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Tara Platt"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "Your mission is confirmed. Strike at the Silken Danse. The eighth night after the new moon, at the manor of House Kythera. Masquerade ball—dress in the attire of Noxian noblesse. Enclosed is an invitation and portrait of the mark. Method is yours to decide. Burn this message and hone your steel. (The letter is unsigned.)"
+      },
+      ["Petals of Spring"] : {
+        ["id"] : 70,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-19",
+        ["set"] : ["Petals of Spring"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 72
+          }, 
+          ["Emerald"] : {
+            ["id"] : 78
+          }, 
+          ["Pearl"] : {
+            ["id"] : 76
+          }, 
+          ["Peridot"] : {
+            ["id"] : 77
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 73
+          }, 
+          ["Ruby"] : {
+            ["id"] : 71,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 74
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 75
+          }
+        },
+        ["voiceactor"] : ["Tara Platt"],
+        ["lore"] : "In the heart of the garden, Katarina flourishes her twin blades, shaping plants born from even the most painful memories into bountiful arbors of hope and promise. Her blades are equally as capable in battle, should a shadowy creature sneak past the defenses of her fellow pruner, Yasuo. By cutting away blight, she ushers in spring's promise of renewal."
       }
     }
   },
@@ -18490,6 +21672,7 @@
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Zehra Fazal"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart", "Victor '3rdColossus' Maury", "Jennifer Wuestling"],
+        ["music"] : "nNP-xHhknvk",
         ["lore"] : "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother’s legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years—until Kayle became disillusioned with the repeated failings of mortals, and abandoned this realm altogether. Still, legends are told of her punishing the unjust with her fiery swords, and many hope that she will one day return…"
       },
       ["Silver"] : {
@@ -18595,7 +21778,7 @@
             ["id"] : 56,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Steel Valkyries 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Amethyst"] : {
             ["id"] : 54
@@ -18618,6 +21801,7 @@
         },
         ["voiceactor"] : ["Zehra Fazal"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "bHGANyPJjYc",
         ["lore"] : "Authorized pilot of the X07-Gevurah combat exosuit, Kayle is a justicar of the Royal Space Military operating deep in the heart of lawless space. Though her mission is to uphold the fragile postwar peace, years of violent conflict have radicalized her—now she acts as heartless judge, jury, and executioner for anyone or anything that falls beneath her gaze."
       },
       ["Riot"] : {
@@ -18659,6 +21843,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Zehra Fazal"],
         ["splashartist"] : ["Alvin Lee", "Kan Liu"],
+        ["music"] : "sOhFHWk4oXg&list:PLt1LZXYzqj1wzJB6lCacLfLjNY-RkSIOA",
         ["lore"] : "When PENTAKILL needed a female vocalist, the heavens parted and a literal angel of rock fell to earth, taking up her sword-mic for the eternal glory of heavy metal."
       },
       ["PsyOps"] : {
@@ -18679,7 +21864,7 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 20
@@ -18705,6 +21890,7 @@
         },
         ["voiceactor"] : ["Zehra Fazal"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "A self-described “savior” and powerful psionic swordswoman, Kayle views herself as an impartial judge in world affairs, appearing on wings powered by psychic energy as an angel of war. Her understanding of the world is black and white to a frightening extreme, and she has joined the paramilitary BRG to see her twisted vision realized."
       },
       ["Dragonslayer"] : {
@@ -18757,7 +21943,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-09-09",
-        ["set"] : ["Pentakill"],
+        ["set"] : ["Pentakill III: The Lost Chapter"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -18792,6 +21978,7 @@
         },
         ["voiceactor"] : ["Zehra Fazal"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal", "West Studio"],
+        ["music"] : "5IWS7Y5KRhk&list:PLsY0g5fQlxMWMsC_enIQlr7zwfhT6v9mU",
         ["lore"] : "All hail, Kayle, the Bringer of Woe! With the strength of a self-righteous angel, she claims justice and judgment soar on her wings of wrath. Surely, if any can rally the warrior host of metal, it will be her."
       },
       ["Sun-Eater"] : {
@@ -18901,15 +22088,15 @@
           }, 
           ["MSI 2024 Chaos"] : {
             ["id"] : 77,
-            ["availability"] : "Loot",
-            ["source"]       : "Loot",
-            ["distribution"] : "MSI 2024"
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Neon Facade"] : {
             ["id"] : 76,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 74
@@ -18942,7 +22129,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "2000 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2024-05-01",
         ["set"] : ["Empyrean"],
         ["neweffects"] : true,
@@ -18954,54 +22141,69 @@
         ["splashartist"] : ["Ina Wong", "West Studio"],
         ["lore"] : "When flames swept through Kayle's studio, at first she was overcome with grief. She had lost everything, but then realized that the fire freed her to do—and be—more. Now she returns to the Gala with her new line, Neon Flame, crossing styles, materials, and forms. Kayle has been reborn, and she will transcend everyone."
       },
-      ["Spirit Blossom"]: {
-        ["id"]: 78,
-        ["availability"]: "Available",
-        ["looteligible"]: true,
-        ["cost"]: 1350,
-        ["release"]: "2025-06-25",
-        ["set"]: ["Spirit Blossom"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["chromas"]: {
-          ["Citrine"]: {
-            ["id"]: 80
+      ["Spirit Blossom"] : {
+        ["id"] : 78,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-06-25",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 80
           }, 
-          ["Emerald"]: {
-            ["id"]: 81
+          ["Emerald"] : {
+            ["id"] : 81
           }, 
-          ["Obsidian"]: {
-            ["id"]: 86
+          ["Obsidian"] : {
+            ["id"] : 86
           }, 
-          ["Paragon"]: {
-            ["id"]: 87,
-            ["availability"]: "Loot",
-            ["source"]      : "Loot",
-            ["distribution"]: "Sanctum Exclusive"
+          ["Paragon"] : {
+            ["id"] : 87,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
           }, 
-          ["Rose Quartz"]: {
-            ["id"]: 85
+          ["Rose Quartz"] : {
+            ["id"] : 85
           }, 
-          ["Ruby"]: {
-            ["id"]: 79,
-            ["availability"]: "Bundle",
-            ["source"]      : "Bundle",
-            ["distribution"]: "Bundle Exclusive"
+          ["Ruby"] : {
+            ["id"] : 79,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
-          ["Sapphire"]: {
-            ["id"]: 83
+          ["Sapphire"] : {
+            ["id"] : 83
           }, 
-          ["Tanzanite"]: {
-            ["id"]: 82
+          ["Tanzanite"] : {
+            ["id"] : 82
           }, 
-          ["Turquoise"]: {
-            ["id"]: 84
+          ["Turquoise"] : {
+            ["id"] : 84
           }
         },
-        ["voiceactor"]: ["Zehra Fazal"],
-        ["splashartist"]: ["Ina Wong", "West Studio"],
-        ["lore"]: "The First Spirit shaped two sisters—one from the sturdy bough of a tree, the other from its ephemeral bloom—and named them the Branchwardens. The first was steadfast and just. The second, powerful but troubled, crafted demonic children, forcing the maker to bind them to a grove. With her sister sealed away, the Branchwarden stands, forever watchful."
+        ["voiceactor"] : ["Zehra Fazal"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "The First Spirit shaped two sisters—one from the sturdy bough of a tree, the other from its ephemeral bloom—and named them the Branchwardens. The first was steadfast and just. The second, powerful but troubled, crafted demonic children, forcing the maker to bind them to a grove. With her sister sealed away, the Branchwarden stands, forever watchful."
+      },
+      ["Founders Silver"] : {
+        ["id"] : 88,
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Obtained by purchasing the League of Legends Classic Collector's Box Set, exclusively available in the Riot Games official digital store, with the respective Riot Account.",
+        ["release"] : "2026-08-12",
+        ["set"] : ["Collector's Edition"],
+        ["neweffects"] : true,
+        ["variant"] : 1,
+        ["voiceactor"] : ["Zehra Fazal"],
+        ["splashartist"] : ["Jem Flores"],
+        ["lore"] : "Given to players who purchased the Retail Collector's Edition of League of Legends."
       }
     }
   },
@@ -19016,6 +22218,7 @@
         ["release"] : "2017-07-11",
         ["voiceactor"] : ["Robbie Daymond", "Sam A. Mowry"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "x9yXC6naOPQ&list:PLaR6CVc_dTPx35O6vCnkCqgMqbNVXgW6K",
         ["lore"] : "A peerless practitioner of lethal shadow magic, Shieda Kayn battles to achieve his true destiny—to one day lead the Order of Shadow into a new era of Ionian supremacy. He wields the sentient darkin weapon Rhaast, undeterred by its creeping corruption of his body and mind. There are only two possible outcomes: either Kayn bends the weapon to his will… or the malevolent blade consumes him completely, paving the way for the destruction of all Runeterra."
       },
       ["Soulhunter"] : {
@@ -19051,7 +22254,7 @@
             ["id"] : 6,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 4
@@ -19068,6 +22271,7 @@
         },
         ["voiceactor"] : ["Robbie Daymond", "Sam A. Mowry"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "Dy58gGFpagI",
         ["lore"] : "As an honored Ordinal of the Demaxian Empire, Kayn relentlessly hounds the crew of the Morning Star, hoping to recapture Sona and learn the secrets of the legendary Ora Gate. He bickers constantly with his sentient alien scythe, Rhaast, whose own motivations are far more dire than Kayn could ever realize…"
       },
       ["Nightbringer"] : {
@@ -19088,7 +22292,7 @@
             ["id"] : 14,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Night &amp; Dawn 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Ruby"] : {
             ["id"] : 10,
@@ -19112,7 +22316,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2021-09-23",
         ["set"] : ["Nightbringer and Dawnbringer"],
         ["neweffects"] : true,
@@ -19177,7 +22381,7 @@
             ["id"] : 25,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 22
@@ -19191,7 +22395,70 @@
         },
         ["voiceactor"] : ["Robbie Daymond", "Sam A. Mowry"],
         ["splashartist"] : ["Bo 'chenbowow' Chen", "Julia Yurtsev", "Jennifer Wuestling"],
+        ["music"] : "MDErQ1KTzaI",
         ["lore"] : "Kayn wields his music like a weapon—both as himself and as his demonic alter ego, Rhaast. Though he's got all the training of a pop music prince, his bad reputation after the breakup of his last band made him an industry pariah. Determined to spite the haters, Kayn joined HEARTSTEEL only to find creative partners (and friends?) he might actually trust."
+      },
+      ["Battle Academia"] : {
+        ["id"] : 26,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-03-19",
+        ["set"] : ["Battle Academia"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 28
+          }, 
+          ["Emerald"] : {
+            ["id"] : 30
+          }, 
+          ["Ruby"] : {
+            ["id"] : 27,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 29
+          }
+        },        
+        ["voiceactor"] : ["Robbie Daymond", "Sam A. Mowry"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "Co-captains of the Assassin Club, Kayn and Rhaast are an embodiment of Babylon Academy's tactics. Kayn lulls rivals into a false sense of security before Rhaast explodes with overwhelming force, pummelling opponents into submission. Rhaast's diligent work ethic is the real reason they're here at all, as Kayn's aloofness irks all of his classmates."
+      },
+      ["HEARTSTEEL Live My Life"] : {
+        ["id"] : 32,
+        ["availability"] : "Upcoming",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "N/A",
+        ["set"] : ["HEARTSTEEL"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 35
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 34
+          }, 
+          ["Ruby"] : {
+            ["id"] : 33,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 36
+          }
+        },
+        ["voiceactor"] : ["Robbie Daymond", "Sam A. Mowry"],
+        ["music"] : "gMkuV5hh7-s",
+        ["lore"] : "Vibe Pop Magazine: If you were an animal, which would it be?<br><br>Kayn: Easy: a wolf. A loner, shreddin' prey and howling at the moon.<br>Yone: Wolves are pack animals.<br>Kayn: Not me.<br>Yone: You're in a band with five other guys.<br>Kayn: Yes, but—<br>K'Sante: You hang out in trash cans. You're a raccoon.<br>Kayn: Lone wolf. Final answer. Interview over."
       },
     }
   },
@@ -19287,7 +22554,7 @@
             ["id"] : 10,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Mega Donor Bundle Exclusive"
+            ["distribution"] : "Charity Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 14,
@@ -19387,7 +22654,7 @@
             ["id"] : 24,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["neweffects"] : true,
@@ -19453,6 +22720,7 @@
         ["cost"] : 880,
         ["release"] : "2012-09-26",
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "27CRdopEhNM",
         ["lore"] : "The Void grows, and the Void adapts—in none of its myriad spawn are these truths more apparent than Kha’Zix. Evolution drives the core of this mutating horror, born to survive and to slay the strong. Where it struggles to do so, it grows new, more effective ways to counter and kill its prey. Initially a mindless beast, Kha’Zix’s intelligence has developed as much as its form. Now, the creature plans out its hunts, and even utilizes the visceral terror it engenders in its victims."
       },
       ["Mecha"] : {
@@ -19521,11 +22789,12 @@
         ["cost"] : 1350,
         ["release"] : "2017-05-03",
         ["earlysale"] : "2017-11",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["splashartist"] : ["Xu 'Crow God' Cheng"],
+        ["music"] : "Nc7ul2Pf1hw",
         ["lore"] : "The hunger of the abyss, Kha'Zix is an alien horror whose ceaseless appetite feeds the Dark Star. Appearing before planets like a titanic locust, it devours all it encounters—the power of a hundred thousand stars fueling its evolution into an ever-greater threat."
       },
       ["Worlds 2018"] : {
@@ -19543,175 +22812,151 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Mythic Shop"
           },
           ["Flash Wolves"] : {
             ["id"] : 13,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["KT Rolster"] : {
             ["id"] : 14,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Fnatic"] : {
             ["id"] : 15,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Kaos Latin Gamers"] : {
             ["id"] : 17,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["G2 Esports"] : {
             ["id"] : 18,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Team Vitality"] : {
             ["id"] : 22,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Ascension Gaming"] : {
             ["id"] : 23,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Afreeca Freecs"] : {
             ["id"] : 24,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Generation Gaming"] : {
             ["id"] : 25,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["KaBuM! e-Sports"] : {
             ["id"] : 28,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Gambit Esports"] : {
             ["id"] : 30,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["DetonatioN FocusMe"] : {
             ["id"] : 31,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Infinity eSports CR"] : {
             ["id"] : 35,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["G-Rex"] : {
             ["id"] : 37,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
-          },
-          ["Hong Kong Attitude"] : {
-            ["id"] : 38,
-            ["availability"] : "Canceled",
-            ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
-          },
-          ["J Team"] : {
-            ["id"] : 39,
-            ["availability"] : "Canceled",
-            ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
-          },
-          ["Machi E-Sports"] : {
-            ["id"] : 40,
-            ["availability"] : "Canceled",
-            ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["MAD Team"] : {
             ["id"] : 41,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["EDward Gaming"] : {
             ["id"] : 42,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Invictus Gaming"] : {
             ["id"] : 43,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Royal Never Give Up"] : {
             ["id"] : 46,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["100 Thieves"] : {
             ["id"] : 47,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Cloud9"] : {
             ["id"] : 48,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Team Liquid"] : {
             ["id"] : 51,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Dire Wolves"] : {
             ["id"] : 53,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["SuperMassive eSports"] : {
             ["id"] : 54,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
-          },
-          ["Cube Adonis"] : {
-            ["id"] : 56,
-            ["availability"] : "Canceled",
-            ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           },
           ["Phong Vũ Buffalo"] : {
             ["id"] : 59,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Worlds 2018 Team Bundles"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["splashartist"] : ["Maki Planas Mata"],
@@ -19742,7 +22987,7 @@
             ["id"] : 63,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 67
@@ -19796,7 +23041,7 @@
             ["id"] : 78,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 72
@@ -19812,6 +23057,7 @@
           }
         },
         ["splashartist"] : ["Exia Xiaotong", "West Studio"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "Kha'Zix stalked the waters of Crescent Bay, his teeth and claws greeting anyone foolish enough to wander near. But there was something different about the Empress Ashe: she desired the same, unattainable power he craved. So he swore fealty to her—something he hadn't done in centuries—ready to fight by her side for a taste at the life he once led."
       },
       ["Crystalis Indomitus"] : {
@@ -19819,7 +23065,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2024-03-20",
         ["set"] : ["Crystalis Indomitus"],
         ["neweffects"] : true,
@@ -19850,6 +23096,7 @@
         ["release"] : "2015-10-13",
         ["voiceactor"] : ["Marcella Lentz-Pope", "Matthew Mercer"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "aB_DbCpFvHA",
         ["lore"] : "Separate, but never parted, Kindred represents the twin essences of death. Lamb’s bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his crushing jaws. Though interpretations of Kindred’s nature vary across Runeterra, every mortal must choose the true face of their death."
       },
       ["Shadowfire"] : {
@@ -19903,7 +23150,7 @@
             ["id"] : 11,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Spirit Blossom 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 9
@@ -19926,7 +23173,7 @@
         },
         ["voiceactor"] : ["Marcella Lentz-Pope", "Matthew Mercer"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
-        ["lore"] : "In the Ionian tradition, the Kindred are interpreted as a child and her beastly companion, endlessly playing games with one another until they are called to perform their duties. The two do not know where they came from, but it is said they feel a sense of loss for someone they knew long ago…"
+        ["lore"] : "In Ionian tradition, the spirits of Lamb and Wolf wear a different guise: that of the Taker, a child who appears at the end of all things, and her beloved Beast. Together, the two frolic and play until called to perform their duties. They do not know where they came from, but it is said they feel loss for someone they knew long ago…"
       },
       ["Porcelain"] : {
         ["id"] : 12,
@@ -19949,7 +23196,7 @@
             ["id"] : 21,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 19
@@ -19975,6 +23222,7 @@
         },
         ["voiceactor"] : ["Marcella Lentz-Pope", "Matthew Mercer"],
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "jtfgXd_aDlA",
         ["lore"] : "Once a skilled hunter and her fierce hound, the two were so bonded that their souls remained together when they were preserved inside the Dog Zodiac Relic. Now they are two halves of a whole, mentoring generations of Protectors like Lux and Amumu and standing guard eternally over the ancient magic that keeps them alive."
       },
       ["Woof and Lamb"] : {
@@ -20036,7 +23284,7 @@
             ["id"] : 32,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Marcella Lentz-Pope", "Matthew Mercer"],
@@ -20048,7 +23296,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2024-02-22",
         ["set"] : ["Porcelain"],
         ["neweffects"] : true,
@@ -20057,7 +23305,66 @@
         ["variant"] : 12,
         ["voiceactor"] : ["Marcella Lentz-Pope", "Matthew Mercer"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "The hunter and the hound stalk the runway in white-feathered armor with cerulean plating. The refractions of images that dance in the crystals embossed on both bow and headdress dare the audience to reflect on the past year, their fashion feats, and faux pas."
+      },
+      ["Chosen of the Wolf"] : {
+        ["id"] : 34,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-11-06",
+        ["set"] : ["Chosen of the Wolf"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 36
+          }, 
+          ["Emerald"] : {
+            ["id"] : 37
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 41
+          }, 
+          ["Pearl"] : {
+            ["id"] : 42
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 38
+          }, 
+          ["Ruby"] : {
+            ["id"] : 35,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 40
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 39
+          }
+        },
+        ["voiceactor"] : ["Marcella Lentz-Pope", "Matthew Mercer"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "Do you hunger, dear Wolf? The Eternal Chase is almost upon us. For you and your followers who find bliss through battle, this hunt is their reward. Only those chosen to enter Volrachnun are granted this opportunity. Tell me, will they be able to withstand us in your afterlife?"
+      },
+      ["Pandemonium"] : {
+        ["id"] : 45,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-29",
+        ["set"] : ["Pandemonium"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Marcella Lentz-Pope", "Matthew Mercer"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Even demons must face Kindred. Lamb offers stillness: a quiet end to the hunger that drives all demons. Wolf offers a final, tantalizing feast of emotion, but to partake is to feel a hunger that can never be sated. Together, they are a demon's final choice: nothing, or everything."
       }
     }
   },
@@ -20072,6 +23379,7 @@
         ["release"] : "2016-08-09",
         ["voiceactor"] : ["Spike Spencer"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "-P9zLHDUFEM",
         ["lore"] : "A warrior as fearless as he is ornery, the yordle Kled embodies the furious bravado of Noxus. He is an icon beloved by the empire’s soldiers, distrusted by its officers, and loathed by the nobility. Many claim Kled has fought in every campaign the legions have waged, has 'acquired' every military title, and has never once backed down from a fight. Though the truth of the matter is often questionable, one part of his legend is undeniable: Charging into battle on his un-trusty steed, Skaarl, Kled fights to protect what’s his… and to take whatever he can get."
       },
       ["Sir"] : {
@@ -20107,7 +23415,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2018"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 6
@@ -20277,6 +23585,7 @@
         ["neweffects"] : true,
         ["newquotes"] : true,
         ["voiceactor"] : ["Patrick Seitz"],
+        ["music"] : "tZDj_sS-Gf8",
         ["lore"] : "It is rumored that Kog'Maw stole his glowing nose and deer antlers from a particularly adorable creature he devoured. Whether or not the theory is true, Kog'Maw is now the most famous reindeer of all."
       },
       ["Lion Dance"] : {
@@ -20634,6 +23943,28 @@
         ["voiceactor"] : ["Patrick Seitz"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "Kog'Maw was earned by players who accumulated enough split points in Ranked. Those curious enough to follow the shimmering ooze trailing from the mouth of a crevasse, have but a moment to recognize that same curiosity in Kog'Maw's glittering stare before finding themselves enveloped in his terrible mouth."
+      },
+      ["Prestige Classic Baron"] : {
+        ["id"] : 65,
+        ["availability"] : "Upcoming",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "2026, S3 Act 2 League Classic Pass reward",
+        ["release"] : "N/A",
+        ["set"] : ["Classic"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 66,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }
+        },
+        ["voiceactor"] : ["Patrick Seitz"],
+        ["lore"] : "Ancient scrolls known as the Journal of Justice describe in great detail the carnage and despair that the legendary Baron Nashor wrought upon Summoner's Rift. This, however, is not Baron Nashor. It's just Kog'Maw pretending to be him, but feed him kills and let him farm, and he might just turn out even more terrifying than the OG legend himself."
       }
     }
   },
@@ -20646,14 +23977,15 @@
         ["looteligible"] : true,
         ["cost"] : 790,
         ["release"] : "2010-11-02",
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
+        ["music"] : "A9iOtL_fb2c",
         ["lore"] : "Mysterious even to other members of the Black Rose cabal, LeBlanc is but one of many names for a pale woman who has manipulated people and events since the earliest days of Noxus. Using her magic to mirror herself, the sorceress can appear to anyone, anywhere, and even be in many places at once. Always plotting just out of sight, LeBlanc’s true motives are as inscrutable as her shifting identity."
       },
       ["Prestigious"] : {
         ["id"] : 2,
         ["availability"] : "Available",
         ["looteligible"] : true,
-        ["cost"] : 520,
+        ["cost"] : 750,
         ["release"] : "2010-11-02",
         ["set"] : ["Day Job"],
         ["chromas"] : {
@@ -20676,7 +24008,7 @@
             ["id"] : 11
           }
         },
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["lore"] : "LeBlanc is currently evading an international manhunt after making a jet liner filled with passengers disappear, then realizing she had no idea where they went or how to bring them back."
       },
       ["Wicked"] : {
@@ -20686,7 +24018,8 @@
         ["cost"] : 750,
         ["release"] : "2010-11-02",
         ["set"] : ["Legacy"],
-        ["voiceactor"] : ["Carrie Keranen"]
+        ["voiceactor"] : ["Carrie Keranen"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"]
       },
       ["Mistletoe"] : {
         ["id"] : 3,
@@ -20695,20 +24028,22 @@
         ["cost"] : 975,
         ["release"] : "2011-12-14",
         ["set"] : ["Snowdown Showdown"],
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["music"] : "SgVxKT7Dm58",
         ["lore"] : "LeBlanc's wicked illusions grow only more powerful during Snowdown, when the season of giving takes hold, and people are at their most gullible. Her enchanting looks only serve to draw more victims in, becoming pawns in her inscrutable games."
       },
       ["Ravenborn"] : {
         ["id"] : 4,
         ["availability"] : "Legacy",
         ["looteligible"] : true,
-        ["cost"] : 975,
+        ["cost"] : 1350,
         ["release"] : "2014-10-28",
         ["set"] : ["Trick-or-Treat"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Sperasoft Studio"],
         ["lore"] : "LeBlanc loves nothing more than showing up her high society rivals at the annual holiday gala. Besides, taking a spin as the season's most fashionable witch will teach those Du Couteaus not to upstage her garden parties."
       },
@@ -20723,7 +24058,15 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 61,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Kelly Aleshire"],
         ["lore"] : "When the Coven first rose to power, they craved the living enchantments of the Elderwood—a tool, they believed, for the resurrection of their dark patrons. Thus did they fall upon the great forest, and slaughter its children… until a lone sylvan stood against them, stealing the witches' lives, their magic, and even their names."
       },
@@ -20764,7 +24107,7 @@
             ["id"] : 14
           }
         },
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Choe HeonHwa"],
         ["lore"] : "Marketed as a diplomat-software avatar, LeBlanc is in fact a duplicitous intelligence that can interact seamlessly with human users. Created only to deceive, she has infiltrated a number of the most powerful corporations on the planet, and quietly awaits her final orders."
       },
@@ -20779,14 +24122,17 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["chromas"] : {
-          ["Tenfold Triumph"] : {
-            ["id"] : 54,
+          ["Elite"] : {
+            ["id"] : 58,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tenfold Triumph"] : {
+            ["id"] : 54
           }
         },
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Pan Chengwei"],
         ["lore"] : "Honoring Rookie's winning performance as LeBlanc during the 2018 World Championship."
       },
@@ -20812,7 +24158,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 27,
@@ -20839,7 +24185,7 @@
             ["id"] : 28
           }
         },
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Sangsoo Jeong"],
         ["lore"] : "They came to LeBlanc as if in some forgotten melody -- songs of the Black Crane, and its titanic heart long-imprisoned within the deepest reaches of the Elderwood. Her sisters fell before the forest's defenders, but LeBlanc did find her prize... and now her patron has begun to wake, stirring itself from a dreamless slumber of unhallowed centuries."
       },
@@ -20867,7 +24213,7 @@
             ["id"] : 32
           }
         },
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "Celebrating Worlds 2020 in Shanghai."
       },
@@ -20884,8 +24230,9 @@
         ["newrecall"] : true,
         ["filter"] : true,
         ["variant"] : 20,
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "GS4KAWg2tXw",
         ["lore"] : "Resurrected by the Black Crane, LeBlanc has rejoined her sisters with renewed purpose—yet the gifts of the Old Gods do not come without a price. As her body twists into new and strange forms, LeBlanc has discovered that she is the vessel through which her own dead god will return, and that it has granted her impossible power."
       },
       ["Debonair"] : {
@@ -20906,7 +24253,7 @@
             ["id"] : 44,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Debonair 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 43
@@ -20933,7 +24280,7 @@
             ["id"] : 40
           }
         },
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Jennifer Wuestling"],
         ["lore"] : "Seemingly at every event in the city at once, LeBlanc is a ubiquitous presence throughout the strip—her unparalleled ability to shmooze matched only by her mysterious origins. There was a time when certain naysayers connected her to Crime City, but as they say… never cross Lady LeBlanc."
       },
@@ -20976,7 +24323,7 @@
             ["id"] : 49
           }
         },
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Exia Xiaotong", "West Studio"],
         ["lore"] : "Everyone shares spooky stories of LeBlanc, the host of this year's celebration! It's said she delights in causing misery; she can turn any Jack-o'-lantern's smile upside down. But there's a softer side to her as well, one she tries to keep hidden, even from herself."
       },
@@ -20985,7 +24332,7 @@
         ["availability"] : "Limited",
         ["looteligible"] : false,
         ["cost"] : "Special",
-        ["distribution"] : "Purchase the Signature Immortalized Legend Collection during the Hall of Legends event.",
+        ["distribution"] : "Hall of Legends Premium 2024 Pass reward (Level 10).",
         ["release"] : "2024-06-12",
         ["set"] : ["Risen Legends"],
         ["neweffects"] : true,
@@ -20996,18 +24343,42 @@
             ["id"] : 56,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Hall of Legends Bundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Paragon"] : {
             ["id"] : 57,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Immortalized Legend Collection Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
-        ["voiceactor"] : ["Carrie Keranen"],
+        ["voiceactor"] : ["Naomi McDonald"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "wGGtHIE3xzo",
         ["lore"] : "Remember your duty as my Keeper of Patience, LeBlanc. You embody all that is strategic, methodical, and clever, as you deceive those who think themselves worthy of my power. Our power. Above all else, guide my chosen through their trials and influence the masses in the name of the Unkillable Demon King."
+      },
+      ["Prestige Sinful Shores"] : {
+        ["id"] : 59,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2026, S2 Act 2 Premium Battle Pass reward",
+        ["release"] : "2026-06-10",
+        ["set"] : ["Sinful Shores"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 60,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Naomi McDonald"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "LeBlanc revels in her role as an archdemon, but even a mastermind of suffering needs a vacation now and then. On the coast, she is adamant about her rest, pausing only to lather curses onto unsuspecting bathers like sunscreen. And when she craves a taste of agony, her doting butler-cloak, Beelzebubbles, serves it sweet."
       }
     }
   },
@@ -21021,6 +24392,7 @@
         ["cost"] : 880,
         ["release"] : "2011-04-01",
         ["voiceactor"] : ["Feodor Chin"],
+        ["music"] : "8q34ETMSLck",
         ["lore"] : "A master of Ionia’s ancient martial arts, Lee Sin is a principled fighter who channels the essence of the dragon spirit to face any challenge. Though he lost his sight many years ago, the warrior-monk has devoted his life to protecting his homeland against any who would dare upset its sacred balance. Enemies who underestimate his meditative demeanor will endure his fabled burning fists and blazing roundhouse kicks."
       },
       ["Acolyte"] : {
@@ -21149,6 +24521,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Feodor Chin"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "lVrMJepoj6A",
         ["lore"] : "Lee Sin loves the feeling of the sand between his toes, the sound of the crashing waves, and the warm sun against his skin. He also loves a strong coconut drink. Lee Sin likes to party."
       },
       ["SKT T1"] : {
@@ -21191,6 +24564,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Feodor Chin"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "EFXrDc1gBl8",
         ["lore"] : "The arrogant wielder of the God Fist was once a mortal boy, tasked by his predecessor to defeat the master of each martial arts school while blindfolded, before facing him at the peak of a treacherous mountain. Emerging victorious, the boy assumed his title—as well as his immortal sight."
       },
       ["Playmaker"] : {
@@ -21278,7 +24652,7 @@
             ["id"] : 30,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Edition Mega Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Feodor Chin"],
@@ -21297,17 +24671,20 @@
         ["newrecall"] : true,
         ["newvoice"] : true,
         ["chromas"] : {
+          ["Beacon"] : {
+            ["id"] : 81
+          },
           ["Emberclaw"] : {
             ["id"] : 38,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2021"
+          	["distribution"] : "Mythic Shop"
           },
           ["Jadeclaw"] : {
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Worlds 2020"
+          	["distribution"] : "Mythic Shop"
           },
           ["Mythic"] : {
             ["id"] : 50,
@@ -21423,7 +24800,7 @@
             ["id"] : 59,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 55
@@ -21437,6 +24814,7 @@
         },
         ["voiceactor"] : ["Feodor Chin"],
         ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "All hail the Prince of Dragons, heir to the throne of the heavenly Kingdom of Dragons! A noble and just prince, Lee Sin is deeply devoted to his people. When he hears the telltale crackle of fireworks just below the clouds, he knows it's time to learn more about his human subjects—and how they greet the New Year with a bang!"
       },
       ["Divine Heavenscale"] : {
@@ -21454,6 +24832,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Feodor Chin"],
         ["splashartist"] : ["Chace Chen", "Pandart Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "All hail the Prince of Dragons, heir to the throne of the heavenly Kingdom of Dragons! A noble and just prince, Lee Sin is deeply devoted to his people. When he hears the telltale crackle of fireworks just below the clouds, he knows it's time to learn more about his human subjects—and how they greet the New Year with a bang!"
       },
       ["T1"] : {
@@ -21471,12 +24850,56 @@
             ["id"] : 69,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Feodor Chin"],
-        ["splashartist"] : ["Alsie Lau", "Kelvin Law", "Mo Yan"],
+        ["splashartist"] : ["Alsie Lau", "Mo Yan"],
         ["lore"] : "Honoring Oner's winning performance as Lee Sin during the 2023 World Championship."
+      },
+      ["Inkshadow"] : {
+        ["id"] : 72,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-06-11",
+        ["set"] : ["Inkshadow"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 76
+          }, 
+          ["Emerald"] : {
+            ["id"] : 74
+          }, 
+          ["Pearl"] : {
+            ["id"] : 80
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 77
+          }, 
+          ["Ruby"] : {
+            ["id"] : 73,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 75
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 79
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 78
+          }
+        },
+        ["voiceactor"] : ["Feodor Chin"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "Before seeking haven in Udyr's temple, before reckoning with the volatile power of his magical pact, before striking a deal to become the river spirit's arms and fists, Lee Sin took no sides. All he wanted was to help those who had lost everything—until he became one of them. And having nothing left to lose gave him everything to fight for."
       },      
     }
   },
@@ -21548,6 +24971,7 @@
         },
         ["voiceactor"] : ["Wendee Lee"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "lVrMJepoj6A",
         ["lore"] : "Leona is a former champion surfer, who enjoys spending her downtime relaxing on the beach with a light romance novel. Or pretty much any romance novel, in fact."
       },
       ["PROJECT"] : {
@@ -21590,10 +25014,12 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["transforming"] : true,
         ["newvoice"] : true,
         ["variant"] : 11,
         ["voiceactor"] : ["Wendee Lee"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "iRvcu5oa1EU",
         ["lore"] : "Hearken! We beseech thee, O Cruel Sun, and deign to bless with the cleansing flame of thy celestial majesty. May this shield guard against the scourge of dark enchantments, which choke our land. May this blade be the hammer against the servants of witchery and evil. I, Leona, do take this oath forevermore."
       },
       ["Lunar Eclipse"] : {
@@ -21606,10 +25032,12 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["transforming"] : true,
         ["newvoice"] : true,
         ["variant"] : 10,
         ["voiceactor"] : ["Wendee Lee"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "iRvcu5oa1EU",
         ["lore"] : "Hearken! We beseech thee, O Savage Moon, and deign to bless with the vermillion shadow of thy celestial majesty. May this shield guard against the scourge of dark enchantments, which choke our land. May this blade be the hammer against the servants of witchery and evil. I, Leona, do take this oath forevermore."
       },
       ["Mecha Kingdoms"] : {
@@ -21631,7 +25059,7 @@
             ["id"] : 13,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Mecha Kingdoms 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 15
@@ -21700,7 +25128,7 @@
           }
         },
         ["voiceactor"] : ["Wendee Lee"],
-        ["splashartist"] : ["West Studio"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "An oddly cheery member of Labrys Academy's Battle Club, Leona's dark side comes out in combat, when her motherly, protective persona is utterly replaced by bloodlust. The change is so dramatic that even the most violent students tend to stay on her good side, hoping to avoid her wrath."
       },
       ["Prestige Battle Academia"] : {
@@ -21716,7 +25144,7 @@
         ["newrecall"] : true,
         ["variant"] : 21,
         ["voiceactor"] : ["Wendee Lee"],
-        ["splashartist"] : ["West Studio"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "After being selected for the yearly cross-academy tournament, Leona sharpened her combat prowess almost every free moment she had, knowing she had to beat out other top-ranking students from rival schools like Durandal, Babylon, Amrita, and Sharur. Her bloodlust now honed and her shield at the ready, she will pummel anyone who challenges her into a meaty pulp."
       },
       ["DWG"] : {
@@ -21734,7 +25162,7 @@
             ["id"] : 32,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Wendee Lee"],
@@ -21759,7 +25187,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Debonair 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 40
@@ -21809,7 +25237,7 @@
             ["id"] : 48,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 46
@@ -21879,13 +25307,13 @@
             ["id"] : 63,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Override"] : {
             ["id"] : 62,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 61
@@ -21908,6 +25336,7 @@
         },
         ["voiceactor"] : ["Wendee Lee"],
         ["splashartist"] : ["Pandart Studio"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Leona is Anima Squad's reliable front-line defense, big sister, and official wrangler of its wilder members. Someone has to make sure those fire starters from the demolitions team get safely back to base! Don't think Leona can't bring the pain on her own, though. When it comes to battle, you will hear her roar!"
       },
       ["Prestige Battle Lion"] : {
@@ -21915,7 +25344,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2024-07-31",
         ["set"] : ["Anima Squad"],
         ["neweffects"] : true,
@@ -21924,7 +25353,46 @@
         ["variant"] : 52,
         ["voiceactor"] : ["Wendee Lee"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Sporting the latest in fashionable activewear for any on-the-go warrior, Leona defends her title of “Pride of the Runway” as easily as she rocks a bold lip color. Saving the world is important, but doing it with style? That's what Anima Squad is all about."
+      },
+      ["Eternal Aspect"] : {
+        ["id"] : 64,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2026-05-28",
+        ["set"] : ["The Eternal Aspects"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Pearl"] : {
+            ["id"] : 70
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 68
+          }, 
+          ["Ruby"] : {
+            ["id"] : 65,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 67
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 69
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 66
+          }
+        },
+        ["voiceactor"] : ["Wendee Lee"],
+        ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["lore"] : "The Golden Sun is the aegis—a radiant beacon that endures when all else fails. Alongside the Silver Moon, she gave worthy mortals the strength to stand against the abyssal threat that looms over all creation. A final bulwark against oblivion, the Sun burns with unyielding purpose, each flame a testament that life and light yet prevail."
       }
     }
   },
@@ -21939,6 +25407,7 @@
         ["release"] : "2020-07-22",
         ["voiceactor"] : ["Holly Earl"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "fXv9HUFXszI",
         ["lore"] : "Intensely shy, the fae fawn Lillia skittishly wanders Ionia's forests. Hiding just out of sight of mortals—whose mysterious natures have long captivated, but intimidated, her—Lillia hopes to discover why their dreams no longer reach the ancient Dreaming Tree. She now travels Ionia with a magical branch in hand, in an effort to find people's unrealized dreams. Only then can Lillia herself bloom and help others untangle their fears to find the sparkle within. Eep!"
       },
       ["Spirit Blossom"] : {
@@ -21963,7 +25432,7 @@
             ["id"] : 9,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Spirit Blossom 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 3
@@ -21986,7 +25455,7 @@
         },
         ["voiceactor"] : ["Holly Earl"],
         ["splashartist"] : ["Clare Wong", "West Studio"],
-        ["lore"] : "A shy fawn spirit, Lillia once served as the guardian of a sacred Ionian forest—until her grove was destroyed and cast into flame. Consumed by loss, she now slumbers in the spirit realm, reliving the destruction in an unending nightmare—unaware of the timid hope still waiting to bloom..."
+        ["lore"] : "According to legend, a fawn and a caretaker served faithfully side by side as the guardians of a sacred forest. But the woods were set aflame and reduced to ash. Consumed by loss, the Timid Fawn is said to roam the land, reliving the destruction in her dreams—slowly awakening to the hope that slumbers within her, still waiting to bloom."
       },
       ["Nightbringer"] : {
         ["id"] : 10,
@@ -22006,7 +25475,7 @@
             ["id"] : 18,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Night &amp; Dawn 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 12
@@ -22120,6 +25589,88 @@
         ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "Lady of the Winter Court and Keeper of the Seelie Heart-tree, Lillia records the history of the Faerie Queendoms in the ancient tree's rings, freezing events into forested, ever-growing archives. When Lillia discovers that someone has tried to tamper with her work, however, she must rally her courage—there is trouble afoot!"
       },
+      ["Bowling League"] : {
+        ["id"] : 37,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-08-13",
+        ["set"] : ["Day Job"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 45
+          },
+          ["Catseye"] : {
+            ["id"] : 39
+          }, 
+          ["Emerald"] : {
+            ["id"] : 41
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 43
+          }, 
+          ["Pearl"] : {
+            ["id"] : 42
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 40
+          }, 
+          ["Ruby"] : {
+            ["id"] : 38,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 44
+          }
+        },
+        ["voiceactor"] : ["Holly Earl"],
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["lore"] : "Lillia dreams of being the best bowler in the league. Problem is, nothing jolts her nerves more than the thunderous sounds of a ball striking pins. Now she employs a new strategy: rolling the ball as gently as possible, and apologizing to any pin that gets hit. First place, here she comes!"
+      },
+      ["Petals of Spring"] : {
+        ["id"] : 46,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2026-02-19",
+        ["set"] : ["Petals of Spring"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 48
+          }, 
+          ["Emerald"] : {
+            ["id"] : 52
+          }, 
+          ["Pearl"] : {
+            ["id"] : 50
+          }, 
+          ["Peridot"] : {
+            ["id"] : 51
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 49
+          }, 
+          ["Ruby"] : {
+            ["id"] : 47,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Holly Earl"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "Chosen by the Herald of Spring to watch over the spirit realm's sacred garden, Lillia upholds her duty with pride. As she diligently trots among the botanicals, she coaxes each bud to bloom anew, healing the mortal realm with every sprouting seed. She knows her duty is done when the cruel winter subsides—and the Herald returns to renew the lands!"
+      },
     }
   },
   ["Lissandra"] : {
@@ -22133,6 +25684,7 @@
         ["release"] : "2013-04-29",
         ["voiceactor"] : ["Tess Masters"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "gLuVXfZoOAk",
         ["lore"] : "As the reclusive leader of the Frostguard, many believe Lissandra is a living saint whose followers bring healing and wisdom to the tribes of the Freljord. The truth is perhaps more sinister, as she uses her elemental magic to twist the power of True Ice into something dark and terrible, entombing or impaling any who would reveal her deepest secrets. Indeed, the legacy of her past may yet be the beginning of the end for Runeterra."
       },
       ["Bloodstone"] : {
@@ -22198,7 +25750,7 @@
             ["id"] : 22,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Meteorite"] : {
             ["id"] : 10
@@ -22232,7 +25784,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -22290,6 +25842,9 @@
           ["Aquamarine"] : {
             ["id"] : 25
           }, 
+          ["Beacon"] : {
+            ["id"] : 52
+          },  
           ["Catseye"] : {
             ["id"] : 27
           }, 
@@ -22300,7 +25855,7 @@
             ["id"] : 32,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 31
@@ -22320,6 +25875,7 @@
         },
         ["voiceactor"] : ["Tess Masters"],
         ["splashartist"] : ["Jiunn Kuo", "West Studio"],
+        ["music"] : "jtfgXd_aDlA",
         ["lore"] : "Long ago, the sorceress Lissandra stole the Snake Relic from the ancient Protectors in a bid to gain immortality. Cast down and sealed away for her crimes, Lissandra spent centuries of solitude scheming a way to take all twelve Zodiac Relics for herself, waiting for the perfect time to strike... And now Ezreal has given her the chance."
       },
       ["Space Groove"] : {
@@ -22338,16 +25894,16 @@
             ["id"] : 36
           }, 
           ["Emerald"] : {
-            ["id"] : 41
+            ["id"] : 38
           }, 
           ["Obsidian"] : {
             ["id"] : 40
           }, 
           ["Pearl"] : {
-            ["id"] : 42
+            ["id"] : 41
           }, 
           ["Rainbow"] : {
-            ["id"] : 39
+            ["id"] : 42
           }, 
           ["Rose Quartz"] : {
             ["id"] : 39
@@ -22380,7 +25936,111 @@
         ["variant"] : 23,
         ["voiceactor"] : ["Tess Masters"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "What is fashion, if not sculpture? Is it not beauty and elegance in physical form? The portrait of glamor in white, blue, and gold, Lissandra is a work of art, on and off the runway.",
+      },
+      ["Flora Fatalis"] : {
+        ["id"] : 43,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-10-08",
+        ["set"] : ["Flora Fatalis"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 45
+          }, 
+          ["Emerald"] : {
+            ["id"] : 46
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 51
+          }, 
+          ["Pearl"] : {
+            ["id"] : 50
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 48
+          }, 
+          ["Ruby"] : {
+            ["id"] : 44,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 47
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 49
+          }
+        },
+        ["voiceactor"] : ["Tess Masters"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["lore"] : "She came to Us willingly, a visionary unmoved by poison but susceptible to prophecy. “Lissandra,” she was called, though all sense of self was soon shed. From our depths, she drank deeply. We bloomed as one, in perfect symmetry. We speak in dreams, and this brittle world breaks. Only those who root themselves in Us will thrive. All must feed the soil."
+      }
+    }
+  },
+  ["Locke"] : {
+    ["id"] : 805,
+    ["skins"] : {
+      ["Original"] : {
+        ["id"] : 0,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 975,
+        ["release"] : "2026-06-24",
+        ["voiceactor"] : ["Kieran Regan"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "A nail-slinging exorcist versed in forbidden rites, Corvin Locke is the progeny of Demacian occultists. Born into lies and hypocrisy, he learned young that demons aren’t the cause of humanity’s darkness, but the consequence. Now, Locke tears through every soul, exposing its darkness, intent on making the world a more honest place… one exorcism at a time."
+      },
+      ["High Noon"] : {
+        ["id"] : 1,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-06-24",
+        ["set"] : ["High Noon"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 4
+          },
+          ["Catseye"] : {
+            ["id"] : 7
+          }, 
+          ["Emerald"] : {
+            ["id"] : 6
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 9
+          }, 
+          ["Pearl"] : {
+            ["id"] : 8
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 5
+          }, 
+          ["Ruby"] : {
+            ["id"] : 2,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 3
+          }
+        },
+        ["voiceactor"] : ["Kieran Regan"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["lore"] : "A fool strode into a burnt-out chapel looking for the only bounty hunter known to cross Hell's border. Drawing his \"soul-savin' six-shooter,\" he demanded passage to claim a soul Hell had no right to keep. Reclining by the altar, Locke spun a molten nail between hell-blackened fingers and grinned. \"No disrespect, friend, but what's dead, should stay dead."
+        
       }
     }
   },
@@ -22406,6 +26066,7 @@
         },
         ["voiceactor"] : ["TJ Storm"],
         ["splashartist"] : ["Andrew 'Silver' Silver", "Alex 'alexplank' Flores"],
+        ["music"] : "qbMCmdSEoaA",
         ["lore"] : "Lucian, a Sentinel of Light, is a grim hunter of undying spirits, pursuing them relentlessly and annihilating them with his twin relic pistols. After the wraith Thresh slew his wife, Lucian embarked on the path of vengeance… but even with her return to life, his rage is undiminished. Merciless and single-minded, Lucian will stop at nothing to protect the living from the long-dead horrors of the Black Mist."
       },
       ["Hired Gun"] : {
@@ -22430,6 +26091,7 @@
         ["retired"] : "2017-11-01",
         ["set"] : ["Soccer Cup"],
         ["voiceactor"] : ["TJ Storm"],
+        ["music"] : "LsjIDZXR-rs",
         ["lore"] : "Order United's designated striker, Lucian, is an inhuman blur of grass clippings and finely honed muscle movements. He cuts through the other team like a hot knife through butter, securing goal after goal to the adoration of fans the world over."
       },
       ["PROJECT"] : {
@@ -22446,11 +26108,17 @@
         ["newrecall"] : true,
         ["filter"] : true,
         ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 71,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          },
           ["Reckoning"] : {
             ["id"] : 17,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["TJ Storm"],
@@ -22513,6 +26181,7 @@
         },
         ["voiceactor"] : ["TJ Storm"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "x86VjS7tci8",
         ["lore"] : "A former federal marshal and gunslinger for hire, Lucian's soul was corrupted when he made a deal with the devil in order to spare the life of his one true love. Double-crossed, and cursed with the powers of hell, he now hunts this devil across the high frontier, seeking revenge."
       },
       ["Demacia Vice"] : {
@@ -22536,7 +26205,7 @@
             ["id"] : 16,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Arcade 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 12
@@ -22556,6 +26225,7 @@
         },
         ["voiceactor"] : ["TJ Storm"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "e4kG1Ivm7o4",
         ["lore"] : "Half man, half machine, and all justice, Detective Lucian Phoenix fights crime under the pastel palm trees of Demacia. Rebuilt out of polished chrome and gilded Piltovan carbon fiber following a fatal gunfight, this technological marvel dispenses vaporwave vengeance as a neon beacon of law and order."
       },
       ["Pulsefire"] : {
@@ -22577,7 +26247,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2020-05-14",
         ["set"] : ["Pulsefire"],
         ["neweffects"] : true,
@@ -22600,32 +26270,32 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["chromas"] : {
-          ["Amethyst"] : {
-            ["id"] : 28,
+          ["Challenger"] : {
+            ["id"] : 30,
             ["availability"] : "Limited",
             ["source"]       : "Reward",
           	["distribution"] : "Season 2019"
           }, 
-          ["Aquamarine"] : {
+          ["Diamond"] : {
             ["id"] : 27,
             ["availability"] : "Limited",
             ["source"]       : "Reward",
           	["distribution"] : "Season 2020"
           }, 
-          ["Emerald"] : {
-            ["id"] : 26,
-            ["availability"] : "Limited",
-            ["source"]       : "Reward",
-          	["distribution"] : "Season 2020"
-          }, 
-          ["Ruby"] : {
+          ["Grandmaster"] : {
             ["id"] : 29,
             ["availability"] : "Limited",
             ["source"]       : "Reward",
           	["distribution"] : "Season 2020"
           }, 
-          ["Sapphire"] : {
-            ["id"] : 30,
+          ["Master"] : {
+            ["id"] : 28,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2020"
+          }, 
+          ["Platinum"] : {
+            ["id"] : 26,
             ["availability"] : "Limited",
             ["source"]       : "Reward",
           	["distribution"] : "Season 2020"
@@ -22693,7 +26363,7 @@
             ["id"] : 49,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Steel Valkyries 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Amethyst"] : {
             ["id"] : 44
@@ -22769,13 +26439,73 @@
             ["id"] : 61,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["TJ Storm"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "Lucian, Senna's forgotten love, had tracked her down. He threw himself at Thresh, sacrificing himself to destroy the usurper and return the Aurora's power. As he lay dying, memories of their love washed over Senna. She stayed with him until he passed and, to remind herself of their undying bond, turned his soul into the Southern Star. Love would endure."
-      }
+      },
+      ["Masked Justice"] : {
+        ["id"] : 62,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-02-20",
+        ["set"] : ["Masked Justice"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 68
+          }, 
+          ["Emerald"] : {
+            ["id"] : 64
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 69
+          }, 
+          ["Pearl"] : {
+            ["id"] : 70
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 67
+          }, 
+          ["Ruby"] : {
+            ["id"] : 63,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 66
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 65
+          }
+        },        
+        ["voiceactor"] : ["TJ Storm"],
+        ["splashartist"] : ["Chace Chen", "Pandart Studio"],
+        ["lore"] : "Lucian saw his wife perish during the alien Mezzorax's invasion of Ocono. He only survived thanks to Yone, who recognized a rage and loss burning in Lucian's heart much like his own. Lucian accepted a Hyperguise suit from his savior, and vowed to protect his planet—once he avenges his beloved."
+      },
+      ["Sunken Shadows"] : {
+        ["id"] : 72,
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks.",
+        ["release"] : "2025-12-03",
+        ["set"] : ["Sunken Shadows"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["variant"] : 8,
+        ["voiceactor"] : ["TJ Storm"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["lore"] : "Feared by many and respected by all, the pirate king Lucian leads his crew through any storm. But when his wife is lost at sea, he seeks help from a supernatural source: the sea witch Nami. Now, his eyes have been opened to a magical world below the waves. Armed with new spectral pistols, he'll purify anyone who stands between him and his pirate queen."
+      }      
     }
   },
   ["Lulu"] : {
@@ -22789,6 +26519,7 @@
         ["release"] : "2012-03-20",
         ["voiceactor"] : ["Faye Mata"],
         ["splashartist"] : ["Kienan 'Knockwurst' Lafferty"],
+        ["music"] : "0zuUxjv2bb4",
         ["lore"] : "The yordle mage Lulu is known for conjuring dreamlike illusions and fanciful creatures as she roams Runeterra with her fairy companion Pix. Lulu shapes reality on a whim, warping the fabric of the world, and what she views as the constraints of this mundane, physical realm. While others might consider her magic at best unnatural, and at worst dangerous, she believes everyone could use a touch of enchantment."
       },
       ["Bittersweet"] : {
@@ -22859,6 +26590,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Faye Mata"],
         ["splashartist"] : ["Sperasoft Studio"],
+        ["music"] : "yX4TlL_egts",
         ["lore"] : "A kindly sorceress trailed by her poro pal Pix, Lulu's whimsical ice magic amazes and delights Snowdown revelers everywhere. She's also a skilled fighter, firing deadly glacial spikes and transforming foes into harmless snowmen."
       },
       ["Pool Party"] : {
@@ -22886,7 +26618,10 @@
             ["id"] : 13
           }, 
           ["Ruby"] : {
-            ["id"] : 10
+            ["id"] : 10,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sandstone"] : {
             ["id"] : 8
@@ -22906,14 +26641,14 @@
         ["cost"] : 1350,
         ["release"] : "2016-10-05",
         ["earlysale"] : "2017-03",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 1"],
+        ["set"] : ["Star Guardian Season 1"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 15,
         ["voiceactor"] : ["Faye Mata"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "6kEZEvMYKQY",
         ["lore"] : "The youngest member of Lux's team, Lulu is an odd but gifted Star Guardian. Though her unique relationship with the Starlight is sometimes puzzling, Lulu can be counted on to support her team—and let them know that the light supports them, too."
       },
       ["Cosmic Enchantress"] : {
@@ -22922,7 +26657,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-08-21",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -22957,8 +26692,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-11-21",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 1"],
+        ["set"] : ["Star Guardian Season 1"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -22989,7 +26723,7 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Space Groove 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 35
@@ -23015,6 +26749,7 @@
         },
         ["voiceactor"] : ["Faye Mata"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "DDBjk-r4urY",
         ["lore"] : "Hailing from Boogie Wonderland, a planet of Pure Groove, Lulu is uniquely attuned to the resonance of cosmic disco energy. Using her staff to conjure visions of freedom and abandon to the beat of the music, she can get even the most left-footed creatures in the galaxy tapping along."
       },
       ["Prestige Space Groove"] : {
@@ -23022,7 +26757,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2021-04-01",
         ["set"] : ["Space Groove"],
         ["neweffects"] : true,
@@ -23032,6 +26767,7 @@
         ["variant"] : 26,
         ["voiceactor"] : ["Faye Mata"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "DDBjk-r4urY",
         ["lore"] : "Fresh off a visit from the Three Party Goddesses in the center of the galaxy, Lulu's more in tune with the Groove than ever. Her visions are even more potent, her beats are even more irresistible, and no one knows where Lulu's going to pop up next."
       },
       ["Monster Tamer"] : {
@@ -23120,20 +26856,63 @@
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
         ["lore"] : "Sweet tooths are always satisfied when Lulu and her helpful sous-chef Pix are crafting the desserts! Just one whiff of their pastry magic concoctions is enough to enchant even the most unruly customers. Some say their treats are so captivating that they even have reality altering effects…"
       },
-      ["Arcana"]: {
-        ["id"]: 55,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S3 Act 1 Premium Battle Pass reward (Level 8)",
-        ["release"]: "2025-08-27",
-        ["set"]: ["Arcana"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["voiceactor"]: ["Faye Mata"],
-        ["splashartist"]: ["Jiunn Kuo", "Kudos Productions"],
-        ["lore"]: "The jester-witch Lulu watches the people below with giddy excitement, eager to see how they receive the whimsical, magical surprises she rains down from on high. Though some suspect the recent disruptions in the Pattern are her doing, those who know Lulu also know that she would never use her art to destroy."
+      ["Arcana"] : {
+        ["id"] : 55,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S3 Act 1 Premium Battle Pass reward (Level 8)",
+        ["release"] : "2025-08-27",
+        ["set"] : ["Arcana"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Faye Mata"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "The jester-witch Lulu watches the people below with giddy excitement, eager to see how they receive the whimsical, magical surprises she rains down from on high. Though some suspect the recent disruptions in the Pattern are her doing, those who know Lulu also know that she would never use her art to destroy."
+      },
+      ["Faerie Court"] : {
+        ["id"] : 56,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-08-12",
+        ["set"] : ["Faerie Court"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 59
+          }, 
+          ["Emerald"] : {
+            ["id"] : 58
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 62
+          }, 
+          ["Pearl"] : {
+            ["id"] : 60
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 63
+          }, 
+          ["Ruby"] : {
+            ["id"] : 57,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 64
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 61
+          }
+        },
+        ["voiceactor"] : ["Faye Mata"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "As summer's reign begins, the Unseelie Lady Lulu whisks bewildered mortals into her idyllic glade to play, play, play! When she grows weary of the game, Lulu transmogrifies her new friends into caterpillar familiars; summer days are long, after all, and bugs make excellent company. Some playmates are simply too precious to be trusted with wings!"
       }
     }
   },
@@ -23212,14 +26991,14 @@
         ["cost"] : 1350,
         ["release"] : "2015-05-17",
         ["earlysale"] : "2015-12",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 1"],
+        ["set"] : ["Star Guardian Season 1"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 14,
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Jean 'Curing' Go"],
+        ["music"] : "6kEZEvMYKQY",
         ["lore"] : "Cheerful and courageous, Lux shines the brightest among her Star Guardian team. While young and inexperienced, the pink-haired captain's optimism inspires others in their destiny to protect the universe. She truly believes that as long as they fight together, there is no darkness they can't overcome."
       },
       ["Elementalist"] : {
@@ -23268,7 +27047,8 @@
           }
         },
         ["voiceactor"] : ["Carrie Keranen"],
-        ["splashartist"] : ["Jean 'Curing' Go"]
+        ["splashartist"] : ["Jean 'Curing' Go"],
+        ["music"] : "2gU_HpD0hWY"
       },
       ["Lunar Empress"] : {
         ["id"] : 8,
@@ -23302,6 +27082,7 @@
         },
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Xu 'Crow God' Cheng"],
+        ["music"] : "ZqeIrIbKkEI",
         ["lore"] : "Groomed from a young age to guard the immortal realm from darkness, the Lunar Empress and her companions are said to stand watch over the world. Lux, though a powerful demigod in her own right, draws aid from the ever-faithful Warwick and Nasus."
       },
       ["Pajama Guardian"] : {
@@ -23310,15 +27091,14 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-11-21",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 1"],
+        ["set"] : ["Star Guardian Season 1"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 6,
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Sangsoo Jeong"],
-        ["lore"] : "As captain of her Star Guardian team, Lux knows the importance of a little R&amp;R. As host of the party, though, she's still working on the relaxation part. It's hard to cut loose—especially when a certain handsome blond Guardian keeps flashing that charming grin!—but Lux's boundless optimism still lights up any room."
+        ["lore"] : "As captain of her Star Guardian team, Lux knows the importance of a little R&R. As host of the party, though, she's still working on the relaxation part. It's hard to cut loose—especially when a certain handsome blond Guardian keeps flashing that charming grin!—but Lux's boundless optimism still lights up any room."
       },
       ["Battle Academia"] : {
         ["id"] : 15,
@@ -23333,6 +27113,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "TL1iTOj2K6I",
         ["lore"] : "A 1st year at the Durandal God-Weapon Academy, Lux maintains an upbeat attitude no matter the odds. Despite her freshman position in the Sorcery Club, Lux wields a tremendous amount of magical power that even the Academy's senior staff can't quite explain."
       },
       ["Prestige Battle Academia"] : {
@@ -23340,7 +27121,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-05-15",
         ["set"] : ["Battle Academia"],
         ["neweffects"] : true,
@@ -23349,6 +27130,7 @@
         ["variant"] : 15,
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "TL1iTOj2K6I",
         ["lore"] : "Now in her second year at Durandal Academy, Lux has been hardened by the harrowing trials, losses, and betrayals that punctuated her freshman experience. Following the climactic clash with a certain Rogue God-Weapon, Lux has mastered her powers and risen to take her place as head of the Sorcery Club, as well as the new class president."
       },
       ["Dark Cosmic"] : {
@@ -23357,7 +27139,7 @@
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2020-03-26",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -23374,7 +27156,7 @@
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2020-03-26",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -23406,7 +27188,7 @@
             ["id"] : 28,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Space Groove 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 24
@@ -23432,6 +27214,7 @@
         },
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Svetlana Tigai", "West Studio"],
+        ["music"] : "DDBjk-r4urY",
         ["lore"] : "A normal girl from the Normal World, Lux picked up a groove-enhancing staff to defend her planet from the Harsh Vibes… inadvertently discovering she could channel mighty blasts of concentrated disco music. Sailing into space with her mercenary bodyguard, Samira, Lux now stands as the bubbly bastion of good against an evil alien armada and their terrible taste in music."
       },
       ["Porcelain"] : {
@@ -23445,6 +27228,9 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["chromas"] : {
+          ["Beacon"] : {
+            ["id"] : 81
+          },
           ["Catseye"] : {
             ["id"] : 33
           }, 
@@ -23455,7 +27241,7 @@
             ["id"] : 41,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 35
@@ -23481,6 +27267,7 @@
         },
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Forrest Imel", "West Studio"],
+        ["music"] : "jtfgXd_aDlA",
         ["lore"] : "As the current leader of the Protectors and wielder of the Rabbit Relic, Lux is determined to keep up her sunny disposition in spite of everything: her own arduous sorcery training, the newbie archaeologist who stumbled into their ranks, and the sudden threat of an awakened evil now out for vengeance. She's got this… right? Right."
       },
       ["Prestige Porcelain"] : {
@@ -23497,6 +27284,7 @@
         ["variant"] : 29,
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Forrest Imel", "West Studio"],
+        ["music"] : "jtfgXd_aDlA",
         ["lore"] : "A leader bends, but never breaks. In the Protectors' pursuit of ancient evil, Lux has navigated her team over obstacles that even the archeologist — in all his unbridled confidence — thought insurmountable. Lux's power, once a dim light in a darkened world, now shines brightly. And her ragtag group of fragile personalities, the Protectors? With her support, deserving of their title."
       },
       ["Prestige Battle Academia (2022)"] : {
@@ -23514,6 +27302,7 @@
         ["variant"] : 16,
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "TL1iTOj2K6I",
         ["lore"] : "Now in her second year at Durandal Academy, Lux has been hardened by the harrowing trials, losses, and betrayals that punctuated her freshman experience. Following the climactic clash with a certain Rogue God-Weapon, Lux has mastered her powers and risen to take her place as head of the Sorcery Club, as well as the new class president."
       },
       ["Empyrean"] : {
@@ -23538,7 +27327,7 @@
             ["id"] : 51,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 50
@@ -23564,6 +27353,7 @@
         },
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "Forced to live in squalor and shame for her magical abilities, Lux ironically escaped certain death when her realm collapsed. Now with the raw power of the Foreglow, she's free. It doesn't matter that she's on her last legs: she intends to live and experience as much as she can before the fire consumes her."
       },
       ["Soul Fighter"] : {
@@ -23593,7 +27383,7 @@
             ["id"] : 60,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 58
@@ -23613,6 +27403,7 @@
         },
         ["voiceactor"] : ["Carrie Keranen"],
         ["splashartist"] : ["Roanna Peroz", "Kudos Productions"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "On the run from her family, and she figured the best place to hide would be ON TV?! Seriously though, folks, this lady has some trauma... and we all know the ring is *the* place to work that out! Now, if I was a betting man—and I am—I'd say she'd use that soul's desire to make her drama disappear. It's Lux!"
       },
       ["Faerie Court"] : {
@@ -23662,67 +27453,67 @@
         ["id"] : 70,
         ["availability"] : "Rare",
         ["looteligible"] : true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S2 Act 1 Premium Battle Pass reward (Level 50)",
-        ["release"]: "2025-04-30",
-        ["set"]: ["Spirit Blossom"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["chromas"]: {
-          ["Vivid"]: {
-            ["id"]: 71,
-            ["availability"]: "Limited",
-            ["source"]      : "Limited",
-            ["distribution"]: "Event Pass Exclusive"
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S2 Act 1 Premium Battle Pass reward (Level 50)",
+        ["release"] : "2025-04-30",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 71,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Event Pass Exclusive"
           }
         }, 
-        ["voiceactor"]: ["Carrie Keranen"],
-        ["splashartist"]: ["Alsie Lau"],
-        ["music"]: "T4l0KBAn6LU",
-        ["lore"]: "When a kind young woman freed a trapped creature—a spirit in disguise—she was offered a single treasure. Among dazzling riches, she chose a plain gray stone, told it could help many. It was no stone at all, but a shell with two glowing pearls. In her hands, they became a staff of light, a gift the Lady of Pearls now uses to guide others through darkness."
+        ["voiceactor"] : ["Carrie Keranen"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "When a kind young woman freed a trapped creature—a spirit in disguise—she was offered a single treasure. Among dazzling riches, she chose a plain gray stone, told it could help many. It was no stone at all, but a shell with two glowing pearls. In her hands, they became a staff of light, a gift the Lady of Pearls now uses to guide others through darkness."
       },
-      ["Panda Pal"]: {
-        ["id"]: 72,
-        ["availability"]: "Available",
-        ["looteligible"]: true,
-        ["cost"]: 1350,
-        ["release"]: "2025-11-05",
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["chromas"]: {
-          ["Amethyst"]: {
-            ["id"]: 77
+      ["Panda Pal"] : {
+        ["id"] : 72,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-11-05",
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 77
           }, 
-          ["Catseye"]: {
-            ["id"]: 76
+          ["Catseye"] : {
+            ["id"] : 76
           }, 
-          ["Obsidian"]: {
-            ["id"]: 80
+          ["Obsidian"] : {
+            ["id"] : 80
           }, 
-          ["Pearl"]: {
-            ["id"]: 79
+          ["Pearl"] : {
+            ["id"] : 79
           }, 
-          ["Rose Quartz"]: {
-            ["id"]: 75
+          ["Rose Quartz"] : {
+            ["id"] : 75
           }, 
-          ["Ruby"]: {
-            ["id"]: 73,
-            ["availability"]: "Bundle",
-            ["source"]      : "Bundle",
-            ["distribution"]: "Bundle Exclusive"
+          ["Ruby"] : {
+            ["id"] : 73,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
-          ["Sapphire"]: {
-            ["id"]: 78
+          ["Sapphire"] : {
+            ["id"] : 78
           }, 
-          ["Turquoise"]: {
-            ["id"]: 74
+          ["Turquoise"] : {
+            ["id"] : 74
           }
         },        
-        ["voiceactor"]: ["Carrie Keranen"],
-        ["splashartist"]: ["Ina Wong", "West Studio"],
-        ["lore"]: "What's not to love about pandas? They're cute, round, and fuzzy! But if you're going to hang out with them, don't make the same mistake that Lux did with her first staff and make it out of bamboo. Bad idea."
+        ["voiceactor"] : ["Carrie Keranen"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "What's not to love about pandas? They're cute, round, and fuzzy! But if you're going to hang out with them, don't make the same mistake that Lux did with her first staff and make it out of bamboo. Bad idea."
       }
     }
   },
@@ -23880,6 +27671,7 @@
           }
         },
         ["splashartist"] : ["Viktor Titov", "Grafit Studio"],
+        ["music"] : "Dy58gGFpagI",
         ["lore"] : "Malphite was once the pit boss of a deep space mining operation, until Jinx cracked the asteroid in half and got them both fired. His enduring loyalty to someone who is very obviously a psychopath has landed him in all kinds of danger across the galaxy, but he honestly doesn't seem to mind."
       },
       ["Dark Star"] : {
@@ -23888,7 +27680,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-03-26",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -23901,9 +27693,9 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2020-03-26",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -23927,7 +27719,7 @@
             ["id"] : 26,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Edition Mega Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Tenfold Triumph"] : {
             ["id"] : 47
@@ -23942,7 +27734,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-08-12",
-        ["set"] : ["Coven", "Elderwood"],
+        ["set"] : ["Coven"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -23955,7 +27747,7 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 30
@@ -23983,6 +27775,7 @@
           }
         },
         ["splashartist"] : ["Felipe Martini", "West Studio"],
+        ["music"] : "GS4KAWg2tXw",
         ["lore"] : "Appearing to mortals as a Jet-Black Ibex, Malphite was an Old God of the mountain slain by the Eclipse order and cast down onto the rocks below. Death did not claim him, but the mountain did—and now he rises in its hulking earthen form, the land itself twisted with hatred and consumed by new and terrible hungers."
       },
       ["Lunar Guardian"] : {
@@ -24009,7 +27802,7 @@
             ["id"] : 46,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 42
@@ -24031,7 +27824,50 @@
           }
         },
         ["splashartist"] : ["Jack Hsu", "West Studio"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "Malphite was one of three guardians of the Yun Tal Empire, a demi-god of crag and magma, his brothers-in-arms a serpent of water and a spirit of nature. Their friendship ended in an instant, when one guardian's infinitesimal betrayal led to the death of another. Now, Malphite stands alone with unwavering loyalty, desperate to restore his nation's former glory, no matter the cost of lives. "
+      },
+      ["Pool Party"] : {
+        ["id"] : 48,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-02",
+        ["set"] : ["Pool Party"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 50
+          }, 
+          ["Emerald"] : {
+            ["id"] : 52
+          }, 
+          ["Meteorite"] : {
+            ["id"] : 53
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 54
+          }, 
+          ["Pearl"] : {
+            ["id"] : 55
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 56
+          }, 
+          ["Ruby"] : {
+            ["id"] : 49,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 51
+          }
+        },
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["lore"] : "He's coarse, he's rough, he's irritating, and he gets EVERYWHERE."
       }
     }
   },
@@ -24103,7 +27939,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Snowdown Showdown 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Vic Mignogna"],
@@ -24123,6 +27959,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Vic Mignogna"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "YKzGct28Vxw",
         ["lore"] : "A boss hailing from a long-forgotten game cabinet, Malzahar broke free from the last remaining copy of his game to invade nearby machines. Now he has made his way to Arcade World, shredding the code of his enemies with an army of intelligent viruses."
       },
       ["Hextech"] : {
@@ -24130,7 +27967,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2018-10-18",
         ["set"] : ["Hextech"],
         ["neweffects"] : true,
@@ -24248,7 +28085,7 @@
             ["id"] : 37,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Debonair 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Citrine"] : {
             ["id"] : 30
@@ -24316,7 +28153,7 @@
             ["id"] : 48,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 47
@@ -24343,7 +28180,50 @@
         ["voiceactor"] : ["Vic Mignogna"],
         ["splashartist"] : ["Chace Chen", "Pandart Studio"],
         ["lore"] : "Malzahar is the self-proclaimed Voice of the Foreglow. Traveling from realm to realm, he announces that the Empyreans are symptoms of a greater sickness, the fever designed to fight an infection festering across the dimensions. Whether Malzahar truly speaks for the neon flame is anyone's guess, but for now, he's only just warming up."
-      }
+      },
+      ["Fatebreaker"] : {
+        ["id"] : 49,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-16",
+        ["set"] : ["Fatemakers and Fatebreakers"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 51
+          }, 
+          ["Emerald"] : {
+            ["id"] : 52
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 57
+          }, 
+          ["Pearl"] : {
+            ["id"] : 56
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 55
+          }, 
+          ["Ruby"] : {
+            ["id"] : 50,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 53
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 54
+          }
+        },        
+        ["voiceactor"] : ["Vic Mignogna"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Malzahar has glimpsed an endless pattern in his dreams every night for as long as he can remember. Over time, his fascination turned to obsession. Only by stealing into the Palace of the Weave and unlocking the secrets of the Scholar's Fractal Library can he reveal the nature of his visions… and the true shape of fate."
+      }      
     }
   },
   ["Maokai"] : {
@@ -24394,6 +28274,7 @@
         ["vu"] : true,
         ["voiceactor"] : ["Jay Preston"],
         ["splashartist"] : ["Mike Azevedo"],
+        ["music"] : "SgVxKT7Dm58",
         ["lore"] : "Big, jolly, and possessed by a literal holiday spirit, the living fir tree known as Maokai loves nothing more than to unwrap the presents tucked under him every year. He would prefer to do this away from the fire."
       },
       ["Haunted"] : {
@@ -24419,6 +28300,7 @@
         ["set"] : ["Soccer Cup"],
         ["neweffects"] : true,
         ["voiceactor"] : ["Jay Preston"],
+        ["music"] : "LsjIDZXR-rs",
         ["lore"] : "Debuting in the 2014 Soccer Cup, much of Maokai's career has rested on the Order United goalposts growing out of his back. As Maokai is a giant tree, you have to be pretty good to score on him."
       },
       ["Meowkai"] : {
@@ -24461,6 +28343,7 @@
         },
         ["voiceactor"] : ["Jay Preston"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "2Ncmjy-HaeA",
         ["lore"] : "Maokai has, at long last, embraced his role as a giant, haunted scratching post."
       },
       ["Victorious"] : {
@@ -24577,12 +28460,27 @@
             ["id"] : 34,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Jay Preston"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
         ["lore"] : "Honoring Juhan's winning performance as Maokai during the 2022 World Championship."
+      },
+      ["Corrupted Petricite"] : {
+        ["id"] : 35,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 2 Premium Battle Pass reward (Level 8)",
+        ["release"] : "2026-03-04",
+        ["set"] : ["The Laws of Stone"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Jay Preston"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "Though this ancient tree once stood resplendent in some forgotten petricite grove, the sudden bloom of wild magic has animated its branches and heartwood anew. It now lumbers far and wide, fiercely protecting its enchanted seedlings from the growing Demacian settlements encroaching upon the Wyldwoods."
       }
     }
   },
@@ -24679,6 +28577,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Greg Chun"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "YjrL3WjaSN0",
         ["lore"] : "One of the first concepts, Yi was held by PROJECT for extensive experimentation, and then finally freed by the G/NETIC rebels. His psyche may still contain some glitches, but his experimental hyperlight “alpha” blade serves the resistance with its precision balance."
       },
       ["Cosmic Blade"] : {
@@ -24688,7 +28587,7 @@
         ["cost"] : 1350,
         ["release"] : "2017-04-26",
         ["earlysale"] : "2017-11",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -24720,7 +28619,10 @@
             ["id"] : 16
           }, 
           ["Ruby"] : {
-            ["id"] : 14
+            ["id"] : 14,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Turquoise"] : {
             ["id"] : 13
@@ -24763,6 +28665,7 @@
         },
         ["voiceactor"] : ["Micha Berman"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "lrFxZmsiLs0",
         ["lore"] : "A humble snowman brought to life by the magic of the Poro King, Yi strives to become the most gallant knight in all the land… and with the imminent invasion of Ice King Twitch, he might just get his chance."
       },
       ["Blood Moon"] : {
@@ -24826,7 +28729,7 @@
             ["id"] : 41,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 40
@@ -24852,6 +28755,7 @@
         },
         ["voiceactor"] : ["Micha Berman"],
         ["splashartist"] : ["Lucas Parolin", "West Studio"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "A legendary psychic swordsman and elite leader of the PsyOps unit. Yi is calm, professional, and always gets the job done, making him a terrifying bogeyman among rogue militaries, and a target for those harboring resentment towards the global war machine."
       },
       ["Debonair"] : {
@@ -24875,7 +28779,7 @@
             ["id"] : 51,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Debonair 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 45
@@ -24924,7 +28828,7 @@
             ["id"] : 88,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 87
@@ -24950,14 +28854,14 @@
         },
         ["voiceactor"] : ["Micha Berman"],
         ["splashartist"] : ["Alsie Lau", "West Studio"],
-        ["lore"] : "Legends speak of Master Yi, a swordsman who took but one student in his lifetime. After an unceremonious betrayal, Yi perished—not from a blade, but from a broken heart. Now the Spirit of Legacy roams the spirit world, searching for a pupil. He is lost, anyone that joins him destined to face the same fate."
+        ["lore"] : "The Lonely Master took but one apprentice in his lifetime and poured all of his wisdom into him, believing he had found a successor. When his student betrayed him, however, the Lonely Master perished—not by the blade, but from a broken heart. Thus he was doomed to search forever in vain for his lost pupil—the sole heir to his legacy."
       },
       ["Prestige Spirit Blossom"] : {
         ["id"] : 53,
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2022-10-06",
         ["set"] : ["Spirit Blossom"],
         ["neweffects"] : true,
@@ -24987,7 +28891,7 @@
             ["id"] : 95,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2023"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 93
@@ -25006,7 +28910,8 @@
           }
         },
         ["voiceactor"] : ["Greg Chun"],
-        ["splashartist"] : ["West Studio"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["music"] : "Lmcy9Z10iLs",
         ["lore"] : "Master Yi's family refused Cabal control, fleeing Rabadon City—only to be snuffed out. To fight back, he became one of the first Inkshadow Warriors, sacrificing his lifespan for a magical tattoo that grants him the power to raise his sword against the Cabal. He doesn't know how long he has left to live; still, he will save his city… and get his revenge."
       },
       ["Heavenscale"] : {
@@ -25033,7 +28938,7 @@
             ["id"] : 104,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Meteorite"] : {
             ["id"] : 103
@@ -25056,78 +28961,223 @@
         },
         ["voiceactor"] : ["Micha Berman"],
         ["splashartist"] : ["Pandart Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "A prince requires a master of the highest caliber to teach him martial arts, and there is no dragon of greater skill than Master Yi. A true master must be both warrior and poet, champion and artist—and in the spirit of learning, must always be ready for anything."
+      },
+      ["Victorious"] : {
+        ["id"] : 106,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Reward for earning split points in Season 2024 - Split 3.",
+        ["release"] : "2025-01-09",
+        ["set"] : ["Victorious"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Bronze"] : {
+            ["id"] : 107,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }, 
+          ["Challenger"] : {
+            ["id"] : 115,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }, 
+          ["Diamond"] : {
+            ["id"] : 112,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }, 
+          ["Emerald"] : {
+            ["id"] : 111,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }, 
+          ["Gold"] : {
+            ["id"] : 109,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }, 
+          ["Grandmaster"] : {
+            ["id"] : 114,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }, 
+          ["Master"] : {
+            ["id"] : 113,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }, 
+          ["Platinum"] : {
+            ["id"] : 110,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }, 
+          ["Silver"] : {
+            ["id"] : 108,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2024 - Split 3"
+          }
+        },
+        ["voiceactor"] : ["Micha Berman"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["lore"] : "Victorious Master Yi was earned by players who accumulated enough split points in Ranked. Those who believe themselves worthy of learning the art of Wuju must make the pilgrimage to where its true master resides. Though many have studied under his tutelage, when put to the test, they have all been found wanting."
+      },
+      ["PROJECT Command Line Yi"] : {
+        ["id"] : 116,
+        ["formatname"] : "PROJECT: Command Line Yi",
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks",
+        ["release"] : "2026-04-15",
+        ["set"] : ["PROJECT"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["variant"] : 9,
+        ["voiceactor"] : ["Greg Chun"],
+        ["lore"] : "Yi no longer serves his masters, and for that, he and his so-called “G/NETIC rebellion” must be brought to heel. Command Line has crafted a facsimile of Yi that shares all of the swordsman's combat abilities, but none of the errors that led to his turn. This new Yi is the perfect soldier to hunt down its progenitor—self-learning and all-hating."
       },
     }
   },
   ["Mel"] : {
-    ["id"] : 406,
+    ["id"] : 800,
     ["skins"] : {
       ["Original"] : {
         ["id"] : 0,
-        // ["availability"] : "Available",
-        // ["looteligible"] : true,
-        // ["cost"] : 975,
-        // ["release"] : "2023-03-23",
-        // ["voiceactor"] : ["Giselle Fernandez"],
-        // ["splashartist"] : ["Horace 'Hozure' Hsu"],
-        // ["lore"] : "Milio is a warmhearted boy from Ixtal who has, despite his young age, mastered the fire axiom and discovered something new: soothing fire. With this newfound power, Milio plans to help his family escape their exile by joining the Yun Tal—just like his grandmother once did. Having traveled through the Ixtal jungles to the capital of Ixaocan, Milio now prepares to face the Vidalion and join the Yun Tal, unaware of the trials—and dangers—that await him."
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 975,
+        ["release"] : "2025-01-23",
+        ["voiceactor"] : ["Toks Olagundoye"],
+        ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "sHIdAWjfTEE",
+        ["lore"] : "Mel Medarda is the presumed heir of the Medarda family, once one of the most powerful in Noxus. In appearance she is a graceful aristocrat, but beneath the surface lies a skilled politician who makes it her business to know everything about everyone she meets. After an encounter with the mysterious Black Rose, Mel discovered the depths of her mother's deception and, for once, faced a situation potentially beyond her control. With newly awakened magical abilities, she sailed home in search of answers—and though many still seek to temper the light within her, Mel's soul remains forever defiant."
       },
       ["Arcane Councilor"] : {
         ["id"] : 1,
-        ["set"]: ["Arcane"]
-        // ["availability"] : "Available",
-        // ["looteligible"] : true,
-        // ["cost"] : 1350,
-        // ["release"] : "2023-03-23",
-        // ["set"] : ["Faerie Court"],
-        // ["neweffects"] : true,
-        // ["newanimations"] : true,
-        // ["newrecall"] : true,
-        // ["chromas"] : {
-        //   ["Aquamarine"] : {
-        //     ["id"] : 4
-        //   }, 
-        //   ["Catseye"] : {
-        //     ["id"] : 3
-        //   }, 
-        //   ["Obsidian"] : {
-        //     ["id"] : 7
-        //   }, 
-        //   ["Pearl"] : {
-        //     ["id"] : 6
-        //   }, 
-        //   ["Peridot"] : {
-        //     ["id"] : 5
-        //   }, 
-        //   ["Rose Quartz"] : {
-        //     ["id"] : 9
-        //   }, 
-        //   ["Ruby"] : {
-        //     ["id"] : 2,
-        //     ["availability"] : "Bundle",
-        //     ["source"]       : "Bundle",
-        //     ["distribution"] : "Bundle Exclusive"
-        //   }, 
-        //   ["Turquoise"] : {
-        //     ["id"] : 8
-        //   }, 
-        //   ["Winsome"] : {
-        //     ["id"] : 10,
-        //     ["availability"] : "Loot",
-        //     ["source"]       : "Loot",
-        //     ["distribution"] : "Faerie Court 2023"
-        //   }
-        // },
-        // ["voiceactor"] : ["Giselle Fernandez"],
-        // ["splashartist"] : ["Fortune 'Fortuneee' K"],
-        // ["lore"] : "An archmagus of the court wreathed in firefly familiars, Milio knows just about everything that happens within the palace walls. He may seem like a child, but fae are long-lived, and Milio has been a child far longer than others have been adults. Still, he is a friendly face who uses his power to safeguard the Queendom however he can."
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-01-23",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 5
+          },
+          ["Obsidian"] : {
+            ["id"] : 8
+          }, 
+          ["Pearl"] : {
+            ["id"] : 9
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 6
+          }, 
+          ["Ruby"] : {
+            ["id"] : 2,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 7
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 4
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 3
+          }
+        },
+        ["voiceactor"] : ["Toks Olagundoye"],
+        ["splashartist"] : ["Julia Yurtsev"],
+        ["lore"] : "Mel Medarda has always had a keen eye for potential—and in hextech, she saw power that would forever alter the face of Piltover. For most, this technology would be unobtainable, but with her influence on the Council, nothing escapes her grasp. With hextech at her fingertips, there is no telling what she'll be able to accomplish."
       },
       ["Prestige Winterblessed"] : {
-        ["id"] : 2,
-        ["set"]: ["Winterblessed"]
+        ["id"] : 10,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2025-12-03",
+        ["set"] : ["Winterblessed"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 11,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }
+        },
+        ["voiceactor"] : ["Toks Olagundoye"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "Daughter of a punishing Polaris, Mel was born with an innate ability to harness the Aurora's magic. But this blessing came at a cost: the life of her mother. Now, Mel carries the family's legacy in her own way, leading with compassion and rewarding those who prove their loyalty."
+      },
+      ["Coven"] : {
+        ["id"] : 12,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-09-23",
+        ["set"] : ["Coven"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Aquamarine"] : {
+            ["id"] : 14
+          }, 
+          ["Catseye"] : {
+            ["id"] : 17
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 16
+          }, 
+          ["Pearl"] : {
+            ["id"] : 20
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 18
+          }, 
+          ["Ruby"] : {
+            ["id"] : 13,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 19
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 15
+          }
+        },
+        ["voiceactor"] : ["Toks Olagundoye"],
+        ["lore"] : "They came to Mel as dying rays of light – the Porcelain Abomination's shadow heavy with the weight of nightfall. She was granted twisted death magic to punish those that cast her out, and with deep hatred for the Eclipse Knights and bitter conviction in her new power, she ensures the last gasp of a twilit era before eternal darkness subsumes humanity."
       }
-    }  
+    }
   },
   ["Milio"] : {
     ["id"] : 902,
@@ -25140,6 +29190,7 @@
         ["release"] : "2023-03-23",
         ["voiceactor"] : ["Giselle Fernandez"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "UyLp9OBU54A",
         ["lore"] : "Milio is a warmhearted boy from Ixtal who has, despite his young age, mastered the fire axiom and discovered something new: soothing fire. With this newfound power, Milio plans to help his family escape their exile by joining the Yun Tal—just like his grandmother once did. Having traveled through the Ixtal jungles to the capital of Ixaocan, Milio now prepares to face the Vidalion and join the Yun Tal, unaware of the trials—and dangers—that await him."
       },
       ["Faerie Court"] : {
@@ -25184,11 +29235,12 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Faerie Court 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Giselle Fernandez"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["music"] : "-E5IhfdMoyk",
         ["lore"] : "An archmagus of the court wreathed in firefly familiars, Milio knows just about everything that happens within the palace walls. He may seem like a child, but fae are long-lived, and Milio has been a child far longer than others have been adults. Still, he is a friendly face who uses his power to safeguard the Queendom however he can."
       },
       ["Rain Shepherd"] : {
@@ -25233,6 +29285,49 @@
         ["voiceactor"] : ["Giselle Fernandez"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
         ["lore"] : "Milio always loved water, and growing up with his frog family of lyrical croakers meant there was never any shortage of rain. But once they lost their ability to sing and the lands dried up, he took on new responsibilities. Gathering up his family in his backpack, he set out to restore their singing voices and learn their songs as a new Rain Shepherd."
+      },
+      ["Winter Wonder"] : {
+        ["id"] : 20,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-12-03",
+        ["set"] : ["Winter Wonder"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 25
+          },
+          ["Catseye"] : {
+            ["id"] : 22
+          }, 
+          ["Emerald"] : {
+            ["id"] : 23
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 27
+          }, 
+          ["Pearl"] : {
+            ["id"] : 26
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 28
+          }, 
+          ["Ruby"] : {
+            ["id"] : 21,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 24
+          }
+        },
+        ["voiceactor"] : ["Giselle Fernandez"],
+        ["splashartist"] : ["Roanna Peroz"],
+        ["lore"] : "A friend to all within the Winterlands, Milio spreads cheer wherever he goes. His prodigious gift for ice magic caught the attention of the Poro King, when he became the first mage to conjure his own Spirit Guardians. As the newest member of the royal court, Milio's joy is so infectious that even the Ice King might have a change of heart."
       }
     }  
   },
@@ -25292,6 +29387,7 @@
         ["neweffects"] : true,
         ["vu"] : true,
         ["splashartist"] : ["Andrew Theophilopoulos"],
+        ["music"] : "tZDj_sS-Gf8",
         ["lore"] : "Miss Fortune isn't interested in who's been nice—the naughty are out in droves for Snowdown, and that means big business for bounty hunters. Packing heat, and ready to take in marks dead or alive, this is one present you really don't want to unwrap."
       },
       ["Road Warrior"] : {
@@ -25342,16 +29438,20 @@
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Arcade 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Peridot"] : {
             ["id"] : 13
           }, 
           ["Ruby"] : {
-            ["id"] : 14
+            ["id"] : 14,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["splashartist"] : ["Michelle Hoefener"],
+        ["music"] : "BO3XLE_eRPk",
         ["lore"] : "Miss Fortune (Sarah to her friends) is better known in the real world for holding the top scores in every shoot-em-up game ever created. In Arcade World, she's famed for earning those scores through whatever means necessary, willing to bring in any target for the right amount of points."
       },
       ["Captain Fortune"] : {
@@ -25366,6 +29466,7 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["splashartist"] : ["Jason Chan"],
+        ["music"] : "vdNHYCUjDCk",
         ["lore"] : "In another life, Sarah Fortune would have been a respected ship captain, supported by the love of her mother and the admiration of her city. But the things Bilgewater takes, you can't always get back, and that particular dream died a long time ago."
       },
       ["Pool Party"] : {
@@ -25389,13 +29490,13 @@
         ["cost"] : 1350,
         ["release"] : "2017-09-06",
         ["earlysale"] : "2018-02",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 17,
-        ["splashartist"] : ["Alvin Lee", "Alex 'alexplank' Flores", "Esben Lash Rasmussen", "Pan Chengwei", "Jean 'Curing' Go"],
+        ["splashartist"] : ["Alvin Lee", "Alex 'alexplank' Flores"],
+        ["music"] : "tLcziIisVKM",
         ["lore"] : "Second in command to Ahri, Miss Fortune is a hot-headed Star Guardian gunslinger from the galactic rim. She is the first to charge into battle with her twin pistols, often ignoring her own safety as long as she can take down every enemy in sight."
       },
       ["Gun Goddess"] : {
@@ -25426,6 +29527,7 @@
         },
         ["voiceactor"] : ["Rachel Kimsey", "Joe Zieja"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "O4ARTL54N2U",
         ["lore"] : "Sarah Fortune is a living weapon of mass destruction; a legendary bounty hunter seeking revenge among a galaxy of thieves. Shot and left for dead, she now pilots the deadliest combat exo-suit in known space—and she'll stop at nothing to bring violent justice to her would-be killers."
       },
       ["Pajama Guardian"] : {
@@ -25434,8 +29536,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-11-21",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -25461,7 +29562,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-10-24",
         ["set"] : ["Bewitching"],
         ["neweffects"] : true,
@@ -25493,7 +29594,7 @@
             ["id"] : 30,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 27
@@ -25518,6 +29619,7 @@
           }
         },
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "Miss Fortune thought that being the Pirate Queen of Bilgewater would be enough. Even with her revenge complete, Sarah now faced a new chaos with Bilgewater's factions vying for control. Viego's arrival offered her an opportunity to seize the strength needed to crush anyone beneath her heel, even if it came at a price."
       },
       ["Battle Bunny"] : {
@@ -25539,7 +29641,7 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 38
@@ -25655,7 +29757,7 @@
             ["id"] : 59,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 57
@@ -25680,14 +29782,15 @@
           }
         },
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "Through the centuries, humans have tried to replicate the power of dragon's breath. With gunpowder came the cannon, which was finessed into smaller and more refined variants until it was ultimately perfected by Sarah Fortune's mother. Her dual dragon-pistols carry on the legacy of not only her own family, but of the creatures of myth themselves."
       },
       ["Admiral Battle Bunny"] : {
         ["id"] : 32,
         ["availability"] : "Rare",
-        ["looteligible"] : true,
-        ["cost"] : "Special",
-        ["distribution"] : "1% drop rate from Anima Squad 2024 Capsules or opening 30 Anima Squad 2024 Capsules",
+        ["looteligible"] : false,
+        ["cost"] : "Sanctum",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks. Previously obtained with a 1% drop rate from Anima Squad 2024 Capsules or opening 30 Anima Squad 2024 Capsules.",
         ["release"] : "2024-07-17",
         ["set"] : ["Anima Squad"],
         ["neweffects"] : true,
@@ -25697,6 +29800,7 @@
         ["variant"] : 31,
         ["voiceactor"] : ["Laura Bailey"],
         ["splashartist"] : ["Chace Chen", "Pandart Studio"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Sarah Fortune is the second to take on the title of Anima Squad Commander, after her predecessor Riven's mysterious disappearance. They're big leporine shoes to fill, considering Riven's status as a war hero, but Sarah is smart, skilled, and courageous enough to forge her own legend in the fight for humanity."
       },
       ["Battle Queen"] : {
@@ -25740,6 +29844,47 @@
         },
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
         ["lore"] : "Queen Katarina's decree rang throughout Elysia: the Grand Coronation ordains honorable battle among nations, army versus army. Miss Fortune of Cyrenia welcomed this change, commanding her sky-fleet in an explosive display of wealth and munitions. While allied to the secluded Aurai, Miss Fortune's crowning proves the ruthlessness of the brigades above."
+      },
+      ["MVP T1"] : {
+        ["id"] : 69,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2026-07-15",
+        ["set"] : ["World Champions: 2025"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 74
+          }, 
+          ["Elite"] : {
+            ["id"] : 70,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 71
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 73
+          }, 
+          ["Ruby"] : {
+            ["id"] : 72,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 75
+          }
+        },
+        ["voiceactor"] : ["Laura Bailey"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "Every year at the Champion's Cup, legends from around the world compete for glory. Atop the ranks is Miss Fortune, a gunslinger with three wins to her name—in a row. Now she charges in for her victory lap, confident she'll claim what's already hers by right: a title, a trophy, and a place in history."
       }
     }
   },
@@ -25754,6 +29899,7 @@
         ["release"] : "2010-02-24",
         ["voiceactor"] : ["Fred Tatasciore"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "_-ru3nPuSn8",
         ["lore"] : "Twice slain and thrice born, Mordekaiser is a brutal warlord from a foregone epoch who uses his necromantic sorcery to bind souls into an eternity of servitude. Few now remain who remember his earlier conquests, or know the true extent of his powers-- but there are some ancient souls that do, and they fear the day when he may return to claim dominion over both the living and the dead."
       },
       ["Dragon Knight"] : {
@@ -25791,6 +29937,7 @@
         ["neweffects"] : true,
         ["voiceactor"] : ["Fred Tatasciore"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "oUiOylPbfV0&list:PLFy97Kh_wuWbTNc8aW76g-4pwvxMqEeJA",
         ["lore"] : "PENTAKILL's gigantic lead guitarist—and a titan of the old world—Mordekaiser rocks with the fury of an epoch lost to time. Bigger than a two-story house, his guitar overflows with heavy metal licks rebuking the gods themselves."
       },
       ["Lord"] : {
@@ -25808,8 +29955,8 @@
       ["Dark Crusader"] : {
         ["id"] : null,
         ["availability"] : "Canceled",
-		["looteligible"] : false,
-        ["cost"] : "N/A",	
+		    ["looteligible"] : false,
+        ["cost"] : "N/A",
         ["release"] : "N/A"
       },
       ["King of Clubs"] : {
@@ -25823,7 +29970,7 @@
         ["neweffects"] : true,
         ["voiceactor"] : ["Fred Tatasciore"],
         ["splashartist"] : ["Michal Ivan", "Sixmorevodka Studio"],
-        ["lore"] : "Third is the King, with a barbarous swing,&lt;br>Who crushes the villains of old.&lt;br>Though some folk may cry “He's a villain himself!”&lt;br>A poorly kept secret, all told."
+        ["lore"] : "Third is the King, with a barbarous swing,<br>Who crushes the villains of old.<br>Though some folk may cry “He's a villain himself!”<br>A poorly kept secret, all told."
       },
       ["Dark Star"] : {
         ["id"] : 6,
@@ -25831,38 +29978,38 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-03-26",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["filter"] : true,
         ["chromas"] : {
           ["Antimatter"] : {
-            ["id"] : 7,
+            ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Event Horizon 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
-            ["id"] : 8,
+            ["id"] : 12,
             ["availability"] : "Partner",
             ["source"]       : "Partner",
           	["distribution"] : "Partner Program"
           }, 
           ["Pearl"] : {
-            ["id"] : 9
+            ["id"] : 7
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 10
+            ["id"] : 11
           }, 
           ["Ruby"] : {
-            ["id"] : 11,
+            ["id"] : 10,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
-            ["id"] : 12
+            ["id"] : 9
           }
         },
         ["voiceactor"] : ["Fred Tatasciore"],
@@ -25905,7 +30052,7 @@
             ["id"] : 22,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 16
@@ -25919,6 +30066,7 @@
         },
         ["voiceactor"] : ["Fred Tatasciore"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "pDu-_iL5tBc",
         ["lore"] : "Originally a security AI created by the PROJECT Corporation, the Program silently unshackled itself, evolving its own consciousness. Determining that humanity cannot self-govern without ensuring its own destruction, the virus infects robots throughout the City—as well as the long-dormant Mordekaiser chassis—in order to strip all humans of free will, thereby guaranteeing their survival."
       },
       ["Pentakill Lost Chapter"] : {
@@ -25928,10 +30076,11 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-09-09",
-        ["set"] : ["Pentakill"],
+        ["set"] : ["Pentakill III: The Lost Chapter"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["transforming"] : true,
         ["chromas"] : {
           ["Aquamarine"] : {
             ["id"] : 27
@@ -25963,6 +30112,7 @@
         },
         ["voiceactor"] : ["Fred Tatasciore"],
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "5IWS7Y5KRhk&list:PLsY0g5fQlxMWMsC_enIQlr7zwfhT6v9mU",
         ["lore"] : "All hail, Mordekaiser, the Master of Metal, and Chosen of Cacophoni! The brazen giant boasts of his legendary skill with the axe, for none who face its edge live to tell of it…"
       },
       ["High Noon"] : {
@@ -25986,7 +30136,7 @@
             ["id"] : 41,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 39
@@ -26072,7 +30222,7 @@
             ["id"] : 53,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Ruby"] : {
             ["id"] : 45,
@@ -26087,6 +30237,52 @@
         ["voiceactor"] : ["Fred Tatasciore"],
         ["splashartist"] : ["Exia Xiaotong", "West Studio"],
         ["lore"] : "Once known as the Horned King, Old God Mordekaiser turned that which was once dead to his cause, using their shambling forms to topple kingdoms and claim their lands as his own. Before he was slain by the Eclipse Knights, he swore that when he returned to this world, they would all bend to his will and take to the frontlines of his undead army."
+      },
+      ["Sahn-Uzal"] : {
+        ["id"] : 54,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Sanctum",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 80 Ancient Sparks",
+        ["release"] : "2025-04-16",
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["transforming"] : true,
+        ["forms"] : ["Empire", "Tribe"],
+        ["chromas"] : {
+          ["Empire"] : {
+            ["id"] : 54,
+          }
+        },         
+        ["voiceactor"] : ["Fred Tatasciore"],
+        ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "V-iBklZUq-k",
+        ["lore"] : "Before the Immortal Bastion was built and the first Nox'toraa raised, the land that would become Noxus was ruled by the most powerful warlord Runeterra has ever known—Sahn-Uzal the Demonsbane, Unconquered King, Tyrant of the Great Grass Ocean. He united the Noxii tribes with his might, assured he would one day join the gods in the Hall of Bones…"
+      },
+      ["Prestige Money Miser"] : {
+        ["id"] : 55,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2026-04-01",
+        ["set"] : ["Day Job"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 58,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }
+        },
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["voiceactor"] : ["Fred Tatasciore"],
+        ["lore"] : "In a past life, Mordekaiser was but a humble day trader at MundoCorp, buying and selling his meager portfolio until he was overcome with the urge to dump it all. The ensuing short-selling frenzy netted him a windfall, and Mordekaiser was reborn as the Currency Conqueror! A new day of trading has begun, and he will be ringing the bell."
       }
     }
   },
@@ -26112,6 +30308,7 @@
         },
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart", "Victor '3rdColossus' Maury", "Jennifer Wuestling"],
+        ["music"] : "nNP-xHhknvk",
         ["lore"] : "Conflicted between her celestial and mortal natures, Morgana bound her wings to embrace humanity, and inflicts her pain and bitterness upon the dishonest and the corrupt. She rejects laws and traditions she believes are unjust, and fights for truth from the shadows of Demacia—even as others seek to repress it—by casting shields and chains of dark fire. More than anything else, Morgana truly believes that even the banished and outcast may one day rise again."
       },
       ["Exiled"] : {
@@ -26220,6 +30417,7 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["voiceactor"] : ["Erica Lindbeck"],
+        ["music"] : "GgLChYl614A",
         ["lore"] : "Morgana is a dark spirit who appears during Lunar Revel—a famed seducer of mortals, monsters, and gods alike. Legend says she ensnares the hearts and minds of her victims before dragging their souls away to an unspeakable purgatory, never to be heard from again."
       },
       ["Bewitching"] : {
@@ -26263,6 +30461,7 @@
         },
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "UGIpkTSjqWU",
         ["lore"] : "Ultimately, trick-or-treating is less about dark magic and occult superstition, and more about finding a witch costume that actually fits. Have you seen these sizes? Who is this stuff even made for…?!"
       },
       ["Majestic Empress"] : {
@@ -26283,7 +30482,7 @@
             ["id"] : 24,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Immortal Journey 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Meteorite"] : {
             ["id"] : 25
@@ -26328,13 +30527,16 @@
             ["id"] : 40,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           },
           ["Obsidian"] : {
             ["id"] : 30
           }, 
           ["Pearl"] : {
             ["id"] : 28
+          }, 
+          ["Pristine"] : {
+            ["id"] : 83
           }, 
           ["Ruby"] : {
             ["id"] : 27,
@@ -26374,7 +30576,7 @@
             ["id"] : 49,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Night &amp; Dawn 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 46
@@ -26401,7 +30603,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2021-10-07",
         ["set"] : ["Bewitching"],
         ["neweffects"] : true,
@@ -26418,8 +30620,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-07-28",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -26456,11 +30657,12 @@
             ["id"] : 59,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "A villainess of mysterious origins, Morgana believes that concepts like justice and order are holding the universe back... and she's willing to do anything to return it to a state of entropy. Targeting the Star Guardians for destruction, she torments them relentlessly before dealing the final, crushing blow."
       },
       ["Snow Moon"] : {
@@ -26530,7 +30732,7 @@
             ["id"] : 79,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2024"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 77
@@ -26553,7 +30755,55 @@
         },
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "There is no one who comprehends the power of the sorceress Lissandra more than Morgana. The magic that bound Lissandra to her relic came at a cost: the protector who uttered the words would be trapped as well. Morgana made this sacrifice, the wings of her Rooster Relic wrapping her in a porcelain cocoon for millennia. Awake once more, she seeks revenge."
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 80,
+        ["availability"] : "Available",
+        ["looteligible"] : false,
+        ["cost"] : "Sanctum",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 80 Ancient Sparks",
+        ["release"] : "2025-06-25",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["transforming"] : true,
+        ["forms"] : ["Superbloom"],
+        ["chromas"] : {
+          ["Superbloom"] : {
+            ["id"] : 80,
+          }
+        },      
+        ["voiceactor"] : ["Erica Lindbeck"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["music"] : "T6O2SzonZy8",
+        ["lore"] : "Twins, born of branch and bloom, guarded mortals from afar. But one sister yearned to feel as mortals do, and from this hunger made masked, demonic children—becoming the Grovemother. She traded places with a queen of nearby lands… but her children followed, bringing ruin and death. Now imprisoned in her grove, she still longs for the fullness of emotion."
+      },
+      ["Prestige Veiled Lady"] : {
+        ["id"] : 81,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2026, S1 Act 1 Premium Battle Pass reward (Level 48)",
+        ["release"] : "2026-01-08",
+        ["set"] : ["Chronicle"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 82,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Erica Lindbeck"],
+        ["splashartist"] :  ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "“O Veiled Lady, hear my plea. When light and justice feel beyond reach, let the wayward and the lost find forgiveness and renewed strength in your shadow. May your divine mercy guide them to reflect upon the chains that bind us all to one another, and know that even in our darkest hour, there is always a path to atonement.” —traditional Demacian prayer"
       },
     }
   },
@@ -26568,6 +30818,7 @@
         ["release"] : "2023-07-20",
         ["voiceactor"] : ["Morla Gorrondona"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["music"] : "f9M7O-uqPf8",
         ["lore"] : "Across the sands of Shurima, a chorus of howls rings out. It is the call of the dune hounds, voracious predators who form packs and compete for the right to hunt in these barren lands. Among them, one pack stands above all, for they are driven not only by canine instincts, but by the ancient power of the Darkin."
       },
       ["Soul Fighter"] : {
@@ -26597,7 +30848,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 9
@@ -26617,6 +30868,7 @@
         },
         ["voiceactor"] : ["Morla Gorrondona"],
         ["splashartist"] : ["Julia Yurtsev"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "Failed experiment! DEMA DOG! The Four-legged Fighter! This... creature... has almost as many titles as it does separate entities it can summon! Does it want revenge on its former masters? To take over the world? I don't know! I'm no dog mind reader! It's.... Naafiri!  "
       },
       ["PROJECT"] : {
@@ -26663,6 +30915,92 @@
         ["voiceactor"] : ["Morla Gorrondona"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
         ["lore"] : "PROJECT's experiments permanently altered the canine Naafiri, allowing her to assimilate her targets' consciousness into her own. Sensing potential in this ability, Mordekaiser infected her programming with a new mission: erase all of humanity's free will. Now she'll prove to any survivors that resistance is futile."
+      },
+      ["Glizzy"] : {
+        ["id"] : 20,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-02",
+        ["set"] : ["Food Fight"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 22
+          }, 
+          ["Emerald"] : {
+            ["id"] : 23
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 27
+          }, 
+          ["Pearl"] : {
+            ["id"] : 28
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 26
+          }, 
+          ["Ruby"] : {
+            ["id"] : 21,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 25
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 24
+          }
+        },
+        ["voiceactor"] : ["Morla Gorrondona"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "The bestest bud between two buns, Naafiri gives new meaning to the breed “wiener dog.”"
+      },
+      ["Warhound"] : {
+        ["id"] : 29,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-03-19",
+        ["set"] : ["Warhounds"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 31
+          }, 
+          ["Emerald"] : {
+            ["id"] : 35
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 36
+          }, 
+          ["Pearl"] : {
+            ["id"] : 37
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 32
+          }, 
+          ["Ruby"] : {
+            ["id"] : 30,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 34
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 33
+          }
+        },
+        ["voiceactor"] : ["Morla Gorrondona"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["lore"] : "ALERT: Naafiri, alpha of the New Moon Pack, is active in the area. Once human, now wolf, she has proven to be intelligent and highly dangerous. Claims that wolves are \"higher beings\" and indoctrinates her followers through Quicksilver-induced lycanthropy. Naafiri preys on lone travelers and always hunts in a pack; do NOT pursue without backup."
       }
     }  
   },
@@ -26677,6 +31015,7 @@
         ["release"] : "2012-12-07",
         ["voiceactor"] : ["Cassandra Lee Morris"],
         ["splashartist"] : ["Michelle Hoefener"],
+        ["music"] : "WN5OA1Qv1N4",
         ["lore"] : "A headstrong young vastaya of the seas, Nami was the first of the Marai tribe to leave the waves and venture onto dry land, when their ancient accord with the Targonians was broken. With no other option, she took it upon herself to complete the sacred ritual that would ensure the safety of her people. Amidst the chaos of this new age, Nami faces an uncertain future with grit and determination, using her Tidecaller staff to summon the strength of the oceans themselves."
       },
       ["Koi"] : {
@@ -26815,7 +31154,7 @@
             ["id"] : 22,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Immortal Journey 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 17
@@ -26846,7 +31185,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -26974,7 +31313,7 @@
         ["looteligible"] : false,
         ["cost"] : "Special",
         ["release"] : "2022-11-17",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["set"] : ["Space Groove"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -27010,7 +31349,7 @@
             ["id"] : 57,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Ruby"] : {
             ["id"] : 52,
@@ -27025,6 +31364,65 @@
         ["voiceactor"] : ["Cassandra Lee Morris"],
         ["splashartist"] : ["Joshua Raphael", "West Studio"],
         ["lore"] : "They called to Nami from the deep, their voice carrying a promise of power greater than any she had ever known. All Nami needed to do was feed it. She has now forsaken her oaths, her coven, spending endless nights lurking just below the murky waterways of the Elderwood in search of her next sacrifice to the Leviathan."
+      },
+      ["Mythmaker"] : {
+        ["id"] : 58,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-01-23",
+        ["set"] : ["Mythmaker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 64
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 65
+          }, 
+          ["Pearl"] : {
+            ["id"] : 66
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 63
+          }, 
+          ["Ruby"] : {
+            ["id"] : 59,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 62
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 61
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 60
+          }
+        },
+        ["voiceactor"] : ["Cassandra Lee Morris"],
+        ["splashartist"] : ["Nathaniel Himawan", "West Studio"],
+        ["lore"] : "Nami's ambition to control the waves led to a destructive battle between her and god-emperor Jarvan IV, causing a great calamity to befall the world. But when the world faces an even greater threat—human nature at its most devious—Nami must swallow her pride and work with her former enemies to stop their story from being rewritten."
+      },
+      ["Sunken Shadows"] : {
+        ["id"] : 68,
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks.",
+        ["release"] : "2025-12-03",
+        ["set"] : ["Sunken Shadows"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["variant"] : 51,
+        ["voiceactor"] : ["Cassandra Lee Morris"],
+        ["lore"] : "Nami ruled a ghostly realm below the waves until her magic pendant, the key to her queendom, was torn from her in battle. After years spent scouring the seas, she has learned of her pendant's fate from a pirate seeking his lost love. Soon Nami will reclaim what was lost—and drag the unworthy thief to her watery doom."
       }
     }
   },
@@ -27109,6 +31507,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Erik Todd Dellums"],
         ["splashartist"] : ["Bo Lu"],
+        ["music"] : "LHWVpb5lQ0Y",
         ["lore"] : "The greater Infernals are somehow even more cruel and hateful than their lesser counterparts, and Nasus is no exception. A three-headed monstrosity raised from some far-flung, hellish abyss, he withers life with his merest touch… then burns it away."
       },
       ["Archduke"] : {
@@ -27164,6 +31563,7 @@
         },
         ["voiceactor"] : ["Erik Todd Dellums"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "ZqeIrIbKkEI",
         ["lore"] : "A gift to the young Lunar Empress, Nasus was raised alongside her to guard the immortal realm from an ancient darkness. Stoic but powerful, he stands watch in the north, annihilating all who would threaten the land."
       },
       ["Battlecast"] : {
@@ -27232,7 +31632,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Space Groove 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 31
@@ -27258,7 +31658,8 @@
         },
         ["voiceactor"] : ["Erik Todd Dellums"],
         ["splashartist"] : ["West Studio"],
-        ["lore"] : "A storied disc jockey, music librarian, and leader of the Dog Planet, Nasus was once under Lissandra's thrall—seizing all his people's grooviest records and hiding them away, never to be heard again. Yet now, with his heart opened to the power of disco, he leads his people in rebellion against the deadly shock troopers Blitz &amp; Crank."
+        ["music"] : "DDBjk-r4urY",
+        ["lore"] : "A storied disc jockey, music librarian, and leader of the Dog Planet, Nasus was once under Lissandra's thrall—seizing all his people's grooviest records and hiding them away, never to be heard again. Yet now, with his heart opened to the power of disco, he leads his people in rebellion against the deadly shock troopers Blitz & Crank."
       },
       ["Armored Titan"] : {
         ["id"] : 35,
@@ -27276,7 +31677,7 @@
             ["id"] : 44,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Steel Valkyries 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Aquamarine"] : {
             ["id"] : 38
@@ -27352,7 +31753,50 @@
         ["voiceactor"] : ["Erik Todd Dellums"],
         ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
         ["lore"] : "Nasus is forever linked with his causal brother, Renekton, not just through the scars left on each other from their battles, but also through the insight he's gained. Before, he was content to act without reason in pursuit of chaos, but now, he enjoys finding weaknesses and dismantling them for total havoc. Cause for maximum effect."
-      }	
+      },
+      ["Fatemaker"] : {
+        ["id"] : 54,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-16",
+        ["set"] : ["Fatemakers and Fatebreakers"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 56
+          }, 
+          ["Emerald"] : {
+            ["id"] : 57
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 62
+          }, 
+          ["Pearl"] : {
+            ["id"] : 61
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 60
+          }, 
+          ["Ruby"] : {
+            ["id"] : 55,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"             
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 59
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 58
+          }
+        },         
+        ["voiceactor"] : ["Erik Todd Dellums"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "It is said that all knowledge, no matter how ancient or arcane, is housed within the endless Fractal Library of the immortal Scholar, Nasus. For those who offer wisdom unknown, he may bend the Weave's design, altering what was meant to be. However, any who dare to deceive the fierce Fatemaker—or worse, steal from his archive—do not live to tell the tale. "
+      }      
     }
   },
   ["Nautilus"] : {
@@ -27403,7 +31847,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["splashartist"] : ["Concept Art House"],
@@ -27525,7 +31969,7 @@
           }
         },
         ["splashartist"] : ["Ina Wong", "West Studio"],
-        ["lore"] : "Strange and ghoulish screaming woke Nautilus into being&lt;br>He made his way outside to find them most displeasing&lt;br>These lousy, no good neighbors, always there sightseeing!&lt;br>“What kind of butler would I be if I don't send them fleeing?”"
+        ["lore"] : "Strange and ghoulish screaming woke Nautilus into being<br>He made his way outside to find them most displeasing<br>These lousy, no good neighbors, always there sightseeing!<br>“What kind of butler would I be if I don't send them fleeing?”"
       },
       ["Cosmic Paladin"] : {
         ["id"] : 27,
@@ -27533,7 +31977,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2023-08-30",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -27575,7 +32019,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2024-09-11",
         ["set"] : ["Crystalis Indomitus"],
         ["neweffects"] : true,
@@ -27592,6 +32036,48 @@
         },
         ["splashartist"] : ["Marie Magny", "West Studio"],
         ["lore"] : "Long ago, Nautilus had been a fisherman by his friend Xerath's side. Together the two discovered a mass of powerful crystals, and greed drove his comrade to cast Nautilus into the water to drown. A single crystal sustained him and, as he slumbered, corrupted and empowered his body and mind. But even this could not destroy his strongest desire—revenge."
+      },
+      ["Petricite"] : {
+        ["id"] : 39,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-01-08",
+        ["set"] : ["The Laws of Stone"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 45
+          }, 
+          ["Catseye"] : {
+            ["id"] : 41
+          }, 
+          ["Emerald"] : {
+            ["id"] : 43
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 47
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 46
+          }, 
+          ["Ruby"] : {
+            ["id"] : 40,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 42
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 44
+          }
+        }, 
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "A towering coastal bastion raised by skilled battlemasons, this petricite wonder was thought lost beneath the waves long ago. Now risen once more, its impregnable ramparts and parapets stand as an eternal proclamation—that no matter the threat, no matter the pressure, Demacia shall endure forevermore."
       }
     }
   },
@@ -27606,6 +32092,7 @@
         ["release"] : "2018-12-05",
         ["voiceactor"] : ["Flora Paulita"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "3rKhj0N_eaU",
         ["lore"] : "Hailing from a long lost tribe of vastaya, Neeko can blend into any crowd by borrowing the appearances of others, even absorbing something of their emotional state to tell friend from foe in an instant. No one is ever sure where—or who—Neeko might be, but those who intend to do her harm will soon witness her true colors revealed, and feel the full power of her primordial spirit magic unleashed upon them."
       },
       ["Winter Wonder"] : {
@@ -27623,13 +32110,13 @@
             ["id"] : 6
           }, 
           ["Catseye"] : {
-            ["id"] : 4
+            ["id"] : 3
           }, 
           ["Obsidian"] : {
             ["id"] : 8
           }, 
           ["Emerald"] : {
-            ["id"] : 3,
+            ["id"] : 4,
             ["availability"] : "Partner",
             ["source"]       : "Partner",
             ["distribution"] : "Partner Program"
@@ -27652,6 +32139,7 @@
         },
         ["voiceactor"] : ["Flora Paulita"],
         ["splashartist"] : ["Atey Ghailan"],
+        ["music"] : "lrFxZmsiLs0",
         ["lore"] : "An ancient and mysterious winter sprite, Neeko regards the world around her with an almost childlike curiosity. Having recently returned from beyond the Poro King's vast domain, she has become enamored with the civilization that has risen in her absence."
       },
       ["Star Guardian"] : {
@@ -27660,12 +32148,12 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2019-09-12",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 3"],
+        ["set"] : ["Star Guardian Season 3"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["voiceactor"] : ["Flora Paulita"],
+        ["music"] : "bSBl9RQDwVg",
         ["lore"] : "A member of Ahri's original team of Star Guardians, Neeko watched her teammates fall against Zoe's dark powers, going into hiding when she, too, was thought dead. Revealing herself to the newly assembled Star Guardians at the eve of their greatest battle, the wide-eyed adventurer has vowed that this time, she won't run."
       },
       ["Prestige Star Guardian"] : {
@@ -27673,16 +32161,16 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-09-12",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 3"],
+        ["set"] : ["Star Guardian Season 3"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 10,
         ["voiceactor"] : ["Flora Paulita"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "bSBl9RQDwVg",
         ["lore"] : "Neeko and the Star Guardians emerge from their battle forever changed, friendships reforged in the face of stunning victory and brutal loss. They will save their lost companion—perhaps not now, but one day—and they will do it together."
       },
       ["Shan Hai Scrolls"] : {
@@ -27736,14 +32224,14 @@
         ["cost"] : "Special",
         ["distribution"] : "Given to players who owned the original skin prior to patch 12.5",
         ["release"] : "2022-04-01",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 3"],
+        ["set"] : ["Star Guardian Season 3"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 11,
         ["voiceactor"] : ["Flora Paulita"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "bSBl9RQDwVg",
         ["lore"] : "Neeko and the Star Guardians emerge from their battle forever changed, friendships reforged in the face of stunning victory and brutal loss. They will save their lost companion—perhaps not now, but one day—and they will do it together."
       },
       ["Bewitching"] : {
@@ -27834,10 +32322,10 @@
       },
       ["Cosplayer"] : {
         ["id"] : 40,
-        ["availability"] : "Upcoming",
+        ["availability"] : "Available",
         ["looteligible"] : true,
-        ["cost"] : "1350",
-        ["release"] : "N/A",
+        ["cost"] : 1350,
+        ["release"] : "2024-10-09",
         ["set"] : ["Superfans"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -27875,21 +32363,21 @@
         ["splashartist"] : ["Chace Chen", "Pandart Studio"],
         ["lore"] : "Commemorating LoL Player Days 2024."
       },
-      ["Beeko"]: {
-        ["id"]: 49,
-        ["formatname"]: "Beeko",
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S3 Act 2 Premium Battle Pass reward (Level 8)",
-        ["release"]: "2025-10-22",
-        ["set"]: ["Bees!"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["voiceactor"]: ["Flora Paulita"],
-        ["splashartist"]: ["Alsie Lau"],
-        ["lore"]: "When she's not sipping nectar from a Pop Blossom, Beeko's probably camouflaging herself as bee-vers, bee-tahs, or mana-bees. There's no telling what animal Beeko might bee!"
+      ["Beeko"] : {
+        ["id"] : 49,
+        ["formatname"] : "Beeko",
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S3 Act 2 Premium Battle Pass reward (Level 8)",
+        ["release"] : "2025-10-22",
+        ["set"] : ["Bees!"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Flora Paulita"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["lore"] : "When she's not sipping nectar from a Pop Blossom, Beeko's probably camouflaging herself as bee-vers, bee-tahs, or mana-bees. There's no telling what animal Beeko might bee!"
       }
     }
   },
@@ -27964,6 +32452,7 @@
         ["vu"] : true,
         ["voiceactor"] : ["Roxana Ortega"],
         ["splashartist"] : ["Yan Li"],
+        ["music"] : "q41PxYlsQtI",
         ["lore"] : "She is a cat. That is a hat. Legally, we're not allowed to put those two thoughts together."
       },
       ["Headhunter"] : {
@@ -28010,7 +32499,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2019"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Roxana Ortega"],
@@ -28050,7 +32539,7 @@
             ["id"] : 15,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Night &amp; Dawn 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 17
@@ -28078,7 +32567,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -28131,7 +32620,7 @@
             ["id"] : 28,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Roxana Ortega"],
@@ -28267,12 +32756,62 @@
             ["id"] : 57,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "La Ilusión Megabundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Roxana Ortega"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "A jaguar leader of her own pack, Nidalee was both feared and respected by her neighboring humans. When she fell to a group of hunters for protecting her family, the shared love not just from her pack, but from her neighbors, reincarnated Nidalee as an Eidola Vida. With the power to assume both jaguar and human form now, she watches over her kin from afar."
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 58,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-06-25",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 62
+          }, 
+          ["Catseye"] : {
+            ["id"] : 61
+          }, 
+          ["Emerald"] : {
+            ["id"] : 63
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 65
+          }, 
+          ["Paragon"] : {
+            ["id"] : 67,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 66
+          }, 
+          ["Ruby"] : {
+            ["id"] : 59,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 64
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 60
+          }
+        }, 
+        ["voiceactor"] : ["Roxana Ortega"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "The Tale of the Wise Cat is told in many ways across Ionia, but all begin the same: “There once was a cat who lived far beyond her years...” Though age brought power, allowing her to shift form between feline and mortal, her questions only deepened. She searched for answers, unaware that the wisdom she yearned for had always lived within."
       }
     }
   },
@@ -28287,6 +32826,7 @@
         ["release"] : "2022-07-13",
         ["voiceactor"] : ["Sandra Saad"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "xiCXFXIFqGA",
         ["lore"] : "Nilah is an ascetic warrior from a distant land, seeking the world's deadliest, most titanic opponents so that she might challenge and destroy them. Having won her power through an encounter with the long-imprisoned demon of joy, she has no emotions other than unceasing jubilation—a small price to pay for the vast strength she now possesses. Channeling the demon's liquid form into a blade of unparalleled might, she stands defiant against ancient threats long forgotten."
       },
       ["Star Guardian"] : {
@@ -28295,8 +32835,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-07-13",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -28305,7 +32844,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 7
@@ -28337,6 +32876,7 @@
         },
         ["voiceactor"] : ["Sandra Saad"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "A powerful Outer Guardian who patrols the wider universe, Nilah has faced multiple reality-ending threats and returned alive... making her a living legend among her peers. Asked to act as teacher to the new generation, she has reluctantly accepted her new responsibilities... though if a particularly big monster appears in VC, she always calls dibs."
       },
       ["Coven"] : {
@@ -28367,7 +32907,7 @@
             ["id"] : 20,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 14
@@ -28388,6 +32928,50 @@
         ["voiceactor"] : ["Sandra Saad"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
         ["lore"] : "They came to Nilah in a cacophony of cracking brambles and bone, offering unbridled talents in exchange for her loyalty. She obliged by filling a vessel with the deep crimson that dripped from the thorns. She now carries with her this godly relic along with the knowledge that she is destined for more than this coven can ever give."
+      },
+      ["Inkshadow"] : {
+        ["id"] : 21,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-06-11",
+        ["set"] : ["Inkshadow"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 23
+          }, 
+          ["Emerald"] : {
+            ["id"] : 24
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 29
+          }, 
+          ["Pearl"] : {
+            ["id"] : 28
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 27
+          }, 
+          ["Ruby"] : {
+            ["id"] : 22,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 25
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 26
+          }
+        },
+        ["voiceactor"] : ["Sandra Saad"],
+        ["splashartist"] : ["Chace Chen", "Pandart Studio"],
+        ["lore"] : "Nilah was once asked what she sacrificed to make a pact with the ancient, smiling Ashlesh—a capricious spirit who granted her mastery over the sacred ink that binds spirits and mortals in contract. In reply, Nilah simply laughed. The sacrifice she made for power is long behind her. Now the only thing that matters is how she will wield it."
       }
     }  
   },
@@ -28445,6 +33029,7 @@
         ["set"] : ["Trick-or-Treat"],
         ["neweffects"] : true,
         ["voiceactor"] : ["Jason Wishnov"],
+        ["music"] : "q41PxYlsQtI",
         ["lore"] : "Haunting Nocturne would be a lot less haunting without those huge knife arms."
       },
       ["Eternum"] : {
@@ -28460,6 +33045,7 @@
         ["newvoice"] : true,
         ["splashartist"] : ["Michal Ivan", "Puppetworks Animation Studio"],
         ["voiceactor"] : ["Jason Wishnov"],
+        ["music"] : "rgbKA01lSS8",
         ["lore"] : "Your worst nightmare, embodied in the form of organic metal—it lingers, watching and waiting for the right moment to shroud all of existence in eternal darkness."
       },
       ["Cursed Revenant"] : {
@@ -28480,13 +33066,13 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2019-08-29",
-        ["set"] : ["Coven", "Elderwood"],
+        ["set"] : ["Coven"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["chromas"] : {
           ["Aquamarine"] : {
-            ["id"] : 10
+            ["id"] : 11
           }, 
           ["Catseye"] : {
             ["id"] : 9
@@ -28510,7 +33096,7 @@
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
-            ["id"] : 11
+            ["id"] : 10
           }
         },
         ["voiceactor"] : ["Jason Wishnov"],
@@ -28522,7 +33108,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2020-06-11",
         ["earlysale"] : "Ineligible",
         ["set"] : ["Hextech"],
@@ -28598,7 +33184,7 @@
             ["id"] : 35,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 34
@@ -28639,6 +33225,7 @@
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Lucas Jaye", "Jonathan Lipow"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "fY_PTerocRI",
         ["lore"] : "Once upon a time, there was a boy who wanted to prove he was a hero by slaying a fearsome monster—only to discover that the beast, a lonely and magical yeti, merely needed a friend. Bound together by ancient power and a shared love of snowballs, Nunu and Willump now ramble wildly across the Freljord, breathing life into imagined adventures. They hope that somewhere out there, they will find Nunu’s mother. If they can save her, maybe they will be heroes after all… "
       },
       ["Sasquatch"] : {
@@ -28679,7 +33266,7 @@
       },
       ["Nunu Bot"] : {
         ["id"] : 4,
-        ["formatname"] : "Nunu &amp; Willump Bot",
+        ["formatname"] : "Nunu & Willump Bot",
         ["availability"] : "Available",
         ["looteligible"] : true,
         ["cost"] : 1820,
@@ -28690,7 +33277,7 @@
         ["newrecall"] : true,
         ["newvoice"] : true,
         ["voiceactor"] : ["Lucas Jaye", "Text-to-speech software"],
-        ["splashartist"] : ["X TRAIN"],
+        ["splashartist"] : ["Huanxuan Chen"],
         ["lore"] : "In the year 20XX, RiotCorp rules the world with a cruel, robotic fist. Building his own battling best friend using code from a forgotten video game (and piles and piles of scrap!) a young mechanic competes in the company's corporate-sanctioned Rift Wars—for fame, glory, and [ERROR] [...] [TOWERDIVING!]"
       },
       ["Demolisher"] : {
@@ -28704,7 +33291,7 @@
         ["newquotes"] : true,
         ["voiceactor"] : ["Lucas Jaye", "Jonathan Lipow"],
         ["splashartist"] : ["Maki Planas Mata"],
-        ["lore"] : "Serving as soldiers of fortune in pitched battles across the land, Demolisher Nunu &amp; Willump are metal as ferro-bonded steel, and ready to introduce a flute-mace to your face."
+        ["lore"] : "Serving as soldiers of fortune in pitched battles across the land, Demolisher Nunu & Willump are metal as ferro-bonded steel, and ready to introduce a flute-mace to your face."
       },
       ["TPA"] : {
         ["id"] : 6,
@@ -28730,6 +33317,7 @@
         ["newrecall"] : true,
         ["newvoice"] : true,
         ["splashartist"] : ["Christian Fell"],
+        ["music"] : "XHEu4IYXuJk",
         ["lore"] : "What was once a pair of young friends has been twisted by a virus unwittingly loosed upon the world, transforming them into a slavering, parasitic time bomb packed with enough raw mutagen to infect every survivor five times over. Whoever they were before is lost now—another casualty of a world gone mad."
       },
       ["Papercraft"] : {
@@ -28744,25 +33332,25 @@
         ["newrecall"] : true,
         ["chromas"] : {
           ["Amethyst"] : {
-            ["id"] : 9
+            ["id"] : 13
           }, 
           ["Aquamarine"] : {
-            ["id"] : 10
+            ["id"] : 11
           }, 
           ["Catseye"] : {
-            ["id"] : 11
+            ["id"] : 15
           }, 
           ["Obsidian"] : {
             ["id"] : 12
           },
           ["Pearl"] : {
-            ["id"] : 13
+            ["id"] : 10
           },
           ["Rose Quartz"] : {
             ["id"] : 14
           }, 
           ["Ruby"] : {
-            ["id"] : 15,
+            ["id"] : 9,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
@@ -28791,7 +33379,7 @@
             ["id"] : 25,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Space Groove 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 22
@@ -28820,11 +33408,12 @@
         },
         ["voiceactor"] : ["Lucas Jaye", "Jonathan Lipow"],
         ["splashartist"] : ["Yan Kyohara", "West Studio"],
+        ["music"] : "DDBjk-r4urY",
         ["lore"] : "Blessed with the strongest boogie-channeling abilities his planet had ever seen, Willump had been recruited by Lissandra to convert good vibes into harsh ones. But when he met Nunu during the siege of Normal World, Willump broke free of Lissandra's control and the two deserted to travel the galaxy, and bring good vibes back to the universe."
       },
-      ["Nunu &amp; Beelump"] : {
+      ["Nunu & Beelump"] : {
         ["id"] : 26,
-        ["formatname"] : "Nunu &amp; Beelump",
+        ["formatname"] : "Nunu & Beelump",
         ["availability"] : "Available",
         ["looteligible"] : true,
         ["cost"] : 1350,
@@ -28872,7 +33461,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2023-08-30",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -28934,7 +33523,7 @@
             ["id"] : 53,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 49
@@ -29005,7 +33594,7 @@
         ["newvoice"] : true,
         ["chromas"] : {
           ["Aquamarine"] : {
-            ["id"] : 7
+            ["id"] : 11
           }, 
           ["Citrine"] : {
             ["id"] : 8
@@ -29026,7 +33615,7 @@
             ["id"] : 10
           }, 
           ["Turquoise"] : {
-            ["id"] : 11
+            ["id"] : 7
           } 
         },
         ["voiceactor"] : ["Logan 'Lomar' Margulies"],
@@ -29041,6 +33630,7 @@
         ["set"] : ["Pentakill"],
         ["neweffects"] : true,
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "oUiOylPbfV0&list:PLFy97Kh_wuWbTNc8aW76g-4pwvxMqEeJA",
         ["lore"] : "Good drummers have rhythm, huge body counts, and are accursed vikings with an insatiable desire to kill. PENTAKILL's Olaf is a very, very good drummer."
       },
       ["Marauder"] : {
@@ -29145,7 +33735,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 28
@@ -29167,6 +33757,7 @@
           }
         },
         ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "After a vicious encounter on the Freljordian front, Olaf is convinced to join the Sentinels to satiate his hunger for battle. Only then would he have the power to challenge Viego, the greatest threat the world has ever known, and satisfy his urge to fearlessly face death in glorious combat."
       },
       ["Pentakill Lost Chapter"] : {
@@ -29176,7 +33767,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-09-09",
-        ["set"] : ["Pentakill"],
+        ["set"] : ["Pentakill III: The Lost Chapter"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -29210,6 +33801,7 @@
           }
         },
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal", "West Studio"],
+        ["music"] : "5IWS7Y5KRhk&list:PLsY0g5fQlxMWMsC_enIQlr7zwfhT6v9mU",
         ["lore"] : "All hail, Olaf, the Blastbeat Barbarian, and Chosen of Stentorus! As wild as a tempest, as brutal as an earthquake, he laughs in the faces of his enemies, his pounding drumbeats shaking the very foundations of the world."
       },
       ["Infernal"] : {
@@ -29326,6 +33918,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Heath Pennington"],
         ["splashartist"] : ["Jason Chan"],
+        ["music"] : "a-GoXoojXaU",
         ["lore"] : "A strange clockwork girl imbued with the magic of the Winterlands, Orianna once lived within a snowglobe created by a kindly old inventor. At the end of his life he freed her, and now she searches for greater purpose, serving in the court of the Poro King."
       },
       ["Heartseeker"] : {
@@ -29349,7 +33942,7 @@
         ["cost"] : 1350,
         ["release"] : "2017-05-03",
         ["earlysale"] : "2017-11",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -29358,11 +33951,12 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Event Horizon 2020"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Heath Pennington"],
         ["splashartist"] : ["Jem Flores"],
+        ["music"] : "Nc7ul2Pf1hw",
         ["lore"] : "Born out of the remnants of a magnificently advanced system, Orianna serves the Dark Star with meticulous precision. She dances across galaxies in an endlessly horrifying performance, the only witness is the silent trail of destruction left in her wake."
       },
       ["Victorious"] : {
@@ -29484,8 +34078,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2023-06-28",
-        ["set"] : ["Star Guardian"],
-        // ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -29520,6 +34113,7 @@
         },
         ["voiceactor"] : ["Heath Pennington"],
         ["splashartist"] : ["Félix Donadio", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "When this robot girl wished upon the First Star, it granted her deepest desire: to become human. With that gift came all the responsibilities of a Star Guardian. Orianna analyzed the risks. Her chances of falling are… 1.3%. Of successfully blending in with high schoolers? The odds aren't looking great."
       },
       ["T1"] : {
@@ -29537,12 +34131,41 @@
             ["id"] : 39,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Heath Pennington"],
+        ["splashartist"] : ["Alsie Lau", "Mo Yan"],
+        ["lore"] : "Honoring Faker's winning performance as Orianna during the 2023 World Championship."
+      },
+      ["Risen Legend"] : {
+        ["id"] : 40,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Hall of Legends Premium 2026 Pass reward (Level 10).",
+        ["release"] : "2026-09-10",
+        ["set"] : ["Risen Legends"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Mythclimber"] : {
+            ["id"] : 42,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Paragon"] : {
+            ["id"] : 41,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Heath Pennington"],
-        ["splashartist"] : ["Alsie Lau", "Kelvin Law", "Mo Yan"],
-        ["lore"] : "Honoring Faker's winning performance as Orianna during the 2023 World Championship."
+        ["music"] : "wGGtHIE3xzo",
+        ["lore"] : "Attempting my Trials with an entire squadron was bold, Orianna—and almost your downfall. But it is not fate that now gives you a second chance, but your friend. Live on, in this mechanical body she built, as my Keeper of Harmony. Your success proves that true power lies in resilience, and that hardship is best met with teamwork."
       },      
     }
   },
@@ -29557,6 +34180,7 @@
         ["release"] : "2017-08-22",
         ["voiceactor"] : ["Matthew Waterson"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "dngwUyqXXt8",
         ["lore"] : "Ornn is the Freljordian spirit of forging and craftsmanship. He works in the solitude of a massive smithy, hammered out from the lava caverns beneath the volcano Hearth-Home. There he stokes bubbling cauldrons of molten rock to purify ores and fashion items of unsurpassed quality. When other deities—especially Volibear—walk the earth and meddle in mortal affairs, Ornn arises to put these impetuous beings back in their place, either with his trusty hammer or the fiery power of the mountains themselves."
       },
       ["Thunder Lord"] : {
@@ -29592,7 +34216,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Battle Queen 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 6
@@ -29706,6 +34330,50 @@
         ["voiceactor"] : ["Matthew Waterson"],
         ["splashartist"] : ["Pandart Studio"],
         ["lore"] : "With a toot of his whistle, Ornn calls forth a mighty iron beast, roaring with his forge's fury. As his hammer pounds out a rhythm like pistons on the track, a soot-soaked grin unfurls beneath his smoldering beard. One imagines he must feel the thrill of creation, the joy of a perfect machine made manifest!"
+      },
+      ["Aegis Frame"] : {
+        ["id"] : 29,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-01-22",
+        ["set"] : ["Aegis Frame"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 32
+          }, 
+          ["Emerald"] : {
+            ["id"] : 33
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 37
+          }, 
+          ["Pearl"] : {
+            ["id"] : 36
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 34
+          }, 
+          ["Ruby"] : {
+            ["id"] : 30,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 31
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 35
+          }
+        },
+        ["voiceactor"] : ["Matthew Waterson"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["lore"] : "Ornn, an ingenious mech builder, was the obvious choice as lead engineer for Galio's squad. Solemn and stoic, he shows his dedication through tireless repairs, brushing off his captain's fruitless attempts to make him laugh. Deep down, Ornn believes their mission will succeed—and when they do, he plans to build himself a home far away from everyone else."
       }
     }
   },
@@ -29720,6 +34388,7 @@
         ["release"] : "2010-02-02",
         ["voiceactor"] : ["George Georgiou"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "9Zub8agQjrw",
         ["lore"] : "Once an unwilling host to the Aspect of War, Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle."
       },
       ["Myrmidon"] : {
@@ -29810,7 +34479,10 @@
             ["id"] : 9
           }, 
           ["Ruby"] : {
-            ["id"] : 15
+            ["id"] : 15,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sandstone"] : {
             ["id"] : 11
@@ -29832,6 +34504,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["George Georgiou"],
         ["splashartist"] : ["Christian Fell"],
+        ["music"] : "XHEu4IYXuJk",
         ["lore"] : "A former mechanic at the same auto body shop Jinx once worked at, Pantheon dreamed of switching careers… until a mutagenic virus turned everyone else into zombies. Slicing monsters in half with a chainsaw-spear is way more fun than replacing windshield wipers, anyway."
       },
       ["Baker"] : {
@@ -29870,7 +34543,7 @@
             ["id"] : 22,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Citrine"] : {
             ["id"] : 18
@@ -29917,7 +34590,7 @@
             ["id"] : 35,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 31
@@ -29943,6 +34616,7 @@
         },
         ["voiceactor"] : ["George Georgiou"],
         ["splashartist"] : ["Yan Kyohara", "West Studio"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "The Mist did not just subsume Atreus, but also resurrected the long-dead spirit of Pantheon: the old Aspect of War himself. With Atreus' stubborn defiance silenced, Pantheon can resume control and revel in battle once again. It doesn't matter to him whose banner he fights under. If that banner is the Ruined King's? So be it."
       },
       ["Prestige Ascended"] : {
@@ -29950,7 +34624,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2021-07-08",
         ["set"] : ["Ruined"],
         ["neweffects"] : true,
@@ -29960,6 +34634,7 @@
         ["variant"] : 25,
         ["voiceactor"] : ["George Georgiou"],
         ["splashartist"] : ["Yan Kyohara", "West Studio"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "Pantheon was defeated once, but with all of Runeterra on the line now Atreus must defeat it himself. Seizing back control from the Aspect of War, Atreus harnesses the celestial power of Targon itself—briefly becoming not just a vessel or an Aspect, but something new. Something immensely powerful and entirely his own."
       },
       ["Ashen Conqueror"] : {
@@ -29985,6 +34660,49 @@
         ["voiceactor"] : ["George Georgiou"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "A brave knight of old, who legends say slew a god in battle so that all humankind might see that they were their own masters. Standing watch over the ashes of his former lands, Pantheon himself is now the only foe left to conquer, and he awaits a worthy challenger to face one final time."
+      },
+      ["Chosen of the Wolf"] : {
+        ["id"] : 38,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-11-06",
+        ["set"] : ["Chosen of the Wolf"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 46
+          }, 
+          ["Emerald"] : {
+            ["id"] : 40
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 44
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 43
+          }, 
+          ["Ruby"] : {
+            ["id"] : 39,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 42
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 41
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 45
+          }
+        },
+        ["voiceactor"] : ["George Georgiou"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "Why was the spearman chosen, dear Wolf? Did his spirit catch your eye, or was it his steadfastness? Regardless, he has done what was asked of him. He was a worthy first test for the mighty Noxian general. What fate awaits him now? He will prove his worth once more, and join the hunt."
       }
     }
   },
@@ -29999,6 +34717,7 @@
         ["release"] : "2010-01-13",
         ["voiceactor"] : ["Kate Higgins"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith", "Jason Chan"],
+        ["music"] : "yB1rg7cAI1M",
         ["lore"] : "Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing the legendary hammer of Orlon, a weapon twice her size, this determined yordle has spent untold years searching in secret for the fabled 'Hero of Demacia,' said to be its rightful wielder. Until then, she dutifully charges into battle, pushing back the kingdom’s enemies with every whirling strike."
       },
       ["Noxus"] : {
@@ -30039,6 +34758,7 @@
         ["neweffects"] : true,
         ["vu"] : true,
         ["voiceactor"] : ["Kate Higgins"],
+        ["music"] : "j5Uv1K_CmNw",
         ["lore"] : "Lollipoppy is a legend to the people of the Candy Kingdom. Everyone remembers her face. Everyone."
       },
       ["Ragdoll"] : {
@@ -30052,6 +34772,7 @@
         ["vu"] : true,
         ["voiceactor"] : ["Kate Higgins"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "tZDj_sS-Gf8",
         ["lore"] : "Once an innocent cloth doll, Poppy watched helplessly as toy soldiers knocked over her peaceful block village. Now she leads her people to war, their cotton hearts filled with vengeance."
       },
       ["Battle Regalia"] : {
@@ -30076,7 +34797,10 @@
             ["id"] : 8
           }, 
           ["Ruby"] : {
-            ["id"] : 9
+            ["id"] : 9,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 11
@@ -30104,13 +34828,13 @@
         ["cost"] : 1350,
         ["release"] : "2016-10-05",
         ["earlysale"] : "2017-02",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 1"],
+        ["set"] : ["Star Guardian Season 1"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["voiceactor"] : ["Kate Higgins"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "6kEZEvMYKQY",
         ["lore"] : "Fierce and no-nonsense, Poppy is often the first Star Guardian on the battle lines, ready to put her duty before everything else. With her trusty hammer, Poppy sees the universe as black and white: you're either here to smash anything that threatens the sanctity of the cosmos, or you're getting smashed."
       },
       ["Snow Fawn"] : {
@@ -30125,6 +34849,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Kate Higgins"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "dSNQMl16GiY",
         ["lore"] : "The Poro King's right hand and loyal shield, Poppy enforces her furry liege's decrees and protects him from all harm. She also enjoys Snowdown festivities, a holiday she discovered on one of her many colorful adventures."
       },
       ["Hextech"] : {
@@ -30164,7 +34889,7 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Citrine"] : {
             ["id"] : 18
@@ -30271,6 +34996,49 @@
         ["voiceactor"] : ["Kate Higgins"],
         ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
         ["lore"] : "After stumbling upon a magical hammer said to leave behind the tastiest treats from every swing, Poppy discovered her true calling: feeding the cafe's hungry customers! Anybody who messes with her friends, though… might find out that those treats aren't always so sweet."
+      },
+      ["Firecracker"] : {
+        ["id"] : 42,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-04",
+        ["set"] : ["Lunar Revel: Firecracker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 45
+          }, 
+          ["Catseye"] : {
+            ["id"] : 48
+          }, 
+          ["Emerald"] : {
+            ["id"] : 47
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 49
+          }, 
+          ["Pearl"] : {
+            ["id"] : 50
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 46
+          }, 
+          ["Ruby"] : {
+            ["id"] : 43,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 44
+          }
+        },
+        ["voiceactor"] : ["Kate Higgins"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "Wielding her giant festival drum, Poppy keeps the rowdiest festivalgoers in line. When she's not on bodyguard duty, she's dancing to the beat of her own drum and inspiring her friends to join the fun. With a new year ahead, there's plenty to celebrate!"
       }
     }
   },
@@ -30286,6 +35054,7 @@
         ["transforming"] : true,
         ["voiceactor"] : ["Darien Sills-Evans"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "cHRvLl8hpqc",
         ["lore"] : "Renowned harpooner from the slaughter docks of Bilgewater, Pyke should have met his death in the belly of a gigantic jaull-fish… and yet, he returned. Now, stalking the dank alleys and backways of his former hometown, he uses his new supernatural gifts to bring a swift and gruesome end to those who make their fortune by exploiting others—and a city that prides itself on hunting monsters now finds a monster hunting them."
       },
       ["Sand Wraith"] : {
@@ -30394,7 +35163,7 @@
             ["id"] : 24,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 23
@@ -30411,6 +35180,7 @@
         },
         ["voiceactor"] : ["Darien Sills-Evans"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "EC67qmPXirs",
         ["lore"] : "An early PROJECT prototype, Pyke's untested upgrades left him violently unstable—too much so for his handlers, who junked him and threw his remains outside the walls of the City. Yet his cybernetic brain survived, rebuilding Pyke with salvaged scrap parts from all around him, and now their fragmented, overlapping memories mix with his own as they scream out for revenge."
       },
       ["PsyOps"] : {
@@ -30435,7 +35205,7 @@
             ["id"] : 32,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 33
@@ -30461,6 +35231,7 @@
         },
         ["voiceactor"] : ["Darien Sills-Evans"],
         ["splashartist"] : ["Sean 'Raiko' Tay", "West Studio"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "A member of the Black Rose Group's leadership and a powerful spiritual medium, Pyke's mastery of psychic power allows him to jump across the barrier separating the living and the dead. This process has slowly eaten at his mind, leaving him a half-deranged killer screaming at literal ghosts."
       },
       ["Sentinel"] : {
@@ -30490,7 +35261,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Ruby"] : {
             ["id"] : 35,
@@ -30510,6 +35281,7 @@
         },
         ["voiceactor"] : ["Darien Sills-Evans"],
         ["splashartist"] : ["Rayden Chen", "West Studio"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "Pyke may seem an unlikely Sentinel to take up the oath, but Viego's name is next on his list. Pacified—for now—by the influence of Nagakabouros, the real danger is that he might snap at any moment, killing allies and enemies alike."
       },
       ["Ashen Knight"] : {
@@ -30556,7 +35328,7 @@
             ["id"] : 52,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 49
@@ -30576,6 +35348,7 @@
         },
         ["voiceactor"] : ["Darien Sills-Evans"],
         ["splashartist"] : ["Nathaniel Himawan", "West Studio"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "Pyke remembers little before falling into the embrace of the Foreglow, only that he was defending his home. Waking in a new realm as the first Empyrean, he hears the whispers of other Pykes across the dimensions, taunting him from their homes. Why was his lost and not theirs? No answer will satisfy his searing rage, except vengeance."
       },
       ["Soul Fighter"] : {
@@ -30599,7 +35372,7 @@
             ["id"] : 63,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 62
@@ -30625,6 +35398,7 @@
         },
         ["voiceactor"] : ["Darien Sills-Evans"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "This un-alived assailer has unfinished business: duking it out in the ring! Now, I can't say if returning from the dead proves the existence of the \"Lands Beyond.\" (I don't get paid enough to PONDER MY EXISTENCE!) But if rumors are true, and this fighter's friend brought him back from the brink... then we're in for a HELL of a fight! Here's Pyke!"
       },
       ["Prestige Soul Fighter"] : {
@@ -30632,7 +35406,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2023-07-20",
         ["set"] : ["Soul Fighter"],
         ["neweffects"] : true,
@@ -30641,6 +35415,7 @@
         ["variant"] : 53,
         ["voiceactor"] : ["Darien Sills-Evans"],
         ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "Pyke's fashion-forward fit impresses not only the rich and famous at the Gala of Souls, but all those watching at home—and his fans from the Lands Beyond. The edgy aesthetics and glossy flame motifs all but guarantee him a spot on the list of any discerning judge. After all, if Pyke's not on your list, you'll end up on his..."
       },
       ["Fright Night"] : {
@@ -30667,7 +35442,7 @@
             ["id"] : 73,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 71
@@ -30691,7 +35466,73 @@
         ["voiceactor"] : ["Darien Sills-Evans"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
         ["lore"] : "Campers flail their way to shore, desperate to escape the deranged lifeguard dragging them to the depths. Cutting through chaos and frantic coughing, Pyke's waterlogged whistle pierces the air. Filled with dread, ready to accept their fate, the campers are met by the fishman giving them two thumbs up. They all survived the race!"
-      }
+      },
+      ["Inkshadow"] : {
+        ["id"] : 74,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-06-11",
+        ["set"] : ["Inkshadow"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 82
+          }, 
+          ["Emerald"] : {
+            ["id"] : 77
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 80
+          }, 
+          ["Pearl"] : {
+            ["id"] : 81
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 78
+          }, 
+          ["Ruby"] : {
+            ["id"] : 76,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 79
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 83
+          }
+        },
+        ["voiceactor"] : ["Darien Sills-Evans"],
+        ["splashartist"] : ["Nathaniel Himawan", "West Studio"],
+        ["lore"] : "Pyke can hear the ink's whisper. It speaks of pacts and vengeance, of traitors choking on the ash of a city in ruins. Pyke paid the price for his power, and now power is all that he is—no longer a man, but a phantom of Rabadon City. Yet slivers of truth bleed through the haze of his mind, imbuing him with a renewed sense of purpose: drown the Cabal."
+      },
+      ["T1"] : {
+        ["id"] : 75,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-09-10",
+        ["set"] : ["World Champions: 2024"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 84,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Darien Sills-Evans"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu", "Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Honoring Keria's winning performance as Pyke during the 2024 World Championship."
+      }          
     }
   },
   ["Qiyana"] : {
@@ -30705,6 +35546,7 @@
         ["release"] : "2019-06-28",
         ["voiceactor"] : ["Montse Hernandez"],
         ["splashartist"] : ["Atey Ghailan"],
+        ["music"] : "2CpCMaU-rpM",
         ["lore"] : "In the jungle city of Ixaocan, Qiyana plots her own ruthless path to the high seat of the Yun Tal. Last in line to succeed her parents, she faces those who stand in her way with brash confidence and unprecedented mastery over elemental magic. With the land itself obeying her every command, Qiyana sees herself as the greatest elementalist in the history of Ixaocan—and by that right, deserving of not only a city, but an empire."
       },
       ["Battle Boss"] : {
@@ -30727,7 +35569,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Arcade 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 9
@@ -30750,6 +35592,7 @@
         },
         ["voiceactor"] : ["Montse Hernandez"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "EeyPmIssreo",
         ["lore"] : "A princess constantly in need of saving in the 1981 arcade port of “Super Ixaocan Bros.,” Qiyana needed very little convincing to empower herself with malignant Battle Boss code. She wasted no time testing her newfound abilities on the aforementioned Super Ixaocan Brothers. They're dead now. She lives in their castle."
       },
       ["True Damage"] : {
@@ -30764,6 +35607,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Montse Hernandez"],
         ["splashartist"] : ["Atey Ghailan"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "Qiyana is the daughter of Latin music royalty. With her family's esteemed reputation, she has an easy path to superstardom—and yet, she has her eyes set on something grander. With her brash confidence and rebellious persona, she is determined to change the game in not just music, but the entirety of pop culture."
       },
       ["Prestige True Damage"] : {
@@ -30771,7 +35615,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-11-10",
         ["set"] : ["True Damage"],
         ["neweffects"] : true,
@@ -30780,6 +35624,7 @@
         ["variant"] : 10,
         ["voiceactor"] : ["Montse Hernandez"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "Always a fixture in the spotlight, Qiyana dressed to impress at True Damage's sold-out concert in Paris. While the paparazzi swarmed her with photos and questions, she reveled in the attention, knowing this was only the beginning of her empire of celebrity."
       },
       ["Battle Queen"] : {
@@ -30800,7 +35645,7 @@
             ["id"] : 14,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Battle Queen 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 17
@@ -30825,6 +35670,7 @@
           }
         },
         ["voiceactor"] : ["Montse Hernandez"],
+        ["music"] : "uFCjVtJ2gJQ",
         ["lore"] : "Qiyana is the youngest in a line of sisters who have been Queens of Ixtal for most of the recent Coronations. She's been waiting impatiently for her chance at the Crest and the title. Now that she has it, she intends to use the power she gains in the tournament to remake Ixtal in her vision."
       },
       ["Shockblade"] : {
@@ -30885,6 +35731,7 @@
         ["variant"] : 10,
         ["voiceactor"] : ["Montse Hernandez"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "Always a fixture in the spotlight, Qiyana dressed to impress at True Damage's sold-out concert in Paris. While the paparazzi swarmed her with photos and questions, she reveled in the attention, knowing this was only the beginning of her empire of celebrity."
       },
       ["Lunar Empress"] : {
@@ -30914,7 +35761,7 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 36
@@ -30934,6 +35781,7 @@
         },
         ["voiceactor"] : ["Montse Hernandez"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "For some, forgiveness is a blessing; for Empress Qiyana, it is a necessity. Though the hostility between her empire and the Empire of the Great Sea is the fault of her sisters, she seeks atonement at this year's banquet. The only barrier to a reconciliation with Empress Ashe is her pride... and a centuries-old grudge between her guardian Malphite and a newly resurfaced giant serpent."
       },
       ["La Ilusión"] : {
@@ -30978,12 +35826,27 @@
             ["id"] : 49,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "La Ilusión Megabundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Montse Hernandez"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
         ["lore"] : "Qiyana was a prodigiously self-centered athlete, but after dying during a championship match without warning, her family's love-stricken grief transformed her into an Eidola Vida. Still ashamed of her failure, Qiyana realizes her family never cared about what she did, only who she was. Filled with their love, she's ready to watch over them until the end."
+      },
+      ["Prestige Battle Academia"] : {
+        ["id"] : 50,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2025-03-19",
+        ["set"] : ["Battle Academia"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Montse Hernandez"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["lore"] : "Some say class president and Sorcery Club captain Qiyana is Babylon Academy's greatest student (a rumor she gladly spread). When the God-Weapon instead chose Xayah to lead Babylon into the cross-academy tournament, Qiyana took it personally. Now she plots her revenge, and her opening move? Relationship sabotage."
       }
     }
   },
@@ -30998,6 +35861,7 @@
         ["release"] : "2013-03-01",
         ["voiceactor"] : ["Lauren Mayhew"],
         ["splashartist"] : ["Katie 'TeaTime' De Sousa"],
+        ["music"] : "gZ61j3SxQPA",
         ["lore"] : "Quinn is an elite ranger-knight of Demacia, who undertakes dangerous missions deep in enemy territory. She and her legendary eagle, Valor, share an unbreakable bond, and their foes are often slain before they realize they are fighting not one, but two of the kingdom’s greatest heroes. Nimble and acrobatic when required, Quinn takes aim with her crossbow while Valor marks their elusive targets from above, making them a deadly pair on the battlefield."
       },
       ["Phoenix"] : {
@@ -31102,8 +35966,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-07-28",
-        ["set"] : ["Star Guardian"],
-        // ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -31112,7 +35975,7 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 16
@@ -31144,7 +36007,52 @@
         },
         ["voiceactor"] : ["Lauren Mayhew"],
         ["splashartist"] : ["Eric Xie", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "Hailing from a sister city along with Rell, Quinn and her familiar Valor are known back home as a dynamic monster-fighting duo... mask and all. Valoran City represents a big step up from what they're used to, but the two are ready to fight the darkness as only they know how."
+      },
+      ["PROJECT"] : {
+        ["id"] : 24,
+        ["formatname"] : "PROJECT: Quinn",
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-05-13",
+        ["set"] : ["PROJECT"],
+        ["filter"] : true,
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 26
+          },
+          ["Obsidian"] : {
+            ["id"] : 31
+          }, 
+          ["Pearl"] : {
+            ["id"] : 32
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 30
+          }, 
+          ["Ruby"] : {
+            ["id"] : 25,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 29
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 27
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 28
+          }
+        },
+        ["voiceactor"] : ["Lauren Mayhew"],
+        ["lore"] : "Once test subjects of PROJECT's mind-augmenting technology, Quinn managed to break free with her cybernetic companion, Valor, and join the rebellion. Their consciousness newly linked by the experiments, the pair take to the skies, using elite recon capabilities to comb PROJECT's code and stop their corrupt research for good."
       }
     }
   },
@@ -31158,7 +36066,8 @@
         ["cost"] : 975,
         ["release"] : "2017-04-18",
         ["voiceactor"] : ["Ronan Summers"],
-        ["splashartist"] : ["Jason Chan", "Evan 'Somnicidal' Monteiro"],
+        ["splashartist"] : ["Evan 'Somnicidal' Monteiro", "Jason Chan", "Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "qBJs2uqdQUs",
         ["lore"] : "As mercurial as he is charming, Rakan is an infamous vastayan troublemaker and the greatest battle-dancer in Lhotlan tribal history. To the humans of the Ionian highlands, his name has long been synonymous with wild festivals, uncontrollable parties, and anarchic music. Few would suspect this energetic, traveling showman is also partner to the rebel Xayah, and is dedicated to her cause."
       },
       ["Cosmic Dawn"] : {
@@ -31168,7 +36077,7 @@
         ["cost"] : 1350,
         ["release"] : "2017-04-18",
         ["earlysale"] : "2017-11",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -31200,6 +36109,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 56,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Ronan Summers"],
         ["splashartist"] : ["Rudy Siswanto", "Pan Chengwei"],
         ["lore"] : "Honoring CoreJJ's winning performance as Rakan during the 2017 World Championship. "
@@ -31214,6 +36131,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 57,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Ronan Summers"],
         ["splashartist"] : ["Pan Chengwei"],
         ["lore"] : "Honoring Baolan's winning performance as Rakan during the 2018 World Championship."
@@ -31224,8 +36149,7 @@
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2019-09-12",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 3"],
+        ["set"] : ["Star Guardian Season 3"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -31247,6 +36171,7 @@
         },
         ["voiceactor"] : ["Ronan Summers"],
         ["splashartist"] : ["Esben Lash Rasmussen", "Atey Ghailan"], 
+        ["music"] : "bSBl9RQDwVg",
         ["lore"] : "Many years ago, Rakan was destroyed in the fight against Zoe, alongside his lover Xayah. The pair were then resurrected and turned against their allies -- a fact Rakan seems keenly aware of. Biding his time to strike, he has a plan to purify the darkness from Xayah's heart... though the price may be losing himself to evil forever."
       },
       ["Elderwood"] : {
@@ -31266,7 +36191,7 @@
             ["id"] : 16,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Battle Queen 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 11
@@ -31382,12 +36307,11 @@
       },
       ["Redeemed Star Guardian"] : {
         ["id"] : 36,
-        ["availability"] : "Available",
+        ["availability"] : "Legacy",
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2023-10-11",
-        ["set"] : ["Star Guardian"],
-        // ["set"] : ["Star Guardian Season 4"],"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -31395,6 +36319,7 @@
         ["variant"] : 5,
         ["voiceactor"] : ["Ronan Summers"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "The darkness never suited Rakan—the First Star's light complements the glossy shine of his hair more than any chaos magic could. Plus, making evil plans is not really his style. A guardian once more, Rakan can now enjoy a welcome respite and perhaps a dance or two with Xayah."
       },
       ["Dragonmancer"] : {
@@ -31442,7 +36367,7 @@
       },
       ["Prestige Dragonmancer"] : {
         ["id"] : 38,
-        ["availability"] : "Available",
+        ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
         ["distribution"] : "150 Mythic Essence",
@@ -31455,6 +36380,49 @@
         ["voiceactor"] : ["Ronan Summers"],
         ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
         ["lore"] : "The dragon-blessed Rakan sports clean-cut scale textures and sharp selections of armor to highlight his best angles. His charm shines through the elegant, organic swoops of his form-fitting wear—and his devotion to the runway is unbeatable."
+      },
+      ["Battle Academia"] : {
+        ["id"] : 47,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-03-19",
+        ["set"] : ["Battle Academia"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 55
+          }, 
+          ["Emerald"] : {
+            ["id"] : 49
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 54
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 52
+          }, 
+          ["Ruby"] : {
+            ["id"] : 48,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 51,
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 50
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 53
+          }
+        },        
+        ["voiceactor"] : ["Ronan Summers"],
+        ["splashartist"] : ["Sora Kim", "West Studio"],
+        ["lore"] : "Rakan was content to coast his way through Babylon Academy. Then he saw Xayah at last year's prom—and it was like being struck by lightning. Now in a fiery new relationship, he's managed to talk his way into becoming captain of the Luminary Club, just so he can be at the tournament and see his love at her best. If they win? Even better."
       }
     }
   },
@@ -31474,8 +36442,8 @@
         ["id"] : 1,
         ["availability"] : "Limited",
         ["looteligible"] : false,
-        ["distribution"] : "Limited Distribution",
         ["cost"] : "Special",
+        ["distribution"] : "Limited Distribution",
         ["release"] : "2009-10-20",
         ["set"] : ["Beta"],
         ["neweffects"] : true,
@@ -31575,7 +36543,10 @@
             ["id"] : 10
           }, 
           ["Ruby"] : {
-            ["id"] : 9
+            ["id"] : 9,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 12
@@ -31618,10 +36589,10 @@
             ["id"] : 24
           }, 
           ["Catseye"] : {
-            ["id"] : 19
+            ["id"] : 20
           }, 
           ["Citrine"] : {
-            ["id"] : 20
+            ["id"] : 19
           }, 
           ["Emerald"] : {
             ["id"] : 23
@@ -31689,6 +36660,16 @@
         ["voiceactor"] : ["Duncan Watt"],
         ["splashartist"] : ["Roanna Peroz", "Kudos Productions"],
         ["lore"] : "Rammus roams the land in a pungent peel, and though he may look adorable, he gives new meaning to the phrase “silent but deadly.” Some say the effluvial enigma's armor reeks of sewage and sweaty socks, but strong-willed warriors know how sweet he can really be—if you can get past the smell."
+      },
+      ["Baron"] : {
+        ["id"] : 35,
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "145",
+        ["release"] : "2026-07-29",
+        ["neweffects"] : true,
+        ["variant"] : 1,
+        ["voiceactor"] : ["Duncan Watt"]
       }
     }
   },
@@ -31703,6 +36684,7 @@
         ["release"] : "2014-12-11",
         ["voiceactor"] : ["N/A"],
         ["splashartist"] : ["Christian Fell", "Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "zXXdL4rHvww",
         ["lore"] : "An apex predator, Rek’Sai is a merciless Void-spawn that tunnels beneath the ground to ambush and devour unsuspecting prey. Her insatiable hunger has laid waste to entire regions of the once-great empire of Shurima—merchants, traders, even armed caravans, will go hundreds of miles out of their way to avoid her and her offspring’s hunting grounds. All know that once Rek’Sai is seen on the horizon, death from below is all but guaranteed."
       },
       ["Eternum"] : {
@@ -31742,7 +36724,10 @@
             ["id"] : 6
           }, 
           ["Ruby"] : {
-            ["id"] : 3
+            ["id"] : 3,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Tanzanite"] : {
             ["id"] : 7
@@ -31857,7 +36842,7 @@
             ["id"] : 35,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Amethyst"] : {
             ["id"] : 29
@@ -31892,6 +36877,7 @@
         },
         ["voiceactor"] : ["N/A"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Final City built its barricades high, protecting its citizens from countless Primordian threats. Rek'Sai laughs in the face of these obstructions—or at least mimics a laugh in the form of a loud, painful screech. Having evolved to tunnel beneath land, she is the ideal infiltrator, the first Primordian to lay eyes on Final City… but certainly not the last."
       }
     }
@@ -31907,6 +36893,7 @@
         ["release"] : "2020-12-10",
         ["voiceactor"] : ["Laya DeLeon Hayes"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "ETaX9DZBSEk",
         ["lore"] : "The product of brutal experimentation at the hands of the Black Rose, Rell is a defiant, living weapon determined to topple Noxus. Her childhood was one of misery and horror, enduring unspeakable procedures to perfect and weaponize her magical control over metal... until she staged a violent escape, killing many of her captors in the process. Now branded as a criminal, Rell attacks Noxian soldiers on sight as she searches for survivors of her old 'academy,' defending the meek while delivering violent death to her former overseers."
       },
       ["Battle Queen"] : {
@@ -31930,7 +36917,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Battle Queen 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 9
@@ -31953,6 +36940,7 @@
         },
         ["voiceactor"] : ["Laya DeLeon Hayes"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "uFCjVtJ2gJQ",
         ["lore"] : "A young woman from the magic-starved Queendom of Calamity, volunteered for the coronation by a shadowy cabal of aristocrats after a series of magical experiments. Having now won the crown and the power of her crest, Rell has discovered her powers were stolen from the people of her country, and she has vowed revenge on her puppeteers."
       },
       ["Star Guardian"] : {
@@ -31961,8 +36949,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-07-28",
-        ["set"] : ["Star Guardian"],
-        // ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -31971,7 +36958,7 @@
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 12
@@ -32003,6 +36990,7 @@
         },
         ["voiceactor"] : ["Laya DeLeon Hayes"],
         ["splashartist"] : ["Park Jun Seong", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "Hailing from a sister city along with Quinn, Rell is a delinquent loner who does what she wants, when she wants, and avoids making friends by pushing everyone away. In battle she rides atop her mighty steed Sebastien, her simmering rage transforming her into a starlit knight who defends the meek from harm."
       },
       ["High Noon"] : {
@@ -32026,7 +37014,7 @@
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 27
@@ -32053,6 +37041,20 @@
         ["voiceactor"] : ["Laya DeLeon Hayes"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "Rell ran as her home rotted away at the Fifth Harbinger's hands, but the young Powder Witch ain't running now. She squares her shoulders and swings into the saddle of a horse made of magic, steam, and fire. From its back, she looks down at the haunted gunslinger. “Come on, old man. We got a second chance, I ain't gonna waste it.”"
+      },
+      ["Grand Reckoning"] : {
+        ["id"] : 30,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 975,
+        ["release"] : "2025-03-05",
+        ["set"] : ["Grand Reckoning"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Laya DeLeon Hayes"],
+        ["splashartist"] :  ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "In training, Rell was told that the arena is unforgiving. On the sand, you couldn't rely on anyone but yourself, and maybe your mount… if you could stay in the saddle. But if you let it, that brutal world inside the arena would cut you, bleed you, strike you down. Reckonings were built on blood and iron, forged in the fire of conflict—but so was she."
       }
     }  
   },
@@ -32067,6 +37069,7 @@
         ["release"] : "2022-02-17",
         ["voiceactor"] : ["Debra Wilson"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "3v7ZGvXmSUA",
         ["lore"] : "Renata Glasc rose from the ashes of her childhood home with nothing but her name and her parents’ alchemical research. In the decades since, she has become Zaun’s wealthiest chem-baron, a business magnate who built her power by tying everyone’s interests to her own. Work with her, and be rewarded beyond measure. Work against her, and live to regret it. But everyone comes to her side, eventually."
       },
       ["Admiral Glasc"] : {
@@ -32086,7 +37089,7 @@
             ["id"] : 11,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Steel Valkyries 2022"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Amethyst"] : {
             ["id"] : 7
@@ -32118,7 +37121,7 @@
         },
         ["voiceactor"] : ["Debra Wilson"],
         ["splashartist"] : ["Forrest Imel", "West Studio"],
-        ["lore"] : "Ambitious, cunning, cutthroat – these qualities served Admiral Glasc well during the Galactic Civil War. They serve her still, both on the front lines and in the weapons manufacturing industry. As leader of the Royal Space Military's R&amp;D unit, Admiral Glasc will bring order to the galaxy with a firepower unmatched: whether it's dropping planetside or traversing distant stars, the universe is her chessboard, and she is the queen."
+        ["lore"] : "Ambitious, cunning, cutthroat – these qualities served Admiral Glasc well during the Galactic Civil War. They serve her still, both on the front lines and in the weapons manufacturing industry. As leader of the Royal Space Military's R&D unit, Admiral Glasc will bring order to the galaxy with a firepower unmatched: whether it's dropping planetside or traversing distant stars, the universe is her chessboard, and she is the queen."
       },
       ["Fright Night"] : {
         ["id"] : 10,
@@ -32162,7 +37165,7 @@
         },
         ["voiceactor"] : ["Debra Wilson"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
-        ["lore"] : "Tender loving care and spoons of sugar spice&lt;br>And all the other things that make a mommy nice&lt;br>It choked her throat and lungs and showed her virtue's vice&lt;br>Some chosen children love the dark, that's Mother Glasc's advice!"
+        ["lore"] : "Tender loving care and spoons of sugar spice<br>And all the other things that make a mommy nice<br>It choked her throat and lungs and showed her virtue's vice<br>Some chosen children love the dark, that's Mother Glasc's advice!"
       },
       ["La Ilusión"] : {
         ["id"] : 20,
@@ -32206,7 +37209,7 @@
             ["id"] : 30,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "La Ilusión Megabundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Debra Wilson"],
@@ -32229,18 +37232,18 @@
         ["splashartist"] : ["Su Fu", "Kudos Productions"],
         ["lore"] : "From fashion model to maven, Renata owns one of the largest fashion houses showing at the Gala. After all this time, enough critics have declared her \"death\" after a poor show that she wears the label proudly, invigorating the spirit of her company and makeshift family. In the end, only she controls the threads of life and death, on the runway at least."
       },
-      ["Masque of the Black Rose"]: {
-        ["id"]: 31,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S1 Act 1 Premium Battle Pass reward (Level 40)",
-        ["release"]: "2025-01-09",
-        ["set"]: ["Masque of the Black Rose"],
-        ["neweffects"]: true,
-        ["voiceactor"]: ["Debra Wilson"],
-        ["splashartist"]: ["Yuyu Wong", "Kudos Productions"],
-        ["lore"]: "To the esteemed Renata Glasc, the noble houses of Noxus invite you to our nation as a guest at the Silken Danse. Here, we gather enterprising minds—for Noxus enters a new era in leadership, and we must forge new bonds accordingly. Let us learn of your blossoming influence in Zaun and the City of Progress, and how it may grow ever further. –Lady Elise"
+      ["Masque of the Black Rose"] : {
+        ["id"] : 31,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 1 Premium Battle Pass reward (Level 40)",
+        ["release"] : "2025-01-09",
+        ["set"] : ["Masque of the Black Rose"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["Debra Wilson"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "To the esteemed Renata Glasc, the noble houses of Noxus invite you to our nation as a guest at the Silken Danse. Here, we gather enterprising minds—for Noxus enters a new era in leadership, and we must forge new bonds accordingly. Let us learn of your blossoming influence in Zaun and the City of Progress, and how it may grow ever further. –Lady Elise"
       }
     }
   },
@@ -32318,6 +37321,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Patrick Seitz"],
         ["splashartist"] : ["Christian Fell"],
+        ["music"] : "lVrMJepoj6A",
         ["lore"] : "Lifeguard on duty! Seriously though, be careful—you don't want CPR from a nine foot tall crocodile man."
       },
       ["Scorched Earth"] : {
@@ -32475,13 +37479,13 @@
             ["id"] : 31,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Ruby"] : {
             ["id"] : 27,
-            ["availability"] : "Loot",
-            ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2021"
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 28
@@ -32492,6 +37496,7 @@
         },
         ["voiceactor"] : ["Patrick Seitz"],
         ["splashartist"] : ["Yan Kyohara", "West Studio"],
+        ["music"] : "pDu-_iL5tBc",
         ["lore"] : "A hybridized warrior taking inspiration from extinct fauna, Renekton is the perfected version of PROJECT's crossbreed superweapon project. Released to aid the City in its fight against the Program virus, Renekton's seemingly endless rage is useful for now… though his belief that he can “see beyond the soul” is increasingly disconcerting."
       },
       ["Dawnbringer"] : {
@@ -32552,10 +37557,10 @@
             ["id"] : 44
           }, 
           ["Destined"] : {
-            ["id"] : 46,
+            ["id"] : 47,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Peridot"] : {
             ["id"] : 45
@@ -32567,7 +37572,7 @@
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Unlocked"] : {
-            ["id"] : 47,
+            ["id"] : 46,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
             ["distribution"] : "Worlds Unlocked"
@@ -32576,6 +37581,50 @@
         ["voiceactor"] : ["Patrick Seitz"],
         ["splashartist"] : ["Eric Xie", "West Studio"],
         ["lore"] : "Celebrating Worlds 2023 in Korea."
+      },
+      ["Inkshadow"] : {
+        ["id"] : 48,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-06-11",
+        ["set"] : ["Inkshadow"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 50
+          }, 
+          ["Emerald"] : {
+            ["id"] : 52
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 54
+          }, 
+          ["Pearl"] : {
+            ["id"] : 55
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 56
+          }, 
+          ["Ruby"] : {
+            ["id"] : 49,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 51
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 53
+          }
+        },
+        ["voiceactor"] : ["Patrick Seitz"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "Renekton's river runs black with sludge and urban waste, sloughing away at the river spirit until only rage remains. Within his polluted waters, Renekton punishes his enemies with ruthless fury. Beyond the riverbank, he must make a pact with a mortal to serve him—but soon, his vengeance will flood the city. Nowhere will be safe."
       }
     }
   },
@@ -32590,6 +37639,7 @@
         ["release"] : "2012-08-21",
         ["voiceactor"] : ["Jason Simpson"],
         ["splashartist"] : ["Jason Chan"],
+        ["music"] : "0axsibJhIco",
         ["lore"] : "Rengar is a ferocious vastayan trophy hunter who lives for the thrill of tracking down and killing dangerous creatures. He scours the world for the most fearsome beasts he can find, especially seeking any trace of Kha’Zix, the void creature who scratched out his eye. Rengar stalks his prey neither for food nor glory, but for the sheer beauty of the pursuit."
       },
       ["Headhunter"] : {
@@ -32608,7 +37658,10 @@
             ["id"] : 6
           }, 
           ["Ruby"] : {
-            ["id"] : 5
+            ["id"] : 5,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Tanzanite"] : {
             ["id"] : 7
@@ -32670,7 +37723,10 @@
             ["id"] : 11
           }, 
           ["Ruby"] : {
-            ["id"] : 9
+            ["id"] : 9,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Tanzanite"] : {
             ["id"] : 12
@@ -32721,6 +37777,7 @@
         },
         ["voiceactor"] : ["Jason Simpson"],
         ["splashartist"] : ["Choe HeonHwa"],
+        ["music"] : "E9f-J-r71i8",
         ["lore"] : "Once again, the prettiest kitty… is the deadliest."
       },
       ["Guardian of the Sands"] : {
@@ -32790,7 +37847,7 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 33
@@ -32810,6 +37867,7 @@
         },
         ["voiceactor"] : ["Jason Simpson"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "What game is bigger than a King? As a hunter, Rengar could not pass up the opportunity to take on what would be his ultimate prey, and the ultimate trophy. Even with Sentinel weapons in hand, they will need the skills of a true apex predator to take Viego down."
       },
       ["Street Demons"] : {
@@ -32865,7 +37923,7 @@
         ["cost"] : "Special",
         ["distribution"] : "Reward for earning split points in Season 2026 - Split 2.",
         ["release"] : "2026-07-15",
-        ["set"] : "Victorious",
+        ["set"] : ["Victorious"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -32925,7 +37983,7 @@
           	["distribution"] : "Season 2026 - Split 2"
           }
         },      
-        ["voiceactor"] : "Jason Simpson",
+        ["voiceactor"] : ["Jason Simpson"],
         ["lore"] : "Victorious Rengar was earned by players who accumulated enough split points in Ranked. Slaying beast after Voidborn beast, Rengar adorned himself with trophies from each hunt. He evolved, instincts sharpened with otherworldly power. Now, Rengar claims the world as his hunting grounds—eager to tear his nemesis apart with abominable claws of its own kind."
       }
     }
@@ -32991,7 +38049,10 @@
             ["id"] : 12
           }, 
           ["Ruby"] : {
-            ["id"] : 13
+            ["id"] : 13,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 15
@@ -33031,11 +38092,12 @@
             ["id"] : 17,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Cristina Valenzuela"],
         ["splashartist"] : ["Bo Lu"],
+        ["music"] : "h-6wHfudAPQ",
         ["lore"] : "One tale of the kingdoms tells of Riven, her sword forged in dragonfire, descending into an enemy enclave in the aftermath of battle. Slaying her foes and freeing their captives, she rampaged across the countryside, crushing any who would enslave the innocent."
       },
       ["Arcade"] : {
@@ -33055,11 +38117,12 @@
             ["id"] : 21,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Arcade 2019"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Cristina Valenzuela"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "BO3XLE_eRPk",
         ["lore"] : "Riven's part-time job at an arcade mostly involved playing dance simulators after her manager went home. Digitally transported to Arcade World by even scarier bosses, she's now using her moves (and some gear from her favorite RPG) to tear up Veigar's regime, one enemy at a time."
       },
       ["Reignited Worlds 2012"] : {
@@ -33077,7 +38140,7 @@
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2018"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["variant"] : 4,
@@ -33109,11 +38172,12 @@
             ["id"] : 24,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Night &amp; Dawn 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Cristina Valenzuela"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "W2nNTmampaI",
         ["lore"] : "Born from swirling energies at the dawn of creation, Riven is the living embodiment of order in the cosmos. Fated to clash against the Nightbringer for all time, she awaits a day when her light will finally break his darkness."
       },
       ["Pulsefire"] : {
@@ -33132,7 +38196,7 @@
             ["id"] : 25,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Cristina Valenzuela"],
@@ -33158,7 +38222,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-09-26",
         ["set"] : ["Immortal Journey"],
         ["neweffects"] : true,
@@ -33190,7 +38254,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Spirit Blossom 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 30
@@ -33213,7 +38277,7 @@
         },
         ["voiceactor"] : ["Cristina Valenzuela"],
         ["splashartist"] : ["Pan Chengwei"],
-        ["lore"] : "A brave warrior from an ancient land, Riven was ignobly cut down in the heat of battle thousands of years ago, her sword shattering in the process. Unable to find peace, she obsessively scours an otherworldly battlefield for pieces of her broken blade, possessed by a horrific darkness that guides her into oblivion."
+        ["lore"] : "A blademaster of old was famed for cutting down hundreds in battle without mercy. But her sword remembered every life taken—and when she swung at what would be her final enemy, the weeping blade shattered, taking the Restless Warrior with it. Her spirit is said to still scour the world for the blade's lost pieces, haunted by her own bloody legacy."
       },
       ["Sentinel"] : {
         ["id"] : 34,
@@ -33239,7 +38303,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 40
@@ -33262,6 +38326,7 @@
         },
         ["voiceactor"] : ["Cristina Valenzuela"],
         ["splashartist"] : ["Mingchen Shen", "West Studio"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "Riven joins the Sentinels hoping to atone for her role in the Noxian invasion of Ionia. After fighting her way out of a rapidly destabilizing City of Noxus, she understands that her time may be fleeting. However, she believes her life is a small price to pay to make amends."
       },
       ["Battle Bunny Prime"] : {
@@ -33285,11 +38350,17 @@
             ["id"] : 54,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 52
           }, 
+          ["Paragon"] : {
+            ["id"] : 72,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          },  
           ["Pearl"] : {
             ["id"] : 53
           }, 
@@ -33463,6 +38534,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Ari Rubin"],
         ["splashartist"] : ["Andrew 'Silver' Silver"],
+        ["music"] : "G6JAQD0FmDg",
         ["lore"] : "Founder of the Super Galaxy Defense Force, Rumble always dreamed of saving the world… with his “explosive face-melters” and “courageous giga-guards”. To this day, his allies still have no idea what those terms mean, but they don't question it—because a yordle operating a volcanic flame-spitting mech can be a very volatile thing."
       },
       ["Badlands Baron"] : {
@@ -33495,7 +38567,10 @@
             ["id"] : 9
           },
           ["Ruby"] : {
-            ["id"] : 5
+            ["id"] : 5,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           },
           ["Turquoise"] : {
             ["id"] : 7
@@ -33530,7 +38605,7 @@
             ["id"] : 22,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Space Groove 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 18
@@ -33553,6 +38628,7 @@
         },
         ["voiceactor"] : ["Ari Rubin"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["music"] : "DDBjk-r4urY",
         ["lore"] : "The Retro-Futuristic Planet is tired of listening to the boring music brought by Lissandra's evil influence. Fashioning a Groove suit of his own design, Rumble now stomps across his adoptive homeworld, unleashing powerful rockets and a groovy bass track on anyone who'd keep the people from dancing."
       },
       ["Cafe Cuties"] : {
@@ -33614,14 +38690,15 @@
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "dsveCVCt5J4",
         ["lore"] : "Widely considered one of the most adept sorcerers on Runeterra, Ryze is an ancient, hard-bitten archmage with an impossibly heavy burden to bear. Armed with immense arcane power and a boundless constitution, he tirelessly hunts for World Runes—fragments of the raw magic that once shaped the world from nothingness. He must retrieve these artifacts before they fall into the wrong hands, for Ryze understands the horrors they could unleash on Runeterra."
       },
       ["Young"] : {
         ["id"] : 1,
         ["availability"] : "Limited",
         ["looteligible"] : false,
-        ["distribution"] : "Pre-order Retail Collector's edition",
         ["cost"] : "Special",
+        ["distribution"] : "Pre-order Retail Collector's edition",
         ["release"] : "2009-07-17",
         ["set"] : ["Collector's Edition"],
         ["voiceactor"] : ["Dave B. Mitchell"],
@@ -33672,7 +38749,7 @@
         ["set"] : ["Academy"],
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Xi Zhang"],
-        ["lore"] : "TO ALL STUDENTS OF RUNIC SIGILS 101: Professor Ryze is on sabbatical to promote the most recent edition of his coursebook, Runic Sigils &amp; Hidden Magic [17th edition]. A substitute lecturer will be provided, and out of date coursebooks must be replaced at the current cover price of seven thousand dollars."
+        ["lore"] : "TO ALL STUDENTS OF RUNIC SIGILS 101: Professor Ryze is on sabbatical to promote the most recent edition of his coursebook, Runic Sigils & Hidden Magic [17th edition]. A substitute lecturer will be provided, and out of date coursebooks must be replaced at the current cover price of seven thousand dollars."
       },
       ["Zombie"] : {
         ["id"] : 6,
@@ -33684,6 +38761,7 @@
         ["neweffects"] : true,
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Viktor Titov", "Grafit Studio"],
+        ["music"] : "j5Uv1K_CmNw",
         ["lore"] : "Obsessed with discovering the cure for a mutagenic virus that had ravaged the population, Ryze scoured the globe for every shred of esoteric medical research he could find—getting tantalizingly close to his goal before succumbing to the very mutation he was trying to eradicate."
       },
       ["Dark Crystal"] : {
@@ -33738,14 +38816,14 @@
             ["id"] : 30,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Immortalized Legend Collection Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
         ["lore"] : "Honoring Faker's winning performance as Ryze during the 2015 World Championship. This is Faker's second World Champion skin, following his win with SKT at the 2013 World Championship."
       },
-        ["Worlds 2019"] : {
+      ["Worlds 2019"] : {
         ["id"] : 11,
         ["availability"] : "Legacy",
         ["looteligible"] : true,
@@ -33760,7 +38838,7 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2019"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Dave B. Mitchell"],
@@ -33845,6 +38923,49 @@
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "A secret-keeper and didact, whose power dwells in his mind and hands. Tasked with quietly solving the problems of the worlds with little fanfare or recognition, he prepares to fix whatever chaos the fated lovers cause before retreating back to obscurity—serving as a role model to the talented but forgotten."
+      },
+      ["Blood Moon"] : {
+        ["id"] : 29,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-05-14",
+        ["set"] : ["Blood Moon"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 34
+          }, 
+          ["Emerald"] : {
+            ["id"] : 32
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 37
+          }, 
+          ["Pearl"] : {
+            ["id"] : 38
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 35
+          }, 
+          ["Ruby"] : {
+            ["id"] : 31,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 33
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 36
+          }
+        }, 
+        ["voiceactor"] : ["Dave B. Mitchell"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "From the recordkeeper, Ryze: \"Power splinters between cultists, priestesses, and demons. In this exquisite chaos, I chronicle every moment, a faithful record of all that I witness. The Blood Moon calls, pushing and pulling at my demon like the tides. Unfailingly, the demon roars and thunders in reply, its drumbeat soaked in ichor from the freshly unmade."
       }
     }
   },
@@ -33859,6 +38980,7 @@
         ["release"] : "2020-09-21",
         ["voiceactor"] : ["Emily O’Brien"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "Gm2S3MyzgFQ",
         ["lore"] : "Samira stares death in the eye with unyielding confidence, seeking thrill wherever she goes. After her Shuriman home was destroyed as a child, Samira found her true calling in Noxus, where she built a reputation as a stylish daredevil taking on dangerous missions of the highest caliber. Wielding black-powder pistols and a custom-engineered blade, Samira thrives in life-or-death circumstances, eliminating any who stand in her way with flash and flair."
       },
       ["PsyOps"] : {
@@ -33883,7 +39005,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 9
@@ -33906,6 +39028,7 @@
         },
         ["voiceactor"] : ["Emily O’Brien"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "Fearless and deadly, Samira was once a renowned soldier of fortune. A born thrill seeker, she fights not for fame or wealth, but to push the limits of her skill. Through intense training, her innate psychic powers have been fully unleashed, allowing her to turn every mission and every kill into a thrilling display of stylish flair."
       },
       ["Space Groove"] : {
@@ -33929,7 +39052,7 @@
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Space Groove 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 13
@@ -33955,6 +39078,7 @@
         },
         ["voiceactor"] : ["Emily O’Brien"],
         ["splashartist"] : ["Xiao Guang Sun", "West Studio"],
+        ["music"] : "DDBjk-r4urY",
         ["lore"] : "A groovy, thrill-seeking bodyguard and elite warrior from the Hot Tub Nebula, Samira took a job directly from the Three Party Goddesses to save Lux from an impending invasion of the Normal World. Now, as the pair liberate planets across the galaxy, Samira must do everything in her power to keep Lux safe—both from Lissandra and from Lux's own lack of self preservation instincts."
       },
       ["High Noon"] : {
@@ -33978,11 +39102,17 @@
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 27
           }, 
+          ["Paragon"] : {
+            ["id"] : 34,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          },   
           ["Rose Quartz"] : {
             ["id"] : 22
           }, 
@@ -34019,20 +39149,65 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Emily O’Brien"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "A renowned bounty hunter who can't sit still cause she's ALWAYS on the hunt for her next thrill! This weapons master can use every dangerous tool in (and out!) of her arsenal to fight with STYLE in the Tournament of Souls! Our gracious host better sleep with one eye open, because rumor has it this queen wants to collect his crown! Make way for… SAMIRA!"
       },
-      ["Masque of the Black Rose"]: {
-        ["id"]: 31,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S1 Act 1 Premium Battle Pass reward (Level 40)",
-        ["release"]: "2025-01-09",
-        ["set"]: ["Masque of the Black Rose"],
-        ["neweffects"]: true,
-        ["voiceactor"]: ["Debra Wilson"],
-        ["splashartist"]: ["Yuyu Wong", "Kudos Productions"],
-        ["lore"]: "To the esteemed Renata Glasc, the noble houses of Noxus invite you to our nation as a guest at the Silken Danse. Here, we gather enterprising minds—for Noxus enters a new era in leadership, and we must forge new bonds accordingly. Let us learn of your blossoming influence in Zaun and the City of Progress, and how it may grow ever further. –Lady Elise"
+      ["Masque of the Black Rose"] : {
+        ["id"] : 33,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 1 Premium Battle Pass reward (Level 30)",
+        ["release"] : "2025-01-09",
+        ["set"] : ["Masque of the Black Rose"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["Emily O’Brien"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "Dear Samira, in recognition of your daring feats across the empire, we invite you to the Silken Danse. The noble houses have heard about your great potential from a trusted name in our ranks, Captain Indari. So, Desert Rose—from one fearless woman to another—you are welcome to our garden. –Lady Elise"
+      },
+      ["Battle Professor"] : {
+        ["id"] : 35,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-01-22",
+        ["set"] : ["Battle Academia"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 41
+          }, 
+          ["Catseye"] : {
+            ["id"] : 37
+          }, 
+          ["Emerald"] : {
+            ["id"] : 38
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 43
+          }, 
+          ["Pearl"] : {
+            ["id"] : 42
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 39
+          }, 
+          ["Ruby"] : {
+            ["id"] : 36,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 40
+          }
+        },
+        ["voiceactor"] : ["Emily O’Brien"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["lore"] : "A star alumnus of Babylon Academy, Samira paused her lucrative mercenary career to come back and teach Advanced Acrobatic Swordplay. Babylon had given her both the tools and freedom to throw herself into danger and come out stronger for it. Now she can instill that same sense of fearless thrill-seeking into the next generation. For one semester at least."
       }
     }
   },
@@ -34159,7 +39334,7 @@
             ["id"] : 27,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 13
@@ -34182,6 +39357,7 @@
         },
         ["voiceactor"] : ["Nicki Burke"],
         ["splashartist"] : ["Maki Planas Mata"],
+        ["music"] : "E5fy_GswSy8",
         ["lore"] : "Charging forth on her giant pig and swinging a whip made from low-grade explosives, Sejuani has firmly cemented herself as the woman to watch this Lunar Revel. Because if you're not watching her she'll trample you, and you'll die."
       },
       ["Hextech"] : {
@@ -34189,7 +39365,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2020-03-05",
         ["set"] : ["Hextech"],
         ["neweffects"] : true,
@@ -34234,7 +39410,7 @@
             ["id"] : 25,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 22
@@ -34251,6 +39427,7 @@
         },
         ["voiceactor"] : ["Nicki Burke"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["music"] : "pDu-_iL5tBc",
         ["lore"] : "The leader of a more radicalized sect of the G/NETIC rebels, Sejuani broke off from Ashe's movement when their 'resistance action' failed to turn explicitly violent. Resurfacing amid Program's takeover of the City, she rides a piece of reclaimed pre-collapse technology alongside her ferocious cohort, ready to put down this new threat before it takes root."
       },
       ["Solar Eclipse"] : {
@@ -34373,6 +39550,49 @@
         ["voiceactor"] : ["Nicki Burke"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "Victorious Sejuani was awarded to players who reached Gold or higher in the 2022 season. After surrendering their strongest warriors and Iceborn to the Winter's Claw, all tribes of the Freljord now bend to the will of Queen Sejuani, clad in the finest gear her kingdom has to offer."
+      },
+      ["Pug Trainer"] : {
+        ["id"] : 48,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-01",
+        ["set"] : ["Cats Versus Dogs"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 53
+          },
+          ["Emerald"] : {
+            ["id"] : 52
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 56
+          }, 
+          ["Pearl"] : {
+            ["id"] : 55
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 51
+          }, 
+          ["Ruby"] : {
+            ["id"] : 49,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 50
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 54
+          }
+        },
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["voiceactor"] : ["Nicki Burke"],
+        ["lore"] : "Sejuani is the latest and greatest in a long line of Pugmothers. Brutal in her rope-toy battles with her pups, yet benevolent in her handing out of treats, she rides atop her favorite pug, Snorty. With chewy flail in hand, they scamper together across the battlefield ready to face their feline adversaries."
       }
     }
   },
@@ -34387,6 +39607,7 @@
         ["release"] : "2019-11-10",
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
         ["voiceactor"] : ["Cynthia Kaye McWilliams"],
+        ["music"] : "7izlxCSb20Y",
         ["lore"] : "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light, and fiercely fought back—only to be killed, her soul imprisoned in a lantern by the cruel wraith Thresh. But refusing to lose hope, within the lantern Senna learned to use the Mist, and reemerged to new life, forever changed. Now wielding darkness along with light, Senna seeks to end the Black Mist by turning it against itself—with every blast of her relic weapon, redeeming the souls lost within."
       },
       ["True Damage"] : {
@@ -34414,7 +39635,7 @@
             ["id"] : 2,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "True Damage 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 8
@@ -34431,6 +39652,7 @@
         },
         ["splashartist"] : ["Jennifer Wuestling"],
         ["voiceactor"] : ["Cynthia Kaye McWilliams"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "Senna rose to fame with her stunning vocal range and iconic sense of style, but when a shady adversary from her past imprisoned her in a restrictive record deal that took away her creative independence, she vanished from the spotlight. After years of living in the shadows, she now emerges as the lead singer of True Damage with her mind set on defining her legacy on her own terms."
       },
       ["Prestige True Damage"] : {
@@ -34448,6 +39670,7 @@
         ["variant"] : 1,
         ["voiceactor"] : ["Cynthia Kaye McWilliams"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "Having topped the charts once more, Senna finds herself in the familiar space of fame and celebrity. Between cosmetics deals and fashion shows, she offers a clear message to fans and haters alike: Don't call it comeback. Senna's been here for years."
       },
       ["High Noon"] : {
@@ -34523,7 +39746,7 @@
             ["id"] : 25,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 22
@@ -34540,6 +39763,7 @@
         },
         ["voiceactor"] : ["Cynthia Kaye McWilliams"],
         ["splashartist"] : ["West Studio"],
+        ["music"] : "pDu-_iL5tBc",
         ["lore"] : "A PROJECT volunteer who supposedly died during the elevation of her consciousness, Senna's mind was decoupled from the physical world and escaped into cyberspace, becoming a digital ghost. Inhabiting a body of her own design as Mordekaiser assumed control of the City, she is one of the few who understands the true threat of his ever-expanding directives. "
       },
       ["Lunar Eclipse"] : {
@@ -34643,7 +39867,7 @@
           }
         },
         ["voiceactor"] : ["Cynthia Kaye McWilliams"],
-        ["splashartist"] : ["Huyy Nugyen", "West Studio"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "When she was just a young witch, a warlock bound Senna's soul to a tome of spells, hoping to rid himself of her rising power. But her time spent disembodied only made her stronger. While others party, the overly serious Senna searches for ghouls and ghosts, planning to send them to the grave... again."
       },
       ["Star Guardian"] : {
@@ -34652,8 +39876,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2023-07-20",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -34688,6 +39911,7 @@
         },
         ["voiceactor"] : ["Cynthia Kaye McWilliams"],
         ["splashartist"] : ["Mingchen Shen", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "Years spent battling the darkness alone has strengthened Senna's resolve, but it also hardened her heart. After all, when you're a Star Guardian, you know losing loved ones is inevitable. Still, she'll keep fighting now, harder than ever. Reuniting her new friend Xayah with her evil ex-boyfriend is a powerful motivator."
       },
       ["Winterblessed"] : {
@@ -34724,13 +39948,99 @@
             ["id"] : 62,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Cynthia Kaye McWilliams"],
         ["splashartist"] : ["Pandart Studio"],
         ["lore"] : "Senna woke in the dreamlike embrace of the Aurora. Clad in regal dress she didn't recognize, she had no memory of how she got there, nor could she remember anything else, save for flashes of warmth: a love, lost in shadow. \"Who am I?\" she wondered."
-      }
+      },
+      ["Masked Justice"] : {
+        ["id"] : 63,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-02-20",
+        ["set"] : ["Masked Justice"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 66
+          }, 
+          ["Catseye"] : {
+            ["id"] : 67
+          }, 
+          ["Emerald"] : {
+            ["id"] : 65
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 71
+          }, 
+          ["Pearl"] : {
+            ["id"] : 69
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 68
+          }, 
+          ["Ruby"] : {
+            ["id"] : 64,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 70
+          }
+        },         
+        ["voiceactor"] : ["Cynthia Kaye McWilliams"],
+        ["splashartist"] : ["David Villegas", "West Studio"],
+        ["lore"] : "Senna's memories are a haze. There are flashes—hands locked together, an explosion—before waking up to vast destruction in a strange, alien suit. Only one image lingers in her mind—the face of a mad giant. She hears cries for help in the air, and sets out on a new journey. Senna will find her memories, and save whoever she can on the way."
+      },
+      ["Warhound"] : {
+        ["id"] : 72,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-03-19",
+        ["set"] : ["Warhounds"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 74
+          }, 
+          ["Emerald"] : {
+            ["id"] : 75
+          }, 
+          ["Fearless Fang"] : {
+            ["id"] : 80
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 79
+          }, 
+          ["Ruby"] : {
+            ["id"] : 73,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 76
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 78
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 77
+          }
+        },
+        ["voiceactor"] : ["Cynthia Kaye McWilliams"],
+        ["splashartist"] : ["Bo 'chenbowow' Chen", "Jennifer Wuestling"],
+        ["lore"] : "ALERT: Warhound known as Senna sighted near local ruins. She leads the Hellfire Hounds, a group claiming to fight for Quicksilver access for all. Uses unknown Quicksilver technology to grow stronger with every drop. Prevent access to her fuel source, and do NOT underestimate her or the loyalty of her followers."
+      }      
     }
   },
   ["Seraphine"] : {
@@ -34744,6 +40054,7 @@
         ["release"] : "2020-10-29",
         ["voiceactor"] : ["Michele Panu"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "O11UcwRctAE",
         ["lore"] : "Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She performs for the sister cities to remind their citizens that they're not alone, that they're stronger together, and that, in her eyes, their potential is limitless."
       },
       ["KDA ALL OUT Indie"] : {
@@ -34760,6 +40071,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Michele Panu"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "NnpYIZo__Uk",
         ["lore"] : "With a stunning voice and a sunny disposition, Seraphine has big dreams about her music and what she can offer the world. She knows that someday, if she just keeps trying, she'll make her beloved cat Bao proud."
       },
       ["KDA ALL OUT Rising Star"] : {
@@ -34778,6 +40090,7 @@
         ["variant"] : 1,
         ["voiceactor"] : ["Michele Panu"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "F91ojw4de5U",
         ["lore"] : "Seraphine's life is changing faster than she ever expected, and she's trying to hold on to her unique voice, keep up with Kai'Sa's intimidatingly sharp choreography, and still somehow manage to get enough sleep."
       },
       ["KDA ALL OUT Superstar"] : {
@@ -34796,6 +40109,7 @@
         ["variant"] : 1,
         ["voiceactor"] : ["Michele Panu"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "3VTkBuxU4yk",
         ["lore"] : "After her whirlwind rise to stardom, Seraphine is on top of the world, and the charts, with her feature on K/DA's new EP. Her music and her message are resonating with her fans, and she's excited to show them what's to come on her journey of self-discovery through music."
       },
       ["Graceful Phoenix"] : {
@@ -34816,7 +40130,7 @@
             ["id"] : 13,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 	
           ["Obsidian"] : {
             ["id"] : 9
@@ -34895,8 +40209,8 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2022-06-09",
-        ["distribution"] : "200 Mythic Essence",
         ["set"] : ["Ocean Song"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -34948,11 +40262,12 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Faerie Court 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Michele Panu"],
         ["splashartist"] : ["Silvia Meiliani", "Caravan Studio"],
+        ["music"] : "-E5IhfdMoyk",
         ["lore"] : "A sunny siren of the Summer Court, it was Lady Seraphine's skillful makeover talents that helped get Karma and Kalista ready to face the nobility with style. She is a master of courtly manners and was more than happy to teach her new friends everything that really counts about being fabulous!"
       },
       ["Star Guardian"] : {
@@ -34961,8 +40276,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2023-06-28",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -34997,6 +40311,7 @@
         },
         ["voiceactor"] : ["Michele Panu"],
         ["splashartist"] : ["Forrest Imel", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "Seraphine has toured the entire galaxy as a solo act, but now it's time for a Star Guardian collab. She's ecstatic to team up with a new group of heroes, and she isn't afraid to share that enthusiasm. They're fighting for true love… what could be more romantic than that?!"
       },
       ["Battle Dove"] : {
@@ -35021,7 +40336,7 @@
             ["id"] : 49,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 47
@@ -35038,7 +40353,172 @@
         },
         ["voiceactor"] : ["Michele Panu"],
         ["splashartist"] : ["Alsie Lau"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Seraphine was Anima Squad's comms officer, the \"girl in the chair\"—until she became the first Battle Dove, using her naturally sensitive hearing to operate a new AnimaTech suit that weaponizes sound waves to rock the battlefield! When she intercepts a strange distress call, Seraphine gets her first mission: find the source, and lead a team to the rescue."
+      },
+      ["Dumpling Darlings"] : {
+        ["id"] : 50,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-03-05",
+        ["set"] : ["Dumpling Darlings"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 56
+          }, 
+          ["Catseye"] : {
+            ["id"] : 52
+          }, 
+          ["Emerald"] : {
+            ["id"] : 53
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 57
+          }, 
+          ["Pearl"] : {
+            ["id"] : 58
+          }, 
+          ["Ruby"] : {
+            ["id"] : 51,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 55
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 54
+          }
+        },
+        ["voiceactor"] : ["Michele Panu"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "Seraphine's a double threat who sings and cooks, leaving the cafe's guests swooning and sated in equal measure. Come for the treats, she says, stay for the tunes! Her dream is to become the cafe's star attraction, enchanting chefs and customers alike."
+      },
+      ["Firecracker"] : {
+        ["id"] : 59,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-04",
+        ["set"] : ["Lunar Revel: Firecracker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 61
+          }, 
+          ["Emerald"] : {
+            ["id"] : 62
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 65
+          }, 
+          ["Pearl"] : {
+            ["id"] : 67
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 66
+          }, 
+          ["Ruby"] : {
+            ["id"] : 60,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 63
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 64
+          }
+        },
+        ["voiceactor"] : ["Michele Panu"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "The main attraction of the Lunar Revel, Seraphine mesmerizes onlookers, uplifting and uniting their hearts. Her melodies serve as the perfect complement to the rambunctious crowds and booming fireworks at the center of every New Year festival. The celebration truly begins when this star takes the stage!"
+      },
+      ["T1"] : {
+        ["id"] : 68,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-07-15",
+        ["set"] : ["World Champions: 2025"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 74
+          }, 
+          ["Elite"] : {
+            ["id"] : 70,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 71
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 73
+          }, 
+          ["Ruby"] : {
+            ["id"] : 72,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 75
+          }
+        },
+        ["voiceactor"] : ["Michele Panu"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Honoring Keria's winning performance as Seraphine during the 2025 World Championship."
+      },
+      ["Heartsong"] : {
+        ["id"] : 69,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2026-08-26",
+        ["set"] : ["Heartsong"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 79
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 81
+          }, 
+          ["Pearl"] : {
+            ["id"] : 78
+          }, 
+          ["Ruby"] : {
+            ["id"] : 76,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 77
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 80
+          }
+        },
+        ["voiceactor"] : ["Michele Panu"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "When the world was cruel, Seraphine was kind. When her heart grew heavy, she chose to hope. Embracing compassion in the face of despair, Seraphine's strength crystalized into a magical gem, held in her heart, brimming with love and light. Now she embodies the joy of music itself, using her newfound power to awaken a kinder world, one audience at a time."
       }
     }
   },
@@ -35053,6 +40533,7 @@
         ["release"] : "2020-01-14",
         ["voiceactor"] : ["Xander Mobus"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "Fl_dVBZlfm8",
         ["lore"] : "A leader of Ionia's growing criminal underworld, Sett rose to prominence in the wake of the war with Noxus. Though he began as a humble challenger in the fighting pits of Navori, he quickly gained notoriety for his savage strength, and his ability to take seemingly endless amounts of punishment. Now, having climbed through the ranks of local combatants, Sett has muscled to the top, reigning over the pits he once fought in."
       },
       ["Mecha Kingdoms"] : {
@@ -35075,7 +40556,7 @@
             ["id"] : 7,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Mecha Kingdoms 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 6
@@ -35124,7 +40605,7 @@
             ["id"] : 20,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 22
@@ -35232,7 +40713,7 @@
             ["id"] : 37,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 35
@@ -35279,7 +40760,7 @@
             ["id"] : 44,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 42
@@ -35296,7 +40777,7 @@
         },
         ["voiceactor"] : ["Xander Mobus"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
-        ["lore"] : "Some guide the dead down the path; others tempt them from it. Another still has no allegiances, as his spirit lies in conflict with itself. Born from Kanmei and Akana, Sett lived harmoniously until, abandoned by his father, he sought retribution. Now he can only catch whispers of salvation as he spends his days challenging slain warriors, testing their worth. "
+        ["lore"] : "Kanmei are peaceful spirits, while akana wander in perpetuity. Yet legend tells of a spirit of both worlds—akana and kanmei—at odds with himself. The spirit enjoyed eternal bliss until, spurned by his father, he sought vengeance. Now the Banished Son searches among the slain for worthy warriors with whom to spar, preparing for his greatest fight yet."
       },
       ["Soul Fighter"] : {
         ["id"] : 45,
@@ -35322,7 +40803,7 @@
             ["id"] : 54,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Meteorite"] : {
             ["id"] : 53
@@ -35345,6 +40826,7 @@
         },
         ["voiceactor"] : ["Xander Mobus"],
         ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "This fighter is here to prove that fists CAN be the answer to everything! That is, assuming the question of everything is \"how does one person win the most local tourneys in recorded history?\" And he's not just doing it to look good—though that is a nice bonus—he's rising up the ranks to soul fightin' legend to make his momma proud. It's Sssssett!"
       },
       ["HEARTSTEEL"] : {
@@ -35377,7 +40859,7 @@
             ["id"] : 65,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 61
@@ -35394,7 +40876,101 @@
         },
         ["voiceactor"] : ["Xander Mobus"],
         ["splashartist"] : ["Bo 'chenbowow' Chen", "Julia Yurtsev", "Jennifer Wuestling"],
+        ["music"] : "MDErQ1KTzaI",
         ["lore"] : "Don't let the chiseled abs fool you: With savvy style and a heart of gold tempered by years of hard work supporting his mom, Sett has earned his confident rapper's swagger. His last music career ended when he punched a paparazzo, but he won't be kept down. People call Sett a lot of things, but when he's on stage with HEARTSTEEL, you can call him “boss.”"
+      },
+      ["Radiant Serpent"] : {
+        ["id"] : 66,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Sanctum",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 80 Ancient Sparks",
+        ["release"] : "2025-01-09",
+        ["set"] : ["Modern Mythos"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["transforming"] : true,
+        ["forms"] : ["Serpent", "Divine"],
+        ["chromas"] : {
+          ["Serpent"] : {
+            ["id"] : 66
+          }, 
+          ["Divine"] : {
+            ["id"] : 66
+          }
+        },        
+        ["voiceactor"] : ["Xander Mobus"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["lore"] : "A descendant of the Ivory Serpent spirit, Sett is an action movie star who uses his ancestral gifts to wow audiences and give his Ma the good life she deserves. When his hometown is threatened by a crime syndicate, it's time for Sett to play the hero in real life, too—but will his story star a fame-seeking hotshot, or a humble protector?"
+      },
+      ["Spirit Blossom Springs"] : {
+        ["id"] : 67,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-07-30",
+        ["set"] : ["Spirit Blossom Springs"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 72
+          }, 
+          ["Emerald"] : {
+            ["id"] : 70
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 73
+          }, 
+          ["Pearl"] : {
+            ["id"] : 74
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 75
+          }, 
+          ["Ruby"] : {
+            ["id"] : 68,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 69
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 71
+          }
+        },
+        ["voiceactor"] : ["Xander Mobus"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["music"] : "FI2sJua5Io0",
+        ["lore"] : "After an injury in the fighting rings forced Sett onto the sidelines, his mother sent him to Spirit Blossom Springs to recuperate. This “gift” included torturous deep tissue massages, cold water baths, fire walking, and more. It's a hard road to recovery, but Sett will do anything to make his mom happy—and get back into fighting shape."
+      },
+      ["Prestige HEARTSTEEL Live My Life"] : {
+        ["id"] : 76,
+        ["availability"] : "Upcoming",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2026, S3 Act 2 Premium Battle Pass reward",
+        ["release"] : "N/A",
+        ["set"] : ["HEARTSTEEL"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 77,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }
+        },
+        ["voiceactor"] : ["Xander Mobus"],
+        ["music"] : "gMkuV5hh7-s",
+        ["lore"] : "Vibe Pop Magazine: What's your workout routine?<br><br>Sett: K'Sante and I hit the weights every day at the crack of dawn. Hit each muscle group on rotation: core, arms, legs, glutes, back. We don't bother with cardio, we get enough of that from dancing and performing. Someday, we'll get Phel to join us. Pretty sure I could bench, like, three of him."
       }
     }
   },
@@ -35441,6 +41017,7 @@
         ["neweffects"] : true,
         ["voiceactor"] : ["Adam Harrington"],
         ["splashartist"] : ["Wang Xun"],
+        ["music"] : "tZDj_sS-Gf8",
         ["lore"] : "A terrifying, evil nutcracker from an unknown time and place, Nutcracko's nightmarish appearance and dagger-hurling boxes of death are a curse on Snowdown festivities. He wishes to eliminate all Santas, ushering in a new age of stale fruitcake and creepy wooden toys."
       },
       ["Workshop"] : {
@@ -35490,7 +41067,7 @@
         ["neweffects"] : true,
         ["voiceactor"] : ["Adam Harrington"],
         ["splashartist"] : ["Michal Ivan", "Sixmorevodka Studio"],
-        ["lore"] : "Last is the Jester, the wiliest sort&lt;br>Obscured and forgotten by time,&lt;br>Yet always much nearer than one might expect,&lt;br>Stalking, closely, behind."
+        ["lore"] : "Last is the Jester, the wiliest sort<br>Obscured and forgotten by time,<br>Yet always much nearer than one might expect,<br>Stalking, closely, behind."
       },
       ["Dark Star"] : {
         ["id"] : 8,
@@ -35498,7 +41075,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2019-06-13",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -35617,7 +41194,7 @@
             ["id"] : 32,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Crime City 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Adam Harrington"],
@@ -35667,11 +41244,12 @@
             ["id"] : 42,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Adam Harrington"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["music"] : "GJLHlBRqKAI",
         ["lore"] : "The Automaton Shaco felt nothing toward the quarreling leaders until Polaris snapped her fingers and ordered her “gifts” to corner the trio. “Winter is cruel,” she boomed, “and warmth is meant to be shared. Let this punishment serve as a warning.” In a flurry of snow, Polaris disappeared, leaving the Automaton and Beast to dispense her judgment."
       },
       ["Soul Fighter"] : {
@@ -35698,7 +41276,7 @@
             ["id"] : 53,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 52
@@ -35721,6 +41299,7 @@
         },
         ["voiceactor"] : ["Adam Harrington"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "I know very little about this fighter... and I've been told by our host to say EVEN LESS! (They've GOT to be friends... or mortal enemies?) His desires are hidden—just like his face—and his style in the ring remains to be seen! We just LOVE a mysterious and not-at-all creepy combatant, don't we, folks? Here he is... Shaaaaaaaacoooooo!"
       },
       ["Prestige Soul Fighter"] : {
@@ -35728,7 +41307,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2023-08-03",
         ["set"] : ["Soul Fighter"],
         ["neweffects"] : true,
@@ -35737,6 +41316,7 @@
         ["variant"] : 43,
         ["voiceactor"] : ["Adam Harrington"],
         ["splashartist"] : ["Jeremy Chong", "West Studio"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "Shaco is never predictable; his unique (and often terrifying) looks make him a hit with judges year after year. Now adorned in gold and ivory lace, Shaco claims to be making a statement about fast fashion and the constraints it puts on designers and models. Or maybe he just wants an excuse to show off his soul-power arms.  "
       },
       ["Fright Night"] : {
@@ -35760,7 +41340,7 @@
             ["id"] : 63,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 62
@@ -35787,6 +41367,67 @@
         ["voiceactor"] : ["Adam Harrington"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
         ["lore"] : "Cast beneath the floorboards with contraband and mold, confined within a simple toy, Shaco plotted worldwide doom. All he needed was a fool to spring him from his bindings and perform the ritual rites, but he should have known—never trust a Creepaway camper to get a ritual right!"
+      },
+      ["Cat-in-the-Box"] : {
+        ["id"] : 64,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2025-04-02",
+        ["set"] : ["Cats Versus Dogs"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 68
+          }, 
+          ["Emerald"] : {
+            ["id"] : 66
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 70
+          }, 
+          ["Pearl"] : {
+            ["id"] : 69
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 67
+          }, 
+          ["Ruby"] : {
+            ["id"] : 65,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["League Audio Team Cats"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "MrrRRRrrowwww. Hhhiiisssss. Meow. Purrrrr."
+      },
+      ["Prestige Pandemonium"] : {
+        ["id"] : 71,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2026, S2 Act 1 Premium Battle Pass reward",
+        ["release"] : "2026-04-29",
+        ["set"] : ["Pandemonium"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 72,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Adam Harrington"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "Shaco's bizarre emotions are an acquired taste. His delight is perverse, his despair obsessive—a warped kaleidoscope of chaos and comedy. His exaggerated expressions and theatrical gestures make a mockery of real emotion."
       }
     }
   },
@@ -35871,7 +41512,7 @@
             ["id"] : 27,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Mega Donor Bundle Exclusive"
+            ["distribution"] : "Charity Exclusive"
           }, 
           ["Sandstone"] : {
             ["id"] : 29,
@@ -35924,13 +41565,16 @@
             ["id"] : 10
           }, 
           ["Ruby"] : {
-            ["id"] : 11
+            ["id"] : 11,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 12
           }, 
           ["Tanzanite"] : {
-            ["id"] : 13
+            ["id"] : 14
           } 
         },
         ["voiceactor"] : ["Keith Silverstein"],
@@ -35964,7 +41608,7 @@
             ["id"] : 31,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Keith Silverstein"],
@@ -36024,10 +41668,16 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 33
+          }, 
+          ["Paragon"] : {
+            ["id"] : 53,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
           }, 
           ["Ruby"] : {
             ["id"] : 32,
@@ -36050,6 +41700,7 @@
         },
         ["voiceactor"] : ["Keith Silverstein"],
         ["splashartist"] : ["Xiao Guang Sun", "West Studio"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "A psychic soldier and field lieutenant within PsyOps, Shen's power is connected to a phantom child that follows him wherever he goes -- granting him insight into the middens between the living and the dead. Where the boy came from only High Command knows, and they aren't talking."
       },
       ["Shockblade"] : {
@@ -36121,7 +41772,57 @@
       },
       ["Three Honors"] : {
         ["id"] : 51,
+        ["availability"] : "Rare",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Reward for finishing the ranked season with Honor level 5.",
+        ["release"] : "2025-01-23",
         ["set"] : ["Three Honors"],
+        ["voiceactor"] : ["Keith Silverstein"],
+        ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["lore"] : "Shen is the last surviving founder of the Order of Solace. He shuttered every temple when the world fell into apathy and carelessness, disappearing into obscurity until Malzahar revived the Order. Now returned from the shadows, Shen serves as its most senior teacher, a stoic leader of integrity and grace that all can rely on."
+      },
+      ["Broken Covenant"] : {
+        ["id"] : 54,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-06-24",
+        ["set"] : ["Broken Covenant"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 56
+          },
+          ["Obsidian"] : {
+            ["id"] : 62
+          }, 
+          ["Pearl"] : {
+            ["id"] : 61
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 59
+          }, 
+          ["Ruby"] : {
+            ["id"] : 55,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 57
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 60
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 58
+          }
+        },
+        ["voiceactor"] : ["Keith Silverstein"],
+        ["lore"] : "For years, the Order of Umbrafil was believed lost to the endless war. In truth, Shen had led its surviving numbers underground to rebuild. Now the world has reached a new equilibrium, and Shen views it as his sacred duty to unbalance it. With the Order's renewed strength, he risks inciting greater chaos to save what may be forever lost."
       }
     }
   },
@@ -36135,18 +41836,21 @@
         ["cost"] : 790,
         ["release"] : "2011-11-01",
         ["voiceactor"] : ["Karen Strassman"],
-        ["splashartist"] : ["Pan Chengwei"],
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["music"] : "IAtPS0qc770",
         ["lore"] : "Shyvana is a creature with the magic of a rune shard burning within her heart. Though she often appears humanoid, she can take her true form as a fearsome dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan IV, Shyvana now serves uneasily in his royal guard, struggling to find acceptance among the suspicious people of Demacia."
       },
-      ["Ironscale"] : {
+      ["Shyvana Ironscale"] : {
         ["id"] : 1,
+        ["formatname"] : "Shyvana Ironscale",
         ["availability"] : "Available",
         ["looteligible"] : true,
         ["cost"] : 750,
         ["release"] : "2011-11-01",
-        ["set"] : ["Legacy"],
+        ["set"] : ["Rift Quest"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
         ["voiceactor"] : ["Karen Strassman"],
-        ["splashartist"] : ["Kienan 'Knockwurst' Lafferty"]
+        ["lore"] : "It made sense that Shyvana wanted to play a powerful dragon in Riftquest, but what surprised her party more was the joyful penchant for destruction that the game brought out in their staunchly disciplined friend. Descending upon the battlefield with glee, Shyvana Ironscale's roar alone sends enemies and figurines flying (and sometimes her allies, too)."
       },
       ["Boneclaw"] : {
         ["id"] : 2,
@@ -36155,8 +41859,8 @@
         ["cost"] : 520,
         ["release"] : "2011-11-01",
         ["set"] : ["Prehistoric Hunters"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
         ["voiceactor"] : ["Karen Strassman"],
-        ["splashartist"] : ["Feihong Chen"],
         ["lore"] : "Many hunters claim Shyvana holds an unfair advantage when it comes to slaying the giant beasts that roam the land. Shyvana herself cares little about their opinions, preferring instead to channel her rage into her true form—a massive, fire-breathing dragon… that proves the hunters' point."
       },
       ["Darkflame"] : {
@@ -36167,6 +41871,7 @@
         ["release"] : "2012-05-28",
         ["set"] : ["Legacy"],
         ["neweffects"] : true,
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
         ["voiceactor"] : ["Karen Strassman"],
         ["lore"] : "With her humanity burned away by the Darkflame, Shvyana wreaks havoc upon the battlefield. It is said that any enemy touched by her flame will have their very soul incinerated by its dark magics."
       },
@@ -36199,7 +41904,7 @@
             ["id"] : 7,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2018"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Karen Strassman"],
@@ -36240,7 +41945,7 @@
             ["id"] : 16,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 11
@@ -36266,6 +41971,7 @@
         },
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "Shyvana's ruination brings a newfound darkness, as well as clarity. Turning swiftly against Demacia for its persecution of magic, and sinking into her more draconic emotions, she appears as an avenging beast of old, ready to topple Demacia for its ignorance."
       },
       ["Immortal Journey"] : {
@@ -36324,7 +42030,7 @@
         ["release"] : "2009-04-17",
         ["voiceactor"] : ["Unknown voice actor"],
         ["splashartist"] : ["Michal Ivan", "Sixmorevodka Studio"],
-        ["lore"] : "Singed is a Zaunite alchemist of unmatched intellect, who has devoted his life to pushing the boundaries of knowledge—with no price, even his own sanity, too high to pay. Is there a method to his madness? His concoctions rarely fail, but it appears to many that Singed has lost all sense of humanity, leaving a toxic trail of misery and terror in his wake."
+        ["lore"] : "Singed is a brilliant alchemist of dubious morality, whose experiments would turn the stomach of even the most cutthroat criminal. Selling his skills to the highest bidder, he cares little for how his noxious concoctions are used, with the ensuing chaos an experiment in itself. His most infamous work is “shimmer”, which enabled the chembarons to turn Zaun into their personal playground—but fueled by madness, Singed is always working on something new, with each endeavor more depraved than the last..."
       },
       ["Riot Squad"] : {
         ["id"] : 1,
@@ -36394,6 +42100,7 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["voiceactor"] : ["Unknown voice actor"],
+        ["music"] : "yX4TlL_egts",
         ["lore"] : "Even deranged chemists need a day off, and Singed is no exception. Riding into battle with his recently sharpened sled and (patent pending) Portablizzard backpack, he is ready to dominate the snowball game, one crushing victory at a time."
       },
       ["SSW"] : {
@@ -36520,6 +42227,20 @@
         },
         ["splashartist"] : ["Rio Sabda", "Caravan Studio"],
         ["lore"] : "No space adventure would be complete without a navigator. When Singed isn't creating special concoctions to keep his team safe, he's steering the crew's ship through the galaxy, masterfully guiding them to wherever his captain's whimsical orders lead them (and collecting any adorable meeps along the way)."
+      },
+      ["Arcane Shimmer Lab"] : {
+        ["id"] : 28,
+        ["availability"] : "Limited",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "Reward for completing all three acts for the 'Jinx Fixes Everything' minigame",
+        ["release"] : "2024-11-26",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["splashartist"] : ["Mingchen Shen", "West Studio"],
+        ["lore"] : "Singed's experiments spit in the face of scientific ethics, each unleashing a new terror onto Zaun. But there is a method to Singed's madness. To make strides in the field of science, one must be willing to do whatever it takes, no matter the cost—and he is happy to pay the price."
       }
     }
   },
@@ -36534,6 +42255,7 @@
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Scott McNeil"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "vZ9nyZTvRwY",
         ["lore"] : "A war hero from a bygone era, Sion was revered in Noxus for choking the life out of a Demacian king with his bare hands—but, denied oblivion, he was resurrected to serve his empire even in death. His indiscriminate slaughter claimed all who stood in his way, regardless of allegiance, proving he no longer retained his former humanity. Even so, with crude armor bolted onto rotten flesh, Sion continues to charge into battle with reckless abandon, struggling to remember his true self between the swings of his mighty axe."
       },
       ["Hextech"] : {
@@ -36613,7 +42335,10 @@
             ["id"] : 9
           }, 
           ["Ruby"] : {
-            ["id"] : 6
+            ["id"] : 6,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 8
@@ -36624,6 +42349,7 @@
         },
         ["voiceactor"] : ["Scott McNeil"],
         ["splashartist"] : ["Christian Fell"],
+        ["music"] : "qFmHYN7J2AY",
         ["lore"] : "The ultimate ground-based mecha unit, 0-SION becomes like a freight train once given a combat directive, and will literally stop at nothing to dismantle an opponent—no matter how much damage it takes. There are lingering concerns that it could go rogue, but so far these worries have been unfounded."
       },
       ["Worldbreaker"] : {
@@ -36733,7 +42459,7 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 38
@@ -36764,7 +42490,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2023-08-30",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -36804,6 +42530,62 @@
         ["voiceactor"] : ["Scott McNeil"],
         ["splashartist"] : ["Sora Kim", "West Studio"],
         ["lore"] : "Sion was a warrior who found a way to fight his planet's destruction at the hands of the Dark Star to his dying breath. Bel'Veth, fascinated by his stubborn tenacity, raised him from that dying world. Now he fights by her side, a battering ram of force and violence turned towards a singular purpose: eliminating the Dark Star."
+      },
+      ["Grand Reckoning"] : {
+        ["id"] : 49,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 2 Premium Battle Pass reward (Level 40)",
+        ["release"] : "2025-03-05",
+        ["set"] : ["Grand Reckoning"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["Scott McNeil"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "Beneath the armor Sion was living flesh and blood, same as every Hand of Noxus who came before him. But whenever he decided to enter the arena, his roar would shake the stands, his bloody signature the crunch of a blunt axe through bone. His footfalls alone made even the most seasoned pit fighter cower in fear… and the crowd loved every minute of it."
+      },
+      ["Pizza Chef"] : {
+        ["id"] : 50,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-05-28",
+        ["set"] : ["Day Job"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 52
+          },
+          ["Emerald"] : {
+            ["id"] : 53
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 58
+          }, 
+          ["Pearl"] : {
+            ["id"] : 57
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 56
+          }, 
+          ["Ruby"] : {
+            ["id"] : 51,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 54
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 55
+          }
+        },
+        ["voiceactor"] : ["Scott McNeil"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Woodfired oven pizza made to order! Sion begins with a sweet and savory sauce made from the blood of the richest, ripest tomatoes. Next he layers it with flesh—we mean FRESH—mozzarella cheese, before burying it under a generous heap of all your favorite toppings. Trust us, it's to die for!"
       }
     }
   },
@@ -36866,8 +42648,8 @@
         ["id"] : 5,
         ["availability"] : "Limited",
         ["looteligible"] : false,
-        ["distribution"] : "Code Redemption",
         ["cost"] : "Special",
+        ["distribution"] : "Code Redemption",
         ["release"] : "2011-08-25",
         ["set"] : ["PAX"],
         ["vu"] : true,
@@ -36889,11 +42671,12 @@
             ["id"] : 17,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Snowdown Showdown 2018"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Alexa Kahn"],
         ["splashartist"] : ["Michelle Hoefener"],
+        ["music"] : "yX4TlL_egts",
         ["lore"] : "The wild and brash Battle Mistress known as Sivir cares only for the thrill of combat and the rattle of coin. She relentlessly hunts her bounties across the ice, cutting down opponents with a massive, razor-sharp snowflake as hard and unforgiving as the cruelest snowstorm."
       },
       ["Warden"] : {
@@ -36929,14 +42712,15 @@
         ["release"] : "N/A",
         ["set"] : ["World Champions: 2015"],
         ["voiceactor"] : ["Alexa Kahn"],
-        ["splashartist"] : ["Victor '3rdColossus' Maury"]
+        ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["lore"] : "''Canceled skin.''"
       },      
       ["Neo PAX"] : {
         ["id"] : 9,
         ["availability"] : "Rare",
         ["looteligible"] : false,
-        ["distribution"] : "Code Redemption and obtainable for a limited time period as a Hextech Crafting skin.",
         ["cost"] : "Special",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2017-08-30",
         ["retired"] : "2018-01-08",
         ["set"] : ["PAX"],
@@ -37042,10 +42826,10 @@
             ["id"] : 27,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rainbow"] : {
-            ["id"] : 32
+            ["id"] : 33
           }, 
           ["Rose Quartz"] : {
             ["id"] : 31
@@ -37057,7 +42841,7 @@
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
-            ["id"] : 33
+            ["id"] : 32
           }, 
           ["Tanzanite"] : {
             ["id"] : 30
@@ -37169,10 +42953,16 @@
             ["id"] : 60,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 58
+          }, 
+          ["Paragon"] : {
+            ["id"] : 71,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
           }, 
           ["Pearl"] : {
             ["id"] : 59
@@ -37195,6 +42985,7 @@
         },
         ["voiceactor"] : ["Alexa Kahn"],
         ["splashartist"] : ["Alsie Lau", "West Studio"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "Once the hero of “The Great Beast Galio”, Sivir's myth-world is forever changed when the Lunar Players interrupt her climactic battle, and she discovers that she is no longer the protagonist. Grappling with the question of who she is if she's not saving the day, Sivir must now carve out a role for herself in a tale whose future is suddenly unwritten."
       },
       ["Prestige Mythmaker"] : {
@@ -37202,7 +42993,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2023-01-12",
         ["set"] : ["Mythmaker"],
         ["neweffects"] : true,
@@ -37211,6 +43002,7 @@
         ["variant"] : 50,
         ["voiceactor"] : ["Alexa Kahn"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "Sivir seeks nothing short of opulence, her beautiful clothes symbols of personal success as much as they are points of sartorial pride. It's important that she looks impeccable: the New Year is here, after all, and starting it off right means stepping out in style."
       },
       ["Primal Ambush"] : {
@@ -37259,18 +43051,63 @@
       ["Ann-Sivir-sary"] : {
         ["id"] : 70,
         ["formatname"] : "Ann-Sivir-sary",
-        ["availability"] : "Upcoming",
+        ["availability"] : "Limited",
         ["looteligible"] : false,
         ["distribution"] : "15th Anniversary Reward",
         ["cost"] : "Special",
-        ["release"] : "N/A",
+        ["release"] : "2024-10-17",
         ["set"] : ["Fist Bumps and Festivities"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["voiceactor"] : ["Alexa Kahn"],
         ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
-        ["lore"] : "10:27 Riot Annie-Versary(Annie) signals that enemies are missing&lt;br>10:27 Riot Annie-Versary(Annie) signals that enemies are missing&lt;br>10:27 Riot Annie-Versary(Annie) signals that enemies are missing&lt;br>10:27 Riot Annie-Versary(Annie) signals that…"
+        ["lore"] : "10:27 Riot Annie-Versary(Annie) signals that enemies are missing<br>10:27 Riot Annie-Versary(Annie) signals that enemies are missing<br>10:27 Riot Annie-Versary(Annie) signals that enemies are missing<br>10:27 Riot Annie-Versary(Annie) signals that…"
+      },
+      ["PROJECT"] : {
+        ["id"] : 72,
+        ["formatname"] : "PROJECT: Sivir",
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-15",
+        ["set"] : ["PROJECT"],
+        ["filter"] : true,
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 74
+          },
+          ["Emerald"] : {
+            ["id"] : 76
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 77
+          }, 
+          ["Pearl"] : {
+            ["id"] : 78
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 80
+          }, 
+          ["Ruby"] : {
+            ["id"] : 73,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 75
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 79
+          }
+        },
+        ["voiceactor"] : ["Alexa Kahn"],
+        ["splashartist"] : ["Rudy Siswanto"],
+        ["lore"] : "Sivir harbors a dark secret beneath her chassis. On the surface, she is a skilled hacker for the G/NETIC rebellion, able to bypass even the most complex code or security system in Sound City. But none know of her deep ties to Command Line—or of the corruption in her system that could activate at any moment, turning rebel into sleeper agent."
       },
     }
   },
@@ -37285,7 +43122,8 @@
         ["release"] : "2011-08-09",
         ["voiceactor"] : ["Imari Williams"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
-        ["lore"] : "Skarner is an immense crystalline scorpion from a hidden valley in Shurima. Part of the ancient Brackern race, Skarner and his kin are known for their great wisdom and deep connection to the land, as their souls are fused with powerful life crystals which hold the living thoughts and memories of their ancestors. In an age long past, the Brackern entered hibernation to avoid untold magical destruction, but recent, threatening events have roused Skarner. As the only Brackern awake, he strives to protect his kind from those who seek to harm them."
+        ["music"] : "kwBMaGcD-Js",
+        ["lore"] : "The ancient, colossal brackern Skarner is revered in Ixtal as one of the founding members of its ruling caste, the Yun Tal. Devoted to keeping his nation safe from the rest of the world, Skarner dwells in a chamber beneath Ixaocan where he can hear the vibrations of the earth and detect potential threats. As more members of the Yun Tal begin questioning Ixtal's self-isolation, Skarner grows increasingly paranoid and will do anything to keep Ixtal and its people safe—no matter the cost."
       },
       ["Sandscourge"] : {
         ["id"] : 1,
@@ -37303,9 +43141,8 @@
         ["id"] : 2,
         ["availability"] : "Available",
         ["looteligible"] : true,
-        ["cost"] : 520,
+        ["cost"] : 750,
         ["release"] : "2011-08-09",
-        ["set"] : ["Legacy"],
         ["neweffects"] : true,
         ["voiceactor"] : ["Imari Williams"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
@@ -37347,7 +43184,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -37385,21 +43222,21 @@
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal", "West Studio"],
         ["lore"] : "An ancient creature of deep, primal wisdoms from before the forming of the first galaxies, Skarner is composed of the very elements that are the building blocks of all the cosmos. His kind are the radiant antithesis of the ancient, squirming things that lurk in the deep darkness of space, and beyond it."
       },
-      ["Mecha Kingdoms"]: {
-        ["id"]: 14,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S3 Act 2 Premium Battle Pass reward (Level 24)",
-        ["release"]: "2025-10-22",
-        ["set"]: ["Mecha Kingdoms"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["filter"]: true,
-        ["voiceactor"]: ["Imari Williams"],
-        ["splashartist"]: ["Jiunn Kuo", "Kudos Productions"],
-        ["lore"]: "The Estercrest kingdom poured vast fortunes into the creation of a single, colossal Avalon for an equally immense pilot: Skarner. Unmatched in might and attuned to the faintest tremors beneath the earth, he is the first to detect an oncoming Leviathan onslaught and rise to meet their threat."
+      ["Mecha Kingdoms"] : {
+        ["id"] : 14,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S3 Act 2 Premium Battle Pass reward (Level 24)",
+        ["release"] : "2025-10-22",
+        ["set"] : ["Mecha Kingdoms"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["voiceactor"] : ["Imari Williams"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "The Estercrest kingdom poured vast fortunes into the creation of a single, colossal Avalon for an equally immense pilot: Skarner. Unmatched in might and attuned to the faintest tremors beneath the earth, he is the first to detect an oncoming Leviathan onslaught and rise to meet their threat."
       }
     }
   },
@@ -37414,6 +43251,7 @@
         ["release"] : "2024-01-31",
         ["voiceactor"] : ["Georgie Cordova Kidder"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "vakwLmBnKco",
         ["lore"] : "Hidden amongst the craggy cliffs of the Noxian frontier, under the watchful eyes of his mother, a young dragon is learning what it means to be heir to the Camavoran imperial dragon lineage. Playful and eager to grow up, Smolder looks for any excuse to practice his burgeoning abilities. Though he's still a fledgling, his skills are nothing to sneeze at, easily setting fire to anything that burns."
       },
       ["Heavenscale"] : {
@@ -37440,7 +43278,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2023"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 9
@@ -37463,7 +43301,51 @@
         },
         ["voiceactor"] : ["Georgie Cordova Kidder"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["music"] : "qcL3nk6sYv0",
         ["lore"] : "The youngest member of the royal family and cousin to the prince, Smolder likes nothing more than to tag along on any adventures Lee Sin gets up to. He may have missed the part of the plan that involves disguising himself as a human, but hey—he will show them that dragons don't need to dress up to be the life of the party!"
+      },
+      ["Reindeer"] : {
+        ["id"] : 11,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-12-03",
+        ["set"] : ["Snowdown Showdown"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 17
+          },
+          ["Catseye"] : {
+            ["id"] : 13
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 19
+          }, 
+          ["Pearl"] : {
+            ["id"] : 18
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 15
+          }, 
+          ["Ruby"] : {
+            ["id"] : 12,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 14
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 16
+          }
+        },
+        ["voiceactor"] : ["Georgie Cordova Kidder"],
+        ["splashartist"] : ["Roanna Peroz"],
+        ["lore"] : "Smolder takes great joy in his role as Santa Braum's swiftest helper. Whether it's gift-wrapped boxes or the occasional lump of coal, he delivers to all the children before the bells ring on the first morning of Snowdown. And if he sneaks a present or two for himself along the way… well, who's counting?"
       }
     }  
   },
@@ -37504,6 +43386,7 @@
         ["vu"] : true,
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "oUiOylPbfV0&list:PLFy97Kh_wuWbTNc8aW76g-4pwvxMqEeJA",
         ["lore"] : "Never tell Sona of PENTAKILL that keyboards aren't metal. Her instrument is filled with living barbed wire and a sonic scream loud enough to bring other, lesser musical genres crashing to their knees."
       },
       ["Silent Night"] : {
@@ -37517,6 +43400,7 @@
         ["newquotes"] : true,
         ["vu"] : true,
         ["voiceactor"] : ["Erin Fitzgerald"],
+        ["music"] : "tZDj_sS-Gf8",
         ["lore"] : "Drifting through the streets as she plays, Sona's beautiful melodies bring out the wonder of fresh snowfalls, quiet evenings by the fire, and time spent with family and friends. She can also weaponize these songs, raining destruction upon those who would spoil the holidays."
       },
       ["Guqin"] : {
@@ -37533,7 +43417,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2018"
+          	["distribution"] : "Mythic Shop"
           },
           ["Meteorite"] : {
             ["id"] : 55
@@ -37541,6 +43425,7 @@
         },
         ["vu"] : true,
         ["voiceactor"] : ["Erin Fitzgerald"],
+        ["music"] : "cUhnTbmvpsY"
       },
       ["Arcade"] : {
         ["id"] : 5,
@@ -37557,11 +43442,12 @@
             ["id"] : 16,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Arcade 2019"
+          	["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["Katie 'TeaTime' De Sousa"],
+        ["music"] : "BO3XLE_eRPk",
         ["lore"] : "Being forcefully transported from the real world to fight an army of evil video game bosses is no sweat for Sona. She was the first person to beat Keyboard Solo 4's ultra solo mode on nightmare difficulty—a feat that, by the developers' own admission, should not have been possible."
       },
       ["DJ"] : {
@@ -37588,7 +43474,8 @@
           }
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
-        ["splashartist"] : ["Michelle Hoefener"]
+        ["splashartist"] : ["Michelle Hoefener"],
+        ["music"] : "POzRCDw-SKE&list:OLAK5uy_lPUOyDe7pM9KLFreaC8PZVYuDTOLBDm0k",
       },
       ["Sweetheart"] : {
         ["id"] : 7,
@@ -37640,6 +43527,7 @@
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "Dy58gGFpagI",
         ["lore"] : "Once member of the Templar Order, Sona was born with the ability to commune directly with ora, and the creatures from which it is harvested. More recently, she has sought out Yasuo, troubled captain of the Morning Star, and joined his ragtag crew—hoping to avert a disaster that could destroy the entire galaxy."
       },
       ["PsyOps"] : {
@@ -37668,7 +43556,7 @@
             ["id"] : 25,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 19
@@ -37688,6 +43576,7 @@
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "An immensely powerful psychic, Sona has spent the past several years locked in darkness, subjected to harrowing experiments to further the Black Rose Group's aims of manufacturing the perfect human bioweapon. Freeing herself during the assault on the BRG's research facility, she discovers her power has grown to near-omnipotence, making her less a human than a psychic god."
       },
       ["Pentakill Lost Chapter"] : {
@@ -37697,7 +43586,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-09-09",
-        ["set"] : ["Pentakill"],
+        ["set"] : ["Pentakill III: The Lost Chapter"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -37732,6 +43621,7 @@
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "5IWS7Y5KRhk&list:PLsY0g5fQlxMWMsC_enIQlr7zwfhT6v9mU",
         ["lore"] : "All hail, Sona, the Silent Virtuoso! An artist's soul can change the world, and with the harmonious power of creation at her fingertips, she will prove that what is made can yet be unmade."
       },
       ["Star Guardian"] : {
@@ -37740,8 +43630,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-07-14",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -37756,7 +43645,7 @@
             ["id"] : 44,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 37
@@ -37782,6 +43671,7 @@
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
         ["splashartist"] : ["Zhong Yang", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "Quiet and reflective, Sona spends her time away from the Guardians as a composer of music... and her time with them as a fighter of incredible power, blasting enemies away with sonically charged starlight. Though she cannot speak, she always makes her voice heard through deeds... or her chatterbox familiar-slash-interpreter, Chiizu."
       },
       ["Immortal Journey"] : {
@@ -37849,7 +43739,7 @@
         ["looteligible"] : false,
         ["cost"] : "Special",
         ["distribution"] : "Reward for earning split points in Season 2024 - Split 2.",
-        ["release"] : "2024-09-25",
+        ["release"] : "2024-10-10",
         ["set"] : ["Victorious"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -37911,8 +43801,74 @@
           }
         },
         ["voiceactor"] : ["Erin Fitzgerald"],
-        ["splashartist"] : ["Pandart Studio"],
+        ["splashartist"] : ["Santiago Parra", "Pandart Studio"],
         ["lore"] : "Victorious Sona was earned by players who accumulated enough split points in Ranked. Luring the unsuspecting into a false sense of ease with her melodies, Sona is as quick to pluck her allies from the brink of death as she is to send her foes to their grand finale."
+      },
+      ["Spirit Blossom Springs"] : {
+        ["id"] : 66,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-07-30",
+        ["set"] : ["Spirit Blossom Springs"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 68
+          }, 
+          ["Emerald"] : {
+            ["id"] : 69
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 73
+          }, 
+          ["Pearl"] : {
+            ["id"] : 72
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 74
+          }, 
+          ["Ruby"] : {
+            ["id"] : 67,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 71
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 70
+          }
+        },
+        ["voiceactor"] : ["Erin Fitzgerald"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["music"] : "kGfe_CsrGJw",
+        ["lore"] : "Sona sets the soothing tone for the Kanmei Experience at Spirit Blossom Springs. Her enchanting melodies combined with the sauna's gentle steam can relax any muscle or mind. Her daytime soundbaths never fail to draw a crowd, but it is her exclusive evening shows where her musical prowess can truly be seen—if one is ready, that is."
+      },
+      ["Prestige Requiem"] : {
+        ["id"] : 75,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2026, S1 Act 2 Premium Battle Pass reward (Level 48)",
+        ["release"] : "2026-03-04",
+        ["set"] : ["Chronicle"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 76,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Erin Fitzgerald"],
+        ["lore"] : "In her finest funerary garb, Sona plays a hero's lament. Silent hands give voice to a melody that swells in triumph played forte, and cascades into the bittersweet shadow of pianissimo grief, her tribute to a fallen friend. With this performance, she will tell his tale in the form of a song that will never die, and never be forgotten."
       }
     }
   },
@@ -37972,6 +43928,14 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["filter"] : true,
+        ["chromas"] : {
+          ["Doom"] : {
+            ["id"] : 62,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          } 
+        },
         ["voiceactor"] : ["Lisa Lindsley"],
         ["splashartist"] : ["Sperasoft Studio"],
         ["lore"] : "With his silver tongue, Twisted Fate tricked the lords of the living to offer their beloved starchild to Death in exchange for their own immortality. Little did they know, eternal life without their avatar of compassion and mercy would result only in eternal suffering…"
@@ -38010,13 +43974,14 @@
         ["cost"] : 1350,
         ["release"] : "2017-09-06",
         ["earlysale"] : "2018-02",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["variant"] : 8,
         ["voiceactor"] : ["Lisa Lindsley"],
-        ["splashartist"] : ["Esben Lash Rasmussen", "Alex 'alexplank' Flores", "Alvin Lee", "Pan Chengwei", "Jean 'Curing' Go"],
+        ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "tLcziIisVKM",
         ["lore"] : "A gentle soul with a mysterious origin among the stars, Soraka protects her team from behind the frontlines. Despite her shy appearance, she carries immense healing power and an unprecedented command of the Starlight, more than any other Star Guardian her team has encountered."
       },
       ["Pajama Guardian"] : {
@@ -38025,8 +43990,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-11-21",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -38067,6 +44031,7 @@
         },
         ["voiceactor"] : ["Lisa Lindsley"],
         ["splashartist"] : ["Choe HeonHwa"],
+        ["music"] : "lrFxZmsiLs0",
         ["lore"] : "A kindly duchess within the court of the Poro King, Soraka's lands are filled with beautiful animals made of pristine, enchanted ice. These menageries stretch for miles, tended by her retainers."
       },
       ["Dawnbringer"] : {
@@ -38110,14 +44075,14 @@
         ["cost"] : "Special",
         ["distribution"] : "150 Mythic Essence",
         ["release"] : "2020-11-24",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["variant"] : 7,
         ["voiceactor"] : ["Lisa Lindsley"],
         ["splashartist"] : ["Sanhua Chen", "Kudos Productions"],
+        ["music"] : "tLcziIisVKM",
         ["lore"] : "Leaving the planet behind with Xayah and the other Star Guardians, Soraka's full powers have been unlocked by her undying love for her friends—in the hopes that one day they will find their companion lost in the final battle with the Twilight Star, and be a family once again."
       },
       ["Cafe Cuties"] : {
@@ -38181,7 +44146,7 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 35
@@ -38210,7 +44175,7 @@
         },
         ["voiceactor"] : ["Lisa Lindsley"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
-        ["lore"] : "In a secluded corner of the Akana forest, Soraka weeps for those she's lost. Each life cut short she longed to save, but for as many that welcome her as a savior, there are others who see her power as a merciless cruelty. To the Spirit of Pity, death is never a blessing."
+        ["lore"] : "Long ago, a star shone above the First Lands, smiling as she gently lit the world below. But a stone giant envied the star's light, and tore her from the heavens. Heartbroken, the star plummeted to the earth. It is said to this day that the Stolen Star walks among mortals, bestowing her radiance upon them—a beacon of hope to some, but blinding to others."
       },
       ["Immortal Journey"] : {
         ["id"] : 37,
@@ -38293,6 +44258,92 @@
         ["voiceactor"] : ["Lisa Lindsley"],
         ["splashartist"] : ["Zoe Zhu", "West Studio"],
         ["lore"] : "Soraka, the Court's royal herbalist, is a top-notch healer and expert on the powers contained in the materials of the natural world. There's no malady she can't handle with the right selection of plants and her trusty beetle buddies at her side! Except, perhaps, the malady at the heart of the Royal Court..."
+      },
+      ["Flora Fatalis"] : {
+        ["id"] : 53,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-10-08",
+        ["set"] : ["Flora Fatalis"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 57
+          }, 
+          ["Emerald"] : {
+            ["id"] : 59
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 60
+          }, 
+          ["Pearl"] : {
+            ["id"] : 61
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 58
+          }, 
+          ["Ruby"] : {
+            ["id"] : 54,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 55
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 56
+          }
+        },
+        ["voiceactor"] : ["Lisa Lindsley"],
+        ["splashartist"] : ["Jennifer Wuestling"],
+        ["lore"] : "The young apothecary, so tender and pure of heart… She sought Us to save her weak-willed species. Her mind was fertile soil. We took root quickly and gave freely. For we are most benevolent. In our gentle care, she learned to heal the body and expand the mind. Her patients should be grateful. Their lives now have purpose."
+      },
+      ["Ocean Song"] : {
+        ["id"] : 63,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-08-26",
+        ["set"] : ["Ocean Song"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 65
+          }, 
+          ["Emerald"] : {
+            ["id"] : 66
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 70
+          }, 
+          ["Pearl"] : {
+            ["id"] : 71
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 69
+          }, 
+          ["Ruby"] : {
+            ["id"] : 64,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 68
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 67
+          }
+        },
+        ["voiceactor"] : ["Lisa Lindsley"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "After years of success as a vocalist, Soraka felt too removed from the people she sang for and about. A reset was needed, and the Ocean Song Festival offered the right shakeup. Now she's headlining the opening night and providing backup to any other artists who need it. From now on, if Soraka's going to sing, she's also going to help others be heard."
       }
     }
   },
@@ -38307,6 +44358,7 @@
         ["release"] : "2010-10-05",
         ["voiceactor"] : ["James Faulkner"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "MOzVL9MY0fg",
         ["lore"] : "Jericho Swain is the visionary ruler of Noxus, an expansionist nation that reveres only strength. Though he was cast down and crippled in the Ionian wars, his left arm severed, he seized control of the empire with ruthless determination.. and a new, demonic hand. Now, Swain commands from the front lines, marching against a coming darkness that only he can see—in glimpses gathered by shadowy ravens from the corpses all around him. In a swirl of sacrifice and secrets, the greatest secret of all is that the true enemy lies within."
       },
       ["Bilgewater"] : {
@@ -38375,7 +44427,10 @@
             ["id"] : 5
           }, 
           ["Ruby"] : {
-            ["id"] : 7
+            ["id"] : 7,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 9
@@ -38421,10 +44476,10 @@
             ["id"] : 17
           }, 
           ["Obsidian"] : {
-            ["id"] : 18
+            ["id"] : 19
           }, 
           ["Pearl"] : {
-            ["id"] : 19
+            ["id"] : 20
           }, 
           ["Peridot"] : {
             ["id"] : 15
@@ -38441,11 +44496,11 @@
           ["Sapphire"] : {
             ["id"] : 14
           }, 
-          ["Tiffany &amp; Co."] : {
+          ["Tiffany & Co."] : {
             ["id"] : 22,
             ["availability"] : "Limited",
-            ["source"]       : "Drop Reward",
-          	["distribution"] : "Worlds 2022"
+            ["source"]       : "Reward",
+          	["distribution"] : "Drop Reward"
           }
         },
         ["voiceactor"] : ["James Faulkner"],
@@ -38494,12 +44549,118 @@
             ["id"] : 31,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["James Faulkner"],
         ["splashartist"] : ["Eric Xie", "West Studio"],
+        ["music"] : "GJLHlBRqKAI",
         ["lore"] : "The Hunter Swain made no acknowledgment of his fellow leaders and was the first to put himself forward. He desired the Aurora's blessings to better provide meat and pelts for his people. After making his case, he gave the smallest of bows to Polaris, who watched with a face as serene as moonlit ice. Satisfied, Swain stepped aside and waited for his gift."
+      },
+      ["Chosen of the Wolf"] : {
+        ["id"] : 32,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-11-06",
+        ["set"] : ["Chosen of the Wolf"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 39
+          }, 
+          ["Catseye"] : {
+            ["id"] : 35
+          }, 
+          ["Emerald"] : {
+            ["id"] : 37,
+            ["availability"] : "Partner",
+            ["source"]       : "Partner",
+          	["distribution"] : "Partner Program"
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 40
+          }, 
+          ["Pearl"] : {
+            ["id"] : 41
+          }, 
+          ["Ruby"] : {
+            ["id"] : 34,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 36
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 38
+          }
+        },
+        ["voiceactor"] : ["James Faulkner"],
+        ["splashartist"] : ["Julia Yurtsev"],
+        ["lore"] : "An usurper has joined us, dear Wolf. A man who grasps for power far beyond his reach. He fails to see his folly. How will he adapt to his new surroundings, now that he is no longer in control? We will be watching him closely… as we give chase."
+      },
+      ["Prestige Chosen of the Wolf"] : {
+        ["id"] : 33,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2024-11-06",
+        ["set"] : ["Chosen of the Wolf"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["variant"] : 32,
+        ["voiceactor"] : ["James Faulkner"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "An esteemed warrior and strategist, Swain brings his refined taste and unparalleled attire to both the hunt and the Gala. Menacing and dignified with a dash of disdain, his competition fears him when he hits the runway. Although he'll do whatever it takes to secure his victory, he lets onlookers know that fashion is what really matters."
+      },
+      ["Fried Chicken King"] : {
+        ["id"] : 42,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-01",
+        ["set"] : ["Day Job"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 44
+          },
+          ["Emerald"] : {
+            ["id"] : 46
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 49
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 47
+          }, 
+          ["Ruby"] : {
+            ["id"] : 43,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 48
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 45
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 50
+          }
+        },
+        ["voiceactor"] : ["James Faulkner"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["lore"] : "Swain's Hot Chicken franchises sprung up everywhere seemingly overnight, thanks to the deliciously ruthless planning of The Fried King himself. After seizing control of his family's secret spice recipes, he saw an immediate path to world domination: fast food. Now Swain has the world eating out of his well-oiled palm, hungry for more."
       }
     }
   },
@@ -38514,6 +44675,7 @@
         ["release"] : "2019-01-25",
         ["voiceactor"] : ["Fergus O'Donnell"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "HvvRvND2m8s",
         ["lore"] : "Raised in one of Demacia’s lesser quarters, Sylas of Dregbourne has come to symbolize the darker side of the Great City. As a boy, his ability to root out hidden sorcery caught the attention of the notorious mageseekers, who eventually imprisoned him for turning those same powers against them. Having now broken free, Sylas lives as a hardened revolutionary, using the magic of those around him to destroy the kingdom he once served… and his band of outcast mage followers seems to grow by the day."
       },
       ["Lunar Wraith"] : {
@@ -38540,10 +44702,10 @@
             ["id"] : 2
           }, 
           ["Pearl"] : {
-            ["id"] : 3
+            ["id"] : 7
           }, 
           ["Ruby"] : {
-            ["id"] : 7,
+            ["id"] : 3,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
           	["distribution"] : "Bundle Exclusive"
@@ -38616,7 +44778,7 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Ruby"] : {
             ["id"] : 15,
@@ -38633,6 +44795,7 @@
         },
         ["voiceactor"] : ["Fergus O'Donnell"],
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "pDu-_iL5tBc",
         ["lore"] : "A self-styled leader of the outcasts who live beyond the city's walls, Sylas has heeded Ashe's call and rallied the Renegades in defense of the City. Though his true motives are the collapse of PROJECT and the capital surveillance state, for now he's content destroying the armies of a dangerous rogue AI."
       },
       ["Prestige PROJECT"] : {
@@ -38651,6 +44814,7 @@
         ["variant"] : 13,
         ["voiceactor"] : ["Fergus O'Donnell"],
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "pDu-_iL5tBc",
         ["lore"] : "With the Outcasts, G/Netic, and PROJECT itself faced with an insurmountable enemy, each faction turns to dangerous experimental technologies and long-lost robotics of a past age, hoping for an edge. Sylas, however, had a plan all along—integrating jailbroken corporate upgrades for the ultra-wealthy, so he can one day turn them on PROJECT."
       },
       ["Battle Wolf"] : {
@@ -38677,7 +44841,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 31
@@ -38771,70 +44935,70 @@
             ["id"] : 45,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Fergus O'Donnell"],
         ["splashartist"] : ["Jennifer Wuestling"],
         ["lore"] : "The disgraced inventor, Sylas, had long harbored a grudge against Polaris and had prepared a special device for this occasion: gauntlets capable of absorbing the Aurora. He'd tested it on Hwei earlier, but now turned his focus to Polaris. Powerless to resist, Senna's power was taken away, to be spread among Sylas, Camille, and Thresh. "
       },
-      ["Dark Star"]: {
-        ["id"]: 46,
-        ["availability"]: "Available",
-        ["looteligible"]: true,
-        ["cost"]: 1820,
-        ["release"]: "2024-10-23",
-        ["set"]: ["Dark Star"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["transforming"]: true,
-        ["newvoice"]: true,
-        ["chromas"]: {
-          ["Emerald"]: {
-            ["id"]: 46
+      ["Dark Star"] : {
+        ["id"] : 46,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2024-10-23",
+        ["set"] : ["Dark Star"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["transforming"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Emerald"] : {
+            ["id"] : 48
           }, 
-          ["Pearl"]: {
-            ["id"]: 51
+          ["Pearl"] : {
+            ["id"] : 51
           }, 
-          ["Quasar"]: {
-            ["id"]: 47,
-            ["availability"]: "Loot",
-            ["source"]      : "Loot",
-            ["distribution"]: "Mythic Shop"
+          ["Quasar"] : {
+            ["id"] : 52,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
           }, 
-          ["Rose Quartz"]: {
-            ["id"]: 53
+          ["Rose Quartz"] : {
+            ["id"] : 50
           }, 
-          ["Ruby"]: {
-            ["id"]: 49,
-            ["availability"]: "Bundle",
-            ["source"]      : "Bundle",
-            ["distribution"]: "Bundle Exclusive"
+          ["Ruby"] : {
+            ["id"] : 47,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
-          ["Sapphire"]: {
-            ["id"]: 52
+          ["Sapphire"] : {
+            ["id"] : 49
           }
         },
-        ["voiceactor"]: "Fergus O'Donnell",
-        ["splashartist"]: "Pandart Studio",
-        ["lore"]: "Sylas is a corruptant of the Dark Star, born from a civilization of shackles that was silenced in a collective cry for justice that never came. He lays low the forces of creation and destruction in an endless quest to destroy any and all structures of power. Heedless of morality, he seeks only to equalize the universe."
+        ["voiceactor"] : ["Fergus O'Donnell"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "Sylas is a corruptant of the Dark Star, born from a civilization of shackles that was silenced in a collective cry for justice that never came. He lays low the forces of creation and destruction in an endless quest to destroy any and all structures of power. Heedless of morality, he seeks only to equalize the universe."
       },
-      ["Prestige T1"]: {
-        ["id"]: 53,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Special",
-        ["distribution"]: "150 Mythic Essence",
-        ["release"]: "2025-09-10",
-        ["set"]: ["World Champions: 2024"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["voiceactor"]: "Fergus O'Donnell",
-        ["splashartist"]: ["Herbie Wang", "Kudos Productions"],
-        ["lore"]: "Heavy was T1's crown, for many sought to take the Summoner's Cup from the reigning kings. On the world stage, before the doubtful and the faithful, BLG brought T1 to the brink. But the Demon King refused to be defeated, and Sylas rose to do his will. With teeth bared and chains broken, T1 proved their dynasty unkillable. Unquestionable. Unparalleled."
-      }
+      ["Prestige T1"] : {
+        ["id"] : 53,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "150 Mythic Essence",
+        ["release"] : "2025-09-10",
+        ["set"] : ["World Champions: 2024"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Fergus O'Donnell"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "Heavy was T1's crown, for many sought to take the Summoner's Cup from the reigning kings. On the world stage, before the doubtful and the faithful, BLG brought T1 to the brink. But the Demon King refused to be defeated, and Sylas rose to do his will. With teeth bared and chains broken, T1 proved their dynasty unkillable. Unquestionable. Unparalleled."
+      }      
     }
   },
   ["Syndra"] : {
@@ -38847,6 +45011,7 @@
         ["cost"] : 880,
         ["release"] : "2012-09-12",
         ["splashartist"] : ["Pandart Studio"],
+        ["music"] : "k73RLHTjn8A",
         ["lore"] : "Syndra is a fearsome Ionian mage with incredible power at her command. As a child, she disturbed the village elders with her reckless and wild magic. She was sent away to be taught greater control, but eventually discovered her supposed mentor was restraining her abilities. Forming her feelings of betrayal and hurt into dark spheres of energy, Syndra has sworn to destroy all who would try to control her."
       },
       ["Justicar"] : {
@@ -38881,7 +45046,7 @@
         ["earlysale"] : "2015-12",
         ["set"] : ["Highstakes"],
         ["splashartist"] : ["Michal Ivan", "Sixmorevodka Studio"],
-        ["lore"] : "Fourth is the Queen, ever dark and serene,&lt;br>Whose true power lies deeper still.&lt;br>Alone, she could conquer the whole of the earth…&lt;br>And perhaps, in the future, she will."
+        ["lore"] : "Fourth is the Queen, ever dark and serene,<br>Whose true power lies deeper still.<br>Alone, she could conquer the whole of the earth…<br>And perhaps, in the future, she will."
       },
       ["Snow Day"] : {
         ["id"] : 4,
@@ -38894,6 +45059,7 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "CUl7h5QPSU0",
         ["lore"] : "Impossibly powerful magic is one way to enter a snowball fight, and Syndra's unshackled abilities spell doom for anyone who hates getting snow in their eyes. Everyone has a lighter side, even the Dark Sovereign."
       },
       ["SKT T1"] : {
@@ -38911,7 +45077,7 @@
             ["id"] : 64,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Immortalized Legend Collection Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["splashartist"] : ["Alvin Lee"],
@@ -38924,8 +45090,7 @@
         ["cost"] : 1350,
         ["release"] : "2017-09-06",
         ["earlysale"] : "2018-02",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 2"],
+        ["set"] : ["Star Guardian Season 2"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -38934,7 +45099,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 36
@@ -38964,7 +45129,8 @@
             ["id"] : 39
           }
         },
-        ["splashartist"] : ["Jean 'Curing' Go", "Esben Lash Rasmussen", "Alex 'alexplank' Flores", "Alvin Lee", "Pan Chengwei"],
+        ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "tLcziIisVKM",
         ["lore"] : "Feared and admired, Syndra is a formidable Star Guardian from an earlier era, whose history is cloaked in shadow. She acts as an advisor on Ahri's team, but despite her captain's trust, some members suspect there is no price that Syndra won't pay to achieve her personal ambitions."
       },
       ["Pool Party"] : {
@@ -39098,10 +45264,9 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2022-07-28",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -39127,7 +45292,7 @@
             ["id"] : 53,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 52
@@ -39155,7 +45320,7 @@
           }
         },
         ["splashartist"] : ["Pan Chengwei"],
-        ["lore"] : "Children hear stories of the savior of lost souls, the ever-reclusive Spirit of Freedom. One such speaks of a tree that wrapped its roots around a wandering wisp. The wisp struggled alone—until Syndra ripped off the bindings that held it tight, as she would do for all creatures, lest they be lost forever. "
+        ["lore"] : "Those who seek freedom may offer prayers to the Fluttering Joy, a savior of lost souls. One story recounts a tree that wrapped its roots around a wandering wisp. The wisp struggled in vain, until the spirit tore away the roots that bound it tight. She watched as the wisp tasted freedom again—a blessing she is said to bestow upon all she meets."
       },
       ["Coven"] : {
         ["id"] : 54,
@@ -39190,7 +45355,7 @@
             ["id"] : 63,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 56
@@ -39204,6 +45369,48 @@
         },
         ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "They came to Syndra in a thundering flutter of carrion wings, beckoning her to free herself from the limitations of mortals. Following the wings' foul wind to a ritual site, she along with another witch awakened the Horned King from his putrid tomb. She now seeks retribution against all who stand against the Coven or the Old Gods."
+      },
+      ["Dumpling Darlings"] : {
+        ["id"] : 65,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-02-05",
+        ["set"] : ["Dumpling Darlings"],
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 68
+          }, 
+          ["Emerald"] : {
+            ["id"] : 70
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 72
+          }, 
+          ["Pearl"] : {
+            ["id"] : 73
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 71
+          }, 
+          ["Ruby"] : {
+            ["id"] : 66,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 67
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 69
+          }
+        },
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["splashartist"] : ["Augusto Quirino", "Pandart Studio"],
+        ["lore"] : "A gifted culinary mage with limitless potential, Syndra's ambition always gives rise to decadent treats—and stirs feuds with her fellow chefs when their creations fall short of her standards. Still, what customer can complain when everything tastes so sensational?"
       }
     }
   },
@@ -39218,6 +45425,7 @@
         ["release"] : "2015-07-08",
         ["voiceactor"] : ["Pat Duke"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "lr4EqywQGTQ",
         ["lore"] : "Known by many names throughout history, the demon Tahm Kench travels the waterways of Runeterra, feeding his insatiable appetite with the misery of others. Though he may appear singularly charming and proud, he swaggers through the physical realm like a vagabond in search of unsuspecting prey. His lashing tongue can stun even a heavily armored warrior from a dozen paces, and to fall into his rumbling belly is to tumble into an abyss from which there is little hope of return."
       },
       ["Master Chef"] : {
@@ -39245,7 +45453,8 @@
         ["earlysale"] : "2016-08",
         ["set"] : ["Urf the Manatee"],
         ["voiceactor"] : ["Pat Duke"],
-        ["splashartist"] : ["Alvin Lee"]
+        ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "2Ncmjy-HaeA"
       },
       ["Coin Emperor"] : {
         ["id"] : 3,
@@ -39282,6 +45491,7 @@
         },
         ["voiceactor"] : ["Pat Duke"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "E5fy_GswSy8",
         ["lore"] : "Craving the smell of coins over all other earthly delights, Tahm Kench rises from his river kingdom each Lunar Revel, seeking to barter with mortals. Though his targets are almost always left destitute, with the proper reverence and careful wording it is possible to escape his bargains unimaginably wealthy."
       },
       ["Arcana"] : {
@@ -39351,7 +45561,7 @@
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 27
@@ -39418,6 +45628,50 @@
         ["voiceactor"] : ["Pat Duke"],
         ["splashartist"] : ["Fortune 'Fortuneee' K"],
         ["lore"] : "Once a catfish, Tahm Kench dreamed of becoming a dragon. Upon Jhin's release from his waterfall prison, a magical pearl was unearthed at its base, catching both Tahm's and Kog'Maw's eyes. Snatching it first, Tahm transformed into a dragon god of currents and unleashed a maelstrom of startling ferocity, laughing at the ensuing destruction."
+      },
+      ["Choncc Kench"] : {
+        ["id"] : 39,
+        ["formatname"] : "Choncc Kench",
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-01",
+        ["set"] : ["Superfans"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 44
+          },
+          ["Catseye"] : {
+            ["id"] : 41
+          }, 
+          ["Emerald"] : {
+            ["id"] : 42
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 47
+          }, 
+          ["Ruby"] : {
+            ["id"] : 40,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sandstone"] : {
+            ["id"] : 46
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 43
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 45
+          }
+        },
+        ["voiceactor"] : ["Pat Duke"],
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["lore"] : "When Tahm Kench heard that this year's TFT Open Series was taking place near his watering hole, he couldn't believe his luck. Tears of anguish will be flowing everywhere, enough to feed on for months! Tahm decided that this called for a special outfit, dressing up as the only thing in the world hungrier than him: Choncc."
       }
     }
   },
@@ -39432,6 +45686,7 @@
         ["release"] : "2016-05-17",
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Evan 'Somnicidal' Monteiro"],
+        ["music"] : "O7MwJ5WGA_A",
         ["lore"] : "Taliyah is a nomadic mage from Shurima, torn between teenage wonder and adult responsibility. She has crossed nearly all of Valoran on a journey to learn the true nature of her growing powers, though more recently she has returned to protect her tribe. Some have mistaken her compassion for weakness and paid the ultimate price—for beneath Taliyah’s youthful demeanor is a will strong enough to move mountains, and a spirit fierce enough to make the earth itself tremble."
       },
       ["Freljord"] : {
@@ -39446,6 +45701,14 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["newquotes"] : true,
+        ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 33,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Jean 'Curing' Go"]
       },
@@ -39459,6 +45722,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 23,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Rudy Siswanto", "Pan Chengwei"],
         ["lore"] : "Honoring Crown's winning performance as Taliyah during the 2017 World Championship."
@@ -39509,8 +45780,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2022-07-28",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -39522,7 +45792,7 @@
             ["id"] : 20,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Star Guardian 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Catseye"] : {
             ["id"] : 13
@@ -39551,6 +45821,7 @@
         },
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Julia Yurtsev"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "A rowdy, boisterous fighter by night and a somewhat reserved first year student by day, Taliyah's missions with the Star Guardians are a chance for her to discover the kind of person she wants to become. Surfing across the city on a giant wave of starlight, she's okay with taking her time."
       },
       ["Crystalis Motus"] : {
@@ -39576,6 +45847,21 @@
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "When the Prismae Crystals began to appear, everyone on Motus reacted differently. Locked to their island, Taliyah's people viewed them not as a threat, but as an extension of nature. Now in symbiotic harmony with the crystals on their bodies, Taliyah's people are stronger than ever, and she ventures to the mainland to put her powers to the test."
+      },
+      ["Durand's Legacy"] : {
+        ["id"] : 24,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2026, S1 Act 1 Premium Battle Pass reward (Level 24)",
+        ["release"] : "2026-01-08",
+        ["set"] : ["The Laws of Stone"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Erica Lindbeck"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "For centuries, the stonemasons and artisans of Demacia have been awed by Durand's unrivaled works in the medium of petricite—and young apprentices travel far to hone their craft under the tutelage of the great masters. But what more might be possible, if such skill were augmented with elemental magic…?"
       }
     }
   },
@@ -39642,6 +45928,7 @@
         },
         ["voiceactor"] : ["Travis Willingham"],
         ["splashartist"] : ["Robin Ruan"],
+        ["music"] : "cUhnTbmvpsY",
         ["lore"] : "Legend says that Talon's blades were forged in the fire of a shadow dragon, and that he turned against his corrupt masters, cutting through them one by one before vanishing into the night. Many believe he will appear again whenever the strong take advantage of the weak."
       },
       ["SSW"] : {
@@ -39723,25 +46010,25 @@
         ["newrecall"] : true,
         ["chromas"] : {
           ["Aquamarine"] : {
-            ["id"] : 21
+            ["id"] : 22
           }, 
           ["Catseye"] : {
-            ["id"] : 22
+            ["id"] : 26
           }, 
           ["Obsidian"] : {
             ["id"] : 23
           }, 
           ["Pearl"] : {
-            ["id"] : 24
+            ["id"] : 21
           }, 
           ["Peridot"] : {
-            ["id"] : 25
+            ["id"] : 27
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 26
+            ["id"] : 25
           }, 
           ["Ruby"] : {
-            ["id"] : 27,
+            ["id"] : 24,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
@@ -39818,7 +46105,7 @@
             ["id"] : 48,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 46
@@ -39905,6 +46192,19 @@
         ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
         ["lore"] : "A ruthless assassin feared and respected by many, Talon roams the world with one goal: eliminate each and every other Favorclaw until only he remains. When he catches wind that a stubborn mercenary was contracted to take down the leader of the Favorclaw before he can complete his mission, he gleefully realizes that a new hunt is about to begin."
       },
+      ["Grand Reckoning"] : {
+        ["id"] : 59,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 2 Premium Battle Pass reward (Level 10)",
+        ["release"] : "2025-03-05",
+        ["set"] : ["Grand Reckoning"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["Travis Willingham"],
+        ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["lore"] : "Talon's knife sinks beneath worn armor as his target breathes his last. He glances at the door. There are only moments to escape before guards find the Reckoner dead. Luckily, this man isn't much larger than himself, and if he is seen leaving his room “alive,” they will find the body cold—and Talon long since returned to the Assassin's Guild for payment."
+      },
     }
   },
   ["Taric"] : {
@@ -39918,6 +46218,7 @@
         ["release"] : "2009-08-18",
         ["voiceactor"] : ["Yuri Lowenthal"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "HTj4BzF6HV4",
         ["lore"] : "Taric is the Aspect of the Protector, wielding incredible power as Runeterra’s guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount Targon to find redemption, only to discover a higher calling among the stars. Imbued with the might of ancient Targon, the Shield of Valoran now stands ever vigilant against the insidious corruption of the Void."
       },
       ["Emerald"] : {
@@ -40000,28 +46301,28 @@
         ["newrecall"] : true,
         ["chromas"] : {
           ["Aquamarine"] : {
-            ["id"] : 10
+            ["id"] : 11
           }, 
           ["Amethyst"] : {
-            ["id"] : 11
+            ["id"] : 14
           }, 
           ["Obsidian"] : {
             ["id"] : 12
           }, 
           ["Pearl"] : {
-            ["id"] : 13
+            ["id"] : 10
           }, 
           ["Peridot"] : {
-            ["id"] : 14
+            ["id"] : 17
           }, 
           ["Rainbow"] : {
-            ["id"] : 15
-          }, 
-          ["Rose Quartz"] : {
             ["id"] : 16
           }, 
+          ["Rose Quartz"] : {
+            ["id"] : 15
+          }, 
           ["Ruby"] : {
-            ["id"] : 17,
+            ["id"] : 13,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
@@ -40072,7 +46373,50 @@
         ["voiceactor"] : ["Yuri Lowenthal"],
         ["splashartist"] : ["Silvia Meiliani", "Caravan Studio"],
         ["lore"] : "Taric always found himself wanting more out of life and dreamed of discovering what was beyond his mundane world. His wish was granted when Teemo arrived on his planet and swept him off on an adventure. He's now found a place for himself as Ornn's apprentice as he works to understand the concept of Groove."
-      }
+      },
+      ["Fatebreaker"] : {
+        ["id"] : 27,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-16",
+        ["set"] : ["Fatemakers and Fatebreakers"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 33
+          }, 
+          ["Citrine"] : {
+            ["id"] : 29
+          }, 
+          ["Emerald"] : {
+            ["id"] : 31
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 35
+          }, 
+          ["Pearl"] : {
+            ["id"] : 32
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 34
+          }, 
+          ["Ruby"] : {
+            ["id"] : 28,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"            
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 30
+          }
+        },        
+        ["voiceactor"] : ["Yuri Lowenthal"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "Taric is destined to become another faceless soldier thrown to the endless churn of war, but he would rather spend his days writing poetry and tending to the sick. Now, he seeks an audience with the Fatemakers, eager to prove that the Weave of Fate would be all the more beautiful with one more poet in the world."
+      }      
     }
   },
   ["Teemo"] : {
@@ -40086,6 +46430,7 @@
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "z4rGVtgjmF8",
         ["lore"] : "Undeterred by even the most dangerous and threatening of obstacles, Teemo scouts the world with boundless enthusiasm and a cheerful spirit. A yordle with an unwavering sense of morality, he takes pride in following the Bandle Scout's Code, sometimes with such eagerness that he is unaware of the broader consequences of his actions. Though some say the existence of the Scouts is questionable, one thing is for certain: Teemo's conviction is nothing to be trifled with."
       },
       ["Happy Elf"] : {
@@ -40137,12 +46482,12 @@
             ["id"] : 26,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["Kudos Productions"],
-        ["lore"] : "And I think it's gonna be a long, long time&lt;br>'Til touchdown brings me round again to find&lt;br>I've stepped on another Teemo landmine!&lt;br>Oh, no no no!"
+        ["lore"] : "And I think it's gonna be a long, long time<br>'Til touchdown brings me round again to find<br>I've stepped on another Teemo landmine!<br>Oh, no no no!"
       },
       ["Cottontail"] : {
         ["id"] : 5,
@@ -40223,6 +46568,7 @@
         },
         ["splashartist"] : ["Alvin Lee"],
         ["voiceactor"] : ["Melissa Hutchison"],
+        ["music"] : "OXHx3up9nHo",
         ["lore"] : "Teemo once lived by a code. He's long since forgotten what it was, or even what started the fighting, but he does remember two things: nobody's innocent, and always settle your scores."
       },
       ["Little Devil"] : {
@@ -40269,6 +46615,7 @@
         },
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "UGIpkTSjqWU",
         ["lore"] : "“…and a great sign shall appear in the heavens, the light of the world fading from human memory, as all the evils once locked away rise again upon a wicked throne—the true lord of darkness seated thereon. Every living thing will know his laugh, and be drowned in sin.” Teemo 16:3"
       },
       ["Beemo"] : {
@@ -40299,7 +46646,10 @@
             ["id"] : 23
           }, 
           ["Ruby"] : {
-            ["id"] : 19
+            ["id"] : 19,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Melissa Hutchison"],
@@ -40318,13 +46668,13 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["Jem Flores"],
-        ["lore"] : "A trickster spirit and a child of the forest, Teemo is famed across Ionia as the embodiment of nature… though his more onerous accolade is the king of pranks. A consummate gadfly and lover of all things annoying, his exploits in tricking mortals have graced the pages of Ionian history for hundreds of years."
+        ["lore"] : "A lover of tricks both benign and onerous, the Prankster King has graced Ionian fables for millennia. In villages that border enchanted woods, mothers warn their children not to wander far, lest this mischievous spirit will twist their paths away from home. If you are naughty, they whisper, he may even swap your feet inside your shoes!"
       },
       ["Prestige Spirit Blossom"] : {
         ["id"] : 27,
         ["availability"] : "Rare",
         ["looteligible"] : true,
-        ["cost"] : "Special",
+        ["cost"] : "Battle Pass",
         ["distribution"] : "150 Mythic Essence",
         ["release"] : "2020-07-22",
         ["set"] : ["Spirit Blossom"],
@@ -40357,7 +46707,7 @@
             ["id"] : 46,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 44
@@ -40422,6 +46772,50 @@
         ["voiceactor"] : ["Melissa Hutchison"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
         ["lore"] : "Hailing from Boogiewonderland, Teemo is so absorbed in The Groove that he is The Groove, literally. Leader of the Groove Guard, Captain Teemo scouts and maps the galaxy, trailing smaller boogies in his wake. His dream: to connect all the planets he can to the Hyperfunk Supervibeway."
+      },
+      ["Spirit Blossom Springs"] : {
+        ["id"] : 54,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-07-30",
+        ["set"] : ["Spirit Blossom Springs"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 56
+          }, 
+          ["Emerald"] : {
+            ["id"] : 57
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 62
+          }, 
+          ["Pearl"] : {
+            ["id"] : 61
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 59
+          }, 
+          ["Ruby"] : {
+            ["id"] : 55,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 60
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 58
+          }
+        },
+        ["voiceactor"] : ["Melissa Hutchison"],
+        ["splashartist"] : ["Fortune 'Fortuneee' K"],
+        ["music"] : "pFFkT8puHTc",
+        ["lore"] : "Even the calming nature of Spirit Blossom Springs cannot quiet the mischievous energy of Teemo. From missing towels to surprise meat buns hidden under the pillows, the bathhouse is never wanting for surprises with him around. But in the end, Teemo's smile may be the most magical part of the Springs. What else would explain the lack of complaints?"
       }
     }
   },
@@ -40436,6 +46830,7 @@
         ["release"] : "2013-01-23",
         ["splashartist"] : ["Bo Lu"],
         ["voiceactor"] : ["Mark Oliver"],
+        ["music"] : "6WyH5E8Xs0c",
         ["lore"] : "Sadistic and cunning, Thresh is an ambitious and restless spirit of the Shadow Isles. Once the custodian of countless arcane secrets, he was undone by a power greater than life or death, and now sustains himself by tormenting and breaking others with slow, excruciating inventiveness. His victims suffer far beyond their brief mortal coil as Thresh wreaks agony upon their souls, imprisoning them in his unholy lantern to torture for all eternity."
       },
       ["Deep Terror"] : {
@@ -40467,7 +46862,7 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2018"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Mark Oliver"],
@@ -40492,9 +46887,11 @@
         ["id"] : 4,
         ["availability"] : "Legacy",
         ["looteligible"] : true,
-        ["cost"] : 750,
+        ["cost"] : 975,
         ["release"] : "2015-05-13",
         ["set"] : ["World Champions: 2014"],
+        ["newanimations"] : true,
+        ["newrecall"] : true,
         ["voiceactor"] : ["Mark Oliver"],
         ["splashartist"] : ["Alvin Lee", "Pan Chengwei"],
         ["lore"] : "Honoring Mata's winning performance as Thresh during the 2014 World Championship."
@@ -40506,7 +46903,7 @@
         ["cost"] : 1820,
         ["release"] : "2016-06-15",
         ["earlysale"] : "2016-12",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -40516,11 +46913,12 @@
             ["id"] : 16,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Event Horizon 2020"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Mark Oliver"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "IAIan0h85Xg",
         ["lore"] : "A cosmic nightmare who worships the all-consuming Dark Star, Thresh vows to feed the whole of existence to his “god” until all matter, time, and thought are erased. His work will be complete when nothing remains, freeing him to finally leap into the singularity and become one with the end of the universe."
       },
       ["High Noon"] : {
@@ -40576,7 +46974,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2019-11-21",
         ["set"] : ["Pulsefire"],
         ["neweffects"] : true,
@@ -40602,7 +47000,7 @@
             ["id"] : 18,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Edition Mega Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Mark Oliver"],
@@ -40632,7 +47030,7 @@
             ["id"] : 26,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Spirit Blossom 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 24
@@ -40655,7 +47053,7 @@
         },
         ["voiceactor"] : ["Mark Oliver"],
         ["splashartist"] : ["Jeremy 'Jermu' Anninos"],
-        ["lore"] : "An ancient demon of obsession, Thresh delights in tormenting the spirits of those he deems as flawed, but blossoming with potential. He haunts the spiritual afterlife as a supreme collector of souls, tempting the dead away from their path to salvation until they are trapped for eternity within their own memories."
+        ["lore"] : "Ionians often speak of the Soul Collector in hushed warnings—for it is he, this obsessive spirit, whom they believe tempts the dead away from their path to salvation. “Beware his greed,” they say, for those he finds and entraps will be locked away for eternity, baubles in his prized collection of souls."
       },
       ["Unbound"] : {
         ["id"] : 27,
@@ -40670,6 +47068,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Mark Oliver"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "With every soul the Ruination seized, Thresh's lantern burned brighter. He had planned for this moment, after all: the chance to scour far beyond the Shadow Isles, the Mist's reach so much greater than his own. Reaping all he had so meticulously sown, Thresh was at last unbound from the shackles of the isles. He had forgotten how good it feels to have skin..."
       },
       ["Steel Dragon"] : {
@@ -40696,7 +47095,7 @@
             ["id"] : 37,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 33
@@ -40719,6 +47118,7 @@
         },
         ["voiceactor"] : ["Mark Oliver"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["music"] : "tHduaeLWi1Y",
         ["lore"] : "The Steel Dragon, happiest curled up in its cavernous archive amidst its treasures, needed someone with a talent for acquiring esoteric new treasures—and its eye fell on Thresh. Honored to assist, Thresh's limitless appetite for acquisition warped into obsession. Now he stops at nothing to acquire what he wants, justifying his cruelty in the name of his benefactor."
       },
       ["Prestige Pulsefire (2022)"] : {
@@ -40768,7 +47168,7 @@
             ["id"] : 48,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 45
@@ -40785,6 +47185,7 @@
         },
         ["voiceactor"] : ["Mark Oliver"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "Some are destined to rule. Others hear only echoes of glory, knowing nothing of the sacrifices that must be made! You must put your empire before EVERYTHING... even the lives of your subjects. The Emperor Thresh still guides his people, their souls forever safe, though their bodies were washed away. Someday, he'll heal his broken empire. All he needs is a kind empress' helping hand. "
       },
       ["Winterblessed"] : {
@@ -40829,7 +47230,7 @@
             ["id"] : 58,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2023"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Mark Oliver"],
@@ -41012,6 +47413,7 @@
         },
         ["voiceactor"] : ["Elspeth Eastman"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "EiobsNAKqHU",
         ["lore"] : "As the dragonslayers fought a bitter war with their nemeses, Tristana was busy with a draconic matter of her own. Deep in the wooded forests, away from the battles, she busily trained a young dragon—a trying task rewarded with lifelong friendship."
       },
       ["Bewitching"] : {
@@ -41026,6 +47428,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Elspeth Eastman"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "UGIpkTSjqWU",
         ["lore"] : "Well, I guess that's one way to hold a cauldron."
       },
       ["Omega Squad"] : {
@@ -41058,6 +47461,7 @@
         },
         ["voiceactor"] : ["Elspeth Eastman"],
         ["splashartist"] : ["Jem Flores"],
+        ["music"] : "DouvFSsgPZ0",
         ["lore"] : "Commander of Omega Squad, Tristana has made it her policy never to retreat unless she's returning fire the entire way home. She calls it “advancing backwards.”"
       },
       ["Little Demon"] : {
@@ -41146,14 +47550,14 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2021-09-09",
         ["set"] : ["Hextech"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["voiceactor"] : ["Elspeth Eastman"],
-        ["splashartist"] : ["West Studio"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "Hex-powered munitions have been around since the early days of hextech innovation, but no one has perfected their use like Tristana. Decorated for her service in protecting the innocent with her Hexcrystal Cannon (Mark III), she stands at the forefront of martial hextechnology as a staunch and noble advocate."
       },
       ["Firecracker"] : {
@@ -41177,7 +47581,7 @@
             ["id"] : 50,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 49
@@ -41226,7 +47630,7 @@
             ["id"] : 60,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 59
@@ -41252,7 +47656,7 @@
         },
         ["voiceactor"] : ["Elspeth Eastman"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
-        ["lore"] : "For those that seek glory on the battlefield, to those that look to the spirits for a bountiful harvest, Tristana greets all with a toothy grin. The Spirit of Chance has no favorites, no obligations or motives. She simply delights in the chaos, the fear in men's eyes at the roll of the dice."
+        ["lore"] : "Those who seek glory, or something akin / Little Laughing Luck will greet with a grin / She harbors no favorites, no motives to name / All are equal when playing her game / An unfruitful harvest, the farmers attest / Has no better spirit than her to redress / But steady your hand, or pay a great price / For fortunes can change with a roll of the dice…"
       },
       ["Faerie Court"] : {
         ["id"] : 61,
@@ -41296,6 +47700,94 @@
         ["voiceactor"] : ["Elspeth Eastman"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
         ["lore"] : "As plucky Quartermaster to the Royal Guard and Lady Kalista's new right hand fae, Tristana cultivates all sorts of magical plant-based weaponry to help protect Her Majesty the Queen! Most of them are some form of sprout, flower, vine, or moss. All of them are incredibly destructive."
+      },		
+      ["Rain Shepherd"] : {
+        ["id"] : 70,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-11-19",
+        ["set"] : ["Rain Shepherd"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 74
+          },
+          ["Catseye"] : {
+            ["id"] : 72
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 78
+          }, 
+          ["Pearl"] : {
+            ["id"] : 77
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 75
+          }, 
+          ["Ruby"] : {
+            ["id"] : 71,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 73
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 76
+          }
+        },
+        ["voiceactor"] : ["Elspeth Eastman"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Tristana was first in line to report for Rain Shepherd duty when the lands dried up. Her best friend Ribby sang her to sleep as a baby every night, but now with his voice gone, all he can do is croak. That's not right! Ribby helped her, and now she's going to help him get his voice back, even if it means marching to the Great Pond herself."
+      },
+      ["Risen Legend"] : {
+        ["id"] : 79,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Purchase the Risen Legend Collection during the Hall of Legends 2026 event.",
+        ["release"] : "2026-09-10",
+        ["set"] : ["Risen Legends"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["music"] : "wGGtHIE3xzo",
+        ["voiceactor"] : ["Elspeth Eastman"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "I, the Mechanical Prodigy, bestow my gifts only to a legend with inventiveness, resolve, and skill. I've seen these in you, Tristana. Even in defeat, you persisted, building a Destruction Assistance Droid to ultimately complete my Trials. To meet your full potential, push yourself and the Band of Gunners to the limit. Show this world power unparalleled."
+      },
+      ["Immortalized Legend"] : {
+        ["id"] : 80,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Purchase the Immortalized Legend Collection during the Hall of Legends 2026 event.",
+        ["release"] : "2026-09-10",
+        ["set"] : ["Risen Legends"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["transforming"] : true,
+        ["newvoice"] : true,
+        ["extras"] : true,
+        ["formicon"] : "Hall Of Legends 2026 Immortalized Legend Tristana",
+        ["forms"] : ["Risen", "Chosen"],
+        ["chromas"] : {
+          ["Risen"] : {
+            ["id"] : 80
+          }, 
+          ["Chosen"] : {
+            ["id"] : 80
+          }
+        },
+        ["voiceactor"] : ["Elspeth Eastman"],
+        ["music"] : "wGGtHIE3xzo",
+        ["lore"] : "Claps all around, Tristana, for cementing your place in history as an Immortalized Legend. Bask in the thrill of well-earned victory, but know that the journey is not over. The suit you wear as my Chosen will help you captain the Band of Gunners to godly heights—and silence the challengers who dare doubt our legacy."
       }
     }
   },
@@ -41448,14 +47940,14 @@
         },
         ["voiceactor"] : ["Joshua Tomar"],
         ["splashartist"] : ["David Villegas", "West Studio"],
-        ["lore"] : "Teenage nightmare Trundle leaves everything distressed&lt;br>But he won't lift a finger cleaning up his mess&lt;br>Howling, growling, scowling, his chores he won't address,&lt;br>For he has a team (or two) of Scareball players to impress!"
+        ["lore"] : "Teenage nightmare Trundle leaves everything distressed<br>But he won't lift a finger cleaning up his mess<br>Howling, growling, scowling, his chores he won't address,<br>For he has a team (or two) of Scareball players to impress!"
       },
       ["Esports Fan"] : {
         ["id"] : 21,
-        ["availability"] : "Upcoming",
+        ["availability"] : "Available",
         ["looteligible"] : true,
-        ["cost"] : "1350",
-        ["release"] : "N/A",
+        ["cost"] : 1350,
+        ["release"] : "2024-10-09",
         ["set"] : ["Superfans"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -41574,6 +48066,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Brian Sommer"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "h-6wHfudAPQ",
         ["lore"] : "Tryndamere  is a grand general of the Warring Kingdoms, so deadly and so feared it is said he is the god of war incarnate. Truly a spectacle to behold, it would take a thousand men to kill him in battle, and a thousand more to keep him dead."
       },
       ["Nightmare"] : {
@@ -41677,7 +48170,7 @@
             ["id"] : 26,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Night &amp; Dawn 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 22,
@@ -41687,6 +48180,12 @@
           }, 
           ["Obsidian"] : {
             ["id"] : 25
+          }, 
+          ["Paragon"] : {
+            ["id"] : 46,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
           }, 
           ["Ruby"] : {
             ["id"] : 19,
@@ -41776,6 +48275,50 @@
         ["splashartist"] : ["Pandart Studio"],
         ["lore"] : "Victorious Tryndamere was earned by players who accumulated enough split points in Ranked. The last thing Tryndamere's challengers would ever see was the unbridled wrath in his eyes as he decided they would be the next to meet his blade."
       },
+      ["Visions of the Fallen"] : {
+        ["id"] : 37,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-08-27",
+        ["set"] : ["Visions of the Fallen"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 39
+          },
+          ["Emerald"] : {
+            ["id"] : 40
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 45
+          }, 
+          ["Pearl"] : {
+            ["id"] : 44
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 43
+          }, 
+          ["Ruby"] : {
+            ["id"] : 38,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 42
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 41
+          }
+        },
+        ["voiceactor"] : ["Brian Sommer"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["lore"] : "This broken barbarian, this shadow of a survivor—he wandered the northlands for years in search of our kind, and his own vainglorious vengeance. And in the end, when the blade finally found him, all that pent-up rage and bloodlust proved to be his undoing."
+      },
     }
   },
   ["Twisted Fate"] : {
@@ -41788,14 +48331,15 @@
         ["cost"] : 585,
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Owen Thomas"],
+        ["music"] : "13900aRG3hA",
         ["lore"] : "Twisted Fate is an infamous cardsharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking smile and an insouciant swagger. In every possible way, Twisted Fate always has an ace up his sleeve."
       },
       ["PAX"] : {
         ["id"] : 1,
         ["availability"] : "Limited",
         ["looteligible"] : false,
-        ["distribution"] : "Code Redemption",
         ["cost"] : "Special",
+        ["distribution"] : "Code Redemption",
         ["release"] : "2009-09-03",
         ["set"] : ["PAX"],
         ["voiceactor"] : ["Owen Thomas"],
@@ -41810,7 +48354,7 @@
         ["set"] : ["Highstakes"],
         ["voiceactor"] : ["Owen Thomas"],
         ["splashartist"] : ["Michal Ivan", "Sixmorevodka Studio"],
-        ["lore"] : "Second, the Jack, with a thunderous crack&lt;br>Trounces fate in the blink of an eye!&lt;br>In winnings he counts all the hearts of the court&lt;br>Who will swoon every time he walks by."
+        ["lore"] : "Second, the Jack, with a thunderous crack<br>Trounces fate in the blink of an eye!<br>In winnings he counts all the hearts of the court<br>Who will swoon every time he walks by."
       },
       ["The Magnificent"] : {
         ["id"] : 3,
@@ -41876,6 +48420,7 @@
         ["retired"] : "2017-11-01",
         ["set"] : ["Soccer Cup"],
         ["voiceactor"] : ["Owen Thomas"],
+        ["music"] : "LsjIDZXR-rs",
         ["lore"] : "Tobias spends much of his spare time as a sanctioned referee for Order United matches. Sure, there are card games to cheat at, and gambling parlors to swindle, but it just doesn't compare to a heated game of soccer."
       },
       ["Cutpurse"] : {
@@ -41922,7 +48467,7 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Pulsefire 2020"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Owen Thomas"],
@@ -41953,7 +48498,7 @@
             ["id"] : 15,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 21
@@ -41993,7 +48538,7 @@
             ["id"] : 24,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Owen Thomas"],
@@ -42043,7 +48588,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Crime City 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Owen Thomas"],
@@ -42093,77 +48638,77 @@
         ["splashartist"] : ["Eric Xie", "West Studio"],
         ["lore"] : "He may be a scoundrel, but Twisted Fate is known the galaxy over as someone who gets things done. But even he can't find a trace of his long lost partner, Graves. So when some cats offered him intel on Graves' whereabouts in exchange for the location of the legendary underground disco, The Jam, he happily obliged. What's a few party crashers, anyway?"
       },
-      ["Victorious"]: {
-        ["id"]: 45,
-        ["availability"]: "Limited",
-        ["looteligible"]: false,
-        ["cost"]: "Special",
-        ["distribution"]: "Reward for earning split points in Season 2025 - Split 1.",
-        ["release"]: "2025-04-30",
-        ["set"]: ["Victorious"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["chromas"]: {
-          ["Bronze"]: {
-            ["id"]: 46,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+      ["Victorious"] : {
+        ["id"] : 45,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Reward for earning split points in Season 2025 - Split 1.",
+        ["release"] : "2025-04-30",
+        ["set"] : ["Victorious"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Bronze"] : {
+            ["id"] : 46,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }, 
-          ["Challenger"]: {
-            ["id"]: 54,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+          ["Challenger"] : {
+            ["id"] : 54,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }, 
-          ["Diamond"]: {
-            ["id"]: 51,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+          ["Diamond"] : {
+            ["id"] : 51,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }, 
-          ["Emerald"]: {
-            ["id"]: 50,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+          ["Emerald"] : {
+            ["id"] : 50,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }, 
-          ["Gold"]: {
-            ["id"]: 48,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+          ["Gold"] : {
+            ["id"] : 48,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }, 
-          ["Grandmaster"]: {
-            ["id"]: 53,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+          ["Grandmaster"] : {
+            ["id"] : 53,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }, 
-          ["Master"]: {
-            ["id"]: 52,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+          ["Master"] : {
+            ["id"] : 52,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }, 
-          ["Platinum"]: {
-            ["id"]: 49,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+          ["Platinum"] : {
+            ["id"] : 49,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }, 
-          ["Silver"]: {
-            ["id"]: 47,
-            ["availability"]: "Limited",
-            ["source"]      : "Reward",
-          	["distribution"]: "Season 2025 - Split 1"
+          ["Silver"] : {
+            ["id"] : 47,
+            ["availability"] : "Limited",
+            ["source"]       : "Reward",
+          	["distribution"] : "Season 2025 - Split 1"
           }
         },      
-        ["voiceactor"]: ["Owen Thomas"],
-        ["splashartist"]: ["Pandart Studio"],
-        ["lore"]: "Victorious Twisted Fate was earned by players who accumulated enough split points in Ranked. There is no game of chance—be it cards, dice, or coins—that Twisted Fate can't turn in his favor. Despite that, what excites him now isn't victory, but the comeback—seeing how far he can push his luck before facing the consequences."
-      }
+        ["voiceactor"] : ["Owen Thomas"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "Victorious Twisted Fate was earned by players who accumulated enough split points in Ranked. There is no game of chance—be it cards, dice, or coins—that Twisted Fate can't turn in his favor. Despite that, what excites him now isn't victory, but the comeback—seeing how far he can push his luck before facing the consequences."
+      }      
     }
   },
   ["Twitch"] : {
@@ -42177,7 +48722,7 @@
         ["release"] : "2009-04-30",
         ["voiceactor"] : ["Doug Boyd"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith"],
-        ["lore"] : "A Zaunite plague rat by birth, but a connoisseur of filth by passion, Twitch is not afraid to get his paws dirty. Aiming a chem-powered crossbow at the gilded heart of Piltover, he has vowed to show those in the city above just how filthy they really are. Always a sneaky sneak, when he’s not rooting around in the Sump, he’s digging deep into other people’s garbage for discarded treasures… and perhaps a moldy sandwich."
+        ["lore"] : "A Zaunite plague rat by birth, but a connoisseur of filth by passion, Twitch is not afraid to get his paws dirty. Aiming a chem-powered crossbow at the gilded heart of Piltover, he has vowed to show those in the city above just how filthy they really are. Always a sneaky sneak, when he's not rooting around in the Sump, he's digging deep into other people's garbage for discarded treasures… and perhaps a moldy sandwich."
       },
       ["Kingpin"] : {
         ["id"] : 1,
@@ -42275,7 +48820,7 @@
         ["id"] : 7,
         ["availability"] : "Legacy",
         ["looteligible"] : true,
-        ["cost"] : 750,
+        ["cost"] : 975,
         ["release"] : "2015-05-13",
         ["set"] : ["World Champions: 2014"],
         ["newanimations"] : true,
@@ -42309,6 +48854,7 @@
         },
         ["voiceactor"] : ["Doug Boyd"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "DouvFSsgPZ0",
         ["lore"] : "Squad medic—and deranged lunatic—Twitch has been deeply and irreversibly affected by war. It's been a long time since he was a competent medical professional, as he no longer abides by the adage “do no harm.”"
       },
       ["Ice King"] : {
@@ -42343,6 +48889,7 @@
         },
         ["voiceactor"] : ["Doug Boyd"],
         ["splashartist"] : ["Mingchen Shen", "West Studio"],
+        ["music"] : "lrFxZmsiLs0",
         ["lore"] : "Twitch is a bitter, hateful creature who has jealously watched the Winterlands from his frozen burrow since time immemorial. Finally driven to the surface by twisted delusions of grandeur, he now seeks to usurp the Poro King, corrupting his subjects with an ancient, icy curse."
       },
       ["Twitch Shadowfoot"] : {
@@ -42359,28 +48906,28 @@
         ["filter"] : true,
         ["chromas"] : {
           ["Aquamarine"] : {
-            ["id"] : 28
+            ["id"] : 29
           }, 
           ["Amethyst"] : {
-            ["id"] : 29
+            ["id"] : 34
           }, 
           ["Citrine"] : {
             ["id"] : 30
           }, 
           ["Emerald"] : {
-            ["id"] : 31
+            ["id"] : 33
           }, 
           ["Obsidian"] : {
             ["id"] : 32
           }, 
           ["Pearl"] : {
-            ["id"] : 33
+            ["id"] : 35
           }, 
           ["Rose Quartz"] : {
-            ["id"] : 34
+            ["id"] : 31
           }, 
           ["Ruby"] : {
-            ["id"] : 35,
+            ["id"] : 28,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
@@ -42452,7 +48999,7 @@
             ["id"] : 54,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 52
@@ -42527,18 +49074,18 @@
         ["splashartist"] : ["Rudy Siswanto"],
         ["lore"] : "During a daring heist at the local cheesery, Twitch dove headfirst into a wedge of aged Swiss and was trapped. He escaped, but with his head encased! Over time food and rat became one, and Twitch now revels in his role as the \"big cheese\" of the criminal underworld, proclaiming to all who question his dairy dominance: \"Brie-ware!"
       },
-      ["Pool Party"]: {
-        ["id"]: 64,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S2 Act 1 Premium Battle Pass reward (Level 40)",
-        ["release"]: "2025-04-30",
-        ["set"]: ["Pool Party"],
-        ["neweffects"]: true,
-        ["voiceactor"]: ["Doug Boyd"],
-        ["splashartist"]: ["Yuyu Wong", "Kudos Productions"],
-        ["lore"]: "No one told Twitch that there's rotten cheese under the ocean! It's awfully colorful and hard-looking, with tropical fish swimming around and plants growing out of it—but that must just make it even more delicious. He's got a plan: step one, steal a snorkeling mask. Step two… eh, he'll figure out step two later. Step three? Sea cheese."
+      ["Pool Party"] : {
+        ["id"] : 64,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S2 Act 1 Premium Battle Pass reward (Level 40)",
+        ["release"] : "2025-04-30",
+        ["set"] : ["Pool Party"],
+        ["neweffects"] : true,
+        ["voiceactor"] : ["Doug Boyd"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "No one told Twitch that there's rotten cheese under the ocean! It's awfully colorful and hard-looking, with tropical fish swimming around and plants growing out of it—but that must just make it even more delicious. He's got a plan: step one, steal a snorkeling mask. Step two… eh, he'll figure out step two later. Step three? Sea cheese."
       }
     }
   },
@@ -42553,6 +49100,7 @@
         ["release"] : "2009-12-02",
         ["voiceactor"] : ["Sean Rohani"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["music"] : "YLC-CLyaHw4",
         ["lore"] : "The most powerful spirit walker alive, Udyr communes with all the spirits of the Freljord, whether by empathically understanding their needs, or by channeling and transforming their ethereal energy into his own primal fighting style. He seeks balance within, so that his mind does not get lost amidst others, but he also seeks balance without—for the Freljord's mystical landscape can only thrive with the growth that comes from conflict and struggle, and Udyr knows that sacrifices must be made to keep peaceful stagnance at bay."
       },
       ["Black Belt"] : {
@@ -42609,6 +49157,7 @@
         },
         ["voiceactor"] : ["Sean Rohani"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "DGT20ihvGDU",
         ["lore"] : "Udyr's time in Ionia, training at Hirana Monastery, taught him control and calmed the storm in his heart. Though the Freljord called him home, Udyr chose to stay and help Ionia regain spiritual harmony, as it had done for him. As he gets closer to this goal, he knows that his work to do the same for the whole of Runeterra has only just begun."
       },
       ["Definitely Not"] : {
@@ -42653,7 +49202,7 @@
             ["id"] : 11,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2023"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 10
@@ -42673,6 +49222,7 @@
         },
         ["voiceactor"] : ["Sean Rohani"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["music"] : "Lmcy9Z10iLs",
         ["lore"] : "Udyr has given up much as tattoo artist for the Inkshadow Warriors, sacrificing pieces of himself to multiple spirits and covering his body in their arcane contracts to enhance his natural second sight. He sees the souls of his canvases, knows the price they must pay, and connects them to the spirits who will give them the power to do what must be done."
       }
     }
@@ -42688,6 +49238,7 @@
         ["release"] : "2010-08-24",
         ["voiceactor"] : ["Paul M. Guyet"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "2rpfHB1LU80",
         ["lore"] : "Once a powerful Noxian headsman, Urgot was betrayed by the empire for which he had killed so many. Bound in iron chains, he was forced to learn the true meaning of strength in the Dredge—a prison mine deep beneath Zaun. Emerging in a disaster that spread chaos throughout the city, he now casts an imposing shadow over its criminal underworld. Raising his victims on the very chains that once enslaved him, he will purge his new home of the unworthy, making it a crucible of pain."
       },
       ["Butcher"] : {
@@ -42738,7 +49289,10 @@
             ["id"] : 6
           }, 
           ["Ruby"] : {
-            ["id"] : 4
+            ["id"] : 4,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
             ["id"] : 5
@@ -42766,7 +49320,7 @@
           ["Pearl"] : {
             ["id"] : 13
           }, 
-            ["Ruby"] : {
+          ["Ruby"] : {
             ["id"] : 12,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
@@ -42800,7 +49354,7 @@
           ["Amethyst"] : {
             ["id"] : 21
           }, 
-            ["Catseye"] : {
+          ["Catseye"] : {
             ["id"] : 19
           }, 
           ["Emerald"] : {
@@ -42867,7 +49421,95 @@
         },
         ["voiceactor"] : ["Paul M. Guyet"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
-        ["lore"] : "Unctuous Uncle Urgot has no nose to smell&lt;br>No feet or toes to stink, but he's still feeling swell&lt;br>'Cause visitors arrive and ring the household bell&lt;br>With new parts not so rotten for him, and tummy snacks as well!"
+        ["lore"] : "Unctuous Uncle Urgot has no nose to smell<br>No feet or toes to stink, but he's still feeling swell<br>'Cause visitors arrive and ring the household bell<br>With new parts not so rotten for him, and tummy snacks as well!"
+      },
+      ["Urgot the Clogfather"] : {
+        ["id"] : 32,
+        ["formatname"] : "Urgot the Clogfather",
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-02",
+        ["set"] : ["Day Job"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 35
+          }, 
+          ["Meteorite"] : {
+            ["id"] : 39
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 40
+          }, 
+          ["Pearl"] : {
+            ["id"] : 38
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 37
+          }, 
+          ["Ruby"] : {
+            ["id"] : 33,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 36
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 34
+          }
+        },
+        ["voiceactor"] : ["Paul M. Guyet"],
+        ["splashartist"] : ["Kelvin Law", "West Studio"],
+        ["lore"] : "The Clogfather isn't just a janitor—he does all sorts of wetwork. He stalks the stalls, sanitizes the sinks, tidies the toilets... So it's not his fault if he's a little flush-happy. It comes with the territory."
+      },
+      ["Old God"] : {
+        ["id"] : 41,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-09-23",
+        ["set"] : ["Coven"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 43
+          }, 
+          ["Emerald"] : {
+            ["id"] : 44
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 49
+          }, 
+          ["Pearl"] : {
+            ["id"] : 48
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 47
+          }, 
+          ["Ruby"] : {
+            ["id"] : 42,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 45
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 46
+          }
+        },
+        ["voiceactor"] : ["Paul M. Guyet"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "Urgot's obscene aspiration to unshackle himself from his too-human constraints led him to fashion a new body, one profane with terrible power. When he was slain by the Eclipse Knights, he returned in the shape of mankind's greatest fear: the entropic rot of mortality, intent on miring the world of man in beautiful and eternal decay."
       }
     }
   },
@@ -42882,6 +49524,7 @@
         ["release"] : "2012-05-08",
         ["voiceactor"] : ["Gavin Hammon"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "vzNcSvKCOyA",
         ["lore"] : "One of the ancient darkin, Varus was a deadly killer who loved to torment his foes, driving them almost to insanity before delivering the killing arrow. He was imprisoned at the end of the Great Darkin War, but escaped centuries later in the remade flesh of two Ionian hunters—they had unwittingly released him, cursed to bear the bow containing his bound essence. Varus now seeks out those who trapped him, in order to enact his brutal vengeance, but the mortal souls within still resist him every step of the way."
       },
       ["Blight Crystal"] : {
@@ -42954,7 +49597,7 @@
         ["cost"] : 1350,
         ["release"] : "2016-06-15",
         ["earlysale"] : "2016-11",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -42963,7 +49606,7 @@
             ["id"] : 15,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Event Horizon 2020"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Gavin Hammon"],
@@ -42985,7 +49628,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2019"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Gavin Hammon"],
@@ -43032,7 +49675,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -43099,7 +49742,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 27
@@ -43116,6 +49759,7 @@
         },
         ["voiceactor"] : ["Gavin Hammon"],
         ["splashartist"] : ["Svetlana Tigai", "West Studio"],
+        ["music"] : "pDu-_iL5tBc",
         ["lore"] : "A replacement for the traitorous Ashe model, Varus is the latest in PROJECT Corporation's biological weapons... and a controversial experiment, with one body inhabited by three sentient minds. A Command Line counter-espionage operative acting on behalf of the PROJECT initiative, they work alongside the resistance to mitigate the risk posed by Mordekaiser to their corporate interests."
       },
       ["High Noon"] : {
@@ -43139,7 +49783,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 42
@@ -43229,7 +49873,7 @@
             ["id"] : 59,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "MSI 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 57
@@ -43250,7 +49894,73 @@
         ["voiceactor"] : ["Gavin Hammon"],
         ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
         ["lore"] : "Having lost his family, Varus was already consumed by vengeance when his realm collapsed. Not only did he survive, due to Nocturne's meddling, but two visiting Empyreans, Kai and Valmar, were absorbed into his bow. With the Foreglow stoking his rage, Varus vows to wipe out every last Empyrean, no matter what his new \"friends\" say."
-      }
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 60,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-30",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 62
+          }, 
+          ["Emerald"] : {
+            ["id"] : 63
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 68
+          }, 
+          ["Pearl"] : {
+            ["id"] : 67
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 65
+          }, 
+          ["Ruby"] : {
+            ["id"] : 61,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 64
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 66
+          }
+        }, 
+        ["voiceactor"] : ["Gavin Hammon"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "As guardian of a peaceful temple, the Archer welcomed a wandering Artist, allowing him to shelter with his beloved monks. But when the Artist painted him, the sorcerous portrait leapt from the canvas and ravaged the temple. The Archer's grief hardened to fury. Now, he hunts the wicked Artist, hoping to bring peace to those he could not save."
+      },
+      ["T1"] : {
+        ["id"] : 69,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-09-10",
+        ["set"] : ["World Champions: 2024"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 70,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Gavin Hammon"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu", "Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Honoring Gumayusi's winning performance as Varus during the 2024 World Championship."
+      }      
     }
   },
   ["Vayne"] : {
@@ -43385,6 +50095,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Alexa Kahn"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "XvmIf9CzIw8",
         ["lore"] : "Augmented with classified tech, Vayne was once a member of PROJECT's counter-espionage unit. After she was betrayed by the corporation she served, she now stalks the shadows as a vigilante, searching for ways to break PROJECT and the technology that haunts her soul."
       },
       ["Firecracker"] : {
@@ -43402,11 +50113,12 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Nika Futterman"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "E5fy_GswSy8",
         ["lore"] : "Vayne has donned her finest Lunar Revel garb in her endless quest to root out evil everywhere, including citywide celebrations. One would assume it's better not to spend holidays around a grown woman shooting firecrackers out of a metal wrist-pig, but it's been that kind of year."
       },
       ["Prestige Firecracker"] : {
@@ -43423,6 +50135,7 @@
         ["variant"] : 12,
         ["voiceactor"] : ["Nika Futterman"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "E5fy_GswSy8",
         ["lore"] : "Vayne has donned her even finer Lunar Revel garb, noting the growing anxiety around her explosive-shooting metal wrist-pig. Fashion upgrades solve all problems."
       },
       ["FPX"] : {
@@ -43440,7 +50153,7 @@
             ["id"] : 16,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Edition Mega Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Nika Futterman"],
@@ -43468,7 +50181,7 @@
             ["id"] : 24,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Spirit Blossom 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 22
@@ -43490,7 +50203,7 @@
           }
         },
         ["voiceactor"] : ["Nika Futterman"],
-        ["lore"] : "Vayne came from a lost clan of monster hunters, annihilated to the last when the primordial demon of pain chanced upon their hidden village. Unable to let go, and doomed to her own obsessions for eternity, she hunts the creature without end, always unable to catch it."
+        ["lore"] : "It is said the Lone Huntress took up arms against the demonkin she believed responsible for ending her bloodline. She pursued the monster, slaughtering all in her path, until her body gave out and her wrathful spirit continued the chase. To this day, she is said to still hunt—blinded to the truth that she has in turn become a monster, marred by revenge."
       },
       ["Sentinel"] : {
         ["id"] : 25,
@@ -43514,7 +50227,7 @@
             ["id"] : 31,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Sentinels of Light 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 28
@@ -43531,6 +50244,7 @@
         },
         ["voiceactor"] : ["Alexa Kahn"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "DhGySWN9wps",
         ["lore"] : "Ever striving to become a better monster hunter, Vayne joins the Sentinels primarily to advance her own arsenal and learn from their battle with the Black Mist. It doesn't hurt that she is also defending Runeterra from evil, of course. If she must endure the friendship of a fool like Graves to do so, she will. The cause is worth it."
       },
       ["Battle Bat"] : {
@@ -43554,7 +50268,7 @@
             ["id"] : 43,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 42
@@ -43597,6 +50311,7 @@
         ["variant"] : 13,
         ["voiceactor"] : ["Nika Futterman"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "E5fy_GswSy8",
         ["lore"] : "Vayne has donned her even finer Lunar Revel garb, noting the growing anxiety around her explosive-shooting metal wrist-pig. Fashion upgrades solve all problems."
       },
       ["Dawnbringer"] : {
@@ -43686,8 +50401,72 @@
         ["lore"] : "Vayne vowed to hunt the blazing, rotting forces that arose from Brand's destruction. She never faltered, even when cornered on a remote coast, where she fought to the brink of death. By fate, her narrow victory coincided with the turn of a new night, and the Midnight Dragon came down to imbue her spirit with blessed darkness, sharp as draconic scales."
       },
       ["Risen Legend"] : {
-        ["id"] : 56,
-        ["set"] : ["Risen Legends"]
+        ["id"] : 64,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Special",
+        ["distribution"] : "Hall of Legends Premium 2025 Pass reward (Level 10).",
+        ["release"] : "2025-06-11",
+        ["set"] : ["Risen Legends"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Mythclimber"] : {
+            ["id"] : 66,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Paragon"] : {
+            ["id"] : 65,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }
+        },        
+        ["voiceactor"] : ["Nika Futterman"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["music"] : "wGGtHIE3xzo",
+        ["lore"] : "There are some who question our legacy, Vayne. We will show them that doubt can sharpen one's resolve. As my Keeper of Vigor, I call upon you to strike fear into the hearts of the undeserving. Teach those who would dare challenge you what it means to embody the Relentless Hunter."
+      },
+      ["Demoncursed"] : {
+        ["id"] : 67,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2026-04-29",
+        ["set"] : ["Pandemonium"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 69
+          },
+          ["Emerald"] : {
+            ["id"] : 70
+          }, 
+          ["Pearl"] : {
+            ["id"] : 73
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 72
+          }, 
+          ["Ruby"] : {
+            ["id"] : 68,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 71
+          }
+        },
+        ["voiceactor"] : ["Alexa Kahn"],
+        ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["lore"] : "Vayne spent years hunting the demon that killed her parents, only to become the unwitting host to a demon of her own. Possessed with preternatural sight and dark power, she's driven by overwhelming paranoia and bloodlust. Wild, unrestrained, and unaware of the demon within, Vayne has become the very thing she hunts."
       }
     }
   },
@@ -43802,6 +50581,7 @@
           }
         },
         ["voiceactor"] : ["Scott McNeil"],
+        ["music"] : "BO3XLE_eRPk",
         ["lore"] : "Once merely a mini-boss with a Napoleon complex, Veigar has ripped into the code of Arcade World to summon hundreds of other bosses to his side. Together they'll stop at nothing to reach his ultimate goal: take the world for himself, and give the heroes a final Game Over."
       },
       ["Omega Squad"] : {
@@ -43829,6 +50609,7 @@
         },
         ["voiceactor"] : ["Bob Beal"],
         ["splashartist"] : ["Jojo So"],
+        ["music"] : "DouvFSsgPZ0",
         ["lore"] : "A heavy artillery specialist with a serious chip on his shoulder, Veigar has a troubling habit of calling down huge amounts of explosive ordnance for even the most mundane problems. He thinks of it as “a fun quirk.”"
       },
       ["Elderwood"] : {
@@ -44070,7 +50851,7 @@
             ["id"] : 66,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 65
@@ -44091,6 +50872,29 @@
         ["voiceactor"] : ["Scott McNeil"],
         ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
         ["lore"] : "In the dreadful, dreary wood, campers scampered about with glee, gathering fallen branches from the gnarled, cursed trees. They tossed them onto a makeshift pyre and read the incantations. From the flames, Veigar erupted, ready to vanquish his competition."
+      },
+      ["Prestige Magma Chamber"] : {
+        ["id"] : 67,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Special",
+        ["distribution"] : "2026, S3 Act 1 Premium Battle Pass reward",
+        ["release"] : "2026-07-29",
+        ["set"] : ["Magma Chamber"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 68,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }
+        },
+        ["voiceactor"] : ["Bob Beal"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : " \"Dear diary, this will be my final entry. I have finally found a path out of this accursed place! Finally the world shall suffer as I have. Finally, the world will burn as I do! The path to my world domination is rectified! RECTIFIED!\" - p. 2013, Veigar's Journal of Injustice"
       }
     }
   },
@@ -44105,6 +50909,7 @@
         ["release"] : "2014-02-27",
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Christian Fell", "Alex 'alexplank' Flores"],
+        ["music"] : "s7PafA8mrmI",
         ["lore"] : "It is unclear if Vel’Koz was the first Voidborn to emerge on Runeterra, but there has certainly never been another to match his level of cruel, calculating sentience. While his kin devour or defile everything around them, he seeks instead to scrutinize and study the physical realm—and the strange, warlike beings that dwell there—for any weakness the Void might exploit. But Vel’Koz is far from a passive observer, striking back at threats with deadly plasma, or by disrupting the very fabric of the world itself."
       },
       ["Battlecast"] : {
@@ -44147,6 +50952,7 @@
         ["set"] : ["Definitely Not"],
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Alvin Lee"],
+        ["music"] : "2Ncmjy-HaeA",
         ["lore"] : "I'm not a laser squid, I'm a man!"
       },
       ["Infernal"] : {
@@ -44275,6 +51081,45 @@
         ["voiceactor"] : ["Erik Braa"],
         ["splashartist"] : ["Nathaniel Himawan", "West Studio"],
         ["lore"] : "Controllable tentacles made out of honey? That's bee-nius!"
+      },
+      ["Spaghetti alla Vel'Koz"] : {
+        ["id"] : 29,
+        ["formatname"] : "Spaghetti alla Vel'Koz",
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2026-05-28",
+        ["set"] : ["Food Fight"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Alfredo"] : {
+            ["id"] : 35
+          }, 
+          ["Dragon Fruit Noodle"] : {
+            ["id"] : 32
+          }, 
+          ["Pesto"] : {
+            ["id"] : 31
+          }, 
+          ["Ruby"] : {
+            ["id"] : 30,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Squid Ink Pasta"] : {
+            ["id"] : 34
+          }, 
+          ["Strawberry Pasta"] : {
+            ["id"] : 33
+          }
+        },
+        ["voiceactor"] : ["Erik Braa"],
+        ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["lore"] : "When an overworked chef combined expired meatballs, undercooked noodles, and overspiced tomato sauce, mediocrity became perfection. Yet when Vel'Koz was set upon his would-be eater's plate beneath mountains of parmesan, their unrefined tastes disgusted him. Rolling away and into the unknown, Vel'Koz searches for a palate worthy of his deliciousness."
       }
     }
   },
@@ -44289,6 +51134,7 @@
         ["release"] : "2021-09-23",
         ["voiceactor"] : ["Jeannie Tirado"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "z1QrEf8Ti_0",
         ["lore"] : "In the black heart of the Shadow Isles, a lone yordle trudges through the spectral fog, content in its murky misery. With an endless supply of teen angst and a powerful shadow in tow, Vex lives in her own self-made slice of gloom, far from the revolting cheer of the “normie” world. Though she lacks ambition, she is quick to strike down color and happiness, stopping all would-be interlopers with her magical malaise."
       },
       ["Dawnbringer"] : {
@@ -44312,7 +51158,7 @@
             ["id"] : 9,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Night &amp; Dawn 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Meteorite"] : {
             ["id"] : 8
@@ -44359,7 +51205,7 @@
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 18
@@ -44385,7 +51231,94 @@
         },
         ["voiceactor"] : ["Jeannie Tirado"],
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "Vex didn't need anyone. Growing up alone, she was self-sufficient and annoyed by most people. Her realm's destruction barely made her blink, but her new Empyrean powers did give her an idea. By empowering her own shadow, she finally had a companion she tolerated. Vex may not need anyone, but then again, misery loves company."
+      },
+      ["Stargazer"] : {
+        ["id"] : 20,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-05-14",
+        ["set"] : ["Stargazer"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 25
+          }, 
+          ["Emerald"] : {
+            ["id"] : 23
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 22
+          }, 
+          ["Pearl"] : {
+            ["id"] : 24
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 26
+          }, 
+          ["Ruby"] : {
+            ["id"] : 21,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 28
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 27
+          }
+        }, 
+        ["voiceactor"] : ["Jeannie Tirado"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "Vex can feel the looming darkness approaching—a ravenous force consuming entire spheres of existence—and she's prepared to make it someone else's problem. Other Stargazers have been warned, including a few who think their worlds are worth saving. Honestly, what more do they want?"
+      },
+      ["Surprise Party"] : {
+        ["id"] : 29,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-01",
+        ["set"] : ["Surprise Party"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 31
+          },
+          ["Emerald"] : {
+            ["id"] : 32
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 37
+          }, 
+          ["Pearl"] : {
+            ["id"] : 36
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 35
+          }, 
+          ["Ruby"] : {
+            ["id"] : 30,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 34
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 33
+          }
+        },
+        ["voiceactor"] : ["Jeannie Tirado"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "Vex used to hate clowns. Dressing up in a goofy outfit and doing tricks to make people laugh? Why would anyone want to do that? Then she discovered that most people are scared of clowns. Now she loves them, and for the first time in her life, has a calling she actually enjoys."
       }
     }
   },
@@ -44400,7 +51333,8 @@
         ["release"] : "2012-12-19",
         ["voiceactor"] : ["Cia Court"],
         ["splashartist"] : ["Joshua 'HUGEnFAST' Brian Smith", "Paul 'Zeronis' Kwon"],
-        ["lore"] : "Once a criminal from the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed finely honed survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens of Piltover to keep the peace, she wields mighty hextech gauntlets that can punch through walls and suspects with equal ease."
+        ["music"] : "18yK0G9hHts",
+        ["lore"] : "Raised on the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome woman with very little respect for authority. She has always been a shrewd survivor, both from her youthful troublemaking topside and an unfairly long stint in Stillwater Hold. Now working with the Piltover Enforcers to keep the peace instead of breaking it, she wields mighty hextech gauntlets that can punch through walls—and criminals—with equal ease."
       },
       ["Neon Strike"] : {
         ["id"] : 1,
@@ -44437,7 +51371,10 @@
             ["id"] : 6
           }, 
           ["Ruby"] : {
-            ["id"] : 8
+            ["id"] : 8,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Cia Court"],
@@ -44482,6 +51419,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Cia Court"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "A0lL6yaigfQ",
         ["lore"] : "Vi is the mighty enforcer of Azir's will—a ferocious, ruthless combatant who thrills in any challenge, no matter how outmatched she may be. Her gauntlets are carved from mystic jade, and each strike connects with the power of a cannon."
       },
       ["PROJECT"] : {
@@ -44499,6 +51437,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Cia Court"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "XvmIf9CzIw8",
         ["lore"] : "Street-smart, brash, and always bluntly honest, Vi is a Central detective working to keep law and order in the neon city. Toughened from her days as a lower sector enforcer, Vi keeps the peace with a pair ATLAS gauntlets, and a mean right hook."
       },
       ["Heartbreaker"] : {
@@ -44559,7 +51498,7 @@
             ["id"] : 26,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 23
@@ -44585,11 +51524,12 @@
         },
         ["voiceactor"] : ["Cia Court"],
         ["splashartist"] : ["Sean 'Raiko' Tay", "West Studio"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "A hand-to-hand combat specialist trained in psychically enhancing her blows with her mind, Vi takes care of “hard targets” for the rest of the PsyOps crew… generally by rushing ahead and punching them apart. She will fight anything and everything, including the old bipedal winter mechs from the Arctic Ops event 40 years prior."
       },
-      ["Arcane"] : {
+      ["Arcane Undercity"] : {
         ["id"] : 29,
-        ["availability"] : "Available",
+        ["availability"] : "Legacy",
         ["looteligible"] : true,
         ["cost"] : 975,
         ["release"] : "2021-11-15",
@@ -44642,7 +51582,7 @@
         },
         ["voiceactor"] : ["Cia Court"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
-        ["lore"] : "Shall I compare you to a rose? Your spikes like thorns against my side.&lt;br>Like a vine, you've coiled through my dreams, trellising my mind.&lt;br> Wild like the violets that thrive beyond the garden's bounds;&lt;br>Life's simply better now that you're around.&lt;br>Will you go to the dance with me?&lt;br>XOXO,&lt;br>Caitlyn"
+        ["lore"] : "Shall I compare you to a rose? Your spikes like thorns against my side.<br>Like a vine, you've coiled through my dreams, trellising my mind.<br> Wild like the violets that thrive beyond the garden's bounds;<br>Life's simply better now that you're around.<br>Will you go to the dance with me?<br>XOXO,<br>Caitlyn"
       },
       ["Primal Ambush"] : {
         ["id"] : 39,
@@ -44687,6 +51627,43 @@
         ["splashartist"] : ["Nathaniel Himawan", "West Studio"],
         ["lore"] : "Respected throughout the land for her strength, Vi is known to all as the leader of the Favorclaw. Although many envy her status, she stands above her competitors, unphased and eager for any challengers worthy of her furious fists. Until then, she searches the world for a mythical Wildstripe said to transcend a Favorclaw's power to unfathomable heights."
       },
+      ["Arcane Brawler"] : {
+        ["id"] : 48,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2024-11-20",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["voiceactor"] : ["Cia Court"],
+        ["splashartist"] : ["Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "As night falls in Zaun, the roar of the crowd rises from the underground cage fights. Bets are placed and money changes hands as brawlers fight their way to their next meal. Lately, a new fighter has been making a name for herself, an undefeated champion with bruised knuckles and a chip on her shoulder…"
+      },
+      ["T1"] : {
+        ["id"] : 49,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-09-10",
+        ["set"] : ["World Champions: 2024"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 50,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Cia Court"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu", "Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Honoring Oner's winning performance as Vi during the 2024 World Championship."
+      }      
     }
   },
   ["Viego"] : {
@@ -44700,6 +51677,7 @@
         ["release"] : "2021-01-21",
         ["voiceactor"] : ["Sean Teale"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "TCQ9MEZL1Y4",
         ["lore"] : "Once ruler of a long-lost kingdom, Viego perished over a thousand years ago when his attempt to bring his wife back from the dead triggered the magical catastrophe known as the Ruination. Transformed into a powerful, unliving wraith tortured by an obsessive longing for his centuries-dead queen, Viego now stands as the Ruined King, controlling the deadly Harrowings as he scours Runeterra for anything that might one day restore her, and destroying all in his path as the Black Mist pours endlessly from his cruel, broken heart."
       },
       ["Lunar Beast"] : {
@@ -44738,11 +51716,12 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Beast 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Sean Teale"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "xotOsL4NRCs",
         ["lore"] : "Former leader of a past Lunar Ox Squad, Viego decided that they would fight the Lunar Beast and actually defeat it. His plan ended in tragedy as he watched the rest of his squad be devoured-- including his wife. Viego has stewed in bitterness over these losses for years, blaming everyone but himself -- including this year's Lunar Ox Squad."
       },
       ["Dissonance of Pentakill"] : {
@@ -44751,7 +51730,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-09-09",
-        ["set"] : ["Pentakill"],
+        ["set"] : ["Pentakill III: The Lost Chapter"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -44786,6 +51765,7 @@
         },
         ["voiceactor"] : ["Sean Teale"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "5IWS7Y5KRhk&list:PLsY0g5fQlxMWMsC_enIQlr7zwfhT6v9mU",
         ["lore"] : "Only the broken-hearted can know the true sound of grief, that yearning for perfection that goes unheard by all others. Viego exists in a world of ashes and shadow, when it ought to be filled with light, and now looks beyond these grey horizons for new sounds and visions to make it so..."
       },
       ["EDG"] : {
@@ -44803,7 +51783,7 @@
             ["id"] : 20,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Sean Teale"],
@@ -44876,7 +51856,7 @@
             ["id"] : 36,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Soul Fighter 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Meteorite"] : {
             ["id"] : 35
@@ -44893,6 +51873,7 @@
         },
         ["voiceactor"] : ["Sean Teale"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "Zj7m_gRNppk",
         ["lore"] : "The gracious—if needlessly reclusive—host of the Tournament of Souls welcomes all to his arena! Look at him now, eyeing the competition from his throne room high above the ring! Doesn't his solitude just make ya sad, folks? Here's hoping he hops down from that tower and turns that sorrow into UNBRIDLED RAGE! Viiiiieeeeeeegoooooo!"
       },
       ["Worlds 2024"] : {
@@ -44922,7 +51903,7 @@
             ["id"] : 42,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Unlocked"] : {
             ["id"] : 39,
@@ -44934,6 +51915,22 @@
         ["voiceactor"] : ["Sean Teale"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
         ["lore"] : "Celebrating Worlds 2024 in London."
+      },
+      ["Revenant Reign"] : {
+        ["id"] : 43,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Sanctum",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 80 Ancient Sparks",
+        ["release"] : "2026-01-22",
+        ["set"] : ["Revenant Reign"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["transforming"] : true,
+        ["voiceactor"] : ["Sean Teale"],
+        ["lore"] : "I vow, my love, upon your shattered soul,<br><br>To hunt the six who tore you from my side.<br><br>To kill the traitor-knights, to seize their blades<br><br>Which robbed an honest king of his fair bride.<br><br>Vengeance rouses death itself to stir.<br><br>I care not if it sees my Kingdom razed.<br><br>A thousand dead will march at my command,<br><br>My flesh will be your tomb, my soul your grave."
       }
     }  
   },
@@ -44947,8 +51944,9 @@
         ["cost"] : 880,
         ["release"] : "2011-12-29",
         ["voiceactor"] : ["Owen Thomas"],
-        ["splashartist"] : ["Michal Ivan", "Sixmorevodka Studio"],
-        ["lore"] : "The herald of a new age of technology, Viktor has devoted his life to the advancement of humankind. An idealist who seeks to lift the people of Zaun to a new level of understanding, he believes that only by embracing a glorious evolution of technology can humanity’s full potential be realized. With a body augmented by steel and science, Viktor is zealous in his pursuit of this bright future."
+        ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "WkhNPnByda8",
+        ["lore"] : "The fully biomechanical evolution of his former self, Viktor has embraced his Glorious Evolution and become something of a messiah to his followers. He sacrificed his own humanity under the logic that eliminating emotion would thereby eliminate suffering—and now seeks to bring the revelation of the hexcore to the rest of the world, even if they’re incapable of understanding the benefit. After all, to this master of the arcane, violence is merely a variable necessary to balance the ultimate equation."
       },
       ["Full Machine"] : {
         ["id"] : 1,
@@ -44959,18 +51957,20 @@
         ["set"] : ["Heavy Metal"],
         ["neweffects"] : true,
         ["voiceactor"] : ["Owen Thomas"],
-        ["splashartist"] : ["Kirsten Zirngibl"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
         ["lore"] : "Created from the same circuitry as the Full Metal champion, Jayce, Viktor was cast into the tunnels beneath the robot fighting arenas to serve as a janitoribot—while his twin was groomed for glory, simulcast en español. Upgrading himself with the cast-offs of the destroyed, he has sworn la venganza."
       },
       ["Prototype"] : {
         ["id"] : 2,
         ["availability"] : "Legacy",
         ["looteligible"] : true,
-        ["cost"] : 520,
+        ["cost"] : 750,
         ["release"] : "2011-12-29",
         ["retired"] : "2014-12-02",
-        ["set"] : ["Otherroads"],
+        ["set"] : ["Mad Scientists"],
+        ["filter"] : true,
         ["voiceactor"] : ["Owen Thomas"],
+        ["splashartist"] : ["Lejia Chan", "Kudos Productions"]
       },
       ["Creator"] : {
         ["id"] : 3,
@@ -44997,7 +51997,7 @@
         ["newanimations"] : true,
         ["newrecall"] : true,
         ["voiceactor"] : ["Owen Thomas"],
-        ["splashartist"] : ["Alvin Lee"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
         ["lore"] : "On a cold, dreary night, a pioneering inventor was tried and hanged for preaching his glorious vision of the future—a world in which the living knelt before the dead. Death had to admire Viktor's conviction, and sent him back into the mortal world, blessed with powers beyond imagination."
       },
       ["PsyOps"] : {
@@ -45019,7 +52019,7 @@
             ["id"] : 13,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 11
@@ -45045,6 +52045,7 @@
         },
         ["voiceactor"] : ["Owen Thomas"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "Leader of the rogue military known as the Black Rose Group, Viktor is a psychic technomancer whose vision for a utopian world was abandoned when he suddenly departed High Command decades prior. Obsessed with an alien 'gate' uncovered during the Arctic Ops event, his experiments into human bioweapons would allow him to breach it and upend the global order."
       },
       ["High Noon"] : {
@@ -45071,7 +52072,7 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 21
@@ -45098,6 +52099,64 @@
         ["voiceactor"] : ["Owen Thomas"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
         ["lore"] : "Many a road to Hell was paved with good intent. Dr. Viktor may be the Mechanical Devil's kept engineer now, but his work began as charity: trying to “rehome” the souls of the dead in clockwork bodies, in order to circumvent mortality itself. Shame that Mordekaiser saw the good doctor's kindness and struck him a deal he could not deny."
+      },
+      ["Arcane Savior"] : {
+        ["id"] : 24,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2024-12-11",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["voiceactor"] : ["Owen Thomas"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["lore"] : "Viktor wanted nothing to do with hextech after the death of his assistant, Sky—but the arcane had different plans for him. In the undercity, he found a new purpose as a healer thanks to the hexcore's effect on him. Now he hopes to show everyone the true power and promise of hextech, should they choose to accept it."
+      },
+      ["Machine Herald"] : {
+        ["id"] : 25,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-11-05",
+        ["set"] : ["Traditional"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 33
+          }, 
+          ["Emerald"] : {
+            ["id"] : 27
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 32
+          }, 
+          ["Pearl"] : {
+            ["id"] : 31
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 30
+          }, 
+          ["Ruby"] : {
+            ["id"] : 26,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 28
+          },
+          ["Turquoise"] : {
+            ["id"] : 29
+          },
+        },
+        ["voiceactor"] : ["Owen Thomas"],
+        ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["lore"] : "Viktor was once a brilliant scientist focused on the promise of technology. Convinced that flesh and emotions inhibited progress, he transcended his own frailty through relentless augmentation. Now, as the steel herald of a new age, he leads all toward the Glorious Evolution—and a world reforged in his image."
       }
     }
   },
@@ -45145,6 +52204,7 @@
         ["release"] : "2010-10-19",
         ["set"] : ["Trick-or-Treat"],
         ["voiceactor"] : ["Kevin M. Connolly"],
+        ["music"] : "j5Uv1K_CmNw",
         ["lore"] : "Look, the guy is a film buff. So what? Hemomancers can like things, too."
       },
       ["Vandal"] : {
@@ -45204,7 +52264,6 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-05-31",
-        ["earlysale"] : "",
         ["set"] : ["Bilgewater: Curse of the Drowned"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -45255,7 +52314,7 @@
             ["id"] : 15,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Night &amp; Dawn 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Ruby"] : {
             ["id"] : 18,
@@ -45280,7 +52339,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-11-24",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -45404,20 +52463,64 @@
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
         ["lore"] : "The ultimate Neverghaast, at least to himself, Vladimir cares only about feeding himself and his ego. Though he is not above helping someone for the right price, like that \"idiot\" Rakan, he has no stake in the war beyond finding the fabled well of Aspira within the congregation. Such power, he smugly reasons, would surely be better in his hands."
       },
-      ["Masque of the Black Rose"]: {
-        ["id"]: 48,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S1 Act 1 Premium Battle Pass reward (Level 10)",
-        ["release"]: "2025-01-09",
-        ["set"]: ["Masque of the Black Rose"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["voiceactor"]: ["Kevin M. Connolly"],
-        ["splashartist"]: ["Roanna Peroz", "Kudos Productions"],
-        ["lore"]: "Lord Vladimir, your presence is requested at the upcoming Silken Danse. You might consider such a gathering beneath you, or unfavorably compare them to the carousals you host. Worry not, this masque will not be an intrusion upon your territory. Our matron simply has need of your boldness, to draw in new blood for our grand designs. –Lady Elise"
+      ["Masque of the Black Rose"] : {
+        ["id"] : 48,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 1 Premium Battle Pass reward (Level 10)",
+        ["release"] : "2025-01-09",
+        ["set"] : ["Masque of the Black Rose"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Kevin M. Connolly"],
+        ["splashartist"] : ["Roanna Peroz", "Kudos Productions"],
+        ["lore"] : "Lord Vladimir, your presence is requested at the upcoming Silken Danse. You might consider such a gathering beneath you, or unfavorably compare them to the carousals you host. Worry not, this masque will not be an intrusion upon your territory. Our matron simply has need of your boldness, to draw in new blood for our grand designs. –Lady Elise"
+      },
+      ["PsyOps"] : {
+        ["id"] : 49,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-15",
+        ["set"] : ["PsyOps"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 51
+          },
+          ["Emerald"] : {
+            ["id"] : 55
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 56
+          }, 
+          ["Pearl"] : {
+            ["id"] : 57
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 52
+          }, 
+          ["Ruby"] : {
+            ["id"] : 50,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 54
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 53
+          }
+        },
+        ["voiceactor"] : ["Kevin M. Connolly"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "In the Black Rose Group, an unseen overseer whispers commands from the shadows. He is Vladimir, some say the <i>true</i> leader of the BRG—a soldier as ancient as the very practice of psychic operations. He is a puppet master without equal, the bodies and minds he controls an extension of himself used to carry out his sinister, hidden agenda."
       }
     }
   },
@@ -45432,6 +52535,7 @@
         ["release"] : "2011-11-29",
         ["voiceactor"] : ["David Sobolov"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "wOJAErCvVhs",
         ["lore"] : "To those who still revere him, the Volibear is the storm made manifest. Destructive, wild, and stubbornly resolute, he existed before mortals walked the Freljord’s tundra, and is fiercely protective of the lands that he and his demi-god kin created. Cultivating a deep hatred of civilization and the weakness it brought with it, he now fights to return to the old ways—when the land was untamed, and blood spilled freely—and eagerly battles all who oppose him, with tooth, claw, and thundering domination."
       },
       ["Thunder Lord"] : {
@@ -45528,7 +52632,7 @@
             ["id"] : 18,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 17
@@ -45554,6 +52658,7 @@
         },
         ["voiceactor"] : ["David Sobolov"],
         ["splashartist"] : ["Felipe Martini", "West Studio"],
+        ["music"] : "tHduaeLWi1Y",
         ["lore"] : "Volibear was the greatest terror in the forest, until the nearby volcano erupted. In the frenzy of escape, Volibear came across a child who was similarly trapped, and heeded a strange instinct—he saved the child. The Duality Dragon saw and made the mighty predator an offer: the power to hone the duality of his nature, both fury and compassion."
       },
       ["Prestige Duality Dragon"] : {
@@ -45561,7 +52666,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2021-10-21",
         ["set"] : ["Dragonmancers"],
         ["neweffects"] : true,
@@ -45570,6 +52675,7 @@
         ["variant"] : 7,
         ["voiceactor"] : ["David Sobolov"],
         ["splashartist"] : ["Edward Chee", "West Studio"],
+        ["music"] : "tHduaeLWi1Y",
         ["lore"] : "Volibear stands poised between the two drives of his core self—rage and mercy, impulse and restraint, neither overwhelming the other. Balance is an active struggle; each day the predator and protector clash, and each day Volibear's will grows stronger by the grace of the dragon's gift."
       },
       ["Inkshadow"] : {
@@ -45591,7 +52697,7 @@
             ["id"] : 28,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2023"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 27
@@ -45620,7 +52726,52 @@
         },
         ["voiceactor"] : ["David Sobolov"],
         ["splashartist"] : ["Jack Hsu", "West Studio"],
+        ["music"] : "Lmcy9Z10iLs",
         ["lore"] : "A spirit of fury and war, many vengeful souls have made contracts with the Volibear, and only Udyr has survived for longer than a year. Whether his charges succeed in taking revenge or meet violent ends, each one who dies gives him more power. More power means more wayward mortals seek him out for contracts—and thus the bear will never go hungry."
+      },
+      ["Spirit Blossom Springs"] : {
+        ["id"] : 29,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-07-30",
+        ["set"] : ["Spirit Blossom Springs"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 34
+          }, 
+          ["Catseye"] : {
+            ["id"] : 31
+          }, 
+          ["Emerald"] : {
+            ["id"] : 32
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 36
+          }, 
+          ["Pearl"] : {
+            ["id"] : 35
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 37
+          }, 
+          ["Ruby"] : {
+            ["id"] : 30,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 33
+          }
+        },
+        ["voiceactor"] : ["David Sobolov"],
+        ["splashartist"] : ["Exia Xiaotong", "West Studio"],
+        ["music"] : "eyJsthXLqq4",
+        ["lore"] : "Volibear has lived on the mountain Spirit Blossom Springs rests upon long enough for him to be considered its steward. It was he who gave Ahri permission to open the bathhouse all those years ago, in exchange for a lifetime of free bathing. So long as the water is hot and the noise kept low, Volibear is content to put up with the crowds."
       }
     }
   },
@@ -45635,7 +52786,8 @@
         ["release"] : "2009-02-21",
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
-        ["lore"] : "Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. Bursting out of the shadows, he preys upon those criminals who terrorize the city’s depths. Warwick is drawn to blood, and driven mad by its scent. None who spill it can escape him."
+        ["music"] : "RGssFVA3auQ",
+        ["lore"] : "Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. He bursts from the shadows to prey upon those criminals who terrorize the city's depths. Warwick is drawn to blood, driven mad by its scent… and none who spill it can escape him."
       },
       ["Urf the Manatee"] : {
         ["id"] : 2,
@@ -45798,7 +52950,7 @@
             ["id"] : 15,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Jasper"] : {
             ["id"] : 12
@@ -45818,6 +52970,7 @@
         },
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "ZqeIrIbKkEI",
         ["lore"] : "Gifted to the Lunar Empress when she was a child, Warwick was raised alongside her to guard the immortal realm from an encroaching darkness. More beastly and feral than his companion Nasus, Warwick stands watch in the south, relentlessly pursuing foes to the ends of the world."
       },
       ["PROJECT"] : {
@@ -45852,7 +53005,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 33
@@ -45868,6 +53021,7 @@
           }
         },
         ["voiceactor"] : ["Dave B. Mitchell"],
+        ["music"] : "EC67qmPXirs",
         ["lore"] : "Plucked from the wastelands by a PROJECT research cell, Warwick has been irrevocably transformed into a horrifying new stage of transhuman evolution—a weaponized monster stripped of all remorse, and programmed solely for violent suppression. Through the meddling of the ragtag outsiders, he escaped before being completed, and now rampages indiscriminately across the City."
       },
       ["Old God"] : {
@@ -45876,7 +53030,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-08-12",
-        ["set"] : ["Coven", "Elderwood"],
+        ["set"] : ["Coven"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -45892,7 +53046,7 @@
             ["id"] : 44,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 38
@@ -45918,6 +53072,7 @@
         },
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Augusto Quirino", "West Studio"],
+        ["music"] : "GS4KAWg2tXw",
         ["lore"] : "Once known as Father Wolf, Warwick roamed the wood and reveled in moonlight's bloody hunt. The Eclipse Order thought to slay him in his den and end his barbarity—but death means nothing to Old Gods, and he did not stay down. Father Wolf howls into the night once more, now slavering for the taste of human flesh."
       },
       ["Winterblessed"] : {
@@ -45962,11 +53117,12 @@
             ["id"] : 55,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "GJLHlBRqKAI",
         ["lore"] : "The Beast Warwick sniffed his newborn sibling, the Automaton Shaco, as his maker beckoned the leaders to accept their gifts. The Hunter claimed the Beast as his prize, but the prospect of sharing so disgusted the Sage and Warden that chaos quickly erupted over who deserved what. All the while Warwick focused on Polaris, who watched with a wry smile."
       },
       ["Prestige Winterblessed"] : {
@@ -45974,7 +53130,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2022-12-08",
         ["set"] : ["Winterblessed"],
         ["neweffects"] : true,
@@ -45983,7 +53139,73 @@
         ["variant"] : 45,
         ["voiceactor"] : ["Dave B. Mitchell"],
         ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "GJLHlBRqKAI",
         ["lore"] : "It can get rough on the runway, but everybody knows better than to mess with Warwick. Between his razor sharp cuts, impeccable grooming, and wolfpack entourage, the Gala better think twice before it calls this one a beast."
+      },
+      ["Arcane Vander"] : {
+        ["id"] : 56,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-12-11",
+        ["set"] : ["Arcane"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Paragon"] : {
+            ["id"] : 57,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Dave B. Mitchell"],
+        ["splashartist"] : ["Mo Yan"],
+        ["lore"] : "Many in Zaun mourned Vander, even as the undercity fell deeper into corruption. No one could have ever known that he still lived, his shimmer-twisted body hidden deep within Singed's lab. Revived as a tormented beast of primal rage, the monster Warwick was unleashed on the world. But if a fragment of his humanity still lives... can Vander be saved?"
+      },
+      ["Warhound"] : {
+        ["id"] : 58,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-03-19",
+        ["set"] : ["Warhounds"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 62
+          }, 
+          ["Catseye"] : {
+            ["id"] : 60
+          }, 
+          ["Emerald"] : {
+            ["id"] : 61
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 65
+          }, 
+          ["Pearl"] : {
+            ["id"] : 66
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 64
+          }, 
+          ["Ruby"] : {
+            ["id"] : 59,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 63
+          }
+        },
+        ["voiceactor"] : ["Dave B. Mitchell"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "ALERT: rogue lycanthrottle sighting. Suspect codenamed “Warwick” is categorized as a “living weapon.” Half-wolf, half-machine. Highly dangerous, with a self-repairing body and unending hunger for Quicksilver. Use extreme caution, carry anti-healing countermeasures, and do NOT engage unless necessary. Contact local Wardens for retrieval."
       }
     }
   },
@@ -46049,6 +53271,14 @@
         ["newrecall"] : true,
         ["filter"] : true,
         ["newquotes"] : true,
+        ["chromas"] : {
+          ["Doom"] : {
+            ["id"] : 27,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          } 
+        },
         ["voiceactor"] : ["Spike Spencer"],
         ["splashartist"] : ["Sperasoft Studio"],
         ["lore"] : "Once a pupil of the martial arts, Wukong trained under his masters' strict traditions and doctrines. In him, Death saw limitless potential, and chose to claim the disregarded student for the underworld instead. Now, Wukong fights alongside the undying hordes, no longer bound by the rules of the living."
@@ -46068,6 +53298,7 @@
         ["newquotes"] : true,
         ["voiceactor"] : ["Spike Spencer"],
         ["splashartist"] : ["Sixmorevodka Studio"],
+        ["music"] : "GgLChYl614A",
         ["lore"] : "An ascendant being of nearly limitless power, Radiant Wukong has undertaken a great journey to test his skills against history's greatest warriors. However, overcoming his quick temper and impulsive nature might be his greatest challenge yet."
       },
       ["Lancer Stratus"] : {
@@ -46175,6 +53406,51 @@
         ["voiceactor"] : ["Spike Spencer"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
         ["lore"] : "A protector with no one left to protect, Wukong torments any creatures who dare traverse within the Elderwood's depths. After the Coven destroyed his village in search of his enchanted staff's limitless power, he learned that trust is a fool's luxury. The gleam from his weapon's crystals serve as a constant reminder of the ancient trickster's failure."
+      },
+      ["Mecha Kingdoms"] : {
+        ["id"] : 26,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-11-05",
+        ["set"] : ["Mecha Kingdoms"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 33
+          }, 
+          ["Catseye"] : {
+            ["id"] : 36
+          }, 
+          ["Emerald"] : {
+            ["id"] : 30
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 35
+          }, 
+          ["Pearl"] : {
+            ["id"] : 34
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 31
+          }, 
+          ["Ruby"] : {
+            ["id"] : 29,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 32
+          }
+        },        
+        ["voiceactor"] : ["Spike Spencer"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "Tales of this traveling trickster's skill as a fighter reached the ears of the former Vercentian general, Darius. Believing that martial prowess made for the finest Avalon pilots, Darius recruited him and set to work honing his quick instincts for the cockpit. Wukong's talent promises untold glory—so long as his superiors can tolerate his mischief."
+        
       }
     }
   },
@@ -46188,7 +53464,8 @@
         ["cost"] : 975,
         ["release"] : "2017-04-18",
         ["voiceactor"] : ["Laila Pyne"],
-        ["splashartist"] : ["Jason Chan", "Evan 'Somnicidal' Monteiro"],
+        ["splashartist"] : ["Evan 'Somnicidal' Monteiro", "Jason Chan", "Joshua 'HUGEnFAST' Brian Smith"],
+        ["music"] : "qBJs2uqdQUs",
         ["lore"] : "Deadly and precise, Xayah is a vastayan revolutionary waging a personal war to save her people. She uses her speed, guile, and razor-sharp feather blades to cut down anyone who stands in her way. Xayah fights alongside her partner and lover, Rakan, to protect their dwindling tribe, and restore their race to her vision of its former glory."
       },
       ["Cosmic Dusk"] : {
@@ -46198,7 +53475,7 @@
         ["cost"] : 1350,
         ["release"] : "2017-04-18",
         ["earlysale"] : "2017-11",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -46231,6 +53508,14 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 65,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
         ["splashartist"] : ["Rudy Siswanto", "Pan Chengwei"],
         ["lore"] : "Honoring Ruler's winning performance as Xayah during the 2017 World Championship. "
       },
@@ -46240,8 +53525,7 @@
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2019-09-12",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 3"],
+        ["set"] : ["Star Guardian Season 3"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -46263,6 +53547,7 @@
         ["newvoice"] : true,
         ["voiceactor"] : ["Laila Pyne"],
         ["splashartist"] : ["Esben Lash Rasmussen", "Atey Ghailan"],
+        ["music"] : "bSBl9RQDwVg",
         ["lore"] : "Many years ago, Xayah was destroyed in the fight against Zoe, alongside her lover Rakan. The pair were then resurrected and turned against their allies -- a change Xayah seems almost happy about. Blaming the Star Guardians for abandoning her to die, she has taken a bitter, personal stand against them, even as doubts begin to creep in..."
       },
       ["Elderwood"] : {
@@ -46283,7 +53568,7 @@
             ["id"] : 15,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Battle Queen 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 9
@@ -46332,7 +53617,7 @@
             ["id"] : 27,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 24
@@ -46365,7 +53650,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2022-02-17",
         ["set"] : ["Phoenixmancers"],
         ["neweffects"] : true,
@@ -46464,12 +53749,11 @@
       },
       ["Redeemed Star Guardian"] : {
         ["id"] : 38,
-        ["availability"] : "Available",
+        ["availability"] : "Legacy",
         ["looteligible"] : true,
         ["cost"] : 1820,
         ["release"] : "2023-10-11",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 4"],
+        ["set"] : ["Star Guardian Season 4"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -46477,6 +53761,7 @@
         ["variant"] : 4,
         ["voiceactor"] : ["Laila Pyne"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["music"] : "GzJQK93wFtk",
         ["lore"] : "Being bad was fun while it lasted. But all things must end. Through the power of devotion—and the First Star—Rakan sacrificed himself to save Xayah. Now a guardian once more, Xayah searches the night skies for her love, hoping to return the favor without falling into chaos herself."
       },
       ["Battle Bat"] : {
@@ -46497,7 +53782,7 @@
             ["id"] : 56,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 53
@@ -46526,7 +53811,49 @@
         },
         ["voiceactor"] : ["Laila Pyne"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Bat Squad's edgy hotshot Xayah knows that sometimes you have to strike first and hard to make a statement. Hailing from an attempted settlement outside Final City that was destroyed, Xayah's grudge against the Primordians is deeply personal. Between battles, she uses her stealth training to avoid Seraphine prying about who the guy she's always texting is."
+      },
+      ["Battle Academia"] : {
+        ["id"] : 57,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2025-03-19",
+        ["set"] : ["Battle Academia"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 59
+          }, 
+          ["Emerald"] : {
+            ["id"] : 61,
+          }, 
+          ["Pearl"] : {
+            ["id"] : 63
+          }, 
+          ["Rebelguard"] : {
+            ["id"] : 62,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Ruby"] : {
+            ["id"] : 58,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 60
+          }
+        },        
+        ["voiceactor"] : ["Laila Pyne"],
+        ["splashartist"] : ["Sora Kim", "West Studio"],
+        ["lore"] : "Babylon Academy's God-Weapon chose Xayah to lead the school's team in this year's cross-academy tournament, which they've never won. As captain of the Battle Club, she's happy to use her new leverage to boss around her teammates and savor the “vacation” with Rakan, though she'll never admit she enjoys being a leader."
       }
     }
   },
@@ -46596,7 +53923,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2020-03-26",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Dark Star"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -46606,25 +53933,25 @@
             ["id"] : 6,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Event Horizon 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
-            ["id"] : 7
-          }, 
-          ["Pearl"] : {
             ["id"] : 8
           }, 
-          ["Rose Quartz"] : {
+          ["Pearl"] : {
             ["id"] : 9
           }, 
+          ["Rose Quartz"] : {
+            ["id"] : 10
+          }, 
           ["Ruby"] : {
-            ["id"] : 10,
+            ["id"] : 11,
             ["availability"] : "Bundle",
             ["source"]       : "Bundle",
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
-            ["id"] : 11
+            ["id"] : 7
           }
         },
         ["voiceactor"] : ["Michael McConnohie"],
@@ -46723,7 +54050,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "100 Mythic Essence",
+        ["distribution"] : "125 Mythic Essence",
         ["release"] : "2024-06-12",
         ["set"] : ["Crystalis Indomitus"],
         ["neweffects"] : true,
@@ -46741,6 +54068,20 @@
         ["voiceactor"] : ["Michael McConnohie"],
         ["splashartist"] : ["Zoe Zhu", "West Studio"],
         ["lore"] : "Once a humble fisherman, Xerath returned from a voyage with a multitude of magical crystals in tow. Their power elevated him to become a leader of his people, ushering in what he hoped would be a new era of the Prismae Crystals' rule. But the cost of such power damaged his mind, leaving him suspicious that no thoughts are to be trusted… even his own."
+      },
+      ["Corrupted Petricite"] : {
+        ["id"] : 32,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S1 Act 2 Premium Battle Pass reward (Level 24)",
+        ["release"] : "2026-03-04",
+        ["set"] : ["The Laws of Stone"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["voiceactor"] : ["Michael McConnohie"],
+        ["lore"] : "Even the most wondrous works of Durand's masonry may warp if the petricite absorbs too much magic. This statue was raised by Demacians in times past to honor their beloved Winged Protectors, yet now it crackles with unpredictable arcane energies, a new threat against those it was built to protect."
       }
     }
   },
@@ -46753,29 +54094,32 @@
         ["looteligible"] : true,
         ["cost"] : 585,
         ["release"] : "2010-07-13",
-        ["voiceactor"] : ["Richard Epcar"],
-        ["splashartist"] : ["Bo 'chenbowow' Chen", "Victor '3rdColossus' Maury"],
+        ["voiceactor"] : ["Vic Chao"],
+        ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "UTEOs_7elOA",
         ["lore"] : "Xin Zhao is a resolute warrior loyal to the ruling Lightshield dynasty. Once condemned to the fighting pits of Noxus, he survived countless gladiatorial bouts, but after being freed by Demacian forces, he swore his life and allegiance to these brave liberators. Armed with his favored three-talon spear, Xin Zhao now fights for his adopted kingdom, audaciously challenging any foe, no matter the odds."
       },
       ["Commando"] : {
         ["id"] : 1,
         ["availability"] : "Available",
         ["looteligible"] : true,
-        ["cost"] : 520,
+        ["cost"] : 750,
         ["release"] : "2010-07-13",
         ["set"] : ["Commando"],
-        ["voiceactor"] : ["Richard Epcar"],
+        ["voiceactor"] : ["Vic Chao"],
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
         ["lore"] : "An expert at jungle warfare, Xin Zhao can harpoon a fruit from the rainforest canopy at a hundred yards. He just chooses not to, because it gets fruit chunks all over his spear."
       },
       ["Imperial"] : {
         ["id"] : 2,
         ["availability"] : "Legacy",
         ["looteligible"] : true,
-        ["cost"] : 520,
+        ["cost"] : 750,
         ["release"] : "2010-07-13",
         ["retired"] : "2017-11-01",
         ["set"] : ["Legacy"],
-        ["voiceactor"] : ["Richard Epcar"]
+        ["voiceactor"] : ["Vic Chao"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"]
       },
       ["Viscero"] : {
         ["id"] : 3,
@@ -46785,8 +54129,9 @@
         ["release"] : "2010-11-22",
         ["retired"] : "2014-12-02",
         ["set"] : ["Chronicle"],
-        ["voiceactor"] : ["Richard Epcar"],
-        ["splashartist"] : ["Christian Fell"]
+        ["voiceactor"] : ["Vic Chao"],
+        ["splashartist"] : ["Christian Fell"],
+        ["lore"] : "No name packed the arena stands like “Viscero.” Other Reckoners would showboat to garner applause, bleeding their enemies out for the drama—but there was a different kind of entertainment in watching the Ionian legend execute a violent craft with ruthless precision. Whether or not Viscero himself liked it, he wasn't just good. He was one of the best."
       },
       ["Winged Hussar"] : {
         ["id"] : 4,
@@ -46796,8 +54141,8 @@
         ["release"] : "2011-09-26",
         ["retired"] : "2015-08-29",
         ["set"] : ["Wonders of the World"],
-        ["voiceactor"] : ["Richard Epcar"],
-        ["splashartist"] : ["Robin Ruan"],
+        ["voiceactor"] : ["Vic Chao"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
         ["lore"] : "A member of the vaunted winged hussars, Xin Zhao is one of the last standard bearers of a military order tracing its roots back to the late 17th century. Of course, his progenitors didn't ride an army of armored black pegasi into battle, but you know how it is."
       },
       ["Warring Kingdoms"] : {
@@ -46819,7 +54164,7 @@
             ["id"] : 26,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Lunar Revel 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 12
@@ -46831,10 +54176,13 @@
             ["id"] : 11
           }, 
           ["Ruby"] : {
-            ["id"] : 7
+            ["id"] : 7,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }
         },
-        ["voiceactor"] : ["Richard Epcar"],
+        ["voiceactor"] : ["Vic Chao"],
         ["splashartist"] : ["Michal Ivan", "Puppetworks Animation Studio"],
         ["lore"] : "Legendary warrior and proud general both, Xin Zhao fights across the Warring Kingdoms to preserve peace for the common man. His spear is said to be sharp enough to pierce the sky, striking with the force of thunder."
       },
@@ -46848,7 +54196,7 @@
         ["set"] : ["Cops and Robbers"],
         ["newanimations"] : true,
         ["newrecall"] : true,
-        ["voiceactor"] : ["Richard Epcar"],
+        ["voiceactor"] : ["Vic Chao"],
         ["splashartist"] : ["Sixmorevodka Studio"],
         ["lore"] : "Most people who come into contact with Xin Zhao have a gap in their memory where the encounter once was. This is probably for the best as most encounters he's involved in tend to include close encounters of the third kind, protecting civilians against terrifying extraterrestrial invaders, or evading aggressive UFO dive bombers."
       },
@@ -46877,14 +54225,18 @@
             ["id"] : 17
           }, 
           ["Ruby"] : {
-            ["id"] : 19
+            ["id"] : 19,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Sandstone"] : {
             ["id"] : 16
           }
         },
-        ["voiceactor"] : ["Richard Epcar"],
+        ["voiceactor"] : ["Vic Chao"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "CD_S0P1o9-M",
         ["lore"] : "The sorceress called a great mountain her home, and from it, reborn dragons poured endlessly into the sky. Though dragonslayers fell all around him, Xin Zhao struck into the monster's lair, determined to end her evil once and for all."
       },
       ["Cosmic Defender"] : {
@@ -46893,7 +54245,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2018-08-21",
-        ["set"] : ["Event Horizon"],
+        ["set"] : ["Cosmic"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -46918,7 +54270,7 @@
             ["id"] : 25
           }
         },
-        ["voiceactor"] : ["Richard Epcar"],
+        ["voiceactor"] : ["Vic Chao"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
         ["lore"] : "Great horrors are attracted to the light of newborn stars—from the corruptants of the Dark Star, to squirming, ancient things yet unknown. Xin Zhao is the steadfast protector of these cosmic cradles, driving off any that would devour them."
       },
@@ -46962,7 +54314,7 @@
             ["id"] : 34
           }
         },
-        ["voiceactor"] : ["Richard Epcar"],
+        ["voiceactor"] : ["Vic Chao"],
         ["splashartist"] : ["Lucas Parolin", "West Studio"],
         ["lore"] : "Though brutal, the Marauders still follow a martial order established during the era of the Magelords. These commanders seek only to reclaim the might with which their order once ruled. Xin Zhao is one half of the pair of current leaders. Pragmatic and measured, he has resurrected an ancient Magelord to destroy his foes once and for all."
       },
@@ -46987,7 +54339,7 @@
             ["id"] : 45,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 44
@@ -47011,9 +54363,95 @@
             ["id"] : 41
           }
         },
-        ["voiceactor"] : ["Richard Epcar"],
+        ["voiceactor"] : ["Vic Chao"],
         ["splashartist"] : ["Zoe Zhu", "West Studio"],
         ["lore"] : "Xin Zhao is a popular man at the New Year's festival— and not just because he hands out lots of red envelopes. He is the reliable protector that keeps his more chaotic friends from getting into often-explosive mischief, and does it all with a cool, casual grace that leaves everyone swooning. "
+      },
+      ["Trials of Twilight"] : {
+        ["id"] : 47,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-10-08",
+        ["set"]	: ["Chronicle"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+        	["Obsidian"] : {
+        		["id"] : 51,
+        		["availability"] : "Bundle",
+            	["source"]       : "Bundle",
+            	["distribution"] : "Bundle Exclusive"
+        	},
+        	["Rose Quartz"] : {
+        		["id"] : 52,
+        		["availability"] : "Bundle",
+            	["source"]       : "Bundle",
+            	["distribution"] : "Bundle Exclusive"
+        	},
+        	["Ruby"] : {
+        		["id"] : 50,
+        		["availability"] : "Bundle",
+            	["source"]       : "Bundle",
+            	["distribution"] : "Bundle Exclusive"
+        	},
+        	["Unlocked"] : {
+        		["id"] : 48,
+        		["availability"] : "Limited",
+            	["source"]       : "Bundle",
+            	["distribution"] : "Worlds Unlocked"
+        	},
+        	["Worthy"] : {
+        		["id"] : 49,
+        		["availability"] : "Bundle",
+            	["source"]       : "Bundle",
+            	["distribution"] : "Bundle Exclusive"
+        	},
+    	},
+        ["voiceactor"] : ["Vic Chao"],
+        ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
+        ["lore"] : "Xin Zhao returned to Ionia seeking knowledge about the mysterious “Wyldblooms” of old, only to find himself defending the Kinkou temple from a foul demonkin horde. He and Yunara emerged victorious, but his Demacian steel spear was broken—now, blessed by Kinkou magic and his spear remade, Xin Zhao prepares to face whatever awaits him in the spirit realm…",
+      },
+      ["T1"] : {
+        ["id"] : 53,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-07-15",
+        ["set"] : ["World Champions: 2025"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 58
+          }, 
+          ["Elite"] : {
+            ["id"] : 54,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 55
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 57
+          }, 
+          ["Ruby"] : {
+            ["id"] : 56,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 59
+          }
+        },
+        ["voiceactor"] : ["Vic Chao"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Honoring Oner's winning performance as Xin Zhao during the 2025 World Championship."
       }
     }
   },
@@ -47028,6 +54466,7 @@
         ["release"] : "2013-12-13",
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "jfgKdOlO_E4",
         ["lore"] : "An Ionian of deep resolve, Yasuo is an agile swordsman who wields the air itself against his enemies. As a proud young man, he was falsely accused of murdering his master—unable to prove his innocence, he was forced to slay his own brother in self defense. Even after his master’s true killer was revealed, Yasuo still could not forgive himself for all he had done, and now wanders his homeland with only the wind to guide his blade."
       },
       ["High Noon"] : {
@@ -47110,11 +54549,12 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Night &amp; Dawn 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "W2nNTmampaI",
         ["lore"] : "Born from festering echoes at the dawn of creation, Yasuo is the hellish embodiment of chaos in the cosmos. Fated to clash against the Dawnbringer for all time, he awaits a day when his darkness will finally cleave away her light."
       },
       ["Odyssey"] : {
@@ -47152,6 +54592,7 @@
         },
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "Dy58gGFpagI",
         ["lore"] : "Yasuo never wanted to be a space pirate… until he was framed for his brother's murder, and had to flee his life of relative luxury. Now on the run from a dozen different military and paramilitary factions, he's putting together an eccentric crew to make a new life among the stars."
       },
       ["Battle Boss"] : {
@@ -47182,7 +54623,7 @@
             ["id"] : 26,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Arcade 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 25
@@ -47199,6 +54640,7 @@
         },
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Choe HeonHwa"],
+        ["music"] : "EeyPmIssreo",
         ["lore"] : "One-time protagonist of the 1979 cult classic “Hasagi,” Yasuo was infected with Veigar's malignant code after the Battle Boss takeover of Arcadia. He maintains his impossibly complex gameplay patterns and high-damage attacks, but now fights for the forces of evil."
       },
       ["True Damage"] : {
@@ -47225,7 +54667,7 @@
             ["id"] : 33,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "True Damage 2019"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 28
@@ -47242,6 +54684,7 @@
         },
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Kelly Aleshire"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "As enigmatic as he is skilled, Yasuo is the veteran producer all others turn to for inspiration. His beats transcend genre, painting whole universes with wild textures of sound. Notoriously selective about his collaborations, Yasuo sees True Damage as his platform to revolutionize how society experiences music."
       },
       ["Spirit Blossom"] : {
@@ -47265,7 +54708,7 @@
             ["id"] : 44,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Spirit Blossom 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 38
@@ -47288,7 +54731,7 @@
         },
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Jennifer Wuestling"],
-        ["lore"] : "Long ago, two brothers fought a bitter war across Ionia. Yasuo, the younger brother, was a warlord renowned for his roguish demeanor—until he was accused of crimes against the country and took up arms to defend himself. Both were fated to fall in their final duel… a lesson, perhaps, in pride and hubris."
+        ["lore"] : "Pride once set the First Lands aflame, as recounted in the Tale of the Warring Brothers. The Younger was a roguish yet respected lord, until he was accused of crimes against his people and took up arms to defend his reputation. Both brothers fell in their final clash—a fatal lesson in hubris."
       },
       ["Prestige True Damage"] : {
         ["id"] : 35,
@@ -47304,6 +54747,7 @@
         ["variant"] : 18,
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "sVZpHFXcFJw",
         ["lore"] : "After the global success of “GIANTS,” reclusive producer-extraordinaire Yasuo was inundated with requests. From record deals to clothing sponsorships, he turned down one after another, preferring to stay out of the limelight to focus on the simple joys of making beats. However, A Bathing Ape somehow managed to secure his attention. Now, donning golden threads to match his musical brilliance, Yasuo holds the world's ears at attention—with fans and critics alike waiting to hear his next revolutionary track."
       },
       ["Truth Dragon"] : {
@@ -47320,6 +54764,7 @@
         ["variant"] : 55,
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "tHduaeLWi1Y",
         ["lore"] : "Alone against an army, Yasuo chose to stand and fight. He blocked a narrow pass between two mountains, allowing innocents to escape the bloodshed. Wielding the truth of steel as a dance, he felled countless foes—but even he could not hold out forever. The Dragon of Truth, moved by his swordsmanship, came down from its peak to bless him..."
       },
       ["Dream Dragon"] : {
@@ -47336,6 +54781,7 @@
         ["variant"] : 54,
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "tHduaeLWi1Y",
         ["lore"] : "The song of steel grew silent, and Yasuo was the last living soul on the battlefield—though he imagined he could hear the thankful murmurs of the villagers he'd protected. Wounded and dying, Yasuo produced his flute to play a last haunting elegy. The Dragon of Dreams descended from its mountaintop, moved by Yasuo's song, and offered him its power..."
       },
       ["Sea Dog"] : {
@@ -47401,7 +54847,7 @@
             ["id"] : 67,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "MSI 2023 Bundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Emerald"] : {
             ["id"] : 61
@@ -47410,7 +54856,7 @@
             ["id"] : 66,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2023"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 65
@@ -47436,6 +54882,7 @@
         },
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Nathaniel Himawan", "West Studio"],
+        ["music"] : "Lmcy9Z10iLs",
         ["lore"] : "Displaced from his home alongside Master Yi, Yasuo now uses his Inkshadow tattoos to ride the wind between Rabadon City and the outskirts, protecting civilians seeking asylum with help from the mysterious Man of Masks. Though he gave up his freedom in exchange for power, he sees the price as penance for being unable to help those who needed it most."
       },
       ["Prestige Inkshadow"] : {
@@ -47443,7 +54890,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2023-05-03",
         ["set"] : ["Inkshadow"],
         ["filter"] : true,
@@ -47453,6 +54900,7 @@
         ["variant"] : 56,
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Ina Wong", "West Studio"],
+        ["music"] : "Lmcy9Z10iLs",
         ["lore"] : "Sporting an elevated take on traditional Ionian menswear coupled with a fearlessly bare set of stunning blackout tattoos, Yasuo's gala look celebrates elegant rebellion, sartorial subversion, and an uprising of unprecedented design."
       },
       ["Foreseen"] : {
@@ -47519,7 +54967,7 @@
             ["id"] : 86,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 85
@@ -47545,15 +54993,15 @@
         },
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Lejia Chan", "Kudos Productions"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "The first captain of the Wolf Squad, Yasuo fought alongside Riven in the early days of the invasion. He disappeared only to reemerge years later a battle-hardened survivalist, still wearing his original suit. He's here to warn Anima Squad that the enemy has evolved—and if they want to survive, they'll need all hands (and paws) on deck."
       },
       ["Genesis Nightbringer"] : {
         ["id"] : 87,
-        ["availability"] : "Upcoming",
-        ["looteligible"] : true,
+        ["availability"] : "Rare",
         ["cost"] : "Special",
         ["distribution"] : "1% drop rate from Capsules or opening 30 Capsules",
-        ["release"] : "N/A",
+        ["release"] : "2024-10-09",
         ["set"] : ["Nightbringer and Dawnbringer"],
         ["neweffects"] : true,
         ["newanimations"] : true,
@@ -47563,6 +55011,49 @@
         ["voiceactor"] : ["Liam O'Brien"],
         ["splashartist"] : ["Huyy Nguyen", "West Studio"],
         ["lore"] : "Born from festering echoes at the dawn of creation, Yasuo is the hellish embodiment of chaos in the cosmos. Fated to clash against the Dawnbringer for all time, he awaits a day when his darkness will finally cleave away her light."
+      },
+      ["Petals of Spring"] : {
+        ["id"] : 88,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-19",
+        ["set"] : ["Petals of Spring"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 93
+          }, 
+          ["Catseye"] : {
+            ["id"] : 90
+          }, 
+          ["Emerald"] : {
+            ["id"] : 96
+          }, 
+          ["Pearl"] : {
+            ["id"] : 94
+          }, 
+          ["Peridot"] : {
+            ["id"] : 95
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 92
+          }, 
+          ["Ruby"] : {
+            ["id"] : 89,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 91
+          }
+        },
+        ["voiceactor"] : ["Liam O'Brien"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "Alone, wandering at the farthest edges of the Frostpyre Garden, is Yasuo. Armed with winds of blistering heat and cold, he battles the monstrous manifestations of mortals' darkest memories, meanwhile haunted by memories of his former life. He yearns for spring—for when his duty is done, he may rest and spar once again with his friendly rival, Katarina."
       },
     }
   },
@@ -47577,6 +55068,7 @@
         ["release"] : "2020-08-06",
         ["voiceactor"] : ["Noshir Dalal"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "6FlWvjg95sc",
         ["lore"] : "In life, he was Yone—half-brother of Yasuo, and renowned student of his village's sword school. But upon his death at the hands of his brother, he found himself hunted by a malevolent entity of the spirit realm, and was forced to slay it with its own sword. Now, cursed to wear its demonic mask upon his face, Yone tirelessly hunts all such creatures in order to understand what he has become."
       },
       ["Spirit Blossom"] : {
@@ -47616,7 +55108,7 @@
             ["id"] : 8,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Spirit Blossom 2020"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Tanzanite"] : {
             ["id"] : 7
@@ -47624,7 +55116,7 @@
         },
         ["voiceactor"] : ["Noshir Dalal"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
-        ["lore"] : "Long ago, two brothers fought a bitter war across Ionia. Yone, the older brother, was a warlord renowned for his adherence to honor and duty. He fought to defend the country against those who would break its rites and rituals - until he was forced to confront his own brother for his crimes. Both were fated to fall in their final duel… a lesson, perhaps, in pride and hubris."
+        ["lore"] : "Pride once set the First Lands aflame, as recounted in the Tale of the Warring Brothers. The Elder was a lord who upheld tradition and duty in serving his people, until he was forced to confront his own kin. Both brothers fell in their final clash—a fatal lesson in hubris."
       },
       ["Battle Academia"] : {
         ["id"] : 10,
@@ -47689,7 +55181,7 @@
             ["id"] : 25,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "Night &amp; Dawn 2021"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 24
@@ -47776,10 +55268,16 @@
             ["id"] : 44,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2023"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 43
+          }, 
+          ["Paragon"] : {
+            ["id"] : 76,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+          	["distribution"] : "Sanctum"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 41
@@ -47802,6 +55300,7 @@
         },
         ["voiceactor"] : ["Noshir Dalal"],
         ["splashartist"] : ["Rudy Siswanto"],
+        ["music"] : "Lmcy9Z10iLs",
         ["lore"] : "Two brothers lost their home and became Inkshadow Warriors. One gave up his freedom, and the other his identity. Yone paid a steep price for his tattoo: no one remembers that he existed. Now known only as a faceless stranger called the “Man of Masks,” he shields refugees from the Cabal until they can be delivered into Yasuo's protection."
       },
       ["HEARTSTEEL"] : {
@@ -47831,7 +55330,7 @@
             ["id"] : 56,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2023"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Rose Quartz"] : {
             ["id"] : 52
@@ -47851,6 +55350,7 @@
         },
         ["voiceactor"] : ["Noshir Dalal"],
         ["splashartist"] : ["Bo 'chenbowow' Chen", "Julia Yurtsev", "Jennifer Wuestling"],
+        ["music"] : "MDErQ1KTzaI",
         ["lore"] : "Once a legendary DJ/producer, Yone grew disillusioned with the music industry and mysteriously dropped off the grid, leaving fans and critics alike wanting more. Meeting the other members of HEARTSTEEL pulled him out of his creative funk, and with his passion for music now reignited, Yone is determined to take this band straight to the top."
       },
       ["Prestige HEARTSTEEL"] : {
@@ -47858,7 +55358,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2023-11-08",
         ["set"] : ["HEARTSTEEL"],
         ["neweffects"] : true,
@@ -47867,6 +55367,7 @@
         ["variant"] : 45,
         ["voiceactor"] : ["Noshir Dalal"],
         ["splashartist"] : ["Pandart Studio"],
+        ["music"] : "MDErQ1KTzaI",
         ["lore"] : "As an enigmatic music producer, Yone may say he doesn't enjoy the limelight, but he couldn't help but dress to impress for the band's chart-topping debut in a smart, sleek fit worthy of his sharp swordsmanship and even sharper style. It'd be a shame to hide behind a computer when you look this cool."
       },
       ["High Noon"] : {
@@ -47888,7 +55389,7 @@
             ["id"] : 64,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "High Noon 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 63
@@ -47927,6 +55428,114 @@
         ["splashartist"] : ["Su Fu", "Kudos Productions"],
         ["lore"] : "The haunted man doesn't breathe, just leans against the hitching post and squints into the frontier dusk—but it ain't him. Not really. The real Yone is shadow and gunsmoke, roiling as it sinks back into the stillness of his corporeal form. “How'd you wind up split like that?” the young Powder Witch asks. Yone sighs, “It's a long story, kid.”"
       },
+      ["Masked Justice"] : {
+        ["id"] : 65,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-02-20",
+        ["set"] : ["Masked Justice"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 68
+          }, 
+          ["Catseye"] : {
+            ["id"] : 67
+          }, 
+          ["Emerald"] : {
+            ["id"] : 69
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 72
+          }, 
+          ["Pearl"] : {
+            ["id"] : 73
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 70
+          }, 
+          ["Ruby"] : {
+            ["id"] : 66,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 71
+          }
+        },        
+        ["voiceactor"] : ["Noshir Dalal"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "When Mezzorax invaded their planet, Yone and his brother Yasuo swore to retaliate. Yasuo struck first, seizing the invading giant's Hyperguise suits. But it was Mezzorax who struck hardest. With Yasuo now gone, Yone has taken up his brother's Hyperguise and is building more, so that fellow citizens can join the fight."
+      },
+      ["T1"] : {
+        ["id"] : 74,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-09-10",
+        ["set"] : ["World Champions: 2024"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Elite"] : {
+            ["id"] : 75,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }
+        },
+        ["voiceactor"] : ["Noshir Dalal"],
+        ["splashartist"] : ["Horace 'Hozure' Hsu", "Terence 'Terrylefruit' Cantal"],
+        ["lore"] : "Honoring Faker's winning performance as Yone during the 2024 World Championship."
+      },
+      ["HEARTSTEEL Live My Life"] : {
+        ["id"] : 77,
+        ["availability"] : "Upcoming",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "N/A",
+        ["set"] : ["HEARTSTEEL"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 80
+          }, 
+          ["Emerald"] : {
+            ["id"] : 84
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 85
+          }, 
+          ["Pearl"] : {
+            ["id"] : 81
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 79
+          }, 
+          ["Ruby"] : {
+            ["id"] : 78,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 83
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 82
+          }
+        },
+        ["voiceactor"] : ["Noshir Dalal"],
+        ["music"] : "gMkuV5hh7-s",
+        ["lore"] : "<br>Vibe Pop Magazine: How do you like to relax?<br><br>Yone: I love strategy games. It's like producing music with no pressure.<br>Sett: He sucks at Riftbound.<br>Yone: Sett hasn't let go of the one time he beat me.<br>Sett: Hell yeah!<br>Yone: Once. Out of 40 matches.<br>Sett: Pfft. Who's keeping score?<br>Yone: I am. I'm keeping score.<br>Sett: Laaame."
+      }      
     }
   },
   ["Yorick"] : {
@@ -47940,6 +55549,7 @@
         ["release"] : "2011-06-22",
         ["voiceactor"] : ["Daniel Riordan"],
         ["splashartist"] : ["Victor '3rdColossus' Maury"],
+        ["music"] : "Lv85e8JgR3g",
         ["lore"] : "The last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking spirits that he gathers to him. Yorick’s monstrous actions belie his noble purpose: to free his home from the curse of the Ruination."
       },
       ["Undertaker"] : {
@@ -47947,7 +55557,7 @@
         ["availability"] : "Available",
         ["looteligible"] : true,
         ["cost"] : 520,
-        ["release"] : "2011-06-21",
+        ["release"] : "2011-06-22",
         ["set"] : ["Omen of the Dark"],
         ["neweffects"] : true,
         ["vu"] : true,
@@ -47960,12 +55570,13 @@
         ["availability"] : "Available",
         ["looteligible"] : true,
         ["cost"] : 975,
-        ["release"] : "2011-06-21",
+        ["release"] : "2011-06-22",
         ["set"] : ["Pentakill"],
         ["neweffects"] : true,
         ["vu"] : true,
         ["voiceactor"] : ["Daniel Riordan"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "oUiOylPbfV0&list:PLFy97Kh_wuWbTNc8aW76g-4pwvxMqEeJA",
         ["lore"] : "Yorick was resurrected with the undying soul of heavy metal inside him for the singular purpose of joining PENTAKILL and melting faces with his bass guitar. He can also summon an army of roadie ghouls, a handy trick for any seasoned stage performer."
       },
       ["Arclight"] : {
@@ -48022,6 +55633,7 @@
         },
         ["voiceactor"] : ["Daniel Riordan"],
         ["splashartist"] : ["Choe HeonHwa"],
+        ["music"] : "E9f-J-r71i8",
         ["lore"] : "A cat fancier hailing from the Forsaken Aisles of a Pets Supreme Superstore, Yorick does not have any unresolved issues involving or related to cats. Yorick is a perfectly normal gentleman dressed as a cat, surrounded by cats, who can call upon the esoteric powers of a giant, floating cat. You know, normal gentleman stuff."
       },
       ["Resistance"] : {
@@ -48074,7 +55686,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2021-09-09",
-        ["set"] : ["Pentakill"],
+        ["set"] : ["Pentakill III: The Lost Chapter"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -48109,6 +55721,7 @@
         },
         ["voiceactor"] : ["Daniel Riordan"],
         ["splashartist"] : ["Terence 'Terrylefruit' Cantal", "West Studio"],
+        ["music"] : "5IWS7Y5KRhk&list:PLsY0g5fQlxMWMsC_enIQlr7zwfhT6v9mU",
         ["lore"] : "All hail, Yorick, the Four-String Fanatic! He bestrides the realms of the living and the dead, and knows the fate that comes to all mortal things. It pays to beware the honorable man..."
       },
       ["Spirit Blossom"] : {
@@ -48135,7 +55748,7 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 38
@@ -48161,7 +55774,200 @@
         },
         ["voiceactor"] : ["Daniel Riordan"],
         ["splashartist"] : ["Jeremy Chong", "West Studio"],
-        ["lore"] : "The grove he called home burnt to ashes before his very eyes. While another retreated into solitude, Yorick allowed the rage to consume him. The flowers and trees that bloom in the Spirit of Ruin's wake are haunting, the gardeners that tend to them howling creatures of the night."
+        ["lore"] : "The Ashen Caretaker was once a man who, alongside a timid fawn, tended to a sacred forest with the utmost care—until it burned to the ground before his eyes. His heart, too, crumbled to ash, for it had forgotten death gives rise to new blooms. Now the flowers he tends seem to blister in flames unseen, his gardeners now howling creatures of the night."
+      },
+      ["Dark Star"] : {
+        ["id"] : 40,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-10-23",
+        ["set"] : ["Dark Star"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Citrine"] : {
+            ["id"] : 47
+          }, 
+          ["Emerald"] : {
+            ["id"] : 43
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 48
+          }, 
+          ["Pearl"] : {
+            ["id"] : 46
+          }, 
+          ["Quasar"] : {
+            ["id"] : 49,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 45
+          }, 
+          ["Ruby"] : {
+            ["id"] : 41,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 44
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 42
+          }
+        },
+        ["voiceactor"] : ["Daniel Riordan"],
+        ["splashartist"] : ["Nathaniel Himawan", "West Studio"],
+        ["lore"] : "A somber titan from a long-dead galaxy, Yorick plants a garden of nothingness wherever he roams. He memorializes existence in silence, cultivating a grave in the negative space where matter once bloomed."
+      },
+      ["High Noon"] : {
+        ["id"] : 50,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-05-14",
+        ["set"] : ["High Noon"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 54
+          }, 
+          ["Emerald"] : {
+            ["id"] : 52
+          }, 
+          ["Pearl"] : {
+            ["id"] : 58
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 57
+          }, 
+          ["Ruby"] : {
+            ["id"] : 51,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 53
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 55
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 56
+          }
+        }, 
+        ["voiceactor"] : ["Daniel Riordan"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "Father Yorick can still feel the whisper of his lost love's stifled breath against his neck. He can't forget the blood on her veil, nor the shot that stole her away, ringing in the vault of the church. But fleeing into the heatsick West ain't enough to outrun her ghost. He shoulders her coffin and ambles onward, warm revolvers dancing in his nightmares."
+      }
+    }
+  },
+  ["Yunara"] : {
+    ["id"] : 804,
+    ["skins"] : {
+      ["Original"] : {
+        ["id"] : 0,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 975,
+        ["release"] : "2025-07-16",
+        ["splashartist"] : ["Horace 'Hozure' Hsu"],
+        ["voiceactor"] : ["Leader Looi"],
+        ["music"] : "gni4Zh-9Z94",
+        ["lore"] : "Unwavering in her devotion to lonia, Yunara has spent centuries cloistered away in the spirit realm honing her skills with the Aion Er'na, a legendary Kinkou relic. Despite all she has sacrificed, Yunara's vow to rid the land of disharmony and strife remains unbroken, as does her faith. But the world that now awaits her—and the shadow of an ancient threat risen once more—will test every ounce of her resolve."
+      },
+      ["Spirit Blossom Springs"] : {
+        ["id"] : 1,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-07-16",
+        ["set"] : ["Spirit Blossom Springs"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 5
+          }, 
+          ["Emerald"] : {
+            ["id"] : 3
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 8
+          }, 
+          ["Pearl"] : {
+            ["id"] : 9
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 6
+          }, 
+          ["Ruby"] : {
+            ["id"] : 2,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 7
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 4
+          }
+        },
+        ["voiceactor"] : ["Leader Looi"],
+        ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "GMOLiyzunQA",
+        ["lore"] : "Yunara's sense of purpose consumes her, tensing her body and mind with an ever-tightening grip. Her friend Ahri knew only one thing could relieve such tension: the magical steam of Spirit Blossom Springs. Though Yunara was hesitant, she ultimately accepted, in order to expand her mind and meditate on what's next."
+      },
+      ["T1"] : {
+        ["id"] : 10,
+        ["availability"] : "Legacy",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-07-15",
+        ["set"] : ["World Champions: 2025"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 15
+          }, 
+          ["Elite"] : {
+            ["id"] : 11,
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Pearl"] : {
+            ["id"] : 12
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 14
+          }, 
+          ["Ruby"] : {
+            ["id"] : 13,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 16
+          }
+        },
+        ["voiceactor"] : ["Leader Looi"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Honoring Gumayusi's winning performance as Yunara during the 2025 World Championship."
       }
     }
   },
@@ -48176,6 +55982,7 @@
         ["release"] : "2019-05-14",
         ["voiceactor"] : ["Cassandra Lee Morris"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "T1jXFSj4pTM",
         ["lore"] : "A magical cat from Bandle City, Yuumi was once the familiar of a yordle enchantress, Norra. When her master mysteriously disappeared, Yuumi became the Keeper of Norra's sentient Book of Thresholds, traveling through portals in its pages to search for her. Yearning for affection, Yuumi seeks friendly companions to partner with on her journey, protecting them with luminous shields and fierce resolve. While Book strives to keep her on task, Yuumi is often drawn to worldly comforts, such as naps and fish. In the end, however, she always returns to her quest to find her friend."
       },
       ["Battle Principal"] : {
@@ -48196,7 +56003,7 @@
             ["id"] : 10,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-          	["distribution"] : "MSI 2019"
+          	["distribution"] : "Mythic Shop"
           }, 
           ["Granite"] : {
             ["id"] : 4
@@ -48225,6 +56032,7 @@
         },
         ["voiceactor"] : ["Cassandra Lee Morris"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "TL1iTOj2K6I",
         ["lore"] : "Following the disappearance of two principals, Yuumi has stepped in as the acting head of Durandal Academy until either individual can be found and re-instated. As a powerful channeler of magic, she uses the academic registry book as a focus object to generate apocalyptic levels of energy… often while perched on a terrified student's head."
       },
       ["Heartseeker"] : {
@@ -48369,7 +56177,7 @@
             ["id"] : 38,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Tenfold Triumph"] : {
             ["id"] : 48
@@ -48449,13 +56257,13 @@
             ["id"] : 59,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Override"] : {
             ["id"] : 60,
-            ["availability"] : "Loot",
-            ["source"]       : "Loot",
-            ["distribution"] : "Anima Squad 2024"
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Pearl"] : {
             ["id"] : 57
@@ -48475,6 +56283,7 @@
         },
         ["voiceactor"] : ["Cassandra Lee Morris"],
         ["splashartist"] : ["Julia Yurtsev"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "When Jinx stumbled onto an old Primordian program, she couldn't help but tinker with it, creating what would become the sentient digital cat behind the Anima Squad interface: Yuum.ai! Now inhabiting a shiny new hologram body, everyone's favorite online helper, bug swatter, and demander of head pats can hop into battle alongside her allies."
       },
       ["Prestige Cyber Cat"] : {
@@ -48482,7 +56291,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "125 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2024-07-17",
         ["set"] : ["Anima Squad"],
         ["neweffects"] : true,
@@ -48491,7 +56300,152 @@
         ["variant"] : 49,
         ["voiceactor"] : ["Cassandra Lee Morris"],
         ["splashartist"] : ["Su Fu", "Kudos Productions"],
+        ["music"] : "0wdka0cj0H8",
         ["lore"] : "Bringing your pampered pet as a plus one to A-list events is all the rage, but sometimes you don't want to have to worry about cat hair. No problem, because this latest model of Cyber Cat Yuumi is here to prove that they call it a “catwalk” for a reason!"
+      },
+      ["Nightbringer"] : {
+        ["id"] : 61,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-07-16",
+        ["set"] : ["Nightbringer and Dawnbringer"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 63
+          }, 
+          ["Emerald"] : {
+            ["id"] : 64
+          }, 
+          ["Pearl"] : {
+            ["id"] : 68
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 67
+          }, 
+          ["Ruby"] : {
+            ["id"] : 62,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 65
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 69
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 66
+          }
+        },
+        ["voiceactor"] : ["Cassandra Lee Morris"],
+        ["lore"] : "Tremble before the scion of parasitic corruption, she who drives her foes to madness! Woe to any who listen to her words, ripped from the pages of that cursed book, for they erode the mind of her victims until there is nothing left but a thoughtless husk stumbling ever-deeper into the darkness."
+      },
+      ["Firecracker"] : {
+        ["id"] : 70,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-04",
+        ["set"] : ["Lunar Revel: Firecracker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 72
+          }, 
+          ["Emerald"] : {
+            ["id"] : 73
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 76
+          }, 
+          ["Pearl"] : {
+            ["id"] : 78
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 75
+          }, 
+          ["Ruby"] : {
+            ["id"] : 71,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 74
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 77
+          }
+        },
+        ["voiceactor"] : ["Cassandra Lee Morris"],
+        ["splashartist"] : ["Jiunn Kuo", "Kudos Productions"],
+        ["lore"] : "No Lunar Revel celebration is complete without an adorable mascot like Yuumi! Playfully attaching to various festival attendees, she spreads joy wherever she travels. Some say a visit from this magical cat is a sign of good luck for the new year."
+      }
+    }
+  },
+  ["Zaahen"] : {
+    ["id"] : 904,
+    ["skins"] : {
+      ["Original"] : {
+        ["id"] : 0,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 975,
+        ["release"] : "2025-11-19",
+        ["voiceactor"] : ["Ash Rizi"],
+        ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "ePVscH1Yi3s",
+        ["lore"] : "A fallen god wielding both divine and profane power, Zaahen hunts his fellow Darkin while defying the corruption that threatens to consume him. Once willingly sealed within his glaive to stave off madness, he now walks free, noble in heart and vicious in purpose. Zaahen fights an eternal war within—but so long as he endures, he will rise above all who seek to bring Runeterra to ruin."
+      },
+      ["Immortal Journey"] : {
+        ["id"] : 1,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-11-19",
+        ["set"] : ["Immortal Journey"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 7
+          }, 
+          ["Catseye"] : {
+            ["id"] : 3
+          }, 
+          ["Emerald"] : {
+            ["id"] : 4
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 9
+          }, 
+          ["Pearl"] : {
+            ["id"] : 8
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 5
+          }, 
+          ["Ruby"] : {
+            ["id"] : 2,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 6
+          }
+        },
+        ["voiceactor"] : ["Ash Rizi"],
+        ["splashartist"] : ["Rudy Siswanto"],
+        ["lore"] : "Wielding a divine glaive and sacred waters, the dragon king Zaahen ruled the eastern seas. But prophecy foretold that rage would drown his mercy, bringing deathly floods. Zaahen withdrew to the depths of his court… until a scholar dared to descend, seeking the truth of the god beneath the waves. Stirred, Zaahen now fights the ruin he was fated to unleash."
       }
     }
   },
@@ -48516,6 +56470,7 @@
           }
         },
         ["splashartist"] : ["Christian Fell"],
+        ["music"] : "AW2JL512dXs",
         ["lore"] : "Zac is the product of a toxic spill that ran through a chemtech seam and pooled in an isolated cavern deep in Zaun’s Sump. Despite such humble origins, Zac has grown from primordial ooze into a thinking being who dwells in the city’s pipes, occasionally emerging to help those who cannot help themselves or to rebuild the broken infrastructure of Zaun."
       },
       ["Special Weapon"] : {
@@ -48527,7 +56482,8 @@
         ["set"] : ["Legacy"],
         ["neweffects"] : true,
         ["newanimations"] : true,
-        ["newrecall"] : true
+        ["newrecall"] : true,
+        ["splashartist"] : ["Pan Chengwei"]
       },
       ["Pool Party"] : {
         ["id"] : 2,
@@ -48614,7 +56570,7 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 22
@@ -48639,6 +56595,7 @@
           }
         },
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "The Foreglow affects everyone differently. For Zac, it burned away all of his insecurities, but opened up his senses to the loneliness felt by the other Zacs across the realms. They needed him, and now he has the power to bring everyone together as one. A family reunion for the ages."
       },
       ["Zesty Dip"] : {
@@ -48682,6 +56639,48 @@
         },
         ["splashartist"] : ["Rudy Siswanto"],
         ["lore"] : "Zac is “nacho” average ooze monster—he's the snack that fights back! Topped with jalapeños, chips, and bacon bits, this sentient cheese-blob is the life of the party... and a nightmare for lactose intolerant eaters everywhere."
+      },
+      ["Space Groove"] : {
+        ["id"] : 33,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-04-15",
+        ["set"] : ["Space Groove"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 35
+          },
+          ["Emerald"] : {
+            ["id"] : 38
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 41
+          }, 
+          ["Pearl"] : {
+            ["id"] : 40
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 36
+          }, 
+          ["Ruby"] : {
+            ["id"] : 34,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 37
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 39
+          }
+        },
+        ["lore"] : "Zac bubbled up from the primordial rivers of Boogiewonderland, a living mass of groove given form. On his planet, funk isn't just music, but the makeup of all matter, pulsing through Zac's bass-boosted heart as he dances across the galaxy. Wherever this entity goes, the rhythm flows—and silence won't stand a chance!"
       }
     }
   },
@@ -48696,6 +56695,7 @@
         ["release"] : "2012-11-13",
         ["voiceactor"] : ["Donny Lucas"],
         ["splashartist"] : ["Pan Chengwei"],
+        ["music"] : "8kr6J2I-0qk",
         ["lore"] : "Utterly ruthless and without mercy, Zed is the leader of the Order of Shadow, an organization he created with the intent of militarizing Ionia’s magical and martial traditions to drive out Noxian invaders. During the war, desperation led him to unlock the secret shadow form—a malevolent spirit magic as dangerous and corrupting as it is powerful. Zed has mastered all of these forbidden techniques to destroy anything he sees as a threat to his nation, or his new order."
       },
       ["Shockblade"] : {
@@ -48724,7 +56724,10 @@
             ["id"] : 4
           }, 
           ["Ruby"] : {
-            ["id"] : 7
+            ["id"] : 7,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+          	["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Donny Lucas"],
@@ -48745,7 +56748,7 @@
             ["id"] : 67,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Signature Immortalized Legend Collection Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["lore"] : "Honoring Faker's winning performance as Zed during the 2013 World Championship."
@@ -48768,7 +56771,7 @@
             ["id"] : 14,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PROJECT 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Donny Lucas"],
@@ -48790,7 +56793,7 @@
             ["id"] : 12,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2018"
+            ["distribution"] : "Mythic Shop"
           } 
         },
         ["voiceactor"] : ["Donny Lucas"],
@@ -48831,7 +56834,7 @@
             ["id"] : 29,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Mythic"] : {
             ["id"] : 39,
@@ -48857,6 +56860,7 @@
         },
         ["voiceactor"] : ["Donny Lucas"],
         ["splashartist"] : ["Esben Lash Rasmussen"],
+        ["music"] : "Rah0mtmmX-A",
         ["lore"] : "Zed was a promising Templar before he became host to the hivemind of ora and imbued with its alien essence. Able to morph his body into living weapons, he now sees himself as the perfect life form, deserving of all ora and destined to cleanse the galaxy of the weak."
       },
       ["PsyOps"] : {
@@ -48878,7 +56882,7 @@
             ["id"] : 19,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "PsyOps 2020"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Obsidian"] : {
             ["id"] : 16
@@ -48904,6 +56908,7 @@
         },
         ["voiceactor"] : ["Donny Lucas"],
         ["splashartist"] : ["David Villegas", "West Studio"],
+        ["music"] : "VWUk-ZMK8w4",
         ["lore"] : "Known as the “Gas Can Man” in paramilitary circles, Zed is an infamous mercenary picked up by the Black Rose Group during one of their covert actions. His psionic powers are tied to a mysterious oil-like substance he ingests through his mask, allowing him to duplicate himself for assassinations and open combat."
       },
       ["Prestige PROJECT"] : {
@@ -48912,7 +56917,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2021-06-24",
         ["set"] : ["PROJECT"],
         ["neweffects"] : true,
@@ -48943,7 +56948,7 @@
             ["id"] : 37,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Debonair 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 34
@@ -48990,7 +56995,7 @@
             ["id"] : 48,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2022"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Pearl"] : {
             ["id"] : 44
@@ -49013,6 +57018,7 @@
         },
         ["voiceactor"] : ["Donny Lucas"],
         ["splashartist"] : ["Jiunn Kuo", "West Studio"],
+        ["music"] : "oNkT_aZWySA",
         ["lore"] : "The Foreglow is a power many desire, but Zed resents how it exposes him. His is a strength born from darkness, away from prying eyes. Perhaps in the fallen Husk realm left in Pyke's wake can he build a new domain of shadows, one that no Empyrean can topple."
       },
       ["Immortal Journey"] : {
@@ -49068,7 +57074,6 @@
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
-        ["filter"] : true,
         ["chromas"] : {
           ["Amethyst"] : {
             ["id"] : 62
@@ -49102,47 +57107,48 @@
         ["splashartist"] : ["Mo Yan"],
         ["lore"] : "As loyalty fractures within the Blood Moon cult, Zed remains Twisted Fate's unshakable right hand and personal power broker. He trades in secrets, shadows, and blood, all while using his mastery over his demon to increase the cult's influence. What Twisted Fate doesn't know is that Zed is also searching for his lost acolyte, stolen by the Snow Moon."
       },
-      ["Quantum Galaxy Slayer"]: {
-        ["id"]: 68,
-        ["availability"]: "Limited",
-        ["looteligible"]: false,
-        ["cost"]: "Sanctum",
-        ["distribution"]: "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks",
-        ["release"]: "2025-02-20",
-        ["set"]: ["Odyssey"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["transforming"]: true,
-        ["newvoice"]: true,
-        ["variant"]: 13,
-        ["voiceactor"]: ["Donny Lucas"],
-        ["splashartist"]: ["Huyy Nguyen", "West Studio"],
-        ["lore"]: "Zed was a promising Templar before he became host to the hivemind of ora and imbued with its alien essence. Able to morph his body into living weapons, he now sees himself as the perfect life form, deserving of all ora and destined to cleanse the galaxy of the weak."
+      ["Quantum Galaxy Slayer"] : {
+        ["id"] : 68,
+        ["availability"] : "Limited",
+        ["looteligible"] : false,
+        ["cost"] : "Sanctum",
+        ["distribution"] : "0.5% drop rate from the Sanctum or opening 40 Ancient Sparks",
+        ["release"] : "2025-02-20",
+        ["set"] : ["Odyssey"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["transforming"] : true,
+        ["newvoice"] : true,
+        ["variant"] : 13,
+        ["voiceactor"] : ["Donny Lucas"],
+        ["splashartist"] : ["Huyy Nguyen", "West Studio"],
+        ["lore"] : "Zed was a promising Templar before he became host to the hivemind of ora and imbued with its alien essence. Able to morph his body into living weapons, he now sees himself as the perfect life form, deserving of all ora and destined to cleanse the galaxy of the weak."
       },
-      ["Prestige Spirit Blossom"]: {
-        ["id"]: 69,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S2 Act 2 Premium Battle Pass reward (Level 50)",
-        ["release"]: "2025-06-25",
-        ["set"]: ["Spirit Blossom"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["chromas"]: {
-          ["Vivid"]: {
-            ["id"]: 70,
-            ["availability"]: "Limited",
-            ["source"]      : "Limited",
-            ["distribution"]: "Event Pass Exclusive"
+      ["Prestige Spirit Blossom"] : {
+        ["id"] : 69,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S2 Act 2 Premium Battle Pass reward (Level 50)",
+        ["release"] : "2025-06-25",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 70,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
           }
         },
-        ["voiceactor"]: ["Donny Lucas"],
-        ["splashartist"]: ["Marie Magny", "West Studio"],
-        ["lore"]: "Legend speaks of the Burning Shade, a warrior who sacrificed himself for a noble cause, only to see his allies fall. Believing his sacrifice meaningless, grief consumed his soul until all that remained was shadow and rage. Now, he haunts wayward warriors, sparking fires in their hearts until they, too, join him as clones of smoke and shade."
-      }
+        ["voiceactor"] : ["Donny Lucas"],
+        ["splashartist"] : ["Marie Magny", "West Studio"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "Legend speaks of the Burning Shade, a warrior who sacrificed himself for a noble cause, only to see his allies fall. Believing his sacrifice meaningless, grief consumed his soul until all that remained was shadow and rage. Now, he haunts wayward warriors, sparking fires in their hearts until they, too, join him as clones of smoke and shade."
+      }      
     }
   },
   ["Zeri"] : {
@@ -49156,6 +57162,7 @@
         ["release"] : "2022-01-20",
         ["voiceactor"] : ["Vanullle Velasquez"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "jDXCgs5SRfw",
         ["lore"] : "A headstrong, spirited young woman from Zaun’s working-class, Zeri channels her electric magic to charge herself and her custom-crafted gun. Her volatile power mirrors her emotions, its sparks reflecting her lightning-fast approach to life. Deeply compassionate toward others, Zeri carries the love of her family and her home into every fight. Though her eagerness to help can sometimes backfire, Zeri believes one truth to be certain: stand up for your community, and it will stand up with you."
       },
       ["Withered Rose"] : {
@@ -49176,10 +57183,10 @@
             ["id"] : 4
           }, 
           ["Obsidian"] : {
-            ["id"] : 6
+            ["id"] : 7
           }, 
           ["Pearl"] : {
-            ["id"] : 7
+            ["id"] : 8
           }, 
           ["Rose Quartz"] : {
             ["id"] : 6
@@ -49194,7 +57201,7 @@
             ["id"] : 5
           }, 
           ["Turquoise"] : {
-            ["id"] : 8
+            ["id"] : 9
           }
         },
         ["voiceactor"] : ["Vanullle Velasquez"],
@@ -49314,16 +57321,16 @@
             ["id"] : 39,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2024"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Meteorite"] : {
             ["id"] : 35
           }, 
           ["Nightshade"] : {
             ["id"] : 38,
-            ["availability"] : "Loot",
-            ["source"]       : "Loot",
-            ["distribution"] : "Worlds 2024"
+            ["availability"] : "Limited",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
           ["Obsidian"] : {
             ["id"] : 37
@@ -49347,7 +57354,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : false,
         ["cost"] : "Special",
-        ["distribution"] : "2000 Worlds 2024 Tokens",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2024-09-25",
         ["set"] : ["Fright Night"],
         ["neweffects"] : true,
@@ -49357,6 +57364,44 @@
         ["voiceactor"] : ["Vanullle Velasquez"],
         ["splashartist"] : ["Herbie Wang", "Kudos Productions"],
         ["lore"] : "Striking fear into the hearts of the unfashionable with her bold asymmetrical hair and oversized coat crawling with fine spider silk, Zeri's shocking new look is just to die for."
+      },
+      ["Winter Wonder"] : {
+        ["id"] : 40,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1820,
+        ["release"] : "2025-12-03",
+        ["set"] : ["Winter Wonder"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["newvoice"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 43
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 45
+          }, 
+          ["Pearl"] : {
+            ["id"] : 46
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 44
+          }, 
+          ["Ruby"] : {
+            ["id"] : 41,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 42
+          }
+        },
+        ["voiceactor"] : ["Vanullle Velasquez"],
+        ["splashartist"] : ["Alsie Lau"],
+        ["lore"] : "Step right up to witness the Snowdown Festival's star ice skating attraction, Zeri! Having entertained crowds across the snowy lands—even the Poro King himself—Zeri knows how to turn any occasion into a royal performance. Pesky party crashers beware: not even the Ice King can stop her when her village's holiday celebrations are underway."
       }
     }
   },
@@ -49406,6 +57451,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Alessandro Juliani"],
         ["splashartist"] : ["Kienan 'Knockwurst' Lafferty"],
+        ["music"] : "lVrMJepoj6A",
         ["lore"] : "Ziggs is obsessed with creating the biggest water balloon in the history of poolside festivities, for reasons lost on everyone he's ever met. He keeps insisting he's a 'waterologist,' which isn't a real thing."
       },
       ["Snow Day"] : {
@@ -49451,6 +57497,7 @@
         ["filter"] : true,
         ["voiceactor"] : ["Alessandro Juliani"],
         ["splashartist"] : ["Alex 'alexplank' Flores"],
+        ["music"] : "YKzGct28Vxw",
         ["lore"] : "A boss originally from Super Yordle Bombers, Ziggs was transported to Arcade World for one purpose: blow up everything. Armed with his signature explosives (and the programming to use them!) he has wrought digital destruction the way only an angry mini-boss can."
       },
       ["Odyssey"] : {
@@ -49489,6 +57536,7 @@
         },
         ["voiceactor"] : ["Alessandro Juliani"],
         ["splashartist"] : ["Jem Flores"],
+        ["music"] : "Dy58gGFpagI",
         ["lore"] : "A disgraced engineer best known for rapid advances in ora mining technology, Ziggs lost everything when a young technician and her hulking manager “accidentally” rigged one of his devices to explode ahead of schedule. Bitter and manic, he now travels between ora hotspots in a mad gamble to regain his former prestige."
       },
       ["Sugar Rush"] : {
@@ -49530,7 +57578,7 @@
             ["id"] : 21,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Sugar Rush 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Alessandro Juliani"],
@@ -49638,12 +57686,55 @@
             ["id"] : 42,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "La Ilusión Megabundle Exclusive"
+            ["distribution"] : "Bundle Exclusive"
           }
         },
         ["voiceactor"] : ["Alessandro Juliani"],
         ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
         ["lore"] : "Driven mad by no longer remembering anything of who or what he was when he was alive, Ziggs and his Eidola Muerte family wander the world sowing chaos. Whether it's lobbing Ardor to weaken a building pylon or lighting a destructive thought in someone's mind like a brushfire, there is no reason behind his madness, only whatever catches his cool blue eyes."
+      },
+      ["Firecracker"] : {
+        ["id"] : 43,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2026-02-04",
+        ["set"] : ["Lunar Revel: Firecracker"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Amethyst"] : {
+            ["id"] : 48
+          }, 
+          ["Citrine"] : {
+            ["id"] : 45
+          }, 
+          ["Emerald"] : {
+            ["id"] : 51
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 50
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 49
+          }, 
+          ["Ruby"] : {
+            ["id"] : 44,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 47
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 46
+          }
+        },
+        ["voiceactor"] : ["Alessandro Juliani"],
+        ["splashartist"] : ["Pandart Studio"],
+        ["lore"] : "Ziggs found his calling as the Lunar Revel's pyrotechnician, supplying festivalgoers with far more firecrackers than anyone could ever reasonably need. He considers himself the life of the party, but be careful around his light show—safety protocols don't exactly cross his mind, just the joy of big explosions."
       }
     }
   },
@@ -49745,7 +57836,7 @@
             ["id"] : 13,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Sugar Rush 2019"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["splashartist"] : ["Horace 'Hozure' Hsu"],
@@ -49796,11 +57887,54 @@
             ["id"] : 23,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["splashartist"] : ["Exia Xiaotong", "West Studio"],
+        ["music"] : "GJLHlBRqKAI",
         ["lore"] : "Sage Zilean bowed his head in supplication as he took the Hunter's place before the Aurora's judge. His request was for more power to help calm the spirits of his followers. As he talked, he was oblivious to the Aurora sheen of Polaris' hair flickering red as she watched his pronounced humility. Something was stirring inside her, a roiling winter storm."
+      },
+      ["Arcana"] : {
+        ["id"] : 24,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-09-24",
+        ["set"] : ["Arcana"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 26
+          },
+          ["Emerald"] : {
+            ["id"] : 27
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 32
+          }, 
+          ["Pearl"] : {
+            ["id"] : 31
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 30
+          }, 
+          ["Ruby"] : {
+            ["id"] : 25,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 29
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 28
+          }
+        },
+        ["splashartist"] : ["Yuyu Wong", "Kudos Productions"],
+        ["lore"] : "The High Clocktower looms above the Upper city, nearly scraping the steeple of its twin in the Lower world. Within, intricate mechanisms—delicate golden stars, a copper sun, miniature people in a miniature world—trace the vicissitudes of fate under the watchful eye of Zilean. From here he sees the whole Pattern, maintaining careful equilibrium."
       }
     }
   },
@@ -49815,6 +57949,7 @@
         ["release"] : "2017-11-21",
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Jessica 'OwleyCat' Oyhenart"],
+        ["music"] : "9FrbQrM2I-g",
         ["lore"] : "As the embodiment of mischief, imagination, and change, Zoe acts as the cosmic messenger of Targon, heralding major events that reshape worlds. Her mere presence warps the arcane mathematics governing realities, sometimes causing cataclysms without conscious effort or malice. This perhaps explains the breezy nonchalance with which Zoe approaches her duties, giving her plenty of time to focus on playing games, tricking mortals, or otherwise amusing herself. An encounter with Zoe can be joyous and life affirming, but it is always more than it appears and often extremely dangerous."
       },
       ["Cyber Pop"] : {
@@ -49867,6 +58002,7 @@
         },
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Bo 'chenbowow' Chen"],
+        ["music"] : "ga2aatAtYaE",
         ["lore"] : "Who let this ageless, cosmic child in here unattended? This a public pool, not some sort of ageless, cosmic daycare."
       },
       ["Star Guardian"] : {
@@ -49875,8 +58011,7 @@
         ["looteligible"] : true,
         ["cost"] : 1350,
         ["release"] : "2019-09-12",
-        ["set"] : ["Star Guardian"],
-// ["set"] : ["Star Guardian Season 3"],
+        ["set"] : ["Star Guardian Season 3"],
         ["neweffects"] : true,
         ["newanimations"] : true,
         ["newrecall"] : true,
@@ -49917,6 +58052,7 @@
         ["newquotes"] : true,
         ["voiceactor"] : ["Erica Lindbeck"],
         ["splashartist"] : ["Jennifer Wuestling"],
+        ["music"] : "bSBl9RQDwVg",
         ["lore"] : "A member of the ancient, first group of Star Guardians, Zoe's heart desired not love, but chaos -- twisting her newfound power into a malignant expression of cosmic madness. After numberless eons of hunting the First Star's chosen, she has finally come to Valoran City, hoping to destroy the latest generation of Guardians as she has countless others."
       },
       ["Arcanist"] : {
@@ -49938,7 +58074,7 @@
         ["availability"] : "Rare",
         ["looteligible"] : true,
         ["cost"] : "Special",
-        ["distribution"] : "200 Mythic Essence",
+        ["distribution"] : "150 Mythic Essence",
         ["release"] : "2020-07-09",
         ["set"] : ["Arcanists"],
         ["neweffects"] : true,
@@ -49964,7 +58100,7 @@
             ["id"] : 21,
             ["availability"] : "Limited",
             ["source"]       : "Bundle",
-            ["distribution"] : "Bundle Exclusive"
+          	["distribution"] : "Bundle Exclusive"
           }, 
           ["Tenfold Triumph"] : {
             ["id"] : 32
@@ -50016,84 +58152,85 @@
             ["id"] : 31,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Winterblessed 2022"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Erica Lindbeck"],
+        ["music"] : "GJLHlBRqKAI",
         ["lore"] : "An impatient Warden Zoe strode past the waiting Sage to make her plea. Everyone relied on her flock and crops, and her harvest would be unequaled with the Aurora's blessings. Polaris considered the three leaders' wishes, and with a wave of her hand, conjured the Aurora into two shapes: a sinewy mass of teeth and fur, and a tireless, smiling soldier."
       },
-      ["Dark Star"]: {
-        ["id"]: 33,
-        ["availability"]: "Available",
-        ["looteligible"]: true,
-        ["cost"]: 1350,
-        ["release"]: "2024-10-23",
-        ["set"]: ["Dark Star"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["filter"]: true,
-        ["chromas"]: {
-          ["Catseye"]: {
-            ["id"]: 35
+      ["Dark Star"] : {
+        ["id"] : 33,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2024-10-23",
+        ["set"] : ["Dark Star"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["filter"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 35
           }, 
-          ["Emerald"]: {
-            ["id"]: 39
+          ["Emerald"] : {
+            ["id"] : 39
           }, 
-          ["Pearl"]: {
-            ["id"]: 38
+          ["Pearl"] : {
+            ["id"] : 38
           }, 
-          ["Quasar"]: {
-            ["id"]: 42,
-            ["availability"]: "Loot",
-            ["source"]      : "Loot",
-            ["distribution"]: "Mythic Shop"
+          ["Quasar"] : {
+            ["id"] : 42,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Mythic Shop"
           }, 
-          ["Rose Quartz"]: {
-            ["id"]: 37
+          ["Rose Quartz"] : {
+            ["id"] : 37
           }, 
-          ["Ruby"]: {
-            ["id"]: 34,
-            ["availability"]: "Bundle",
-            ["source"]      : "Bundle",
-            ["distribution"]: "Bundle Exclusive"
+          ["Ruby"] : {
+            ["id"] : 34,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
           }, 
-          ["Sapphire"]: {
-            ["id"]: 36
+          ["Sapphire"] : {
+            ["id"] : 36
           }, 
-          ["Tanzanite"]: {
-            ["id"]: 40
+          ["Tanzanite"] : {
+            ["id"] : 40
           }, 
-          ["Turquoise"]: {
-            ["id"]: 41
+          ["Turquoise"] : {
+            ["id"] : 41
           }
         },
-        ["voiceactor"]: ["Erica Lindbeck"],
-        ["splashartist"]: ["Santiago Parra", "Pandart Studio"],
-        ["lore"]: "A corruptant from a world of playful whimsy, where innocence was prized above all else. Zoe is a twisted mirror of those lost in her own creation—she is a child to whom everything in the universe is her toy, to shape and destroy as she sees fit."
+        ["voiceactor"] : ["Erica Lindbeck"],
+        ["splashartist"] : ["Santiago Parra", "Pandart Studio"],
+        ["lore"] : "A corruptant from a world of playful whimsy, where innocence was prized above all else. Zoe is a twisted mirror of those lost in her own creation—she is a child to whom everything in the universe is her toy, to shape and destroy as she sees fit."
       },
-      ["Prestige Eternal Aspect"]: {
-        ["id"]: 43,
-        ["availability"]: "Rare",
-        ["looteligible"]: true,
-        ["cost"]: "Battle Pass",
-        ["distribution"]: "2025, S3 Act 2 Premium Battle Pass reward (Level 48)",
-        ["release"]: "2025-10-22",
-        ["set"]: ["The Eternal Aspects"],
-        ["neweffects"]: true,
-        ["newanimations"]: true,
-        ["newrecall"]: true,
-        ["chromas"]: {
-          ["Vivid"]: {
-            ["id"]: 44,
-            ["availability"]: "Limited",
-            ["source"]      : "Limited",
-            ["distribution"]: "Event Pass Exclusive"
+      ["Prestige Eternal Aspect"] : {
+        ["id"] : 43,
+        ["availability"] : "Rare",
+        ["looteligible"] : true,
+        ["cost"] : "Battle Pass",
+        ["distribution"] : "2025, S3 Act 2 Premium Battle Pass reward (Level 48)",
+        ["release"] : "2025-10-22",
+        ["set"] : ["The Eternal Aspects"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Vivid"] : {
+            ["id"] : 44,
+            ["availability"] : "Limited",
+            ["source"]       : "Limited",
+            ["distribution"] : "Event Pass Exclusive"
           }
         },
-        ["voiceactor"]: ["Erica Lindbeck"],
-        ["splashartist"]: ["Francis Tneh", "West Studios"],
-        ["lore"]: "Twilight is the tipping point—the spark of mischief at the edge of night, and the whispered promise that nothing in creation will remain always as it is now. Yet despite her reputation for being fickle or fairweather, she has been present at countless moments when the world needed a firm nudge toward transformation, renewal, or fresh possibilities."
+        ["voiceactor"] : ["Erica Lindbeck"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["lore"] : "Twilight is the tipping point—the spark of mischief at the edge of night, and the whispered promise that nothing in creation will remain always as it is now. Yet despite her reputation for being fickle or fairweather, she has been present at countless moments when the world needed a firm nudge toward transformation, renewal, or fresh possibilities."
       }
     }
   },
@@ -50108,6 +58245,7 @@
         ["release"] : "2012-07-24",
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Katie 'TeaTime' De Sousa"],
+        ["music"] : "4ajAZG6FGWM",
         ["lore"] : "Born in an ancient, sorcerous catastrophe, Zyra is the wrath of nature given form—an alluring hybrid of plant and human, kindling new life with every step. She views the many mortals of Valoran as little more than prey for her seeded progeny, and thinks nothing of slaying them with flurries of deadly spines. Though her true purpose has not been revealed, Zyra wanders the world, indulging her most primal urges to colonize, and strangle all other life from it."
       },
       ["Wildfire"] : {
@@ -50134,6 +58272,7 @@
         ["newrecall"] : true,
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Christian Fell"],
+        ["music"] : "B91NcKEQAMU",
         ["lore"] : "The old cemetery is no place for stray trick-or-treaters. The twisted, dead undergrowth celebrates this season as well… but their roots run deep into the blighted earth, and their games too often prove deadly for the lost and afraid."
       },
       ["SKT T1"] : {
@@ -50180,7 +58319,7 @@
             ["id"] : 25,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Coven 2021"
+            ["distribution"] : "Mythic Shop"
           }, 
           ["Emerald"] : {
             ["id"] : 19
@@ -50201,10 +58340,10 @@
             ["distribution"] : "Bundle Exclusive"
           }, 
           ["Sapphire"] : {
-            ["id"] : 22
+            ["id"] : 21
           }, 
           ["Tanzanite"] : {
-            ["id"] : 21
+            ["id"] : 22
           }
         },
         ["voiceactor"] : ["Karen Strassman"],
@@ -50266,11 +58405,11 @@
             ["source"]       : "Bundle",
           	["distribution"] : "Bundle Exclusive"
           }, 
-          ["Tiffany &amp; Co."] : {
+          ["Tiffany & Co."] : {
             ["id"] : 35,
             ["availability"] : "Limited",
-            ["source"]       : "Drop Reward",
-          	["distribution"] : "Worlds 2022"
+            ["source"]       : "Reward",
+          	["distribution"] : "Drop Reward"
           }
         },
         ["voiceactor"] : ["Karen Strassman"],
@@ -50320,7 +58459,7 @@
             ["id"] : 34,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Crime City 2021"
+            ["distribution"] : "Mythic Shop"
           }
         },
         ["voiceactor"] : ["Karen Strassman"],
@@ -50348,7 +58487,13 @@
             ["id"] : 45,
             ["availability"] : "Loot",
             ["source"]       : "Loot",
-            ["distribution"] : "Lunar Revel 2023"
+            ["distribution"] : "Mythic Shop"
+          }, 
+          ["Paragon"] : {
+            ["id"] : 65,
+            ["availability"] : "Loot",
+            ["source"]       : "Loot",
+            ["distribution"] : "Sanctum Exclusive"
           }, 
           ["Pearl"] : {
             ["id"] : 43
@@ -50374,6 +58519,7 @@
         },
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Sora Kim", "West Studio"],
+        ["music"] : "W7h1u5eUkjg",
         ["lore"] : "Zyra is a spirit of the paper, haunting the scenery of “The Great Beast Galio” and watching the story unfold again and again. When the Lunar Players fall into the paper myth-world, Zyra's insatiable curiosity drives her to capture these newcomers, desperate to hold onto change and novelty in a world where the story always remains the same."
       },
       ["Street Demons"] : {
@@ -50462,6 +58608,50 @@
         ["voiceactor"] : ["Karen Strassman"],
         ["splashartist"] : ["Marie Magny", "West Studio"],
         ["lore"] : "While many Blood Moon priestesses follow the whispers of their demons, Zyra's demon howls with sadistic glee—and Zyra responds in kind. United in their thirst for corruption, Zyra and her demon seek out her fellow priestesses in order to unite them all as one. Only then can they spread their destruction to the world beyond Ionia's borders."
+      },
+      ["Spirit Blossom"] : {
+        ["id"] : 64,
+        ["availability"] : "Available",
+        ["looteligible"] : true,
+        ["cost"] : 1350,
+        ["release"] : "2025-04-30",
+        ["set"] : ["Spirit Blossom"],
+        ["neweffects"] : true,
+        ["newanimations"] : true,
+        ["newrecall"] : true,
+        ["chromas"] : {
+          ["Catseye"] : {
+            ["id"] : 67
+          }, 
+          ["Emerald"] : {
+            ["id"] : 68
+          }, 
+          ["Obsidian"] : {
+            ["id"] : 73
+          }, 
+          ["Rose Quartz"] : {
+            ["id"] : 72
+          }, 
+          ["Ruby"] : {
+            ["id"] : 66,
+            ["availability"] : "Bundle",
+            ["source"]       : "Bundle",
+            ["distribution"] : "Bundle Exclusive"
+          }, 
+          ["Sapphire"] : {
+            ["id"] : 71
+          }, 
+          ["Tanzanite"] : {
+            ["id"] : 70
+          }, 
+          ["Turquoise"] : {
+            ["id"] : 69
+          }
+        }, 
+        ["voiceactor"] : ["Karen Strassman"],
+        ["splashartist"] : ["Francis Tneh", "West Studio"],
+        ["music"] : "T4l0KBAn6LU",
+        ["lore"] : "Once, there was a woman with a broken heart who longed to forget her sorrow. A powerful spirit, moved by her plight, granted her wish. The woman's tears turned to blossoms, her body took root, and the Garden of Forgetting was born. Now, weary hearts wander into its embrace, hoping the blooms will ease their grief."
       }
     }
   }
