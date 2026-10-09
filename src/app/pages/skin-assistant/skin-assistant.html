@@ -32,14 +32,14 @@
                     <div class="dialog-message">Nope.</div>
                 </div>
                 <div class="dialog-buttons">
-                    <p-button label="Ok" (click)="questionDialogVisible = false" />
+                    <p-button label="Ok" (click)="closeQuestionDialog()" />
                 </div>
             }
         </p-dialog>
 
         <section class="tab-content" id="questions-tab">
             <form (ngSubmit)="submitAnswer()">
-                @if (questionActive) {
+                @if (questionActive()) {
                     <div class="random-question-area">
                         <span class="question-title"> Guess a collection with following champions: </span>
                         <p-divider />
@@ -51,7 +51,7 @@
                     </div>
                     @if (!showAnswer && answerState !== 'correct') {
                         <div class="input-area">
-                            <input type="text" name="answer" placeholder="Enter your answer" pInputText [(ngModel)]="answer"/>
+                            <input #answerInput type="text" name="answer" placeholder="Enter your answer" pInputText [(ngModel)]="answer"/>
                         </div>
                     } @else {
                         <div class="answer-message-area">
@@ -66,10 +66,10 @@
                     @if (answer && !showAnswer && answerState !== 'correct') {
                         <p-button class="submit-button" (onClick)="submitAnswer()">Submit</p-button>
                     }
-                    @if (questionActive && !showAnswer && answerState !== 'correct') {
+                    @if (questionActive() && !showAnswer && answerState !== 'correct') {
                         <p-button class="show-answer-button" (onClick)="clickShowAnswer()">Show answer</p-button>
                     }
-                    <p-button (onClick)="generateRandom()">{{ questionActive ? 'Next' : 'Generate question' }}</p-button>
+                    <p-button (onClick)="generateRandom()">{{ questionActive() ? 'Next' : 'Generate question' }}</p-button>
                 </div>
             </form>
         </section>

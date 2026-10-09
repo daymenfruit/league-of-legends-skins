@@ -358,7 +358,7 @@ export class SkinAssistant implements OnInit, AfterContentInit {
     
     this.randomSkin.set({name: result, collection: set});
 
-    this.questionActive = true;
+    this.questionActive.set(true);
 
     this.getTrimmedQuestionData();
 
@@ -429,11 +429,18 @@ export class SkinAssistant implements OnInit, AfterContentInit {
     this.questionDialogVisible = true;
   }
 
+  closeQuestionDialog() {
+    this.questionDialogVisible = false;
+  
+    this.focusAnswerInput();
+  }
+
   questionData: Skin[] = [];
 
-  questionActive = false;
+  questionActive = signal(false);
   showAnswer = false;
 
+  answerInput = viewChild<ElementRef<HTMLInputElement>>('answerInput');
   answer = '';
 
   answerState: 'pending' | 'correct' | 'incorrect' = 'pending';
@@ -466,6 +473,13 @@ export class SkinAssistant implements OnInit, AfterContentInit {
   onClickDialogNext() {
     this.questionDialogVisible = false;
     this.generateRandom();
+  
+    // this.focusAnswerInput(); - won't work until from here, need to use signals for visibility variables and react on them
+  }
+
+  focusAnswerInput() {
+    this.answerInput()?.nativeElement.focus();
+    this.answerInput()?.nativeElement.select();
   }
 
 
@@ -589,7 +603,7 @@ export class SkinAssistant implements OnInit, AfterContentInit {
 
     if (qData) {
       this.questionData = JSON.parse(qData);
-      this.questionActive = true;
+      this.questionActive.set(true);
     }
     if (randomSkin) {
       this.randomSkin.set(JSON.parse(randomSkin));
