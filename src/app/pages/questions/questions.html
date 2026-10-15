@@ -1,0 +1,58 @@
+
+
+<p-dialog [header]="answerState === 'correct' ? 'Correct' : 'Wrong'" [modal]="true" [(visible)]="questionDialogVisible" [style]="{ width: '25rem' }">
+    @if (answerState === 'correct') {
+        <div class="dialog-main-content">
+            <i class="pi pi-face-smile dialog-icon"></i>
+            <div class="dialog-message">You are the best!</div>
+        </div>
+        <div class="dialog-buttons">
+            <p-button label="Next" (click)="onClickDialogNext()" />
+        </div>
+    } @else {
+        <div class="dialog-main-content">
+            <i class="pi pi-ban dialog-icon"></i>
+            <div class="dialog-message">Nope.</div>
+        </div>
+        <div class="dialog-buttons">
+            <p-button label="Ok" (click)="closeQuestionDialog()" />
+        </div>
+    }
+</p-dialog>
+
+<section class="tab-content" id="questions-tab">
+    <form (ngSubmit)="submitAnswer()">
+        @if (questionActive()) {
+            <div class="random-question-area">
+                <span class="question-title"> Guess a collection with following champions: </span>
+                <p-divider />
+                <div class="question-champions">
+                        <!-- @for (skin of getTrimmedQuestionData(); track skin.champ)  { -->
+                            <div class="question-champion-item" *ngFor="let skin of questionData">{{ skin.champ.name }}</div>
+                        <!-- } -->
+                </div>
+            </div>
+            @if (!showAnswer && answerState !== 'correct') {
+                <div class="input-area">
+                    <input #answerInput type="text" name="answer" placeholder="Enter your answer" pInputText [(ngModel)]="answer"/>
+                </div>
+            } @else {
+                <div class="answer-message-area">
+                    <!-- @if (showAnswer) { -->
+                        {{ correctAnswer() }}
+                    <!-- } -->
+                </div>
+            }
+        }
+        <!-- <p-divider /> -->
+        <div class="button-area">
+            @if (answer && !showAnswer && answerState !== 'correct') {
+                <p-button class="submit-button" (onClick)="submitAnswer()">Submit</p-button>
+            }
+            @if (questionActive() && !showAnswer && answerState !== 'correct') {
+                <p-button class="show-answer-button" (onClick)="clickShowAnswer()">Show answer</p-button>
+            }
+            <p-button (onClick)="generateRandom()">{{ questionActive() ? 'Next' : 'Generate question' }}</p-button>
+        </div>
+    </form>
+</section>

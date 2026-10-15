@@ -1,0 +1,184 @@
+
+:host ::ng-deep .p-inputtext {
+    border-color: #cdd4da;
+    font-size: 1.3rem;
+    width: 280px;
+}
+
+:host ::ng-deep .p-listbox .p-inputtext {
+    width: 100%;
+}
+
+:host ::ng-deep .p-inputtext:enabled:hover {
+    border-color: #55567d;
+}
+
+:host ::ng-deep .p-inputtext:enabled:focus {
+    border-color: #162b4e;
+}
+
+.tab-content {
+    width: 810px;
+    height: calc(100vh - 160px);
+    margin-left: calc((100vw - 810px) / 2);
+    justify-content: space-between;
+    padding-left: 1rem;
+    background: linear-gradient(113deg, #f5f3f4 1%, #cdd4da 79%, #a5a3c0 100%);
+    border-radius: 5px;
+    padding: 30px;
+    border: 6px solid #a5a3c0;
+    border-left-color: #65718f;
+    border-bottom-color: #65718f;
+    box-shadow: -18px 15px 16px 7px #283553;
+}
+
+.tab-content#questions-tab {
+
+    .random-question-area {
+        margin-bottom: 16px;
+        
+        .question-title {
+            font-family: "Mystery Quest", system-ui;
+            color: #060913;
+            font-size: 1.8rem;
+        }
+
+        .question-champions {
+            color: #100f1a;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+            height: calc(100vh - 435px);
+            width: 100%;
+            overflow: auto;
+            padding-left: 1.8rem;
+        }
+
+        .question-champion-item {
+            font-size: 1.3rem;
+            line-height: 2rem;
+        }
+    }
+
+    .input-area {
+        margin-bottom: 32px;
+    }
+
+    .answer-message-area {
+        margin-bottom: 16px;
+        font-size: 1.8rem;
+        line-height: 45px;
+        color: #060913;
+    }
+
+    .button-area {
+        display: flex;
+        gap: 16px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    
+    .tab-content {
+        margin: 0;
+        padding-top: 0;
+        height: calc(100svh - 130px);
+        width: 100%;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        overflow: auto;
+    }
+
+    #your-skins-tab .content-top {
+        flex-direction: column;
+    }
+
+    .checkbox-area {
+        padding-left: 0.75rem;
+    }
+    
+    :host ::ng-deep .p-listbox {
+        min-height: initial;
+        max-height: 200px;
+        width: auto;
+
+        .p-inputtext {
+            width: 100%;
+        }
+    }
+
+    :host ::ng-deep .p-listbox-list-container {
+        height: 140px;
+    }
+
+    .button-area {
+        flex-direction: column;
+    }
+
+    .random-question-area {
+
+        .question-title {
+            font-size: 1.5rem;
+        }
+
+        .question-champions {
+            padding-top: 0;
+            height: calc(100svh - 545px);
+        }
+    }
+
+    :host ::ng-deep .p-button {
+        width: 280px;
+    }
+
+    :host ::ng-deep .square-button .p-button {
+        max-width: 40px;
+    }
+
+    .input-area {
+        padding-left: 0;
+    }
+    
+    :host ::ng-deep .p-dialog {
+
+        .p-dialog-header-actions {
+
+            .p-button {
+                width: initial;
+            }
+        }
+    }
+
+    .tab-content {
+        width: initial;
+
+    }
+
+    .tab-content#your-skins-tab {
+
+        .content-top {
+            flex-direction: column;
+
+            .account-buttons-area {
+                width: initial;
+                flex-direction: row;
+            }
+
+            .listbox-area {
+                width: initial;
+                flex-direction: column;
+
+                .single-select-listbox {
+                    width: initial;
+                }
+            }
+        }
+
+        .content-bottom {
+            margin-left: 0;
+        }
+    }
+
+}
