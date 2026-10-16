@@ -1,4 +1,4 @@
-import { AfterContentInit, AfterViewInit, Component, ElementRef, Input, OnInit, viewChild } from '@angular/core';
+import { AfterContentInit, AfterViewInit, Component, ElementRef, input, Input, OnInit, viewChild } from '@angular/core';
 import { BehaviorSubject, combineLatest, debounceTime, map } from 'rxjs';
 import { Champion } from '../../entities/champion';
 import { IconFieldModule } from 'primeng/iconfield';
@@ -31,6 +31,7 @@ import { hasChampionForEveryone } from '../../core/utilities/has-champions-for-e
     CheckboxModule
   ],
   templateUrl: './skin-matcher.html',
+  standalone: true,
   styleUrl: './skin-matcher.less',
 })
 export class SkinMatcher implements OnInit, AfterViewInit, AfterContentInit {
@@ -46,7 +47,7 @@ export class SkinMatcher implements OnInit, AfterViewInit, AfterContentInit {
     this.filterChampList();
   }
 
-  @Input() accountList: Account[] = [];
+  accountList = input<Account[]>([]);
 
 
   ngOnInit(): void {
@@ -224,7 +225,7 @@ export class SkinMatcher implements OnInit, AfterViewInit, AfterContentInit {
   
   getChampSkinAccounts(champSkin: string): Set<string> {
     let result = new Set<string>();
-    this.accountList.forEach(acc => {
+    this.accountList().forEach(acc => {
       acc.skins.forEach(skin => {
         if (champSkin === skin) {
           result.add(acc.name); // += result.length ? `, ${acc.name}` : acc.name;
@@ -249,7 +250,7 @@ export class SkinMatcher implements OnInit, AfterViewInit, AfterContentInit {
         result.accountCount = tNode.data.accounts?.size;
         const everyAccountHasASkin = this.accountList.length === result.accountCount;
         if (everyAccountHasASkin) {
-          result.hasChampionForEveryone = hasChampionForEveryone(this.accountList, tNode);
+          result.hasChampionForEveryone = hasChampionForEveryone(this.accountList(), tNode);
         }
       }      
 
@@ -316,7 +317,7 @@ export class SkinMatcher implements OnInit, AfterViewInit, AfterContentInit {
     if (!accountName)
       return 'initial';
 
-    const account = this.accountList.find(acc => acc.name === accountName);
+    const account = this.accountList().find(acc => acc.name === accountName);
     
     if (!account?.color)
       return 'initial';

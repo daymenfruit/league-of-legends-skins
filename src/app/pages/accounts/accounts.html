@@ -1,0 +1,63 @@
+
+<p-dialog header="New account" [modal]="true" [(visible)]="accountDialogVisible" [style]="{ width: '25rem' }">
+    <div class="dialog-main-content">
+        <div class="input-area">
+            <input type="text" name="answer" placeholder="Accout name" pInputText [(ngModel)]="newAccountName"/>
+        </div>
+    </div>
+    <div class="dialog-buttons account-dialog-buttons">
+        <p-button label="Cancel" (click)="accountDialogVisible = false" />
+        <p-button label="Ok" (click)="addAccount()" />
+    </div>
+</p-dialog>
+
+<section class="tab-content" id="your-skins-tab">
+    <div class="content-top">
+        <div class="account-buttons-area">
+            <p-button class="square-button" (onClick)="openAccountDialog()">
+                <i class="pi pi-plus"></i>
+                <!-- <span>Add</span> -->
+            </p-button>
+            @if (selectedAccount) {
+                <input class="color-input" type="color" [value]="selectedAccount.color" (change)="onAccountColorChange($event)" />
+            }
+        </div>
+        <div class="listbox-area">
+            <p-listbox 
+                class="single-select-listbox"
+                [options]="accountList()"
+                [(ngModel)]="selectedAccount"
+                [multiple]="false"
+                [filter]="true"
+                optionLabel="name"
+                (onChange)="onSelectAccount()" 
+            />
+            @if (selectedAccount) {
+                <p-listbox 
+                    class="single-select-listbox"
+                    [options]="champList"
+                    [optionLabel]="'name'"
+                    [(ngModel)]="selectedAccountChampion"
+                    [multiple]="false"
+                    [filter]="true"
+                    optionLabel="label"
+                    (onChange)="onChangeAccountChampions($event)" 
+                />
+            }
+        </div>
+    </div>
+    <div class="content-bottom">
+        @if (selectedAccount && selectedAccountChampion) {
+            <p-listbox
+                class="multi-select-listbox listbox-your-champion-skins" 
+                [options]="accountChampionSkins"
+                [(ngModel)]="selectedAccountChampionSkins"
+                [multiple]="true" 
+                [checkbox]="true"
+                [filter]="true"
+                optionLabel="name"
+                (onClick)="onChangeAccountChampionSkins($event)"
+            />
+        }
+    </div>
+</section>

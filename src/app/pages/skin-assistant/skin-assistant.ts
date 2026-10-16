@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, Signal, signal, viewChild, ViewChild, ChangeDetectionStrategy, AfterViewInit, AfterContentInit, computed } from '@angular/core';
+import { Component, ElementRef, OnInit, Signal, signal, viewChild, ViewChild, ChangeDetectionStrategy, AfterViewInit, AfterContentInit, computed, effect, WritableSignal } from '@angular/core';
 import { SkinService } from '../../core/services/skin.service';
 import { FormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
@@ -24,6 +24,8 @@ import { Account } from '../../entities/account';
 import { SkinMatcher } from "../skin-matcher/skin-matcher";
 import { About } from '../about/about';
 import { Questions } from '../questions/questions';
+import { Accounts } from '../accounts/accounts';
+
 
 
 @Component({
@@ -33,9 +35,7 @@ import { Questions } from '../questions/questions';
     ButtonModule,
     IconFieldModule,
     InputIconModule,
-    Listbox,
     ToastModule,
-    Dialog,
     // Tree,
     TabsModule,
     CheckboxModule,
@@ -45,7 +45,8 @@ import { Questions } from '../questions/questions';
     CommonModule,
     SkinMatcher,
     About,
-    Questions
+    Questions,
+    Accounts
 ],
   templateUrl: './skin-assistant.html',
   styleUrl: './skin-assistant.less',
@@ -64,7 +65,7 @@ export class SkinAssistant implements OnInit, AfterContentInit {
 
   champList: Champion[] = [];
 
-  accountList: Account[] = [];
+  accountList = signal<Account[]>([]);
 
 
   ///
@@ -333,97 +334,8 @@ export class SkinAssistant implements OnInit, AfterContentInit {
 
 
 
-  selectedAccount: Account | null = null;
-
-  accountDialogVisible = false;
-
-  newAccountName = '';
-
-  openAccountDialog() {
-    this.accountDialogVisible = true;
-  }
-
-  addAccount() {
-    this.accountDialogVisible = false;
-
-    let accountId = 0;
-    this.accountList.forEach(acc => {
-      if (acc.id >= accountId) {
-        accountId = acc.id + 1;
-      }
-    })
-
-    const account: Account = {
-      id: accountId,
-      name: this.newAccountName,
-      skins: [],
-      color: '#000'
-    }
-
-    this.accountList.push(account);
-    this.saveAccountsInLocalStorage();
-
-    this.newAccountName = '';
-
-    this.accountList = [...this.accountList];
-  }
-
-  onAccountColorChange(e: Event) {
-
-    if (!this.selectedAccount)
-      return;
-
-    const target = e.target as HTMLInputElement;
-    const value = target.value;
-    console.log(value);
-    this.selectedAccount.color = value;
-    this.saveAccountsInLocalStorage();
-  }
-
-  selectedAccountChampion: Champion | null = null;
-
-  onSelectAccount() {
-
-    this.selectedAccountChampion = null;
-  }
-
-  mapChampSkins(champ: Champion): any[] {
-      const skinNames = Object.keys(champ.skins);
-      const result = [...skinNames.map((skinName: string) => {
-        const resultSkins: any = champ.skins;
-        const skin = resultSkins[skinName];
-        return {...skin, champName: champ.name, name: `${skinName} ${champ.name}`}
-      })];
-      return result.filter(skin => !skin.name.includes('Original'));
-  }
-
-  onChangeAccountChampions(event: ListboxChangeEvent) {
-    this.accountChampionSkins = this.mapChampSkins(event.value);
-    this.selectedAccountChampionSkins = this.accountChampionSkins.filter(skin => this.selectedAccount?.skins.includes(skin.name));
-  }
-
-  accountChampionSkins: any[] = [];
-
-  selectedAccountChampionSkins: any[] = [];
-
-  onChangeAccountChampionSkins(event: ListboxClickEvent) {
-
-    if (!this.selectedAccount)
-      return
-
-    const idx = this.selectedAccount.skins.indexOf(event.option.name);
-
-    if (idx === -1) {
-      this.selectedAccount.skins.push(event.option.name);
-    } else {
-      this.selectedAccount.skins.splice(idx, 1);
-    }
-
-    this.saveAccountsInLocalStorage();
-  }
-
-  saveAccountsInLocalStorage() {
-    window.localStorage.setItem('account list', JSON.stringify(this.accountList));
+  saveAccountsInLocalStorage(accounts: Account[]) {
+    window.localStorage.setItem('account list', JSON.stringify(accounts));
   }
 
   getAccountsFromLocalStorage() {
@@ -433,6 +345,12 @@ export class SkinAssistant implements OnInit, AfterContentInit {
 
 
   constructor(private skinService: SkinService) {
+
+    effect(() => {
+      const accounts = this.accountList();
+
+      this.saveAccountsInLocalStorage(accounts);
+    })
   }
 
   ngOnInit() {
@@ -446,7 +364,7 @@ export class SkinAssistant implements OnInit, AfterContentInit {
     const accountList = this.getAccountsFromLocalStorage();
     
     if (accountList) {
-      this.accountList = JSON.parse(accountList);
+      this.accountList.set(JSON.parse(accountList));
     }
     // this.initSearch();
 

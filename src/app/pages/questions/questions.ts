@@ -12,6 +12,7 @@ import { InputTextModule } from 'primeng/inputtext';
   selector: 'app-questions',
   imports: [CommonModule, FormsModule, ButtonModule, Dialog, DividerModule, InputTextModule],
   templateUrl: './questions.html',
+  standalone: true,
   styleUrl: './questions.less',
 })
 export class Questions {
